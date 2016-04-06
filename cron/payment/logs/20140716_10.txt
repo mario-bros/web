@@ -1,0 +1,131 @@
+﻿New entry at 2014-07-16 10:00:32
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:02:26
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:02:41
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:02:49
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:05:49
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:09:21
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:13:27
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:13:41
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:13:41
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:16:41
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:19:17
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:24:20
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:24:35
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:29:51
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:31:39
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:32:02
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:32:49
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:33:07
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:34:26
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:35:11
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:36:18
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 716
+BuckarooV3Response initialized
+2014-07-16 10:36:19
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140712000716
+	brq_mutationtype               => Processing
+	brq_statuscode                 => 790
+	brq_statusmessage              => Pending input
+	brq_test                       => false
+	brq_timestamp                  => 2014-07-12 03:15:05
+	brq_transaction_method         => mastercard
+	brq_transaction_type           => V031
+	brq_transactions               => C2FD6FBA817A4CD2BBEE2ED883B72A11
+	brq_signature                  => 858e39a6f19630d3459a63ba82b224c28f759c84
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_invoicenumber=20140712000716" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_statuscode=790" to signature
+Adding "brq_statusmessage=Pending input" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-07-12 03:15:05" to signature
+Adding "brq_transaction_method=mastercard" to signature
+Adding "brq_transaction_type=V031" to signature
+Adding "brq_transactions=C2FD6FBA817A4CD2BBEE2ED883B72A11" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_invoicenumber=20140712000716brq_mutationtype=Processingbrq_statuscode=790brq_statusmessage=Pending inputbrq_test=falsebrq_timestamp=2014-07-12 03:15:05brq_transaction_method=mastercardbrq_transaction_type=V031brq_transactions=C2FD6FBA817A4CD2BBEE2ED883B72A115cef3e5cac74f355a9581b659b2a7d91
+Signature: 858e39a6f19630d3459a63ba82b224c28f759c84
+Transaction found via invoice, ID 716
+Signature received  : 858e39a6f19630d3459a63ba82b224c28f759c84
+Signature calculated: 858e39a6f19630d3459a63ba82b224c28f759c84
+Passed validation, proceeding to completion
+Status 790 received from buckaroo indicates transaction is not finished.
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:36:21
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:43:37
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:44:51
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:46:29
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:51:29
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:51:44
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:52:17
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:53:36
+------------------------------------------------------------
+
+﻿New entry at 2014-07-16 10:59:47
+------------------------------------------------------------
+

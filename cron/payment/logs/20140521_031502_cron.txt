@@ -1,0 +1,224 @@
+Recurring payments: 1 users with 1 payments foundRecurringPayment Object
+(
+    [id:private] => 130
+    [DataSet:private] => 
+    [db:private] => MySQLDatabase Object
+        (
+            [handle:private] => Resource id #39
+            [totalQueries:private] => 2
+            [totalQueryTime:private] => 0.102037906647
+        )
+
+    [data] => stdClass Object
+        (
+            [RecurringPaymentId] => 130
+            [UserId] => 134
+            [StartDate] => 2014-04-21 13:33:05
+            [LastTransactionLineId] => 702
+            [LastTransactionDate] => 2014-04-21 13:33:05
+            [NextTransactionDate] => 2014-05-21 00:00:00
+            [Status] => 1
+            [DonationPlanId] => 2
+            [DonationPlanType] => Month
+            [ChildId] => 71
+            [Description] => Child Support Plan (Month)
+            [DonationAmount] => 48.00
+            [OriginalBuckarooId] => C2F35CE6B33B47109390D960A6585DC4
+            [AmountMonth] => 48.00
+            [AmountYear] => 576.00
+        )
+
+)
+
+***************  ERROR #2048 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 477
+  Message: Creating default object from empty value
+  Context: Array
+(
+    [rPayment] => RecurringPayment Object
+        (
+            [id:private] => 130
+            [DataSet:private] => 
+            [db:private] => MySQLDatabase Object
+                (
+                    [handle:private] => Resource id #39
+                    [totalQueries:private] => 2
+                    [totalQueryTime:private] => 0.102037906647
+                )
+
+            [data] => stdClass Object
+                (
+                    [RecurringPaymentId] => 130
+                    [UserId] => 134
+                    [StartDate] => 2014-04-21 13:33:05
+                    [LastTransactionLineId] => 702
+                    [LastTransactionDate] => 2014-04-21 13:33:05
+                    [NextTransactionDate] => 2014-05-21 00:00:00
+                    [Status] => 1
+                    [DonationPlanId] => 2
+                    [DonationPlanType] => Month
+                    [ChildId] => 71
+                    [Description] => Child Support Plan (Month)
+                    [DonationAmount] => 48.00
+                    [OriginalBuckarooId] => C2F35CE6B33B47109390D960A6585DC4
+                    [AmountMonth] => 48.00
+                    [AmountYear] => 576.00
+                )
+
+        )
+
+    [updateLineData] => 1
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  ERROR #2048 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 121
+  Message: Creating default object from empty value
+  Context: Array
+(
+    [amount] => 48
+    [line] => TransactionLine Object
+        (
+            [db:private] => MySQLDatabase Object
+                (
+                    [handle:private] => Resource id #39
+                    [totalQueries:private] => 2
+                    [totalQueryTime:private] => 0.102037906647
+                )
+
+            [id:private] => 
+            [data:private] => stdClass Object
+                (
+                    [RecurringPaymentId] => 130
+                    [Amount] => 48.00
+                    [Description] => Child Support Plan (Month)
+                    [DonationPlanId] => 2
+                    [DonationPlanType] => Month
+                    [ChildId] => 71
+                )
+
+            [recurringPayment:private] => RecurringPayment Object
+                (
+                    [id:private] => 130
+                    [DataSet:private] => 
+                    [db:private] => MySQLDatabase Object
+                        (
+                            [handle:private] => Resource id #39
+                            [totalQueries:private] => 2
+                            [totalQueryTime:private] => 0.102037906647
+                        )
+
+                    [data] => stdClass Object
+                        (
+                            [RecurringPaymentId] => 130
+                            [UserId] => 134
+                            [StartDate] => 2014-04-21 13:33:05
+                            [LastTransactionLineId] => 702
+                            [LastTransactionDate] => 2014-04-21 13:33:05
+                            [NextTransactionDate] => 2014-05-21 00:00:00
+                            [Status] => 1
+                            [DonationPlanId] => 2
+                            [DonationPlanType] => Month
+                            [ChildId] => 71
+                            [Description] => Child Support Plan (Month)
+                            [DonationAmount] => 48.00
+                            [OriginalBuckarooId] => C2F35CE6B33B47109390D960A6585DC4
+                            [AmountMonth] => 48.00
+                            [AmountYear] => 576.00
+                        )
+
+                )
+
+        )
+
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 65
+  Message: Undefined property: stdClass::$BPEStatus
+  Context: Array
+(
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 500
+  Message: Undefined property: stdClass::$ProjectId
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 671
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/payment/classes/class-buckaroo.php
+  Line: 78
+  Message: Undefined index:  BPE_Result
+  Context: Array
+(
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/payment/classes/class-buckaroo.php
+  Line: 67
+  Message: Undefined index:  BPE_ResponseSig
+  Context: Array
+(
+    [key] => BPE_ResponseSig
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 75
+  Message: Undefined property: stdClass::$IsCompleted
+  Context: Array
+(
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 66
+  Message: Undefined property: stdClass::$TransactionDate
+  Context: Array
+(
+    [column] => TransactionDate
+)
+
+
+***************  END NOTICE  ***************
+

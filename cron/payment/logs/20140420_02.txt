@@ -1,0 +1,92 @@
+﻿New entry at 2014-04-20 02:01:21
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:01:28
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:01:28
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:02:28
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:05:45
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:06:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:15:24
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:17:08
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:26:08
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:27:18
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:38:56
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:40:21
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:43:42
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 656
+BuckarooV3Response initialized
+2014-04-20 02:43:42
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak Foundation Invoice 20140419000656
+	brq_invoicenumber              => 20140419000656
+	brq_mutationtype               => NotSet
+	brq_statuscode                 => 490
+	brq_statusmessage              => Failed
+	brq_test                       => false
+	brq_timestamp                  => 2014-04-20 02:40:57
+	brq_transactions               => 51B913DB948C4676A4EF7C936D7397C1
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 54d104f85de789c1372ebfc3e793df5e2a94f5c2
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140419000656" to signature
+Adding "brq_invoicenumber=20140419000656" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statusmessage=Failed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-04-20 02:40:57" to signature
+Adding "brq_transactions=51B913DB948C4676A4EF7C936D7397C1" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140419000656brq_invoicenumber=20140419000656brq_mutationtype=NotSetbrq_statuscode=490brq_statusmessage=Failedbrq_test=falsebrq_timestamp=2014-04-20 02:40:57brq_transactions=51B913DB948C4676A4EF7C936D7397C1brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 54d104f85de789c1372ebfc3e793df5e2a94f5c2
+Transaction found via invoice, ID 656
+Signature received  : 54d104f85de789c1372ebfc3e793df5e2a94f5c2
+Signature calculated: 54d104f85de789c1372ebfc3e793df5e2a94f5c2
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:52:04
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:55:07
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:57:10
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 02:58:35
+------------------------------------------------------------
+

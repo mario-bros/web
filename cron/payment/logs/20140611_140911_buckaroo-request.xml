@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://checkout.buckaroo.nl/PaymentEngine/2011/10/TransactionRequest/Request/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="https://checkout.buckaroo.nl/PaymentEngine/" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#" xmlns:ns4="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+  <SOAP-ENV:Header>
+    <ns2:MessageControlBlock Id="_control">
+      <ns2:WebsiteKey>JhNRiAjYJe</ns2:WebsiteKey>
+      <ns2:Culture>nl-NL</ns2:Culture>
+      <ns2:TimeStamp>2014-06-11T14:09:11+02:00</ns2:TimeStamp>
+      <ns2:Channel>Web</ns2:Channel>
+    </ns2:MessageControlBlock>
+    <ns4:Security>
+      <ns3:Signature>
+        <ns3:SignedInfo>
+          <ns3:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+          <ns3:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+          <ns3:Reference URI="#_body">
+            <ns3:Transforms>
+              <ns3:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ns3:Transforms>
+            <ns3:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <ns3:DigestValue/>
+          </ns3:Reference>
+          <ns3:Reference URI="#_control">
+            <ns3:Transforms>
+              <ns3:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ns3:Transforms>
+            <ns3:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <ns3:DigestValue/>
+          </ns3:Reference>
+        </ns3:SignedInfo>
+        <ns3:SignatureValue/>
+      </ns3:Signature>
+    </ns4:Security>
+    <ns2:MessageControlBlock Id="_control">
+      <ns2:WebsiteKey>JhNRiAjYJe</ns2:WebsiteKey>
+      <ns2:Culture>nl-NL</ns2:Culture>
+      <ns2:TimeStamp>2014-06-11T14:09:11+02:00</ns2:TimeStamp>
+      <ns2:Channel>Web</ns2:Channel>
+    </ns2:MessageControlBlock>
+    <ns4:Security>
+      <ns3:Signature>
+        <ns3:SignedInfo>
+          <ns3:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+          <ns3:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+          <ns3:Reference URI="#_body">
+            <ns3:Transforms>
+              <ns3:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ns3:Transforms>
+            <ns3:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <ns3:DigestValue/>
+          </ns3:Reference>
+          <ns3:Reference URI="#_control">
+            <ns3:Transforms>
+              <ns3:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ns3:Transforms>
+            <ns3:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <ns3:DigestValue/>
+          </ns3:Reference>
+        </ns3:SignedInfo>
+        <ns3:SignatureValue/>
+      </ns3:Signature>
+    </ns4:Security>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:TransactionRequest>
+      <ns1:Currency>EUR</ns1:Currency>
+      <ns1:AmountDebit>48</ns1:AmountDebit>
+      <ns1:AmountCredit xsi:nil="true"/>
+      <ns1:Invoice>20140611000699</ns1:Invoice>
+      <ns1:Description>Peduli Anak recurring donation. Transaction 20140611000699</ns1:Description>
+      <ns1:ClientIP Type="IPv4">31.171.202.6</ns1:ClientIP>
+      <ns1:OriginalTransactionKey>5FEFCF0877454ED5B4E86DB1E78BB7C4</ns1:OriginalTransactionKey>
+      <ns1:StartRecurrent>false</ns1:StartRecurrent>
+      <ns1:Services>
+        <ns1:Service Name="mastercard" Action="PayRecurrent" Version="1"/>
+      </ns1:Services>
+    </ns1:TransactionRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

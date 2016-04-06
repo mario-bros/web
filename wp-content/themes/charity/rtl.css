@@ -1,0 +1,459 @@
+@import url("assets/css/bootstrap-rtl.css");
+/*
+ Theme Name: Charity
+ Description: Charity - A Responsive Portfolio & Multi Purpose wordpress Theme
+
+ See: https://codex.wordpress.org/Right_to_Left_Language_Support
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption, th, td {
+	text-align: right;
+}
+.search-form button[type="submit"], .search-form button[type="button"] {
+	right: auto;
+}
+.btn-volunteer,.social-icons{
+	float: left;
+}
+.btn-volunteer{
+	 margin-right: 2%;
+	 margin-left: 0;
+}
+.social-icons > li{
+	float: right;
+}
+#header .social-icons > li {
+    margin-left: 18px;
+    margin-right: 0;
+}
+.navbar-default .navbar-nav > li{
+	 padding: 0 0px 0 40px;
+}
+.brand{
+	text-align: right;
+}
+.navbar-right {
+    float: left !important;
+}
+.nav.navbar-nav{
+	padding-right: 0;
+}
+.dropdown-menu{
+	left: auto;
+	right: 0;
+	text-align: right;
+}
+
+.touch-by-mail{
+	float: left;
+}
+.header-second .touch-by-mail{
+	 margin: 0 20px 0 28px;
+}
+.header-second .brand {
+    float: right;
+}
+.header-second .navbar-nav {
+    float: left;
+    margin-left: 7%;
+    margin-right: 0;
+}
+.header-second .search-form button[type="submit"], .header-second .search-form button[type="button"]{
+	 left: 0;
+	 right: auto;
+}
+.second-footer .copyright {
+    text-align: right;
+}
+.header-third .nav-content:before{
+	right: auto;
+	left: 50%;
+	margin-left: 396px;
+	margin-right: 0;
+}
+#footer .social-icons > li:first-child {
+    margin-right: 0;
+    margin-left: 0px;
+}
+#footer .social-icons > li {
+    margin-right: 20px;
+    margin-left: 0;
+}
+#footer .social-icons{
+	float: right; 
+}
+#footer address .fa{
+	float: right;
+}
+.flickr_badge_image{
+	float: right;
+}
+.newsletter-social-icon form input[type="submit"]{
+	width: 100%;
+}
+.header-one-help .col-lg-offset-1{
+	margin-left: 0;
+}
+.media > .pull-left.warning-icon-box {
+    margin-right: 0;
+    margin-left: 28px;
+}
+.banner-section,.main-slider,.slider-third,.flexslider,.owl-carousel{
+	direction:ltr !important;
+}
+.progress-bar .progress-value {
+    margin-left: 0;
+    margin-right: -32px;
+}
+.progress-value{
+	right: 100%;
+	left: auto;
+}
+.svg-shape{
+	left: 38px;
+	right: auto;
+}
+.news-section .section-header,.news-section .volunteer-reward {
+    text-align: right;
+}
+.news-section .user-svg-shape {
+    left: 40px;
+    right: auto;
+}
+.font-icon {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.get-involved-pic {
+ 	right: auto;
+    left: 0;
+}
+.news-section3 .volunteer-reward p {
+    padding-right: 0;
+    padding-left: 98px;
+}
+.help-people-three .message{
+	padding: 0 15px;
+}
+.offer-percent {
+    float: right;
+    margin-left: 12px;
+    margin-right: 0;
+}
+.offer-product-type{
+	 float: right;
+}
+.text-left ,.section-header.text-left{
+    text-align: right;
+}
+
+.article-list-large .donation{
+	float: right;
+}
+.list-trangled li{
+	 padding: 0 12px 0 0;
+}
+.list-trangled li:before{
+	left: auto;
+	right: 0;
+	content: '\f0d9';
+	top: 2px;
+}
+aside.media a {
+    margin: 4px 0 0 10px;
+}
+.media ul.archives li {
+    text-align: left;
+}
+.media ul.archives li a {
+    float: right;
+    margin: 0;
+}
+.detail-description .list-unstyled.yello-icon{
+	padding: 0;
+}
+.detail-description .list-unstyled.yello-icon li{
+	position: relative;
+	padding-left: 0px;
+    padding-right: 19px;
+}
+.detail-description .list-unstyled.yello-icon li:before{
+	position: absolute;
+	right: -19px;
+	left: auto;
+	top: 7px;
+}
+.helping-child p{
+	padding-right:0;
+	padding-left: 69px;
+}
+.launch input[type="submit"]{
+	width: 100%;
+}
+.launch .content .stay, .launch .coming-soon-content p{
+	padding-left: 50px;
+	padding-right: 0;
+}
+#submit-comment{
+	float: left;
+}
+.callout{
+	border-left: none;
+	border-right: 4px solid #ecc731;
+}
+.comment.media > .pull-left {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.comment h4{
+	margin-right: 0;
+	margin-left: 20px;
+}
+.media-body .date, .posted-in{
+ margin-right:0;
+ margin-left: 6px;	
+}
+.col-sm-offset-1 {
+    margin-left: 0;
+}
+.contact-address address strong{
+	float: right;
+}
+.contact-form:before{
+	left: -54px;
+	right: auto;
+}
+.contact-form form{
+	text-align: right;
+}
+.woocommerce-product-search{
+	float: right;
+}
+.product-categories li a{
+	 padding: 11px 23px 11px 0px;
+	 margin: 0;
+}
+.product-categories li a:before{
+	right: 0;
+	left: auto;
+	content: '\f100';
+}
+.single-product .quantity.buttons_added .minus,.single-product .quantity.buttons_added .plus{
+	right: auto;
+	left: 0;
+}
+.alert .button.wc-forward{
+	float: left;
+}
+.woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before{
+	left: 0;
+	right: 1.5em;
+}
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message{
+	 padding: 1em 3.5em 1em 2em !important;
+}
+.tabs.nav-tabs li{
+	float: right;
+	border-right: 2px solid #e7e2de !important;
+}
+.tabs.nav-tabs li:first-child{
+		border-left: none !important;
+}
+.tabs.nav-tabs li:last-child{
+		border-left: 2px solid #e7e2de !important;
+}
+.woocommerce #reviews #comments ol.commentlist li img.avatar{
+	 float: right !important;
+	 left: auto;
+	 right: 0;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text{
+	margin: 0 50px 0 0;
+}
+.woocommerce #reviews .comment-text{
+	padding: 0 17px 0 0 !important;
+}
+.woocommerce .star-rating{
+	float: left;
+}
+.woocommerce p.stars a.star-1, .woocommerce p.stars a.star-2, .woocommerce p.stars a.star-3, .woocommerce p.stars a.star-4, .woocommerce p.stars a.star-5{
+ border-left: 1px solid #cccccc;
+ border-right: none;	
+}
+.woocommerce p.stars a.star-5{
+border-left: none;	
+}
+.woocommerce p.stars a.star-1:after, .woocommerce p.stars a.star-2:after, .woocommerce p.stars a.star-3:after, .woocommerce p.stars a.star-4:after, .woocommerce p.stars a.star-5:after{
+	right: 0;
+	left: auto;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1{
+	float: right;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2{
+	float: left;
+}
+.woocommerce-checkout .checkout .col-2 h3#ship-to-different-address {
+    float: right;
+    width: 100%;
+}
+.AddtoCart .woocommerce .table > tbody > tr > td:first-child, .AddtoCart .woocommerce .table > thead > tr > th:first-child{
+	 border-right: 2px solid #e7e2de;
+	 border-left: none;
+}
+.AddtoCart .woocommerce .table > tbody > tr > td:last-child, .AddtoCart .woocommerce .table > thead > tr > th:last-child{
+	 border-left: 2px solid #e7e2de;
+}
+.AddtoCart .woocommerce .table > tbody > tr > td, .AddtoCart .woocommerce .table > thead > tr > th{
+	text-align: right;
+}
+.charity-total > td{
+	 border-right: none !important;
+}
+.charity-subtotal table td{
+	border-left:2px solid #e7e2de !important;
+}
+.woocommerce-checkout #payment ul.payment_methods li{
+	text-align: right;
+}
+.woocommerce-checkout #payment div.payment_box:after{
+	left: auto;
+	margin: -1em 2em 0 0;
+	right: 0;
+}
+.woocommerce-checkout #payment ul.payment_methods li input {
+    margin: 0 0 0 1em;
+}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+	float: left;
+}
+.woocommerce .order_details{
+padding: 0;	
+}
+.woocommerce .order_details li{
+	float: right;
+}
+.woocommerce .order_details li{
+	border:2px solid #e7e2de;
+	border-left:none;
+}
+.woocommerce .order_details li:first-child{
+	border-left:none;
+}
+.woocommerce .order_details li:last-child{
+	border-left:2px solid #e7e2de;
+}
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register{
+	text-align: right;
+}
+.woocommerce-account .addresses .title .edit{
+	float: left;
+}
+.woocommerce-account .addresses .title h3 {
+    float: right;
+}
+.charity-donation-window .radio #paypal,.charity-donation-window .radio #ccard{
+	margin-left: 9px;
+    margin-right: 0;
+    position: relative;
+}
+.fa-quote-left:before{
+	content: '\f10e';
+}
+blockquote.equal-box .quote-mark {
+    float: right;
+}
+.fa.quote-mark {
+    margin-left: 6px;
+    margin-right: 0;
+}
+.donation-holder blockquote:after{
+	transform: rotate(34deg);
+	-o-transform: rotate(34deg);
+	-ms-transform: rotate(34deg);
+	-moz-transform: rotate(34deg);
+	-webkit-transform: rotate(34deg);
+	left: auto;
+	right: 27px;
+}
+.donation-holder blockquote footer{
+right: 65px;
+left: 0;	
+}
+.countdown-row .countdown-section,.countdown-row .countdown-section + .countdown-section,.countdown-row .countdown-section + .countdown-section + .countdown-section,.countdown-row .countdown-section + .countdown-section + .countdown-section + .countdown-section{
+	float: right;
+}
+.order-status,.woocommerce-cart td, .woocommerce-cart th{
+text-align: right !important;
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+	.navbar-default .navbar-nav > li {
+    padding: 0 14px 0 0;
+}
+.search-form .form-group{
+	 padding-right: 0;
+}
+.header-second .touch-by-mail {
+    margin: 0 20px 0 10px;
+}
+#header.header-second .social-icons > li {
+    margin-right: 0px;
+    margin-left: 7px;
+}
+.header-third .nav-content:before{
+	 left: 83%;
+    margin-left: 0;
+}
+
+
+}
+
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+
+.navbar-default .navbar-nav > li{
+	padding: 0;
+}
+.nav > li .glyphicon {
+    float: left;
+    padding-right: 0;
+}
+
+.navbar-toggle{
+	float: left;
+}
+.header-second .form-group{
+	padding-right: 0;
+}
+.header-second .navbar-right {
+    float: none !important;
+}
+.header-second .navbar-nav {
+    float: none;
+    margin-left: 0;
+}
+.header-third .nav-content:before{
+	 left: 83%;
+    margin-left: 0;
+}
+.header-third .brand{
+	padding: 13px 0px 11px 10px;
+}
+.help-list .svg-shape {
+    right: auto;
+    left: 15px;
+}
+
+
+
+
+}

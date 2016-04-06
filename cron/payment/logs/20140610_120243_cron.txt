@@ -1,0 +1,402 @@
+Recurring payments: 1 users with 1 payments found
+RecurringPayment Object
+(
+    [id:private] => 139
+    [DataSet:private] => 
+    [db:private] => MySQLDatabase Object
+        (
+            [handle:private] => Resource id #39
+            [totalQueries:private] => 3
+            [totalQueryTime:private] => 0.000842809677124
+        )
+
+    [data] => stdClass Object
+        (
+            [RecurringPaymentId] => 139
+            [UserId] => 148
+            [StartDate] => 2014-05-08 14:22:02
+            [LastTransactionLineId] => 727
+            [LastTransactionDate] => 2014-06-10 12:01:37
+            [NextTransactionDate] => 2014-06-10 00:00:00
+            [Status] => 1
+            [DonationPlanId] => 2
+            [DonationPlanType] => Month
+            [ChildId] => 87
+            [Description] => Child Support Plan (Month)
+            [DonationAmount] => 48.00
+            [OriginalBuckarooId] => 3BF1C1911D864E6F9FF23A835CE01133
+            [AmountMonth] => 48.00
+            [AmountYear] => 576.00
+        )
+
+)
+
+***************  ERROR #2048 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 477
+  Message: Creating default object from empty value
+  Context: Array
+(
+    [rPayment] => RecurringPayment Object
+        (
+            [id:private] => 139
+            [DataSet:private] => 
+            [db:private] => MySQLDatabase Object
+                (
+                    [handle:private] => Resource id #39
+                    [totalQueries:private] => 3
+                    [totalQueryTime:private] => 0.000842809677124
+                )
+
+            [data] => stdClass Object
+                (
+                    [RecurringPaymentId] => 139
+                    [UserId] => 148
+                    [StartDate] => 2014-05-08 14:22:02
+                    [LastTransactionLineId] => 727
+                    [LastTransactionDate] => 2014-06-10 12:01:37
+                    [NextTransactionDate] => 2014-06-10 00:00:00
+                    [Status] => 1
+                    [DonationPlanId] => 2
+                    [DonationPlanType] => Month
+                    [ChildId] => 87
+                    [Description] => Child Support Plan (Month)
+                    [DonationAmount] => 48.00
+                    [OriginalBuckarooId] => 3BF1C1911D864E6F9FF23A835CE01133
+                    [AmountMonth] => 48.00
+                    [AmountYear] => 576.00
+                )
+
+        )
+
+    [updateLineData] => 1
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  ERROR #2048 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 121
+  Message: Creating default object from empty value
+  Context: Array
+(
+    [amount] => 48
+    [line] => TransactionLine Object
+        (
+            [db:private] => MySQLDatabase Object
+                (
+                    [handle:private] => Resource id #39
+                    [totalQueries:private] => 3
+                    [totalQueryTime:private] => 0.000842809677124
+                )
+
+            [id:private] => 
+            [data:private] => stdClass Object
+                (
+                    [RecurringPaymentId] => 139
+                    [Amount] => 48.00
+                    [Description] => Child Support Plan (Month)
+                    [DonationPlanId] => 2
+                    [DonationPlanType] => Month
+                    [ChildId] => 87
+                )
+
+            [recurringPayment:private] => RecurringPayment Object
+                (
+                    [id:private] => 139
+                    [DataSet:private] => 
+                    [db:private] => MySQLDatabase Object
+                        (
+                            [handle:private] => Resource id #39
+                            [totalQueries:private] => 3
+                            [totalQueryTime:private] => 0.000842809677124
+                        )
+
+                    [data] => stdClass Object
+                        (
+                            [RecurringPaymentId] => 139
+                            [UserId] => 148
+                            [StartDate] => 2014-05-08 14:22:02
+                            [LastTransactionLineId] => 727
+                            [LastTransactionDate] => 2014-06-10 12:01:37
+                            [NextTransactionDate] => 2014-06-10 00:00:00
+                            [Status] => 1
+                            [DonationPlanId] => 2
+                            [DonationPlanType] => Month
+                            [ChildId] => 87
+                            [Description] => Child Support Plan (Month)
+                            [DonationAmount] => 48.00
+                            [OriginalBuckarooId] => 3BF1C1911D864E6F9FF23A835CE01133
+                            [AmountMonth] => 48.00
+                            [AmountYear] => 576.00
+                        )
+
+                )
+
+        )
+
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 65
+  Message: Undefined property: stdClass::$BPEStatus
+  Context: Array
+(
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  ERROR #4096 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 500
+  Message: Object of class stdClass could not be converted to string
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 500
+  Message: Object of class stdClass to string conversion
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  ERROR #4096 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 502
+  Message: Object of class stdClass could not be converted to string
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 502
+  Message: Object of class stdClass to string conversion
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  ERROR #4096 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 504
+  Message: Object of class stdClass could not be converted to string
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 504
+  Message: Object of class stdClass to string conversion
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  ERROR #4096 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 506
+  Message: Object of class stdClass could not be converted to string
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 506
+  Message: Object of class stdClass to string conversion
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  ERROR #4096 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 508
+  Message: Object of class stdClass could not be converted to string
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 508
+  Message: Object of class stdClass to string conversion
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Support Plan (Month)
+            [TransactionId] => 681
+            [Amount] => 48.00
+        )
+
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/classes/class-locale.php
+  Line: 115
+  Message: Use of undefined constant SITE_ROOT - assumed 'SITE_ROOT'
+  Context: Array
+(
+    [url] => /
+    [querystring] => 
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/classes/class-locale.php
+  Line: 115
+  Message: Use of undefined constant SITE_ROOT - assumed 'SITE_ROOT'
+  Context: Array
+(
+    [url] => /
+    [querystring] => 
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/classes/class-locale.php
+  Line: 115
+  Message: Use of undefined constant SITE_ROOT - assumed 'SITE_ROOT'
+  Context: Array
+(
+    [url] => /
+    [querystring] => 
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/classes/class-locale.php
+  Line: 115
+  Message: Use of undefined constant SITE_ROOT - assumed 'SITE_ROOT'
+  Context: Array
+(
+    [url] => /
+    [querystring] => 
+)
+
+
+***************  END NOTICE  ***************
+

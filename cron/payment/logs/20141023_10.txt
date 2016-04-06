@@ -1,0 +1,282 @@
+﻿New entry at 2014-10-23 10:02:28
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:15
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:03:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:06:18
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:06:24
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:08:53
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:10:45
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:13:27
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:13:59
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:14:45
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:16:54
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:18:30
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:18:53
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:19:56
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:20:25
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:23:04
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:24:52
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:26:57
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:28:30
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:28:45
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:28:46
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:28:52
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:28:53
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:29:47
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:29:57
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:29:58
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:30:08
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:30:48
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:30:51
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141021000765brq_invoicenumber=20141021000765brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=134brq_service_mastercard_action=paybrq_service_mastercard_customercode=134brq_service_visa_action=paybrq_service_visa_customercode=134brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141021000765brq_invoicenumber=20141021000765brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=134brq_service_mastercard_action=paybrq_service_mastercard_customercode=134brq_service_visa_action=paybrq_service_visa_customercode=134brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: b7dc3e482ade6085214dde61f0405aea08653e7e
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:30:53
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:32:17
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 765
+BuckarooV3Response initialized
+2014-10-23 10:32:17
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => JOERG BRAUNER
+	brq_description                => Peduli Anak Foundation Invoice 20141021000765
+	brq_invoicenumber              => 20141021000765
+	brq_issuing_country            => DE
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => 85207fa6c6d46b65172583ab5756e137a03b8020beef96a7589a5ae1ecad3badbd9ff5d05df4edf0d6204a99bd2115f17fed00705ef270695e3e55b9924280eb
+	brq_payment                    => 66C6B6E86E9D4C9A819B6590EA6FC5E4
+	brq_SERVICE_visa_Authentication => Y
+	brq_SERVICE_visa_CardExpirationDate => 2016-07
+	brq_SERVICE_visa_CardNumberEnding => 9016
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_startRecurrent             => True
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-10-23 12:32:16
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => C11CF594838444689255C2AD8CF91A55
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 80897f3b74c144e738cceaf478cfb762844833c4
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=JOERG BRAUNER" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20141021000765" to signature
+Adding "brq_invoicenumber=20141021000765" to signature
+Adding "brq_issuing_country=DE" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=85207fa6c6d46b65172583ab5756e137a03b8020beef96a7589a5ae1ecad3badbd9ff5d05df4edf0d6204a99bd2115f17fed00705ef270695e3e55b9924280eb" to signature
+Adding "brq_payment=66C6B6E86E9D4C9A819B6590EA6FC5E4" to signature
+Adding "brq_SERVICE_visa_Authentication=Y" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2016-07" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=9016" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_startRecurrent=True" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-10-23 12:32:16" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=C11CF594838444689255C2AD8CF91A55" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=JOERG BRAUNERbrq_description=Peduli Anak Foundation Invoice 20141021000765brq_invoicenumber=20141021000765brq_issuing_country=DEbrq_mutationtype=Processingbrq_payer_hash=85207fa6c6d46b65172583ab5756e137a03b8020beef96a7589a5ae1ecad3badbd9ff5d05df4edf0d6204a99bd2115f17fed00705ef270695e3e55b9924280ebbrq_payment=66C6B6E86E9D4C9A819B6590EA6FC5E4brq_SERVICE_visa_Authentication=Ybrq_SERVICE_visa_CardExpirationDate=2016-07brq_SERVICE_visa_CardNumberEnding=9016brq_SERVICE_visa_Enrolled=Ybrq_startRecurrent=Truebrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-10-23 12:32:16brq_transaction_method=visabrq_transaction_type=V002brq_transactions=C11CF594838444689255C2AD8CF91A55brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 80897f3b74c144e738cceaf478cfb762844833c4
+Transaction found via invoice, ID 765
+Signature received  : 80897f3b74c144e738cceaf478cfb762844833c4
+Signature calculated: 80897f3b74c144e738cceaf478cfb762844833c4
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 820
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:33:03
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:33:03
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:33:30
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:33:37
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:33:42
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:34:02
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:34:02
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:34:05
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:34:05
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:34:08
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:34:09
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:35:14
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:37:46
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:39:34
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:43:52
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:47:37
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:49:42
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:50:44
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:50:50
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:51:43
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:51:48
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:52:01
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:52:26
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:53:55
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:54:21
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:54:53
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:55:41
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:55:45
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:59:29
+------------------------------------------------------------
+
+﻿New entry at 2014-10-23 10:59:30
+------------------------------------------------------------
+

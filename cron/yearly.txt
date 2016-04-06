@@ -1,0 +1,3 @@
+2016-04-04
+2015-04-04
+select ID from wp_posts where ID in (select post_id from wp_postmeta where meta_key = '_recurring_profile' and meta_value = 'yearly') and ID in (select post_id from wp_postmeta where meta_key = '_paid_date' and meta_value like '2015-04-04%') and post_status != 'trash' order by ID asc

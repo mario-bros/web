@@ -1,0 +1,117 @@
+﻿New entry at 2014-03-26 14:01:51
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:08:33
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:08:38
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:09:03
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:09:09
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:09:19
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:09:19
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:09:42
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:10:22
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:10:22
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:10:31
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:10:48
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:11:03
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:11:08
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:12:39
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140322000621brq_invoicenumber=20140322000621brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=175brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=175brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=175brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140322000621brq_invoicenumber=20140322000621brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=175brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=175brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=175brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 67d6787c5f8054de9cb946ef64ddd1f2df1e6215
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:12:41
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:16:51
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:19:01
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:19:03
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:26:02
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:26:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:26:44
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:28:17
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:31:51
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:32:53
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:32:55
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:36:43
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:37:31
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:50:59
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:51:21
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:51:21
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:51:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:52:41
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:55:21
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:55:29
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:55:37
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:57:39
+------------------------------------------------------------
+
+﻿New entry at 2014-03-26 14:59:11
+------------------------------------------------------------
+

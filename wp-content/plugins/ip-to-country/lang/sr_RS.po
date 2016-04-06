@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IP-to-Country v0.03\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-14 18:05+0100\n"
+"PO-Revision-Date: \n"
+"Language-Team: Web Geeks\n"
+"Last-Translator: pepak <http://www.pepak.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"Language: ro_RO\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ip-to-country.php:593
+#: ip-to-country.php:605
+#, php-format
+msgid "Successfully updated IPv4 country info from URL <strong>%s</strong>."
+msgstr "Uspešno su ažurirane IPv4 informacije o državi iz URL-a<strong> %s</strong>."
+
+#: ip-to-country.php:595
+#: ip-to-country.php:607
+#, php-format
+msgid "Failed to update IPv4 country info from URL <strong>%s</strong>."
+msgstr "Nije uspelo ažuriranje IPv4 informacija o državi iz URL-a <strong>%s</strong>."
+
+#: ip-to-country.php:599
+#: ip-to-country.php:611
+#, php-format
+msgid "Successfully updated IPV6 country info from URL <strong>%s</strong>."
+msgstr "Uspešno su ažurirane IPV6 informacije o državi iz URL-a <strong>%s</strong>."
+
+#: ip-to-country.php:601
+#: ip-to-country.php:613
+#, php-format
+msgid "Failed to update IPV6 country info from URL <strong>%s</strong>."
+msgstr "Nije uspelo ažuriranje IPV6 informacija o državi iz URL-a <strong>%s</strong>."
+
+#: ip-to-country.php:619
+#, php-format
+msgid "Successfully updated IPv4 country info from file <strong>%s</strong>."
+msgstr "Uspešno su ažurirane IPv4 informacije o državi iz fajla  <strong>%s</strong>."
+
+#: ip-to-country.php:621
+#, php-format
+msgid "Failed to update IPv4 country info from file <strong>%s</strong>."
+msgstr "Nije uspelo ažuriranje IPv4 informacija o državi iz fajla  <strong>%s</strong>."
+
+#: ip-to-country.php:628
+#, php-format
+msgid "Successfully updated IPV6 country info from file <strong>%s</strong>."
+msgstr "Uspešno su ažurirane IPV6 informacije o državi iz fajla %s"
+
+#: ip-to-country.php:630
+#, php-format
+msgid "Failed to update IPV6 country info from file <strong>%s</strong>."
+msgstr "Nije uspelo ažuriranje IPV6 informacija o državi iz fajla %s"
+
+#: ip-to-country.php:644
+#: ip-to-country.php:694
+msgid "IP-to-Country options"
+msgstr "IP-to-Country opcije"
+
+#: ip-to-country.php:646
+msgid "Source of IP-to-Country data"
+msgstr "Izvor IP-to-Country podataka"
+
+#: ip-to-country.php:648
+msgid "Default IPv4 URL:"
+msgstr "Podrazumevani IPv4 URL:"
+
+#: ip-to-country.php:652
+msgid "Default IPv6 URL:"
+msgstr "Podrazumevani IPv6 URL:"
+
+#: ip-to-country.php:655
+#, php-format
+msgid "Note: Make sure you read and follow the service's <a href=\"%s\">license terms</a>, especially the part about download limits!"
+msgstr "Napomena: Budite sigurni da ste pročitali i da sledite uslove <a href=\"%s\"> licence servisa</a>, naročito deo u vezi sa ograničenjima preuzimanja!"
+
+#: ip-to-country.php:656
+msgid "IPv4 addresses must be loaded first, because the IPv6 database does not carry a list of countries with it."
+msgstr "Prvo moraju da se učitaju IPv4 adrese, jer IPv6 baza podataka ne sadrži listu država."
+
+#: ip-to-country.php:658
+msgid "User IPv4 URL:"
+msgstr "Korisnički IPv4 URL:"
+
+#: ip-to-country.php:662
+msgid "User IPv6 URL:"
+msgstr "Korisnički IPv6 URL:"
+
+#: ip-to-country.php:666
+msgid "Uploaded file with IPv4:"
+msgstr "Otpremi je fajl sa IPv4:"
+
+#: ip-to-country.php:670
+msgid "Uploaded file with IPv6:"
+msgstr "Otpremi je fajl sa IPV6:"
+
+#: ip-to-country.php:674
+msgid "Save settings"
+msgstr "Sačuvati podešavanja"
+
+#: ip-to-country.php:675
+msgid "Save settings and update"
+msgstr "Sačuvati podešavanja i ažuriraj"
+
+#: ip-to-country.php:694
+msgid "IP-to-Country"
+msgstr "IP-to-Country"
+

@@ -1,0 +1,289 @@
+﻿New entry at 2014-05-13 03:03:41
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:14:02
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:14:16
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:14:20
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:14:28
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:14:52
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:21:01
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:21:10
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:23:14
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:23:39
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:24:00
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:24:53
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:25:19
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:25:20
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140513000668brq_invoicenumber=20140513000668brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=178brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=178brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=178brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140513000668brq_invoicenumber=20140513000668brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=178brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=178brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=178brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 5a32ef72b7e80bdaedf9822027e333bcd4a1c9f2
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:25:29
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:25:35
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:26:01
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:26:26
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:26:41
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:26:42
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:27:19
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 668
+BuckarooV3Response initialized
+2014-05-13 03:27:19
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak Foundation Invoice 20140513000668
+	brq_invoicenumber              => 20140513000668
+	brq_mutationtype               => NotSet
+	brq_statuscode                 => 890
+	brq_statusmessage              => Cancelled by user
+	brq_test                       => false
+	brq_timestamp                  => 2014-05-13 03:27:18
+	brq_transactions               => 4F4F11765E8E41C0885EBD1E0BFC6F2B
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 43ed1209828e459d3a3ac671629b5ffb2a8e376e
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140513000668" to signature
+Adding "brq_invoicenumber=20140513000668" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_statuscode=890" to signature
+Adding "brq_statusmessage=Cancelled by user" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-05-13 03:27:18" to signature
+Adding "brq_transactions=4F4F11765E8E41C0885EBD1E0BFC6F2B" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140513000668brq_invoicenumber=20140513000668brq_mutationtype=NotSetbrq_statuscode=890brq_statusmessage=Cancelled by userbrq_test=falsebrq_timestamp=2014-05-13 03:27:18brq_transactions=4F4F11765E8E41C0885EBD1E0BFC6F2Bbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 43ed1209828e459d3a3ac671629b5ffb2a8e376e
+Transaction found via invoice, ID 668
+Signature received  : 43ed1209828e459d3a3ac671629b5ffb2a8e376e
+Signature calculated: 43ed1209828e459d3a3ac671629b5ffb2a8e376e
+Passed validation, proceeding to completion
+Cancelled transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:27:25
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:27:26
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:28:06
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:30:01
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 668
+BuckarooV3Response initialized
+2014-05-13 03:30:01
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => Andhini Putri
+	brq_description                => Peduli Anak Foundation Invoice 20140513000668
+	brq_invoicenumber              => 20140513000668
+	brq_issuing_country            => ID
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => 637110ee0fd302b0483185f35a6bdc2e1bb81349640a9a1d6bf8a5ab76aebf36e8a03df95f6edfc291f6d3db2cb520b0c3fdbdab5cc279a80ef7bb072e82df76
+	brq_payment                    => C01D321E5DD147AB94BD3F2BB0890182
+	brq_SERVICE_mastercard_Authentication => N
+	brq_SERVICE_mastercard_CardExpirationDate => 2017-08
+	brq_SERVICE_mastercard_CardNumberEnding => 0991
+	brq_SERVICE_mastercard_Enrolled => Y
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => C104
+	brq_statusmessage              => 3D Secure rejected
+	brq_test                       => false
+	brq_timestamp                  => 2014-05-13 03:30:00
+	brq_transaction_method         => mastercard
+	brq_transaction_type           => V001
+	brq_transactions               => D3907578381C43AEA65A0A1AF2B117D6
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 3441d16f9b02465f6f717610b2d8b6a6d4d4eca6
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Andhini Putri" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140513000668" to signature
+Adding "brq_invoicenumber=20140513000668" to signature
+Adding "brq_issuing_country=ID" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=637110ee0fd302b0483185f35a6bdc2e1bb81349640a9a1d6bf8a5ab76aebf36e8a03df95f6edfc291f6d3db2cb520b0c3fdbdab5cc279a80ef7bb072e82df76" to signature
+Adding "brq_payment=C01D321E5DD147AB94BD3F2BB0890182" to signature
+Adding "brq_SERVICE_mastercard_Authentication=N" to signature
+Adding "brq_SERVICE_mastercard_CardExpirationDate=2017-08" to signature
+Adding "brq_SERVICE_mastercard_CardNumberEnding=0991" to signature
+Adding "brq_SERVICE_mastercard_Enrolled=Y" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=C104" to signature
+Adding "brq_statusmessage=3D Secure rejected" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-05-13 03:30:00" to signature
+Adding "brq_transaction_method=mastercard" to signature
+Adding "brq_transaction_type=V001" to signature
+Adding "brq_transactions=D3907578381C43AEA65A0A1AF2B117D6" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=Andhini Putribrq_description=Peduli Anak Foundation Invoice 20140513000668brq_invoicenumber=20140513000668brq_issuing_country=IDbrq_mutationtype=Processingbrq_payer_hash=637110ee0fd302b0483185f35a6bdc2e1bb81349640a9a1d6bf8a5ab76aebf36e8a03df95f6edfc291f6d3db2cb520b0c3fdbdab5cc279a80ef7bb072e82df76brq_payment=C01D321E5DD147AB94BD3F2BB0890182brq_SERVICE_mastercard_Authentication=Nbrq_SERVICE_mastercard_CardExpirationDate=2017-08brq_SERVICE_mastercard_CardNumberEnding=0991brq_SERVICE_mastercard_Enrolled=Ybrq_statuscode=490brq_statuscode_detail=C104brq_statusmessage=3D Secure rejectedbrq_test=falsebrq_timestamp=2014-05-13 03:30:00brq_transaction_method=mastercardbrq_transaction_type=V001brq_transactions=D3907578381C43AEA65A0A1AF2B117D6brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 3441d16f9b02465f6f717610b2d8b6a6d4d4eca6
+Transaction found via invoice, ID 668
+Signature received  : 3441d16f9b02465f6f717610b2d8b6a6d4d4eca6
+Signature calculated: 3441d16f9b02465f6f717610b2d8b6a6d4d4eca6
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:30:03
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:31:04
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 668
+BuckarooV3Response initialized
+2014-05-13 03:31:04
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => Andhini Putri
+	brq_description                => Peduli Anak Foundation Invoice 20140513000668
+	brq_invoicenumber              => 20140513000668
+	brq_issuing_country            => ID
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => f166fba9dc1aab72f9c68665b4183f2d4144042dd1f5699b327d3e74e0405e6801150e70a837c6a8a7ef3cf62b23494f04983a86fb5d47522a69b51fe1013fee
+	brq_payment                    => D59D12CBF11E4ED594EE55E4E8EC808F
+	brq_SERVICE_visa_CardExpirationDate => 2016-08
+	brq_SERVICE_visa_CardNumberEnding => 2955
+	brq_SERVICE_visa_Enrolled      => N
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-05-13 03:31:03
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => DD9A4D3109F2495EAD25203DB5737D80
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 6ed460d6036e3e2620029d539ea6c4b0833d5454
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Andhini Putri" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140513000668" to signature
+Adding "brq_invoicenumber=20140513000668" to signature
+Adding "brq_issuing_country=ID" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=f166fba9dc1aab72f9c68665b4183f2d4144042dd1f5699b327d3e74e0405e6801150e70a837c6a8a7ef3cf62b23494f04983a86fb5d47522a69b51fe1013fee" to signature
+Adding "brq_payment=D59D12CBF11E4ED594EE55E4E8EC808F" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2016-08" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=2955" to signature
+Adding "brq_SERVICE_visa_Enrolled=N" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-05-13 03:31:03" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=DD9A4D3109F2495EAD25203DB5737D80" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=Andhini Putribrq_description=Peduli Anak Foundation Invoice 20140513000668brq_invoicenumber=20140513000668brq_issuing_country=IDbrq_mutationtype=Processingbrq_payer_hash=f166fba9dc1aab72f9c68665b4183f2d4144042dd1f5699b327d3e74e0405e6801150e70a837c6a8a7ef3cf62b23494f04983a86fb5d47522a69b51fe1013feebrq_payment=D59D12CBF11E4ED594EE55E4E8EC808Fbrq_SERVICE_visa_CardExpirationDate=2016-08brq_SERVICE_visa_CardNumberEnding=2955brq_SERVICE_visa_Enrolled=Nbrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-05-13 03:31:03brq_transaction_method=visabrq_transaction_type=V002brq_transactions=DD9A4D3109F2495EAD25203DB5737D80brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 6ed460d6036e3e2620029d539ea6c4b0833d5454
+Transaction found via invoice, ID 668
+Signature received  : 6ed460d6036e3e2620029d539ea6c4b0833d5454
+Signature calculated: 6ed460d6036e3e2620029d539ea6c4b0833d5454
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 714
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:31:05
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:31:06
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:31:39
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:31:58
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:32:02
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:33:49
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:34:35
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:38:09
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:47:02
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:50:45
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:50:45
+------------------------------------------------------------
+
+﻿New entry at 2014-05-13 03:51:23
+------------------------------------------------------------
+

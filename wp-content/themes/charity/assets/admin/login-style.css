@@ -1,0 +1,27 @@
+/*Charity @version 1.0 */
+body.login {}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {
+    width: 270px !important;
+    height: 32px !important;
+    background-color: #26211d;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    background-position: center center;
+    padding: 10px 0;    
+}
+body.login div#login form#loginform { margin-top: 0px !important;}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav {margin: -33px 0 0;}
+body.login div#login p#nav a {text-decoration: underline;}
+body.login div#login p#backtoblog { display:none;}
+body.login div#login p#backtoblog a {}

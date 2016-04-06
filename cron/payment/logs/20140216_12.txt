@@ -1,0 +1,131 @@
+﻿New entry at 2014-02-16 12:11:14
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:12:37
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:12:37
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:12:38
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:13:08
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:14:10
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:15:45
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:15:46
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:16:40
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:17:53
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:22:38
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:22:39
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:24:41
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:24:57
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:28:24
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:28:27
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:28:39
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:29:48
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:29:50
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:32:19
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:39:44
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:44:33
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:47:40
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:47:50
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:50:15
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:52:53
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:54:57
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:56:33
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 601
+BuckarooV3Response initialized
+2014-02-16 12:56:33
+Received new payment response.
+Parameters received:
+	brq_amount                     => 96.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak Foundation Invoice 20140216000601
+	brq_invoicenumber              => 20140216000601
+	brq_mutationtype               => NotSet
+	brq_statuscode                 => 490
+	brq_statusmessage              => Failed
+	brq_test                       => false
+	brq_timestamp                  => 2014-02-16 12:40:34
+	brq_transactions               => 2EABB10CB29B4DBDB8316397E32C6C21
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 8e6833998728c66c97973cb03a3c15192f7715eb
+Adding "brq_amount=96.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140216000601" to signature
+Adding "brq_invoicenumber=20140216000601" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statusmessage=Failed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-02-16 12:40:34" to signature
+Adding "brq_transactions=2EABB10CB29B4DBDB8316397E32C6C21" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=96.00brq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140216000601brq_invoicenumber=20140216000601brq_mutationtype=NotSetbrq_statuscode=490brq_statusmessage=Failedbrq_test=falsebrq_timestamp=2014-02-16 12:40:34brq_transactions=2EABB10CB29B4DBDB8316397E32C6C21brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 8e6833998728c66c97973cb03a3c15192f7715eb
+Transaction found via invoice, ID 601
+Signature received  : 8e6833998728c66c97973cb03a3c15192f7715eb
+Signature calculated: 8e6833998728c66c97973cb03a3c15192f7715eb
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:58:21
+------------------------------------------------------------
+
+﻿New entry at 2014-02-16 12:59:54
+------------------------------------------------------------
+

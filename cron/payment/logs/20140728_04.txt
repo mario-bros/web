@@ -1,0 +1,87 @@
+﻿New entry at 2014-07-28 04:05:06
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:08:01
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:12:05
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:12:05
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:31:10
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:33:01
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:35:38
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:37:15
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:37:32
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:38:31
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:38:48
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:39:01
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:39:19
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:39:56
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:39:56
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:40:23
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:42:38
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:42:38
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:43:00
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:43:43
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:43:43
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:44:04
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:44:18
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20130728000457brq_invoicenumber=20130728000457brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20130728000457brq_invoicenumber=20130728000457brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 8c2b57c8cf20cb1f6c088bb6d15a67f7cc50e9ca
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:44:31
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:48:10
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:50:39
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:51:04
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 04:57:57
+------------------------------------------------------------
+

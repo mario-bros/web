@@ -1,0 +1,143 @@
+Recurring payments: 1 users with 1 payments foundRecurringPayment Object
+(
+    [id:private] => 111
+    [DataSet:private] => 
+    [db:private] => MySQLDatabase Object
+        (
+            [handle:private] => Resource id #37
+            [totalQueries:private] => 3
+            [totalQueryTime:private] => 0.000811815261841
+        )
+
+    [data] => stdClass Object
+        (
+            [RecurringPaymentId] => 111
+            [UserId] => 175
+            [StartDate] => 2014-02-22 09:08:37
+            [LastTransactionLineId] => 679
+            [LastTransactionDate] => 2014-03-26 14:49:00
+            [NextTransactionDate] => 2014-03-26 00:00:00
+            [Status] => 1
+            [DonationPlanId] => 3
+            [DonationPlanType] => Month
+            [ChildId] => 79
+            [Description] => Child Education Plan (Month)
+            [DonationAmount] => 34.00
+            [OriginalBuckarooId] => FAF894E14A104A3F8D3EBB9EA1CB9041
+            [AmountMonth] => 34.00
+            [AmountYear] => 408.00
+        )
+
+)
+
+***************  ERROR #2048 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 477
+  Message: Creating default object from empty value
+  Context: Array
+(
+    [rPayment] => RecurringPayment Object
+        (
+            [id:private] => 111
+            [DataSet:private] => 
+            [db:private] => MySQLDatabase Object
+                (
+                    [handle:private] => Resource id #37
+                    [totalQueries:private] => 3
+                    [totalQueryTime:private] => 0.000811815261841
+                )
+
+            [data] => stdClass Object
+                (
+                    [RecurringPaymentId] => 111
+                    [UserId] => 175
+                    [StartDate] => 2014-02-22 09:08:37
+                    [LastTransactionLineId] => 679
+                    [LastTransactionDate] => 2014-03-26 14:49:00
+                    [NextTransactionDate] => 2014-03-26 00:00:00
+                    [Status] => 1
+                    [DonationPlanId] => 3
+                    [DonationPlanType] => Month
+                    [ChildId] => 79
+                    [Description] => Child Education Plan (Month)
+                    [DonationAmount] => 34.00
+                    [OriginalBuckarooId] => FAF894E14A104A3F8D3EBB9EA1CB9041
+                    [AmountMonth] => 34.00
+                    [AmountYear] => 408.00
+                )
+
+        )
+
+    [updateLineData] => 1
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  ERROR #2048 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 121
+  Message: Creating default object from empty value
+  Context: Array
+(
+    [amount] => 34
+    [line] => TransactionLine Object
+        (
+            [db:private] => MySQLDatabase Object
+                (
+                    [handle:private] => Resource id #37
+                    [totalQueries:private] => 3
+                    [totalQueryTime:private] => 0.000811815261841
+                )
+
+            [id:private] => 
+            [data:private] => stdClass Object
+                (
+                    [RecurringPaymentId] => 111
+                    [Amount] => 34.00
+                    [Description] => Child Education Plan (Month)
+                    [DonationPlanId] => 3
+                    [DonationPlanType] => Month
+                    [ChildId] => 79
+                )
+
+            [recurringPayment:private] => RecurringPayment Object
+                (
+                    [id:private] => 111
+                    [DataSet:private] => 
+                    [db:private] => MySQLDatabase Object
+                        (
+                            [handle:private] => Resource id #37
+                            [totalQueries:private] => 3
+                            [totalQueryTime:private] => 0.000811815261841
+                        )
+
+                    [data] => stdClass Object
+                        (
+                            [RecurringPaymentId] => 111
+                            [UserId] => 175
+                            [StartDate] => 2014-02-22 09:08:37
+                            [LastTransactionLineId] => 679
+                            [LastTransactionDate] => 2014-03-26 14:49:00
+                            [NextTransactionDate] => 2014-03-26 00:00:00
+                            [Status] => 1
+                            [DonationPlanId] => 3
+                            [DonationPlanType] => Month
+                            [ChildId] => 79
+                            [Description] => Child Education Plan (Month)
+                            [DonationAmount] => 34.00
+                            [OriginalBuckarooId] => FAF894E14A104A3F8D3EBB9EA1CB9041
+                            [AmountMonth] => 34.00
+                            [AmountYear] => 408.00
+                        )
+
+                )
+
+        )
+
+)
+
+
+***************  END ERROR  ***************
+

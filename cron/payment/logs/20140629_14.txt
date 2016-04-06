@@ -1,0 +1,46 @@
+﻿New entry at 2014-06-29 14:01:57
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:02:03
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:11:15
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:25:18
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:28:40
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:30:19
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:37:03
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:39:30
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:39:58
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:51:19
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:51:44
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:54:07
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:56:30
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:56:57
+------------------------------------------------------------
+
+﻿New entry at 2014-06-29 14:57:54
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000699brq_invoicenumber=20140611000699brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=148brq_service_mastercard_action=paybrq_service_mastercard_customercode=148brq_service_visa_action=paybrq_service_visa_customercode=148brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+------------------------------------------------------------
+

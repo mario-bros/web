@@ -1,0 +1,17 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.wppd-form .form-group{
+    overflow: hidden
+}
+.time-period, .gateway-form{
+	display:none;
+}
+.wppd-form .help-block {
+    background: none;
+    display: block !important;
+    margin: 10px 0 0;
+    padding: 0;
+}

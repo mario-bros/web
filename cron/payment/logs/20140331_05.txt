@@ -1,0 +1,168 @@
+﻿﻿New entry at 2014-03-31 05:00:13
+------------------------------------------------------------
+
+New entry at 2014-03-31 05:00:13
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:06:03
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:06:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:06:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:06:06
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:06:12
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:09:18
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:11:48
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:13:25
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:13:47
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:13:50
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:17:45
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:21:30
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:23:27
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:28:08
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:28:09
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:30:33
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:33:12
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:33:12
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:33:52
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:34:05
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:38:06
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:42:37
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:42:51
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:43:03
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:43:04
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140331000646brq_invoicenumber=20140331000646brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=144brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=144brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=144brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140331000646brq_invoicenumber=20140331000646brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=144brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=144brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=144brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 0a49effa405248f3a18f306398bddf863bfc3650
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:43:45
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:49:43
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 646
+BuckarooV3Response initialized
+2014-03-31 05:49:43
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => Mrs J McDonald
+	brq_description                => Peduli Anak Foundation Invoice 20140331000646
+	brq_invoicenumber              => 20140331000646
+	brq_issuing_country            => AU
+	brq_mutationtype               => Processing
+	brq_payment                    => 8A8DB640AD1D4C95A87E65E2BA5747A7
+	brq_SERVICE_visa_Authentication => Y
+	brq_SERVICE_visa_CardNumberEnding => 8563
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Payment successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-03-31 05:49:42
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => FF1D61FD29984BCF9EDB38753EF738EE
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 1b9092fc6a2304c73e2929e965d227bad78e1a91
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Mrs J McDonald" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140331000646" to signature
+Adding "brq_invoicenumber=20140331000646" to signature
+Adding "brq_issuing_country=AU" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=8A8DB640AD1D4C95A87E65E2BA5747A7" to signature
+Adding "brq_SERVICE_visa_Authentication=Y" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=8563" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Payment successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-03-31 05:49:42" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=FF1D61FD29984BCF9EDB38753EF738EE" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=Mrs J McDonaldbrq_description=Peduli Anak Foundation Invoice 20140331000646brq_invoicenumber=20140331000646brq_issuing_country=AUbrq_mutationtype=Processingbrq_payment=8A8DB640AD1D4C95A87E65E2BA5747A7brq_SERVICE_visa_Authentication=Ybrq_SERVICE_visa_CardNumberEnding=8563brq_SERVICE_visa_Enrolled=Ybrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Payment successfully processedbrq_test=falsebrq_timestamp=2014-03-31 05:49:42brq_transaction_method=visabrq_transaction_type=V002brq_transactions=FF1D61FD29984BCF9EDB38753EF738EEbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 1b9092fc6a2304c73e2929e965d227bad78e1a91
+Transaction found via invoice, ID 646
+Signature received  : 1b9092fc6a2304c73e2929e965d227bad78e1a91
+Signature calculated: 1b9092fc6a2304c73e2929e965d227bad78e1a91
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 688
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:49:57
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:49:57
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:50:23
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:52:05
+------------------------------------------------------------
+
+﻿New entry at 2014-03-31 05:52:49
+------------------------------------------------------------
+

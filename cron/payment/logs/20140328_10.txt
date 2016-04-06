@@ -1,0 +1,138 @@
+﻿New entry at 2014-03-28 10:00:10
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:02:53
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:05:42
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+[TransactionException] Transaction with invoice reference "280320141" not found
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:05:42
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+[TransactionException] Transaction with invoice reference "280320141" not found
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:06:27
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:10:32
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:17:48
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:19:41
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+[TransactionException] Transaction with invoice reference "280320141" not found
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:19:41
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+[TransactionException] Transaction with invoice reference "280320141" not found
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:21:47
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:22:26
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:22:27
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:23:26
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:24:17
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:27:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:27:17
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:30:49
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:33:43
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:34:43
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:34:43
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:35:00
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:37:07
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:41:51
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:41:53
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:41:54
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:41:54
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:41:54
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:48:13
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:48:42
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+[TransactionException] Transaction with invoice reference "280320141" not found
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:48:42
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+[TransactionException] Transaction with invoice reference "280320141" not found
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:51:50
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:54:20
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:56:20
+------------------------------------------------------------
+
+﻿New entry at 2014-03-28 10:59:56
+------------------------------------------------------------
+

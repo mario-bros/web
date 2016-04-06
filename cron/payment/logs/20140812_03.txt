@@ -1,0 +1,150 @@
+﻿New entry at 2014-08-12 03:06:21
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:07:40
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:10:03
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:12:07
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:15:08
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 730
+BuckarooV3Response initialized
+2014-08-12 03:15:08
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => L.M. van Oosten
+	brq_description                => Peduli Anak recurring donation. Transaction 20140812000730
+	brq_invoicenumber              => 20140812000730
+	brq_issuing_country            => NL
+	brq_mutationtype               => Processing
+	brq_payment                    => 9976EE1E17E447EF8BA177BE58ED9E2D
+	brq_recurring                  => True
+	brq_SERVICE_visa_CardExpirationDate => 2014-11
+	brq_SERVICE_visa_CardNumberEnding => 5614
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-08-12 03:15:01
+	brq_transaction_method         => visa
+	brq_transaction_type           => V032
+	brq_transactions               => 012DC93FB122404281F1321D783C89F8
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 04bd71589501fd25c4427ca02316b1130d5d47d4
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=L.M. van Oosten" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140812000730" to signature
+Adding "brq_invoicenumber=20140812000730" to signature
+Adding "brq_issuing_country=NL" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=9976EE1E17E447EF8BA177BE58ED9E2D" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2014-11" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=5614" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-08-12 03:15:01" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V032" to signature
+Adding "brq_transactions=012DC93FB122404281F1321D783C89F8" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=L.M. van Oostenbrq_description=Peduli Anak recurring donation. Transaction 20140812000730brq_invoicenumber=20140812000730brq_issuing_country=NLbrq_mutationtype=Processingbrq_payment=9976EE1E17E447EF8BA177BE58ED9E2Dbrq_recurring=Truebrq_SERVICE_visa_CardExpirationDate=2014-11brq_SERVICE_visa_CardNumberEnding=5614brq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-08-12 03:15:01brq_transaction_method=visabrq_transaction_type=V032brq_transactions=012DC93FB122404281F1321D783C89F8brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 04bd71589501fd25c4427ca02316b1130d5d47d4
+Transaction found via invoice, ID 730
+Signature received  : 04bd71589501fd25c4427ca02316b1130d5d47d4
+Signature calculated: 04bd71589501fd25c4427ca02316b1130d5d47d4
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 783
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:16:07
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:17:26
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:17:59
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:26:41
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:27:44
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:10
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:28:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:33:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:47:00
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:47:20
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:48:03
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:48:42
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:51:40
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:53:22
+------------------------------------------------------------
+
+﻿New entry at 2014-08-12 03:54:50
+------------------------------------------------------------
+

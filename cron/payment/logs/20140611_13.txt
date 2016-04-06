@@ -1,0 +1,232 @@
+﻿New entry at 2014-06-11 13:01:29
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:04:40
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:11:31
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:22:33
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:32:01
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:34:13
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:37:05
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:40:47
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:40:57
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:45:33
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:45:34
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:45:36
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:45:36
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:45:47
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:45:48
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:45:52
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:45:53
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:46:00
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:46:00
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 30bb3b042f1048d96872f2bb6c5fa6088525747d
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:46:24
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:47:14
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:47:43
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 30bb3b042f1048d96872f2bb6c5fa6088525747d
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:48:35
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 30bb3b042f1048d96872f2bb6c5fa6088525747d
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:49:00
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 30bb3b042f1048d96872f2bb6c5fa6088525747d
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:49:47
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=10.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=1brq_service_mastercard_action=paybrq_service_mastercard_customercode=1brq_service_visa_action=paybrq_service_visa_customercode=1brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 30bb3b042f1048d96872f2bb6c5fa6088525747d
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:50:43
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 692
+BuckarooV3Response initialized
+2014-06-11 13:50:43
+Received new payment response.
+Parameters received:
+	brq_amount                     => 10.00
+	brq_currency                   => EUR
+	brq_customer_name              => B Scholts
+	brq_description                => Peduli Anak Foundation Invoice 20140611000692
+	brq_invoicenumber              => 20140611000692
+	brq_issuing_country            => NL
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => bdb4731e4959845d822c698a9c5a96cc71d206049bc82fb9e5f1ec117154e7decbc8553914a1b3318f90b659a5bf8ef46bfad9ed24951b6b7b3e6ac5923e3fdb
+	brq_payment                    => 2CDD8D860453466380D10D14E25503DE
+	brq_SERVICE_mastercard_Authentication => A
+	brq_SERVICE_mastercard_CardExpirationDate => 2015-10
+	brq_SERVICE_mastercard_CardNumberEnding => 0720
+	brq_SERVICE_mastercard_Enrolled => Y
+	brq_startRecurrent             => True
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-06-11 13:50:43
+	brq_transaction_method         => mastercard
+	brq_transaction_type           => V001
+	brq_transactions               => 28869821B29844B48D176760272A3EB8
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => da14299b8c3710d20b94f316dea85828118a8261
+Adding "brq_amount=10.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=B Scholts" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140611000692" to signature
+Adding "brq_invoicenumber=20140611000692" to signature
+Adding "brq_issuing_country=NL" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=bdb4731e4959845d822c698a9c5a96cc71d206049bc82fb9e5f1ec117154e7decbc8553914a1b3318f90b659a5bf8ef46bfad9ed24951b6b7b3e6ac5923e3fdb" to signature
+Adding "brq_payment=2CDD8D860453466380D10D14E25503DE" to signature
+Adding "brq_SERVICE_mastercard_Authentication=A" to signature
+Adding "brq_SERVICE_mastercard_CardExpirationDate=2015-10" to signature
+Adding "brq_SERVICE_mastercard_CardNumberEnding=0720" to signature
+Adding "brq_SERVICE_mastercard_Enrolled=Y" to signature
+Adding "brq_startRecurrent=True" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-06-11 13:50:43" to signature
+Adding "brq_transaction_method=mastercard" to signature
+Adding "brq_transaction_type=V001" to signature
+Adding "brq_transactions=28869821B29844B48D176760272A3EB8" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=10.00brq_currency=EURbrq_customer_name=B Scholtsbrq_description=Peduli Anak Foundation Invoice 20140611000692brq_invoicenumber=20140611000692brq_issuing_country=NLbrq_mutationtype=Processingbrq_payer_hash=bdb4731e4959845d822c698a9c5a96cc71d206049bc82fb9e5f1ec117154e7decbc8553914a1b3318f90b659a5bf8ef46bfad9ed24951b6b7b3e6ac5923e3fdbbrq_payment=2CDD8D860453466380D10D14E25503DEbrq_SERVICE_mastercard_Authentication=Abrq_SERVICE_mastercard_CardExpirationDate=2015-10brq_SERVICE_mastercard_CardNumberEnding=0720brq_SERVICE_mastercard_Enrolled=Ybrq_startRecurrent=Truebrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-06-11 13:50:43brq_transaction_method=mastercardbrq_transaction_type=V001brq_transactions=28869821B29844B48D176760272A3EB8brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: da14299b8c3710d20b94f316dea85828118a8261
+Transaction found via invoice, ID 692
+Signature received  : da14299b8c3710d20b94f316dea85828118a8261
+Signature calculated: da14299b8c3710d20b94f316dea85828118a8261
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 740
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:51:26
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:52:04
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:52:11
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 693
+BuckarooV3Response initialized
+2014-06-11 13:52:11
+Received new payment response.
+Parameters received:
+	brq_amount                     => 10.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak recurring donation. Transaction 20140611000693
+	brq_invoicenumber              => 20140611000693
+	brq_mutationtype               => NotSet
+	brq_payment                    => D5B02F58081D4C8ABC9DB4B26B1F5BC6
+	brq_recurring                  => True
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => S106
+	brq_statusmessage              => Invalid parameter: originaltransaction
+	brq_test                       => false
+	brq_timestamp                  => 2014-06-11 13:52:11
+	brq_transaction_method         => visa
+	brq_transactions               => 6EC16383CA09485E8153DF8543BD487C
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 0aa4b5e3e081240a0f52d796dbc14b07559602bf
+Adding "brq_amount=10.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140611000693" to signature
+Adding "brq_invoicenumber=20140611000693" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_payment=D5B02F58081D4C8ABC9DB4B26B1F5BC6" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=S106" to signature
+Adding "brq_statusmessage=Invalid parameter: originaltransaction" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-06-11 13:52:11" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transactions=6EC16383CA09485E8153DF8543BD487C" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=10.00brq_currency=EURbrq_description=Peduli Anak recurring donation. Transaction 20140611000693brq_invoicenumber=20140611000693brq_mutationtype=NotSetbrq_payment=D5B02F58081D4C8ABC9DB4B26B1F5BC6brq_recurring=Truebrq_statuscode=490brq_statuscode_detail=S106brq_statusmessage=Invalid parameter: originaltransactionbrq_test=falsebrq_timestamp=2014-06-11 13:52:11brq_transaction_method=visabrq_transactions=6EC16383CA09485E8153DF8543BD487Cbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 0aa4b5e3e081240a0f52d796dbc14b07559602bf
+Transaction found via invoice, ID 693
+Signature received  : 0aa4b5e3e081240a0f52d796dbc14b07559602bf
+Signature calculated: 0aa4b5e3e081240a0f52d796dbc14b07559602bf
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:53:08
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:53:12
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:54:00
+------------------------------------------------------------
+
+﻿New entry at 2014-06-11 13:57:01
+------------------------------------------------------------
+

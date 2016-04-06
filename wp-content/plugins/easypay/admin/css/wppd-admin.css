@@ -1,0 +1,101 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+
+body {
+    background: transparent;
+}
+
+#icon-wp-pay-direct{
+    background:url('../images/icons/direct-pay-icon-big.png') no-repeat;
+}
+
+.wpdp_box_header{ padding: 5px; }
+
+.update-form-up input[type="submit"], .update-form-bottom input[type="submit"]{
+    float:left;
+}
+
+.update-form-up{
+    overflow:hidden;
+    margin:18px 0 0 0;
+}
+.update-form-bottom{
+    overflow:hidden;
+    margin:0 0 0 30px;
+}
+
+.wppd_load{
+    /*display:block;*/
+    float:left;
+    width:16px;
+    height:21px;
+    background:url('../images/icons/wppd_loader.gif') 0 5px no-repeat;
+    margin: 0 0 0 4px;
+}
+.wppd_hide{
+    display:none;
+}
+
+.wp-list-table-row{
+    display:none;
+}
+
+.paypal-mandatory-fields{
+    border: 1px solid #CCCCCC;
+    margin: 20px 0 0 0;
+    padding: 10px;
+}
+
+.paypal-mandatory-fields .control-label{
+    float:left;
+    width:180px;
+}
+.wp-list-table-sub-list tbody th{ background: #747474; color: white; text-shadow: none;}
+.wp-list-table-sub-list tbody th b{ border: 0 none; }
+.wp-list-table-sub-list tbody td{ background: #ececec;}
+.widefat .wp-list-table-row td{ padding: 0px !important;}
+.widefat .wp-list-table-row td td{padding: 4px !important; width: 50%; border: solid 1px #DFDFDF;}
+
+.wppd-close{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    float: right;
+    cursor: pointer;
+    background:url('../images/icons/wppd-close.png') no-repeat; 
+}
+
+#titlediv #subject {
+padding: 3px 8px;
+font-size: 1.7em;
+line-height: 100%;
+height: 1.7em;
+width: 100%;
+outline: 0;
+margin: 0;
+background-color: #fff;
+}
+
+#loadJSON {
+    display: none
+}
+
+#formtabs li:nth-child(4), #formtabs li:nth-child(5){
+    display: none
+}
+/*  */
+#target .col-md-4 label.radio-inline{line-height: 24px;padding-top: 0;}
+#target .col-md-4.control-label{padding-top: 0;}
+#target .col-md-4 .help-block{margin-bottom: 0;}
+.postbox #build #target{margin-top: 6px;}
+.inside .tabbable #components{margin-top: 20px;}
+#components  #radiocheckbox .radio input{margin-top: 1px;}
+#components  #radiocheckbox .radio-inline input{margin-top: 0;}
+#components  #radiocheckbox .checkbox input{margin-top: 2px;}
+#components  #radiocheckbox .checkbox-inline input{margin-top: 1px;}
+.tablenav  .tablenav-pages .pagination-links .paging-input input{background: none; box-shadow: none; border: none;
+padding: 0;margin: 0;font-size: 12px;color: #555;}
+
+#wp-content-editor-container i.mce-ico.mce-i-dashicons.dashicons-forms{font: 400 20px/1 dashicons;}

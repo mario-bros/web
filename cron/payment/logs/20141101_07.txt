@@ -1,0 +1,243 @@
+﻿New entry at 2014-11-01 07:01:37
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:06:18
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:06:34
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:07:01
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:07:02
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:07:10
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:07:20
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141101000770brq_invoicenumber=20141101000770brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=181brq_service_mastercard_action=paybrq_service_mastercard_customercode=181brq_service_visa_action=paybrq_service_visa_customercode=181brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141101000770brq_invoicenumber=20141101000770brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=181brq_service_mastercard_action=paybrq_service_mastercard_customercode=181brq_service_visa_action=paybrq_service_visa_customercode=181brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 5c90634a4e72c0ab8d775fc6cdc22daf4c41712a
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:07:18
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:08:07
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:08:29
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:09:31
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:09:32
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:09:33
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:09:34
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:09:34
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:09:59
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 770
+BuckarooV3Response initialized
+2014-11-01 07:10:00
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => Natalia Tjoe
+	brq_description                => Peduli Anak Foundation Invoice 20141101000770
+	brq_invoicenumber              => 20141101000770
+	brq_issuing_country            => SG
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => 0fc84f5eb073d86cec32a7d4d438b4abda43d1c1594d53b8f67f18868adf2ad84c37c33df9eb468fc7eace6c9b35d59860c4f4cc7d18713154540bec01aac12e
+	brq_payment                    => 8F47E453B590432A838BA0C5575A135A
+	brq_SERVICE_visa_Authentication => Y
+	brq_SERVICE_visa_CardExpirationDate => 2019-05
+	brq_SERVICE_visa_CardNumberEnding => 2470
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_startRecurrent             => True
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-11-01 08:09:59
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => D58C349042F54629A14035CBFF7063C3
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 2862ef875ca83e3aac2fe701fe40d1597255bc87
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Natalia Tjoe" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20141101000770" to signature
+Adding "brq_invoicenumber=20141101000770" to signature
+Adding "brq_issuing_country=SG" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=0fc84f5eb073d86cec32a7d4d438b4abda43d1c1594d53b8f67f18868adf2ad84c37c33df9eb468fc7eace6c9b35d59860c4f4cc7d18713154540bec01aac12e" to signature
+Adding "brq_payment=8F47E453B590432A838BA0C5575A135A" to signature
+Adding "brq_SERVICE_visa_Authentication=Y" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2019-05" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=2470" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_startRecurrent=True" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-11-01 08:09:59" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=D58C349042F54629A14035CBFF7063C3" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=Natalia Tjoebrq_description=Peduli Anak Foundation Invoice 20141101000770brq_invoicenumber=20141101000770brq_issuing_country=SGbrq_mutationtype=Processingbrq_payer_hash=0fc84f5eb073d86cec32a7d4d438b4abda43d1c1594d53b8f67f18868adf2ad84c37c33df9eb468fc7eace6c9b35d59860c4f4cc7d18713154540bec01aac12ebrq_payment=8F47E453B590432A838BA0C5575A135Abrq_SERVICE_visa_Authentication=Ybrq_SERVICE_visa_CardExpirationDate=2019-05brq_SERVICE_visa_CardNumberEnding=2470brq_SERVICE_visa_Enrolled=Ybrq_startRecurrent=Truebrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-11-01 08:09:59brq_transaction_method=visabrq_transaction_type=V002brq_transactions=D58C349042F54629A14035CBFF7063C3brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 2862ef875ca83e3aac2fe701fe40d1597255bc87
+Transaction found via invoice, ID 770
+Signature received  : 2862ef875ca83e3aac2fe701fe40d1597255bc87
+Signature calculated: 2862ef875ca83e3aac2fe701fe40d1597255bc87
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 825
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:11:46
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:19:53
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:20:23
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:20:24
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:21:00
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:22:45
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:23:37
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:24:23
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:25:21
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:26:40
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:27:02
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:27:38
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:29:16
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:30:12
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:30:16
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:30:16
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:31:05
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:31:33
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:31:54
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:32:15
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:33:07
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:33:22
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:33:53
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:34:26
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:34:43
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:35:33
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:35:53
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:36:15
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:36:34
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:37:07
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:39:55
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:40:59
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:41:00
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:41:02
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:42:02
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:42:11
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:47:02
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:47:37
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:47:37
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:53:30
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 07:59:24
+------------------------------------------------------------
+

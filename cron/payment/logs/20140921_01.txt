@@ -1,0 +1,147 @@
+﻿New entry at 2014-09-21 01:06:39
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:10:00
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:13:29
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:15:10
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 747
+BuckarooV3Response initialized
+2014-09-21 01:15:10
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => JOERG BRAUNER
+	brq_description                => Peduli Anak recurring donation. Transaction 20140921000747
+	brq_invoicenumber              => 20140921000747
+	brq_issuing_country            => DE
+	brq_mutationtype               => Processing
+	brq_payment                    => D0A633C62F6F4BC49E95090A21673FA0
+	brq_recurring                  => True
+	brq_SERVICE_visa_CardExpirationDate => 2016-07
+	brq_SERVICE_visa_CardNumberEnding => 9016
+	brq_statuscode                 => 690
+	brq_statuscode_detail          => C101
+	brq_statusmessage              => The authorization is denied by the creditcard company.
+	brq_test                       => false
+	brq_timestamp                  => 2014-09-21 03:15:09
+	brq_transaction_method         => visa
+	brq_transaction_type           => V032
+	brq_transactions               => 788FD1F3AEAA49FB85FB9DAB9A577613
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 52e8ed06cba8671024a6fbe20c1d5ccee525642a
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=JOERG BRAUNER" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140921000747" to signature
+Adding "brq_invoicenumber=20140921000747" to signature
+Adding "brq_issuing_country=DE" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=D0A633C62F6F4BC49E95090A21673FA0" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2016-07" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=9016" to signature
+Adding "brq_statuscode=690" to signature
+Adding "brq_statuscode_detail=C101" to signature
+Adding "brq_statusmessage=The authorization is denied by the creditcard company." to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-09-21 03:15:09" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V032" to signature
+Adding "brq_transactions=788FD1F3AEAA49FB85FB9DAB9A577613" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=JOERG BRAUNERbrq_description=Peduli Anak recurring donation. Transaction 20140921000747brq_invoicenumber=20140921000747brq_issuing_country=DEbrq_mutationtype=Processingbrq_payment=D0A633C62F6F4BC49E95090A21673FA0brq_recurring=Truebrq_SERVICE_visa_CardExpirationDate=2016-07brq_SERVICE_visa_CardNumberEnding=9016brq_statuscode=690brq_statuscode_detail=C101brq_statusmessage=The authorization is denied by the creditcard company.brq_test=falsebrq_timestamp=2014-09-21 03:15:09brq_transaction_method=visabrq_transaction_type=V032brq_transactions=788FD1F3AEAA49FB85FB9DAB9A577613brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 52e8ed06cba8671024a6fbe20c1d5ccee525642a
+Transaction found via invoice, ID 747
+Signature received  : 52e8ed06cba8671024a6fbe20c1d5ccee525642a
+Signature calculated: 52e8ed06cba8671024a6fbe20c1d5ccee525642a
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:15:11
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 748
+BuckarooV3Response initialized
+2014-09-21 01:15:11
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak recurring donation. Transaction 20140921000748
+	brq_invoicenumber              => 20140921000748
+	brq_mutationtype               => NotSet
+	brq_payment                    => 181D42491C5245A6B79E2A0754E22D77
+	brq_recurring                  => True
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => S106
+	brq_statusmessage              => Invalid parameter: originaltransaction
+	brq_test                       => false
+	brq_timestamp                  => 2014-09-21 03:15:10
+	brq_transaction_method         => visa
+	brq_transactions               => 40EFE68F1C6347E29B64D973DCC20D3D
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 2fadd52586dd4bd3b46546574b82b502a9ec82d7
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140921000748" to signature
+Adding "brq_invoicenumber=20140921000748" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_payment=181D42491C5245A6B79E2A0754E22D77" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=S106" to signature
+Adding "brq_statusmessage=Invalid parameter: originaltransaction" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-09-21 03:15:10" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transactions=40EFE68F1C6347E29B64D973DCC20D3D" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_description=Peduli Anak recurring donation. Transaction 20140921000748brq_invoicenumber=20140921000748brq_mutationtype=NotSetbrq_payment=181D42491C5245A6B79E2A0754E22D77brq_recurring=Truebrq_statuscode=490brq_statuscode_detail=S106brq_statusmessage=Invalid parameter: originaltransactionbrq_test=falsebrq_timestamp=2014-09-21 03:15:10brq_transaction_method=visabrq_transactions=40EFE68F1C6347E29B64D973DCC20D3Dbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 2fadd52586dd4bd3b46546574b82b502a9ec82d7
+Transaction found via invoice, ID 748
+Signature received  : 2fadd52586dd4bd3b46546574b82b502a9ec82d7
+Signature calculated: 2fadd52586dd4bd3b46546574b82b502a9ec82d7
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:15:19
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:15:24
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:15:29
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:15:56
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:16:49
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:22:13
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:39:10
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 01:48:20
+------------------------------------------------------------
+

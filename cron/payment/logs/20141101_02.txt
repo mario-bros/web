@@ -1,0 +1,118 @@
+﻿New entry at 2014-11-01 02:08:19
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:10:12
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:10:20
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:12:16
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:12:18
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:13:43
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:15:08
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 770
+BuckarooV3Response initialized
+2014-11-01 02:15:09
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak recurring donation. Transaction 20141101000770
+	brq_invoicenumber              => 20141101000770
+	brq_mutationtype               => NotSet
+	brq_payment                    => 7BCD9E674C7641F78A28BD890368F34E
+	brq_recurring                  => True
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => S106
+	brq_statusmessage              => Invalid parameter: originaltransaction
+	brq_test                       => false
+	brq_timestamp                  => 2014-11-01 03:15:08
+	brq_transaction_method         => visa
+	brq_transactions               => DE717548927B4B0B8136AE0738804C82
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 2d10bf4fa25eaf66c2b145f0da7fed54d8d38e01
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20141101000770" to signature
+Adding "brq_invoicenumber=20141101000770" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_payment=7BCD9E674C7641F78A28BD890368F34E" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=S106" to signature
+Adding "brq_statusmessage=Invalid parameter: originaltransaction" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-11-01 03:15:08" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transactions=DE717548927B4B0B8136AE0738804C82" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_description=Peduli Anak recurring donation. Transaction 20141101000770brq_invoicenumber=20141101000770brq_mutationtype=NotSetbrq_payment=7BCD9E674C7641F78A28BD890368F34Ebrq_recurring=Truebrq_statuscode=490brq_statuscode_detail=S106brq_statusmessage=Invalid parameter: originaltransactionbrq_test=falsebrq_timestamp=2014-11-01 03:15:08brq_transaction_method=visabrq_transactions=DE717548927B4B0B8136AE0738804C82brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 2d10bf4fa25eaf66c2b145f0da7fed54d8d38e01
+Transaction found via invoice, ID 770
+Signature received  : 2d10bf4fa25eaf66c2b145f0da7fed54d8d38e01
+Signature calculated: 2d10bf4fa25eaf66c2b145f0da7fed54d8d38e01
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:15:26
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:20:35
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:22:13
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:29:58
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:32:44
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:32:44
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:32:46
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:33:54
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:38:02
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:38:21
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:42:16
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:44:05
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:48:13
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:52:12
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:54:11
+------------------------------------------------------------
+
+﻿New entry at 2014-11-01 02:57:44
+------------------------------------------------------------
+

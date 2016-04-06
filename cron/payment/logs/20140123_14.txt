@@ -1,0 +1,1026 @@
+﻿New entry at 2014-01-23 14:18:20
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+GET Parameters:
+POST Parameters:
+	brq_amount => 25.00
+	brq_currency => EUR
+	brq_invoicenumber => 20140123000579
+	brq_mutationtype => Collecting
+	brq_service_ideal_consumerBIC => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode => 190
+	brq_statusmessage => Success
+	brq_test => true
+	brq_timestamp => 2014-01-23 13:04:58
+	brq_transaction_method => ideal
+	brq_transaction_type => C021
+	brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Entering buckaroo handling
+Second option defined
+PUSH
+Received postback for Buckaroo PUSH handler
+brq_amount => 25.00
+brq_currency => EUR
+brq_invoicenumber => 20140123000579
+brq_mutationtype => Collecting
+brq_service_ideal_consumerBIC => RABONL2U
+brq_service_ideal_consumerIBAN => NL44RABO0123456789
+brq_service_ideal_consumerIssuer => ING Bank 
+brq_service_ideal_consumerName => J. de Tèster
+brq_statuscode => 190
+brq_statusmessage => Success
+brq_test => true
+brq_timestamp => 2014-01-23 13:04:58
+brq_transaction_method => ideal
+brq_transaction_type => C021
+brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+BuckarooV3Response initialized
+2014-01-23 14:18:20
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature string: brq_amount=0.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 2d513f22ce22380009cd25de36e4bb8cbfae616a
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:22:22
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+GET Parameters:
+POST Parameters:
+	brq_amount => 25.00
+	brq_currency => EUR
+	brq_invoicenumber => 20140123000579
+	brq_mutationtype => Collecting
+	brq_service_ideal_consumerBIC => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode => 190
+	brq_statusmessage => Success
+	brq_test => true
+	brq_timestamp => 2014-01-23 13:04:58
+	brq_transaction_method => ideal
+	brq_transaction_type => C021
+	brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Entering buckaroo handling
+Second option defined
+PUSH
+Received postback for Buckaroo PUSH handler
+brq_amount => 25.00
+brq_currency => EUR
+brq_invoicenumber => 20140123000579
+brq_mutationtype => Collecting
+brq_service_ideal_consumerBIC => RABONL2U
+brq_service_ideal_consumerIBAN => NL44RABO0123456789
+brq_service_ideal_consumerIssuer => ING Bank 
+brq_service_ideal_consumerName => J. de Tèster
+brq_statuscode => 190
+brq_statusmessage => Success
+brq_test => true
+brq_timestamp => 2014-01-23 13:04:58
+brq_transaction_method => ideal
+brq_transaction_type => C021
+brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+BuckarooV3Response initialized
+2014-01-23 14:22:22
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature string: brq_amount=0.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 2d513f22ce22380009cd25de36e4bb8cbfae616a
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:25:12
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+GET Parameters:
+POST Parameters:
+	brq_amount => 25.00
+	brq_currency => EUR
+	brq_invoicenumber => 20140123000579
+	brq_mutationtype => Collecting
+	brq_service_ideal_consumerBIC => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode => 190
+	brq_statusmessage => Success
+	brq_test => true
+	brq_timestamp => 2014-01-23 13:04:58
+	brq_transaction_method => ideal
+	brq_transaction_type => C021
+	brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Entering buckaroo handling
+Second option defined
+PUSH
+Received postback for Buckaroo PUSH handler
+brq_amount => 25.00
+brq_currency => EUR
+brq_invoicenumber => 20140123000579
+brq_mutationtype => Collecting
+brq_service_ideal_consumerBIC => RABONL2U
+brq_service_ideal_consumerIBAN => NL44RABO0123456789
+brq_service_ideal_consumerIssuer => ING Bank 
+brq_service_ideal_consumerName => J. de Tèster
+brq_statuscode => 190
+brq_statusmessage => Success
+brq_test => true
+brq_timestamp => 2014-01-23 13:04:58
+brq_transaction_method => ideal
+brq_transaction_type => C021
+brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+BuckarooV3Response initialized
+2014-01-23 14:25:12
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature string: brq_amount=0.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 2d513f22ce22380009cd25de36e4bb8cbfae616a
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:25:20
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+GET Parameters:
+POST Parameters:
+	brq_amount => 25.00
+	brq_currency => EUR
+	brq_invoicenumber => 20140123000579
+	brq_mutationtype => Collecting
+	brq_service_ideal_consumerBIC => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode => 190
+	brq_statusmessage => Success
+	brq_test => true
+	brq_timestamp => 2014-01-23 13:04:58
+	brq_transaction_method => ideal
+	brq_transaction_type => C021
+	brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Entering buckaroo handling
+Second option defined
+PUSH
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+[Exception] Argument passed to BuckarooV3Base::setAmount should be an integer (price in cent), but received double
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:25:39
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+GET Parameters:
+POST Parameters:
+	brq_amount => 25.00
+	brq_currency => EUR
+	brq_invoicenumber => 20140123000579
+	brq_mutationtype => Collecting
+	brq_service_ideal_consumerBIC => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode => 190
+	brq_statusmessage => Success
+	brq_test => true
+	brq_timestamp => 2014-01-23 13:04:58
+	brq_transaction_method => ideal
+	brq_transaction_type => C021
+	brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Entering buckaroo handling
+Second option defined
+PUSH
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+BuckarooV3Response initialized
+2014-01-23 14:25:39
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 830235cd1c2d09ed7e61f78484bf0ef5bc4e1df8
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:31:22
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+GET Parameters:
+POST Parameters:
+	brq_amount => 25.00
+	brq_currency => EUR
+	brq_invoicenumber => 20140123000579
+	brq_mutationtype => Collecting
+	brq_service_ideal_consumerBIC => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode => 190
+	brq_statusmessage => Success
+	brq_test => true
+	brq_timestamp => 2014-01-23 13:04:58
+	brq_transaction_method => ideal
+	brq_transaction_type => C021
+	brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Entering buckaroo handling
+Second option defined
+PUSH
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+BuckarooV3Response initialized
+2014-01-23 14:31:22
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 830235cd1c2d09ed7e61f78484bf0ef5bc4e1df8
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:36:39
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+GET Parameters:
+POST Parameters:
+	brq_amount => 25.00
+	brq_currency => EUR
+	brq_invoicenumber => 20140123000579
+	brq_mutationtype => Collecting
+	brq_service_ideal_consumerBIC => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode => 190
+	brq_statusmessage => Success
+	brq_test => true
+	brq_timestamp => 2014-01-23 13:04:58
+	brq_transaction_method => ideal
+	brq_transaction_type => C021
+	brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Entering buckaroo handling
+Second option defined
+PUSH
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+BuckarooV3Response initialized
+2014-01-23 14:36:39
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 830235cd1c2d09ed7e61f78484bf0ef5bc4e1df8
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:36:59
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+GET Parameters:
+POST Parameters:
+	brq_amount => 25.00
+	brq_currency => EUR
+	brq_invoicenumber => 20140123000579
+	brq_mutationtype => Collecting
+	brq_service_ideal_consumerBIC => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode => 190
+	brq_statusmessage => Success
+	brq_test => true
+	brq_timestamp => 2014-01-23 13:04:58
+	brq_transaction_method => ideal
+	brq_transaction_type => C021
+	brq_transactions => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Entering buckaroo handling
+Second option defined
+PUSH
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+BuckarooV3Response initialized
+2014-01-23 14:36:59
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bankbrq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 4f0d85ea4be6e891834708da67469b9c886b1af3
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:37:53
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Entering buckaroo handling
+Second option defined
+PUSH
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:37:53
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bankbrq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 4f0d85ea4be6e891834708da67469b9c886b1af3
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:38:36
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:38:36
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bankbrq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 4f0d85ea4be6e891834708da67469b9c886b1af3
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:39:21
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:39:21
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Adding "brq_amount" to signature
+Adding "brq_currency" to signature
+Adding "brq_invoicenumber" to signature
+Adding "brq_mutationtype" to signature
+Adding "brq_service_ideal_consumerBIC" to signature
+Adding "brq_service_ideal_consumerIBAN" to signature
+Adding "brq_service_ideal_consumerIssuer" to signature
+Adding "brq_service_ideal_consumerName" to signature
+Adding "brq_statuscode" to signature
+Adding "brq_statusmessage" to signature
+Adding "brq_test" to signature
+Adding "brq_timestamp" to signature
+Adding "brq_transactions" to signature
+Adding "brq_transaction_method" to signature
+Adding "brq_transaction_type" to signature
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bankbrq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 4f0d85ea4be6e891834708da67469b9c886b1af3
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:40:08
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:40:08
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Adding "brq_amount=25.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_invoicenumber=20140123000579" to signature
+Adding "brq_mutationtype=Collecting" to signature
+Adding "brq_service_ideal_consumerBIC=RABONL2U" to signature
+Adding "brq_service_ideal_consumerIBAN=NL44RABO0123456789" to signature
+Adding "brq_service_ideal_consumerIssuer=ING Bank " to signature
+Adding "brq_service_ideal_consumerName=J. de Tèster" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statusmessage=Success" to signature
+Adding "brq_test=true" to signature
+Adding "brq_timestamp=2014-01-23 13:04:58" to signature
+Adding "brq_transactions=4CA1EF997A1A4891A51EA9877BA044BE" to signature
+Adding "brq_transaction_method=ideal" to signature
+Adding "brq_transaction_type=C021" to signature
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bankbrq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 4f0d85ea4be6e891834708da67469b9c886b1af3
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:43:04
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:43:04
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Adding "brq_amount=25.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_invoicenumber=20140123000579" to signature
+Adding "brq_mutationtype=Collecting" to signature
+Adding "brq_service_ideal_consumerBIC=RABONL2U" to signature
+Adding "brq_service_ideal_consumerIBAN=NL44RABO0123456789" to signature
+Adding "brq_service_ideal_consumerIssuer=ING Bank " to signature
+Adding "brq_service_ideal_consumerName=J. de Tèster" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statusmessage=Success" to signature
+Adding "brq_test=true" to signature
+Adding "brq_timestamp=2014-01-23 13:04:58" to signature
+Adding "brq_transactions=4CA1EF997A1A4891A51EA9877BA044BE" to signature
+Adding "brq_transaction_method=ideal" to signature
+Adding "brq_transaction_type=C021" to signature
+Signature string: brq_websitekey=JhNRiAjYJebrq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bankbrq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 50a02917215f28ffea966230f1dc0f9a4193a5c9
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:43:38
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:43:38
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Adding "brq_amount=25.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_invoicenumber=20140123000579" to signature
+Adding "brq_mutationtype=Collecting" to signature
+Adding "brq_service_ideal_consumerBIC=RABONL2U" to signature
+Adding "brq_service_ideal_consumerIBAN=NL44RABO0123456789" to signature
+Adding "brq_service_ideal_consumerIssuer=ING Bank " to signature
+Adding "brq_service_ideal_consumerName=J. de Tèster" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statusmessage=Success" to signature
+Adding "brq_test=true" to signature
+Adding "brq_timestamp=2014-01-23 13:04:58" to signature
+Adding "brq_transactions=4CA1EF997A1A4891A51EA9877BA044BE" to signature
+Adding "brq_transaction_method=ideal" to signature
+Adding "brq_transaction_type=C021" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bankbrq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C021brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 7d479ae4962c2b61fca639e888cacb3a48cf74fd
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:45:09
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:45:09
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Adding "brq_amount=25.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_invoicenumber=20140123000579" to signature
+Adding "brq_mutationtype=Collecting" to signature
+Adding "brq_service_ideal_consumerBIC=RABONL2U" to signature
+Adding "brq_service_ideal_consumerIBAN=NL44RABO0123456789" to signature
+Adding "brq_service_ideal_consumerIssuer=ING Bank " to signature
+Adding "brq_service_ideal_consumerName=J. de Tèster" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statusmessage=Success" to signature
+Adding "brq_test=true" to signature
+Adding "brq_timestamp=2014-01-23 13:04:58" to signature
+Adding "brq_transactions=4CA1EF997A1A4891A51EA9877BA044BE" to signature
+Adding "brq_transaction_method=ideal" to signature
+Adding "brq_transaction_type=C021" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C021brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 649320c4bf447f55d807f8f417bf212e517cc528
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:45:22
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:45:22
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Adding "brq_amount=25.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_invoicenumber=20140123000579" to signature
+Adding "brq_mutationtype=Collecting" to signature
+Adding "brq_service_ideal_consumerBIC=RABONL2U" to signature
+Adding "brq_service_ideal_consumerIBAN=NL44RABO0123456789" to signature
+Adding "brq_service_ideal_consumerIssuer=ING Bank " to signature
+Adding "brq_service_ideal_consumerName=J. de Tèster" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statusmessage=Success" to signature
+Adding "brq_test=true" to signature
+Adding "brq_timestamp=2014-01-23 13:04:58" to signature
+Adding "brq_transactions=4CA1EF997A1A4891A51EA9877BA044BE" to signature
+Adding "brq_transaction_method=ideal" to signature
+Adding "brq_transaction_type=C021" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C021brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 649320c4bf447f55d807f8f417bf212e517cc528
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:45:44
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:45:44
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Adding "brq_amount=25.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_invoicenumber=20140123000579" to signature
+Adding "brq_mutationtype=Collecting" to signature
+Adding "brq_service_ideal_consumerBIC=RABONL2U" to signature
+Adding "brq_service_ideal_consumerIBAN=NL44RABO0123456789" to signature
+Adding "brq_service_ideal_consumerIssuer=ING Bank " to signature
+Adding "brq_service_ideal_consumerName=J. de Tèster" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statusmessage=Success" to signature
+Adding "brq_test=true" to signature
+Adding "brq_timestamp=2014-01-23 13:04:58" to signature
+Adding "brq_transactions=4CA1EF997A1A4891A51EA9877BA044BE" to signature
+Adding "brq_transaction_method=ideal" to signature
+Adding "brq_transaction_type=C021" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C021brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 649320c4bf447f55d807f8f417bf212e517cc528
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:47:46
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:47:46
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Adding "brq_amount=25.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_invoicenumber=20140123000579" to signature
+Adding "brq_mutationtype=Collecting" to signature
+Adding "brq_service_ideal_consumerBIC=RABONL2U" to signature
+Adding "brq_service_ideal_consumerIBAN=NL44RABO0123456789" to signature
+Adding "brq_service_ideal_consumerIssuer=ING Bank " to signature
+Adding "brq_service_ideal_consumerName=J. de Tèster" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statusmessage=Success" to signature
+Adding "brq_test=true" to signature
+Adding "brq_timestamp=2014-01-23 13:04:58" to signature
+Adding "brq_transactions=4CA1EF997A1A4891A51EA9877BA044BE" to signature
+Adding "brq_transaction_method=ideal" to signature
+Adding "brq_transaction_type=C021" to signature
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Signature: 830235cd1c2d09ed7e61f78484bf0ef5bc4e1df8
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 830235cd1c2d09ed7e61f78484bf0ef5bc4e1df8
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+
+﻿New entry at 2014-01-23 14:48:23
+Initializing Payment API
+System called from faramir.omines.com [31.171.202.6]
+URL: http://paymentapi.pedulianak.org/buckaroo/push
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 579
+BuckarooV3Response initialized
+2014-01-23 14:48:23
+Received new payment response.
+Parameters received:
+	brq_amount                     => 25.00
+	brq_currency                   => EUR
+	brq_invoicenumber              => 20140123000579
+	brq_mutationtype               => Collecting
+	brq_service_ideal_consumerBIC  => RABONL2U
+	brq_service_ideal_consumerIBAN => NL44RABO0123456789
+	brq_service_ideal_consumerIssuer => ING Bank 
+	brq_service_ideal_consumerName => J. de Tèster
+	brq_statuscode                 => 190
+	brq_statusmessage              => Success
+	brq_test                       => true
+	brq_timestamp                  => 2014-01-23 13:04:58
+	brq_transaction_method         => ideal
+	brq_transaction_type           => C021
+	brq_transactions               => 4CA1EF997A1A4891A51EA9877BA044BE
+	brq_signature                  => 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Adding "brq_amount=25.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_invoicenumber=20140123000579" to signature
+Adding "brq_mutationtype=Collecting" to signature
+Adding "brq_service_ideal_consumerBIC=RABONL2U" to signature
+Adding "brq_service_ideal_consumerIBAN=NL44RABO0123456789" to signature
+Adding "brq_service_ideal_consumerIssuer=ING Bank " to signature
+Adding "brq_service_ideal_consumerName=J. de Tèster" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statusmessage=Success" to signature
+Adding "brq_test=true" to signature
+Adding "brq_timestamp=2014-01-23 13:04:58" to signature
+Adding "brq_transactions=4CA1EF997A1A4891A51EA9877BA044BE" to signature
+Adding "brq_transaction_method=ideal" to signature
+Adding "brq_transaction_type=C021" to signature
+Signature string: brq_amount=25.00brq_currency=EURbrq_invoicenumber=20140123000579brq_mutationtype=Collectingbrq_service_ideal_consumerBIC=RABONL2Ubrq_service_ideal_consumerIBAN=NL44RABO0123456789brq_service_ideal_consumerIssuer=ING Bank brq_service_ideal_consumerName=J. de Tèsterbrq_statuscode=190brq_statusmessage=Successbrq_test=truebrq_timestamp=2014-01-23 13:04:58brq_transactions=4CA1EF997A1A4891A51EA9877BA044BEbrq_transaction_method=idealbrq_transaction_type=C0215cef3e5cac74f355a9581b659b2a7d91
+Signature: 830235cd1c2d09ed7e61f78484bf0ef5bc4e1df8
+Transaction found via invoice, ID 579
+Signature received  : 5d63ddc338a953469a24ad429c12d3118d9a0e6b
+Signature calculated: 830235cd1c2d09ed7e61f78484bf0ef5bc4e1df8
+An error occurred during the transaction: BuckarooV3ValidationException
+	Transaction signature invalid
+[BuckarooV3ValidationException] Transaction signature invalid
+------------------------------------------------------------
+

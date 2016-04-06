@@ -1,0 +1,96 @@
+﻿New entry at 2014-03-12 06:02:29
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:11:09
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:12:50
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:20:19
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:30:49
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:30:57
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:33:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:35:27
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:49:07
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:53:11
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:55:48
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 583
+BuckarooV3Response initialized
+2014-03-12 06:55:48
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => MLE ADELAIDE CHOVEAU
+	brq_description                => Peduli Anak Foundation Invoice 20140128000583
+	brq_invoicenumber              => 20140128000583
+	brq_issuing_country            => FR
+	brq_mutationtype               => Processing
+	brq_payment                    => BCF58FDA54DB4B66862770DBA212BC0B
+	brq_SERVICE_visa_CardNumberEnding => 4199
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => C993
+	brq_statusmessage              => Technical failure
+	brq_test                       => false
+	brq_timestamp                  => 2014-03-12 06:53:23
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => 23D56C547F09403B98A1239654BDE5C1
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 19b6399b6c3268b00b7fc6a4d9067f1a37c07992
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=MLE ADELAIDE CHOVEAU" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140128000583" to signature
+Adding "brq_invoicenumber=20140128000583" to signature
+Adding "brq_issuing_country=FR" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=BCF58FDA54DB4B66862770DBA212BC0B" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=4199" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=C993" to signature
+Adding "brq_statusmessage=Technical failure" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-03-12 06:53:23" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=23D56C547F09403B98A1239654BDE5C1" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=MLE ADELAIDE CHOVEAUbrq_description=Peduli Anak Foundation Invoice 20140128000583brq_invoicenumber=20140128000583brq_issuing_country=FRbrq_mutationtype=Processingbrq_payment=BCF58FDA54DB4B66862770DBA212BC0Bbrq_SERVICE_visa_CardNumberEnding=4199brq_SERVICE_visa_Enrolled=Ybrq_statuscode=490brq_statuscode_detail=C993brq_statusmessage=Technical failurebrq_test=falsebrq_timestamp=2014-03-12 06:53:23brq_transaction_method=visabrq_transaction_type=V002brq_transactions=23D56C547F09403B98A1239654BDE5C1brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 19b6399b6c3268b00b7fc6a4d9067f1a37c07992
+Transaction found via invoice, ID 583
+Signature received  : 19b6399b6c3268b00b7fc6a4d9067f1a37c07992
+Signature calculated: 19b6399b6c3268b00b7fc6a4d9067f1a37c07992
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:57:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-12 06:59:04
+------------------------------------------------------------
+

@@ -1,0 +1,355 @@
+﻿New entry at 2014-08-21 04:00:29
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:01:11
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:02:21
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:06:08
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:08:51
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:10:30
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:10:30
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:12:39
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:15:56
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:15:57
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:19:09
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:19:37
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:19:53
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:20:23
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:23:04
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:23:09
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:23:28
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20120729000224brq_invoicenumber=20120729000224brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:23:56
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140728000727brq_invoicenumber=20140728000727brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140728000727brq_invoicenumber=20140728000727brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 4ae0d51e020454361b0def296b14e52aeed42efc
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:24:06
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:24:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:24:32
+Signature string: brq_amount=36.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140821000735brq_invoicenumber=20140821000735brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=36.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140821000735brq_invoicenumber=20140821000735brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 70ef06fa5d2e9effeccadfb10929d309c2f483a3
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:25:02
+Signature string: brq_amount=36.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140821000735brq_invoicenumber=20140821000735brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=36.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140821000735brq_invoicenumber=20140821000735brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 70ef06fa5d2e9effeccadfb10929d309c2f483a3
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:25:34
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:26:13
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:26:20
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:26:26
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:26:32
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:26:41
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:26:49
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:26:54
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:01
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:02
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:09
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:17
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:16
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:22
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:29
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:36
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:42
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:48
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:54
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:00
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:27:59
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:05
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:10
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:16
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:21
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:30
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:36
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:36
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:41
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:47
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:47
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:57
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:58
+Signature string: brq_amount=36.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140821000736brq_invoicenumber=20140821000736brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=36.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140821000736brq_invoicenumber=20140821000736brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 480736318247211cd1f82fe9645ece5c25d5c754
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:53
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:28:58
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:04
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:11
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:20
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:17
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:19
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:24
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:29
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:34
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:41
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:41
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:29:47
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:30:33
+Signature string: brq_amount=36.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140821000735brq_invoicenumber=20140821000735brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=36.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140821000735brq_invoicenumber=20140821000735brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=58brq_service_mastercard_action=paybrq_service_mastercard_customercode=58brq_service_visa_action=paybrq_service_visa_customercode=58brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 70ef06fa5d2e9effeccadfb10929d309c2f483a3
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:31:29
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:32:12
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:32:14
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:36:15
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:10
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:15
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:21
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:27
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:32
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:38
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:43
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:48
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:54
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:37:59
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:05
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:10
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:16
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:21
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:27
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:32
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:38
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:38
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:43
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:49
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:54
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:00
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:38:57
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:06
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:11
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:17
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:23
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:28
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:34
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:40
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:45
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:51
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:39:57
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:40:02
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:40:08
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:40:14
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:40:19
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:41:29
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:47:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-21 04:49:03
+------------------------------------------------------------
+

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PayMessage Channel="batch" VersionID="1.0">
+	<Control Language="EN" Test="FALSE">
+		<SenderSessionID>288</SenderSessionID>
+		<Date>2014-01-17</Date>
+		<Time>3:19:20</Time>
+		<MerchantID>JhNRiAjYJe</MerchantID>
+		<BatchID>288</BatchID>
+		<Signature>9f2d4e611b18d9801549bfe498174d3c</Signature>
+		<MessageID>BatchProcessingResponse</MessageID>
+	</Control>
+	<Content>
+		<BatchResult>
+			<BatchStatus>701</BatchStatus>
+			<BatchStatusDescription></BatchStatusDescription>
+			<BatchKey>58d7c4aeb48d6bb3eeb0dab8a5894a9e</BatchKey>
+			<AdditionalInfo></AdditionalInfo>
+		</BatchResult>
+		<Transaction>
+			<CustomerID>72</CustomerID>
+			<Invoice>20140117000577</Invoice>
+			<Amount Currency="EUR">3400</Amount>
+			<Description>Peduli Anak recurring donation. Transaction 20140117000577</Description>
+			<TransactionKey>CBD93DA886FB4C50A0A2EB48F2E40E9A</TransactionKey>
+			<ResponseStatus>100</ResponseStatus>
+			<ResponseStatusDescription>This transaction has been approved by the credit card issuer.</ResponseStatusDescription>
+			<AdditionalMessage></AdditionalMessage>
+		</Transaction>
+	</Content>
+</PayMessage>

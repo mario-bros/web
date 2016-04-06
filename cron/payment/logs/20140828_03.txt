@@ -1,0 +1,128 @@
+﻿New entry at 2014-08-28 03:05:32
+------------------------------------------------------------
+
+﻿New entry at 2014-08-28 03:15:07
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 738
+BuckarooV3Response initialized
+2014-08-28 03:15:07
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak recurring donation. Transaction 20140828000738
+	brq_invoicenumber              => 20140828000738
+	brq_mutationtype               => NotSet
+	brq_payment                    => B4D417D018EF4924A806FF005A3FCC6D
+	brq_recurring                  => True
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => S106
+	brq_statusmessage              => Invalid parameter: originaltransaction
+	brq_test                       => false
+	brq_timestamp                  => 2014-08-28 03:15:07
+	brq_transaction_method         => visa
+	brq_transactions               => 6160F36505AA453A9AB04DA62AD222DA
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 5c0a15e0687ca8f81f5aaedc390dc30e2875d682
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140828000738" to signature
+Adding "brq_invoicenumber=20140828000738" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_payment=B4D417D018EF4924A806FF005A3FCC6D" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=S106" to signature
+Adding "brq_statusmessage=Invalid parameter: originaltransaction" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-08-28 03:15:07" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transactions=6160F36505AA453A9AB04DA62AD222DA" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_description=Peduli Anak recurring donation. Transaction 20140828000738brq_invoicenumber=20140828000738brq_mutationtype=NotSetbrq_payment=B4D417D018EF4924A806FF005A3FCC6Dbrq_recurring=Truebrq_statuscode=490brq_statuscode_detail=S106brq_statusmessage=Invalid parameter: originaltransactionbrq_test=falsebrq_timestamp=2014-08-28 03:15:07brq_transaction_method=visabrq_transactions=6160F36505AA453A9AB04DA62AD222DAbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 5c0a15e0687ca8f81f5aaedc390dc30e2875d682
+Transaction found via invoice, ID 738
+Signature received  : 5c0a15e0687ca8f81f5aaedc390dc30e2875d682
+Signature calculated: 5c0a15e0687ca8f81f5aaedc390dc30e2875d682
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-08-28 03:15:12
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 739
+BuckarooV3Response initialized
+2014-08-28 03:15:12
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak recurring donation. Transaction 20140828000739
+	brq_invoicenumber              => 20140828000739
+	brq_mutationtype               => NotSet
+	brq_payment                    => 9E8D21D4D28146C2843DE4B466CFDD6F
+	brq_recurring                  => True
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => S106
+	brq_statusmessage              => Invalid parameter: originaltransaction
+	brq_test                       => false
+	brq_timestamp                  => 2014-08-28 03:15:12
+	brq_transaction_method         => visa
+	brq_transactions               => 9FB0B44CA1944DD1919CFAF3DEC95B1C
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 3ab008e20481fd1dfe6386515b7d24d2f1caff92
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140828000739" to signature
+Adding "brq_invoicenumber=20140828000739" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_payment=9E8D21D4D28146C2843DE4B466CFDD6F" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=S106" to signature
+Adding "brq_statusmessage=Invalid parameter: originaltransaction" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-08-28 03:15:12" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transactions=9FB0B44CA1944DD1919CFAF3DEC95B1C" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_description=Peduli Anak recurring donation. Transaction 20140828000739brq_invoicenumber=20140828000739brq_mutationtype=NotSetbrq_payment=9E8D21D4D28146C2843DE4B466CFDD6Fbrq_recurring=Truebrq_statuscode=490brq_statuscode_detail=S106brq_statusmessage=Invalid parameter: originaltransactionbrq_test=falsebrq_timestamp=2014-08-28 03:15:12brq_transaction_method=visabrq_transactions=9FB0B44CA1944DD1919CFAF3DEC95B1Cbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 3ab008e20481fd1dfe6386515b7d24d2f1caff92
+Transaction found via invoice, ID 739
+Signature received  : 3ab008e20481fd1dfe6386515b7d24d2f1caff92
+Signature calculated: 3ab008e20481fd1dfe6386515b7d24d2f1caff92
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-08-28 03:17:37
+------------------------------------------------------------
+
+﻿New entry at 2014-08-28 03:17:51
+------------------------------------------------------------
+
+﻿New entry at 2014-08-28 03:26:19
+------------------------------------------------------------
+
+﻿New entry at 2014-08-28 03:33:44
+------------------------------------------------------------
+
+﻿New entry at 2014-08-28 03:39:01
+------------------------------------------------------------
+
+﻿New entry at 2014-08-28 03:41:54
+------------------------------------------------------------
+
+﻿New entry at 2014-08-28 03:46:38
+------------------------------------------------------------
+

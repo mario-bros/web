@@ -1,0 +1,83 @@
+﻿New entry at 2014-04-20 01:17:09
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:26:19
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:29:30
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:32:26
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:32:26
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:40:45
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 656
+BuckarooV3Response initialized
+2014-04-20 01:40:45
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak Foundation Invoice 20140419000656
+	brq_invoicenumber              => 20140419000656
+	brq_mutationtype               => NotSet
+	brq_statuscode                 => 490
+	brq_statusmessage              => Failed
+	brq_test                       => false
+	brq_timestamp                  => 2014-04-20 01:40:06
+	brq_transactions               => 615D32297CAD492E8D22AFC270C01A64
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 9551d44658ae107b5dafdfe21a2b9dee39471365
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140419000656" to signature
+Adding "brq_invoicenumber=20140419000656" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statusmessage=Failed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-04-20 01:40:06" to signature
+Adding "brq_transactions=615D32297CAD492E8D22AFC270C01A64" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140419000656brq_invoicenumber=20140419000656brq_mutationtype=NotSetbrq_statuscode=490brq_statusmessage=Failedbrq_test=falsebrq_timestamp=2014-04-20 01:40:06brq_transactions=615D32297CAD492E8D22AFC270C01A64brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 9551d44658ae107b5dafdfe21a2b9dee39471365
+Transaction found via invoice, ID 656
+Signature received  : 9551d44658ae107b5dafdfe21a2b9dee39471365
+Signature calculated: 9551d44658ae107b5dafdfe21a2b9dee39471365
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:40:48
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:40:49
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:42:08
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:45:48
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:45:57
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:48:25
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:55:58
+------------------------------------------------------------
+
+﻿New entry at 2014-04-20 01:57:00
+------------------------------------------------------------
+

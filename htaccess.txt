@@ -1,0 +1,16 @@
+AddDefaultCharset UTF-8
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+#    php_value memory_limit 64M
+    php_value memory_limit 512M
+#    php_value max_execution_time 18000
+php_value default_charset UTF-8

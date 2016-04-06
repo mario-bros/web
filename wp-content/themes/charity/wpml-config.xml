@@ -1,0 +1,98 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">charity-causes</custom-type>
+        <custom-type translate="1">charity-gallery</custom-type>
+        <custom-type translate="1">charity-portfolio</custom-type>
+        <custom-type translate="1">charity-our-works</custom-type>
+        <custom-type translate="1">charity_our_mission</custom-type>
+        <custom-type translate="1">charity_help</custom-type>
+        <custom-type translate="1">charity_faq</custom-type>
+        <custom-type translate="1">testimonial</custom-type>
+    </custom-types>   
+    <taxonomies>
+        <taxonomy translate="1">causes-category</taxonomy>
+        <taxonomy translate="1">causes-location</taxonomy>
+        <taxonomy translate="1">gallery-type</taxonomy>
+        <taxonomy translate="1">portfolio-type</taxonomy>
+    </taxonomies>     
+    <custom-fields>
+        <custom-field action="translate">gallery_meta</custom-field>
+        <custom-field action="translate">video_meta</custom-field>
+        <custom-field action="translate">audio_meta</custom-field>
+        <custom-field action="translate">quote_meta</custom-field>
+        <custom-field action="translate">breadcrumb</custom-field>
+        <custom-field action="translate">slide_template</custom-field>
+        <custom-field action="translate">our_story</custom-field>
+        <custom-field action="translate">our_story_text</custom-field>
+        <custom-field action="translate">volunteer</custom-field>
+    </custom-fields>    
+    <admin-texts>
+        <key name="vpt_option">
+            <key name="theme_color" />
+            <key name="theme_fonts" />
+            <key name="sticky_header" />
+            <key name="page_layout" />
+            <key name="become_volunteer_btn_text" />
+            <key name="welcome_tag_line" />
+            <key name="info_mail_id" />
+            <key name="copy_right" />
+            <key name="reserve_textarea_error" />
+            <key name="header_layout" />
+            <key name="footer_layout" />
+            <key name="charity_home_1_select" />
+            <key name="charity_home_2_select" />
+            <key name="charity_home_3_select" />
+            <key name="charity_home_shoplanding" />
+            <key name="home_layout" />
+            <key name="charity-gallery-layout" />
+            <key name="charity-causes-single-layout" />
+            <key name="charity_global_donation_cause_id" />
+            <key name="charity_urgent_cause_id" />
+            <key name="charity-facebook" />
+            <key name="charity-twitter" />
+            <key name="charity-google-plus" />
+            <key name="charity-linkedin" />
+            <key name="charity-vimeo-square" />
+            <key name="coming_soon_date" />
+            <key name="coming_soon_newsletter" />
+            <key name="coming_soon_mode" />
+            <key name="coming_soon_page" />
+            <key name="coming_soon_copyright_text" />
+        </key> 
+    </admin-texts>  
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_language_switcher_sidebar">0</key>
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>
+    </language-switcher-settings>     
+</wpml-config>

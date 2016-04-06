@@ -1,0 +1,158 @@
+/**
+ * Charity
+ * @package charity
+ * @version     v.1.0
+ *
+ */
+
+/*Theme Option Panel*/
+#vp-logo.vp-logo {
+	background-color: #b0b0b0;
+}
+
+#vp-copyright {
+	display: none;
+}
+
+/*Media Image */
+.ad-iu-wrapper {
+	position: relative;
+}
+
+.ad-iu-url {
+	height: 35px;
+	width: 85%;
+}
+
+.ad-iu-image-wrapper {
+	position: absolute;
+	left: 35em;
+	top: -40px;
+	background-color: #bbb;
+	padding: 5px 5px 2px 5px;
+}
+
+.ad-iu-btn {
+	background: none repeat scroll 0 0 #f7f7f7;
+	border-color: #ccc;
+	box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+	color: #555;
+	vertical-align: top;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	height: 36px;
+	line-height: 35px;
+	margin: 0;
+	padding: 0 10px 1px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.ad-iu-image {
+	max-height: 120px;
+	max-width: 120px;
+}
+
+.ad-iu-remove {
+	display: block;
+	/*font-size: 20px;*/
+	/*height: 32px;*/
+	left: 0px;
+	position: absolute;
+	top: 0;
+	/*width: 40px;*/
+	cursor: pointer;
+	color: #fff;
+	background-color: #ff0000;
+	font-weight: bold;
+	padding: 0px 5px;
+}
+/*.mce-panel.mce-menu{
+ z-index: 999999 !important ;
+ }*/
+#vp-wrap #header_layout label,#vp-wrap #footer_layout label {
+	display: block !important;
+}
+
+#vp-wrap #header_layout label img,#vp-wrap #footer_layout label img {
+	width: 100% !important;
+	max-width: 100% !important;
+	height: 90px !important;
+}
+
+#vp-wrap #reserve_textarea_error {
+	display: none !important;
+}
+
+/*Coming Soon Mode*/
+#wp-toolbar li.charity-coming-soon-mode a {
+	background: none repeat scroll 0 0 red;
+	font-size: 18px !important;;
+	font-weight: bold !important;
+}
+/*--- ThemeOption Img ----*/
+.vp-wrap #header_layout.vp-field,.vp-wrap #header_layout.vp-field .label,.vp-wrap #header_layout.vp-field .field,.vp-wrap #footer_layout.vp-field,.vp-wrap #footer_layout.vp-field .label,.vp-wrap #footer_layout.vp-field .field
+	{
+	display: block;
+}
+.vp-wrap #header_layout.vp-field .label,.vp-wrap #header_layout.vp-field .field,.vp-wrap #footer_layout.vp-field .label,.vp-wrap #footer_layout.vp-field .field{
+	width: 100%;
+}
+
+#vp-wrap #footer_layout label img{
+	height: 200px !important;
+}
+.vp-wrap #home_layout.vp-field,.vp-wrap #home_layout.vp-field .label,.vp-wrap #home_layout.vp-field .field
+,.vp-wrap #charity-gallery-layout.vp-field,.vp-wrap #charity-gallery-layout.vp-field .label,.vp-wrap #charity-gallery-layout.vp-field .field
+,.vp-wrap #charity-causes-single-layout.vp-field,.vp-wrap #charity-causes-single-layout.vp-field .label,.vp-wrap #charity-causes-single-layout.vp-field .field{
+	display: block;
+}
+.vp-wrap #home_layout.vp-field .label,.vp-wrap #home_layout.vp-field .field,
+.vp-wrap #charity-gallery-layout.vp-field .label,.vp-wrap #charity-gallery-layout.vp-field .field
+,.vp-wrap #charity-causes-single-layout.vp-field .label,.vp-wrap #charity-causes-single-layout.vp-field .field{
+	width: 100%;
+}
+.vp-wrap #home_layout.vp-radioimage .field label{
+	width: 31%;
+}
+.vp-wrap #home_layout.vp-radioimage .field img{
+	height: auto;
+    max-height: 500px;
+    max-width: 100%;
+    min-height: 16px;
+    min-width: 16px;
+    width: 100%;
+}
+.vp-wrap #charity-gallery-layout.vp-radioimage .field label,.vp-wrap #charity-causes-single-layout.vp-radioimage .field label{
+	width: 48%;
+}
+.vp-wrap #charity-gallery-layout.vp-radioimage .field img,.vp-wrap #charity-causes-single-layout.vp-radioimage .field img{
+	height: auto;
+    max-height: 500px;
+    max-width: 100%;
+    min-height: 16px;
+    min-width: 16px;
+    width: 100%;
+}
+
+
+.vp-wrap .vp-upload .field .buttons,.vp-metabox .vp-upload .buttons{
+    right: -5px !important;
+}
+.vp-wrap .vp-option-panel .vp-button,.vp-metabox .vp-upload .buttons .vp-button{
+	height: 33px !important;
+}
+#home_layout .field .input label span{
+	margin-bottom: 7px;
+	display: block;
+}
+
+.vc_el-container .vc_element-icon.icon-charity{
+	background: url(../img/theemon-visual-icon.png) 0 0 no-repeat !important ;
+	background-size: 26px 26px;
+}

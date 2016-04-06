@@ -1,0 +1,214 @@
+﻿New entry at 2014-10-01 08:01:34
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:01:35
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:01:37
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:02:48
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:02:55
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:03:17
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:19:43
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:20:06
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:24:32
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:24:39
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:27:10
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:28:17
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:28:26
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:29:09
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:29:09
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:29:55
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:30:12
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:30:13
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141001000753brq_invoicenumber=20141001000753brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=187brq_service_mastercard_action=paybrq_service_mastercard_customercode=187brq_service_visa_action=paybrq_service_visa_customercode=187brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141001000753brq_invoicenumber=20141001000753brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=187brq_service_mastercard_action=paybrq_service_mastercard_customercode=187brq_service_visa_action=paybrq_service_visa_customercode=187brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 2f6426ca8ad90f60f50d0e61bb6f1df5bba26ae5
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:33:32
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:33:45
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:34:06
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:34:19
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:34:19
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141001000754brq_invoicenumber=20141001000754brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=187brq_service_mastercard_action=paybrq_service_mastercard_customercode=187brq_service_visa_action=paybrq_service_visa_customercode=187brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141001000754brq_invoicenumber=20141001000754brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=187brq_service_mastercard_action=paybrq_service_mastercard_customercode=187brq_service_visa_action=paybrq_service_visa_customercode=187brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: d4c3cf21750f3e3b51bd941824e07e16b6412de6
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:34:33
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:34:42
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141001000754brq_invoicenumber=20141001000754brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=187brq_service_mastercard_action=paybrq_service_mastercard_customercode=187brq_service_visa_action=paybrq_service_visa_customercode=187brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20141001000754brq_invoicenumber=20141001000754brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=187brq_service_mastercard_action=paybrq_service_mastercard_customercode=187brq_service_visa_action=paybrq_service_visa_customercode=187brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: d4c3cf21750f3e3b51bd941824e07e16b6412de6
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:35:31
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:38:45
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:40:29
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:40:45
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 754
+BuckarooV3Response initialized
+2014-10-01 08:40:45
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => margaux chambon
+	brq_description                => Peduli Anak Foundation Invoice 20141001000754
+	brq_invoicenumber              => 20141001000754
+	brq_issuing_country            => FR
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => 223c97efcf5bf6d3227cbfc050a720d816f803fd3f6bbf5b2ff81d1bcb8ea02695d483b2e60d95dc1fd0170bca15b47070bd1eb8a9392292e1461dfda8b35e4b
+	brq_payment                    => 75F09074DC0747759A6A906482C5E7D6
+	brq_SERVICE_visa_CardExpirationDate => 2016-10
+	brq_SERVICE_visa_CardNumberEnding => 3277
+	brq_startRecurrent             => True
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => C993
+	brq_statusmessage              => Technical failure
+	brq_test                       => false
+	brq_timestamp                  => 2014-10-01 10:40:45
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => EE99C2E52F0643AB9D97C123C2210F4C
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 03b48c0c58cd0bb17ddc1469ae3a385700131ede
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=margaux chambon" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20141001000754" to signature
+Adding "brq_invoicenumber=20141001000754" to signature
+Adding "brq_issuing_country=FR" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=223c97efcf5bf6d3227cbfc050a720d816f803fd3f6bbf5b2ff81d1bcb8ea02695d483b2e60d95dc1fd0170bca15b47070bd1eb8a9392292e1461dfda8b35e4b" to signature
+Adding "brq_payment=75F09074DC0747759A6A906482C5E7D6" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2016-10" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=3277" to signature
+Adding "brq_startRecurrent=True" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=C993" to signature
+Adding "brq_statusmessage=Technical failure" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-10-01 10:40:45" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=EE99C2E52F0643AB9D97C123C2210F4C" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=margaux chambonbrq_description=Peduli Anak Foundation Invoice 20141001000754brq_invoicenumber=20141001000754brq_issuing_country=FRbrq_mutationtype=Processingbrq_payer_hash=223c97efcf5bf6d3227cbfc050a720d816f803fd3f6bbf5b2ff81d1bcb8ea02695d483b2e60d95dc1fd0170bca15b47070bd1eb8a9392292e1461dfda8b35e4bbrq_payment=75F09074DC0747759A6A906482C5E7D6brq_SERVICE_visa_CardExpirationDate=2016-10brq_SERVICE_visa_CardNumberEnding=3277brq_startRecurrent=Truebrq_statuscode=490brq_statuscode_detail=C993brq_statusmessage=Technical failurebrq_test=falsebrq_timestamp=2014-10-01 10:40:45brq_transaction_method=visabrq_transaction_type=V002brq_transactions=EE99C2E52F0643AB9D97C123C2210F4Cbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 03b48c0c58cd0bb17ddc1469ae3a385700131ede
+Transaction found via invoice, ID 754
+Signature received  : 03b48c0c58cd0bb17ddc1469ae3a385700131ede
+Signature calculated: 03b48c0c58cd0bb17ddc1469ae3a385700131ede
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:41:21
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:41:25
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:41:28
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:41:31
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:43:08
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:43:22
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:43:54
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:44:11
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:45:09
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:45:18
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:45:22
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:45:59
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:47:45
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:49:28
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:50:04
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:50:44
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:51:07
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:51:15
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 08:51:22
+------------------------------------------------------------
+

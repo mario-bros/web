@@ -1,0 +1,1 @@
+[{"easypay_strip_enable":"true","easypay_strip_description":"Pay using Stripe, if you have a Stripe account","easypay_strip_title":"Stripe","easypay_private_key":"pk_test_y4Ot3N4ZDWL6jb2xH8nHABEp","easypay_secret_key":"sk_test_bajvh4G8hxAwfjOsJZG36uSt","easypay_strip_verifySSL":"true","easypay_strip_pay_mod":"https:\/\/www.sandbox.paypal.com\/cgi-bin\/webscr"}]

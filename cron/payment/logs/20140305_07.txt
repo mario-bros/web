@@ -1,0 +1,117 @@
+﻿New entry at 2014-03-05 07:00:55
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:02:16
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:03:08
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:04:53
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:11:49
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:12:32
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:13:15
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:13:59
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:17:26
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:21:12
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 611
+BuckarooV3Response initialized
+2014-03-05 07:21:12
+Received new payment response.
+Parameters received:
+	brq_amount                     => 96.00
+	brq_currency                   => EUR
+	brq_customer_name              => Bjørg Janne Holter
+	brq_description                => Peduli Anak Foundation Invoice 20140305000611
+	brq_invoicenumber              => 20140305000611
+	brq_issuing_country            => NO
+	brq_mutationtype               => Processing
+	brq_payment                    => 400081A04A824E1F9C98F7CFB9BB118E
+	brq_SERVICE_visa_CardNumberEnding => 5887
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => C993
+	brq_statusmessage              => Technical failure
+	brq_test                       => false
+	brq_timestamp                  => 2014-03-05 06:51:43
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => F8B7ECD1E74F4EDCB6D46C7F12B2B1BC
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => d0248a93f74fc8500bcada593ed74dd76add25f1
+Adding "brq_amount=96.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Bjørg Janne Holter" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140305000611" to signature
+Adding "brq_invoicenumber=20140305000611" to signature
+Adding "brq_issuing_country=NO" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=400081A04A824E1F9C98F7CFB9BB118E" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=5887" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=C993" to signature
+Adding "brq_statusmessage=Technical failure" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-03-05 06:51:43" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=F8B7ECD1E74F4EDCB6D46C7F12B2B1BC" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=96.00brq_currency=EURbrq_customer_name=Bjørg Janne Holterbrq_description=Peduli Anak Foundation Invoice 20140305000611brq_invoicenumber=20140305000611brq_issuing_country=NObrq_mutationtype=Processingbrq_payment=400081A04A824E1F9C98F7CFB9BB118Ebrq_SERVICE_visa_CardNumberEnding=5887brq_SERVICE_visa_Enrolled=Ybrq_statuscode=490brq_statuscode_detail=C993brq_statusmessage=Technical failurebrq_test=falsebrq_timestamp=2014-03-05 06:51:43brq_transaction_method=visabrq_transaction_type=V002brq_transactions=F8B7ECD1E74F4EDCB6D46C7F12B2B1BCbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: d0248a93f74fc8500bcada593ed74dd76add25f1
+Transaction found via invoice, ID 611
+Signature received  : d0248a93f74fc8500bcada593ed74dd76add25f1
+Signature calculated: d0248a93f74fc8500bcada593ed74dd76add25f1
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:24:42
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:24:45
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:36:27
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:46:20
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:46:39
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:47:24
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:48:28
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:48:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:54:30
+------------------------------------------------------------
+
+﻿New entry at 2014-03-05 07:57:57
+------------------------------------------------------------
+

@@ -1,0 +1,114 @@
+﻿New entry at 2014-03-14 12:00:15
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:01:25
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:01:55
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:02:08
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:02:09
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:03:27
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:03:37
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:05:00
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:05:36
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:06:05
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:06:34
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:06:41
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:07:26
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:08:47
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:09:02
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:09:03
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:09:24
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:09:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:09:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:09:44
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:09:48
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:09:49
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:09:50
+Signature string: brq_amount=136.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140314000616brq_invoicenumber=20140314000616brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=176brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=176brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=176brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=136.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140314000616brq_invoicenumber=20140314000616brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=176brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=176brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=176brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 352a525278d8a321b0939be5516ef1ac26347527
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:10:06
+Signature string: brq_amount=136.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140314000616brq_invoicenumber=20140314000616brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=176brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=176brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=176brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=136.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140314000616brq_invoicenumber=20140314000616brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=176brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=176brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=176brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 352a525278d8a321b0939be5516ef1ac26347527
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:12:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:14:56
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:15:29
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:28:36
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:29:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:31:08
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:33:33
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:45:08
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:48:47
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:52:28
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:54:15
+------------------------------------------------------------
+
+﻿New entry at 2014-03-14 12:55:57
+------------------------------------------------------------
+

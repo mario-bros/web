@@ -1,0 +1,126 @@
+﻿New entry at 2014-09-21 13:01:21
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 748
+BuckarooV3Response initialized
+2014-09-21 13:01:21
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => Sabrina Schmieder
+	brq_description                => Peduli Anak Foundation Invoice 20140921000748
+	brq_invoicenumber              => 20140921000748
+	brq_issuing_country            => DE
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => 6e566d1b78b96982d0fc6ab861fd08a19e0ad7f2f0f6bf5e11f9559a094daf75ae1be4174b783145ddaab1266696e21bc0f01725514c6b6bb2208a6ad158901c
+	brq_payment                    => CECC61209ED342ACA03BE05B949E627E
+	brq_SERVICE_visa_Authentication => Y
+	brq_SERVICE_visa_CardExpirationDate => 2018-04
+	brq_SERVICE_visa_CardNumberEnding => 1689
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_startRecurrent             => True
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-09-21 15:01:21
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => F6081071A1884F8F804D66D8BBA189BC
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 708c973581cb91b53877d17d883b2ec57abe4bfd
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Sabrina Schmieder" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140921000748" to signature
+Adding "brq_invoicenumber=20140921000748" to signature
+Adding "brq_issuing_country=DE" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=6e566d1b78b96982d0fc6ab861fd08a19e0ad7f2f0f6bf5e11f9559a094daf75ae1be4174b783145ddaab1266696e21bc0f01725514c6b6bb2208a6ad158901c" to signature
+Adding "brq_payment=CECC61209ED342ACA03BE05B949E627E" to signature
+Adding "brq_SERVICE_visa_Authentication=Y" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2018-04" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=1689" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_startRecurrent=True" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-09-21 15:01:21" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=F6081071A1884F8F804D66D8BBA189BC" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=Sabrina Schmiederbrq_description=Peduli Anak Foundation Invoice 20140921000748brq_invoicenumber=20140921000748brq_issuing_country=DEbrq_mutationtype=Processingbrq_payer_hash=6e566d1b78b96982d0fc6ab861fd08a19e0ad7f2f0f6bf5e11f9559a094daf75ae1be4174b783145ddaab1266696e21bc0f01725514c6b6bb2208a6ad158901cbrq_payment=CECC61209ED342ACA03BE05B949E627Ebrq_SERVICE_visa_Authentication=Ybrq_SERVICE_visa_CardExpirationDate=2018-04brq_SERVICE_visa_CardNumberEnding=1689brq_SERVICE_visa_Enrolled=Ybrq_startRecurrent=Truebrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-09-21 15:01:21brq_transaction_method=visabrq_transaction_type=V002brq_transactions=F6081071A1884F8F804D66D8BBA189BCbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 708c973581cb91b53877d17d883b2ec57abe4bfd
+Transaction found via invoice, ID 748
+Signature received  : 708c973581cb91b53877d17d883b2ec57abe4bfd
+Signature calculated: 708c973581cb91b53877d17d883b2ec57abe4bfd
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 802
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:02:15
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:02:31
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:03:16
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:03:35
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:10:00
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:09:59
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:13:26
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:23:08
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:23:09
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:23:36
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:36:45
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:41:09
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:43:26
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:50:38
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:52:04
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:52:06
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:58:43
+------------------------------------------------------------
+
+﻿New entry at 2014-09-21 13:59:32
+------------------------------------------------------------
+

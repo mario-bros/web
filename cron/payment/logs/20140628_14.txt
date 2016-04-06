@@ -1,0 +1,214 @@
+﻿New entry at 2014-06-28 14:05:54
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:07:15
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:16:43
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:16:44
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:16:47
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:24:21
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:24:28
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140628000711brq_invoicenumber=20140628000711brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=181brq_service_mastercard_action=paybrq_service_mastercard_customercode=181brq_service_visa_action=paybrq_service_visa_customercode=181brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140628000711brq_invoicenumber=20140628000711brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=181brq_service_mastercard_action=paybrq_service_mastercard_customercode=181brq_service_visa_action=paybrq_service_visa_customercode=181brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 04ab75ee49e2027f86200c53f9b791dc3191f10d
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:26:02
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:26:29
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 711
+BuckarooV3Response initialized
+2014-06-28 14:26:29
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => Natalia Tjoe
+	brq_description                => Peduli Anak Foundation Invoice 20140628000711
+	brq_invoicenumber              => 20140628000711
+	brq_issuing_country            => SG
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => 0fc84f5eb073d86cec32a7d4d438b4abda43d1c1594d53b8f67f18868adf2ad84c37c33df9eb468fc7eace6c9b35d59860c4f4cc7d18713154540bec01aac12e
+	brq_payment                    => 8B2747FA1D1249A59A5B7D3ADD861898
+	brq_SERVICE_visa_Authentication => Y
+	brq_SERVICE_visa_CardExpirationDate => 2019-05
+	brq_SERVICE_visa_CardNumberEnding => 2470
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_startRecurrent             => True
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-06-28 14:26:29
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => 13FDBB4554D541C5AB447E76393D8E0E
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 556cb33388ebaf0b5ae3f33bc129d5d10a245031
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Natalia Tjoe" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140628000711" to signature
+Adding "brq_invoicenumber=20140628000711" to signature
+Adding "brq_issuing_country=SG" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=0fc84f5eb073d86cec32a7d4d438b4abda43d1c1594d53b8f67f18868adf2ad84c37c33df9eb468fc7eace6c9b35d59860c4f4cc7d18713154540bec01aac12e" to signature
+Adding "brq_payment=8B2747FA1D1249A59A5B7D3ADD861898" to signature
+Adding "brq_SERVICE_visa_Authentication=Y" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2019-05" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=2470" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_startRecurrent=True" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-06-28 14:26:29" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=13FDBB4554D541C5AB447E76393D8E0E" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=Natalia Tjoebrq_description=Peduli Anak Foundation Invoice 20140628000711brq_invoicenumber=20140628000711brq_issuing_country=SGbrq_mutationtype=Processingbrq_payer_hash=0fc84f5eb073d86cec32a7d4d438b4abda43d1c1594d53b8f67f18868adf2ad84c37c33df9eb468fc7eace6c9b35d59860c4f4cc7d18713154540bec01aac12ebrq_payment=8B2747FA1D1249A59A5B7D3ADD861898brq_SERVICE_visa_Authentication=Ybrq_SERVICE_visa_CardExpirationDate=2019-05brq_SERVICE_visa_CardNumberEnding=2470brq_SERVICE_visa_Enrolled=Ybrq_startRecurrent=Truebrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-06-28 14:26:29brq_transaction_method=visabrq_transaction_type=V002brq_transactions=13FDBB4554D541C5AB447E76393D8E0Ebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 556cb33388ebaf0b5ae3f33bc129d5d10a245031
+Transaction found via invoice, ID 711
+Signature received  : 556cb33388ebaf0b5ae3f33bc129d5d10a245031
+Signature calculated: 556cb33388ebaf0b5ae3f33bc129d5d10a245031
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 761
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:26:43
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:26:56
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:28:18
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:28:29
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:28:45
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:28:49
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:29:42
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:30:45
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:30:50
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140628000711brq_invoicenumber=20140628000711brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=181brq_service_mastercard_action=paybrq_service_mastercard_customercode=181brq_service_visa_action=paybrq_service_visa_customercode=181brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:33:56
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:34:29
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:34:56
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:35:01
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:35:16
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:36:05
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:36:40
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:37:06
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:37:20
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:38:21
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:44:07
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:44:29
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:45:23
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:45:37
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:46:10
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:48:40
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:48:53
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:48:53
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:49:00
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:49:05
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:49:12
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:49:34
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:49:34
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:49:43
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:49:54
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:50:36
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:51:00
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:52:03
+------------------------------------------------------------
+
+﻿New entry at 2014-06-28 14:52:57
+------------------------------------------------------------
+

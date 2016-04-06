@@ -1,0 +1,235 @@
+﻿New entry at 2014-03-17 14:03:37
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:03:41
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:05:27
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:05:27
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140317000617brq_invoicenumber=20140317000617brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=177brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=177brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=177brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140317000617brq_invoicenumber=20140317000617brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=177brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=177brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=177brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: ad5aa971fb444a5863affa66045917a0d496e44d
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:09:04
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 617
+BuckarooV3Response initialized
+2014-03-17 14:09:04
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => Tania Soon-Hee Brask
+	brq_description                => Peduli Anak Foundation Invoice 20140317000617
+	brq_invoicenumber              => 20140317000617
+	brq_issuing_country            => DK
+	brq_mutationtype               => Processing
+	brq_payment                    => 13E06DA64FA146368C8F9A412B87A83E
+	brq_SERVICE_visa_Authentication => Y
+	brq_SERVICE_visa_CardNumberEnding => 6849
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Payment successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-03-17 14:09:03
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => B7B149E6360C407AA5B0B582FD605564
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 0b5c2ee376f255a0c1cd13661d55cea2bb1a57c4
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Tania Soon-Hee Brask" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140317000617" to signature
+Adding "brq_invoicenumber=20140317000617" to signature
+Adding "brq_issuing_country=DK" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=13E06DA64FA146368C8F9A412B87A83E" to signature
+Adding "brq_SERVICE_visa_Authentication=Y" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=6849" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Payment successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-03-17 14:09:03" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=B7B149E6360C407AA5B0B582FD605564" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=Tania Soon-Hee Braskbrq_description=Peduli Anak Foundation Invoice 20140317000617brq_invoicenumber=20140317000617brq_issuing_country=DKbrq_mutationtype=Processingbrq_payment=13E06DA64FA146368C8F9A412B87A83Ebrq_SERVICE_visa_Authentication=Ybrq_SERVICE_visa_CardNumberEnding=6849brq_SERVICE_visa_Enrolled=Ybrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Payment successfully processedbrq_test=falsebrq_timestamp=2014-03-17 14:09:03brq_transaction_method=visabrq_transaction_type=V002brq_transactions=B7B149E6360C407AA5B0B582FD605564brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 0b5c2ee376f255a0c1cd13661d55cea2bb1a57c4
+Transaction found via invoice, ID 617
+Signature received  : 0b5c2ee376f255a0c1cd13661d55cea2bb1a57c4
+Signature calculated: 0b5c2ee376f255a0c1cd13661d55cea2bb1a57c4
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 659
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:09:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:09:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:09:29
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:09:43
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:11:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:11:52
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:12:00
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:12:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:12:46
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:13:12
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:14:28
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:14:42
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:16:43
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:16:51
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:16:51
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:17:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:17:07
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:18:32
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:18:36
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140317000617brq_invoicenumber=20140317000617brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=177brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=177brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=177brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:19:01
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:19:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:19:24
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:20:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:20:29
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:20:46
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:24:59
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:26:59
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:27:07
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:28:44
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:29:12
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:29:14
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:35:50
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:37:03
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:38:06
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:46:06
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:46:06
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:46:56
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:50:26
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:50:27
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:51:26
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:51:32
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:52:20
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:54:00
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:54:13
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:54:18
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:54:28
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:55:31
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:59:22
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:59:24
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:59:54
+------------------------------------------------------------
+
+﻿New entry at 2014-03-17 14:59:59
+------------------------------------------------------------
+

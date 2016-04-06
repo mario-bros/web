@@ -1,0 +1,96 @@
+﻿New entry at 2014-08-29 09:08:00
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:12:02
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:19:43
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:26:55
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:27:49
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:30:29
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:31:37
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:31:39
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:34:27
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:40:15
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:42:42
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:44:22
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:45:50
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:50:42
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:56:56
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:57:00
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:57:12
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:57:19
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:57:25
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:57:25
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:57:33
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:57:49
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:57:49
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:58:33
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:58:33
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:58:51
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:58:56
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:59:12
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000697brq_invoicenumber=20140611000697brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=148brq_service_mastercard_action=paybrq_service_mastercard_customercode=148brq_service_visa_action=paybrq_service_visa_customercode=148brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140611000697brq_invoicenumber=20140611000697brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=148brq_service_mastercard_action=paybrq_service_mastercard_customercode=148brq_service_visa_action=paybrq_service_visa_customercode=148brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: d7fea55eda4fda1c88dea024d7ddfe935ba5ffdc
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:59:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:59:31
+------------------------------------------------------------
+
+﻿New entry at 2014-08-29 09:59:38
+------------------------------------------------------------
+

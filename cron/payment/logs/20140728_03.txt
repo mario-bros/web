@@ -1,0 +1,207 @@
+﻿New entry at 2014-07-28 03:03:12
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:03:24
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:04:26
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:04:29
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:06:14
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:07:55
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:14:00
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:14:06
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:15:13
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 728
+BuckarooV3Response initialized
+2014-07-28 03:15:14
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => MLE ADELAIDE CHOVEAU
+	brq_description                => Peduli Anak recurring donation. Transaction 20140728000728
+	brq_invoicenumber              => 20140728000728
+	brq_issuing_country            => FR
+	brq_mutationtype               => Processing
+	brq_payment                    => 65C6587061AF410D9CF386BCF814275B
+	brq_recurring                  => True
+	brq_SERVICE_visa_CardExpirationDate => 2015-05
+	brq_SERVICE_visa_CardNumberEnding => 4199
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-07-28 03:15:12
+	brq_transaction_method         => visa
+	brq_transaction_type           => V032
+	brq_transactions               => CC84D0C39EBA410EACCD2940961D799C
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 922d7c97cbc46ed230afb7efd133c974f0f1d381
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=MLE ADELAIDE CHOVEAU" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140728000728" to signature
+Adding "brq_invoicenumber=20140728000728" to signature
+Adding "brq_issuing_country=FR" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=65C6587061AF410D9CF386BCF814275B" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2015-05" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=4199" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-07-28 03:15:12" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V032" to signature
+Adding "brq_transactions=CC84D0C39EBA410EACCD2940961D799C" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=MLE ADELAIDE CHOVEAUbrq_description=Peduli Anak recurring donation. Transaction 20140728000728brq_invoicenumber=20140728000728brq_issuing_country=FRbrq_mutationtype=Processingbrq_payment=65C6587061AF410D9CF386BCF814275Bbrq_recurring=Truebrq_SERVICE_visa_CardExpirationDate=2015-05brq_SERVICE_visa_CardNumberEnding=4199brq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-07-28 03:15:12brq_transaction_method=visabrq_transaction_type=V032brq_transactions=CC84D0C39EBA410EACCD2940961D799Cbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 922d7c97cbc46ed230afb7efd133c974f0f1d381
+Transaction found via invoice, ID 728
+Signature received  : 922d7c97cbc46ed230afb7efd133c974f0f1d381
+Signature calculated: 922d7c97cbc46ed230afb7efd133c974f0f1d381
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 781
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:15:21
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 729
+BuckarooV3Response initialized
+2014-07-28 03:15:21
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => Espen Sandberg
+	brq_description                => Peduli Anak recurring donation. Transaction 20140728000729
+	brq_invoicenumber              => 20140728000729
+	brq_issuing_country            => NO
+	brq_mutationtype               => Processing
+	brq_payment                    => 4EE0272430F543ECBF73B7BBA6A79271
+	brq_recurring                  => True
+	brq_SERVICE_visa_CardExpirationDate => 2015-09
+	brq_SERVICE_visa_CardNumberEnding => 8207
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-07-28 03:15:20
+	brq_transaction_method         => visa
+	brq_transaction_type           => V032
+	brq_transactions               => E9E37D68C5204B3A82D7FC2964354BBB
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 9146ab21ec1effe2cc88f8464f60eddc681d5122
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Espen Sandberg" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140728000729" to signature
+Adding "brq_invoicenumber=20140728000729" to signature
+Adding "brq_issuing_country=NO" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=4EE0272430F543ECBF73B7BBA6A79271" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2015-09" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=8207" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-07-28 03:15:20" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V032" to signature
+Adding "brq_transactions=E9E37D68C5204B3A82D7FC2964354BBB" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=Espen Sandbergbrq_description=Peduli Anak recurring donation. Transaction 20140728000729brq_invoicenumber=20140728000729brq_issuing_country=NObrq_mutationtype=Processingbrq_payment=4EE0272430F543ECBF73B7BBA6A79271brq_recurring=Truebrq_SERVICE_visa_CardExpirationDate=2015-09brq_SERVICE_visa_CardNumberEnding=8207brq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-07-28 03:15:20brq_transaction_method=visabrq_transaction_type=V032brq_transactions=E9E37D68C5204B3A82D7FC2964354BBBbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 9146ab21ec1effe2cc88f8464f60eddc681d5122
+Transaction found via invoice, ID 729
+Signature received  : 9146ab21ec1effe2cc88f8464f60eddc681d5122
+Signature calculated: 9146ab21ec1effe2cc88f8464f60eddc681d5122
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 782
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:20:44
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:26:27
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:28:41
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:28:57
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:30:21
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:31:42
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:31:53
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:34:09
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:34:09
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:35:26
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:35:26
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:38:33
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:40:44
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:42:48
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:48:01
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:48:40
+------------------------------------------------------------
+
+﻿New entry at 2014-07-28 03:49:58
+------------------------------------------------------------
+

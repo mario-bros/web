@@ -1,0 +1,233 @@
+﻿New entry at 2014-04-21 13:01:22
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:13:44
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:19:20
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:07
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:09
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:15
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:20
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:26
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:36
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:42
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:47
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:23:56
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:24:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:24:12
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:24:18
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:24:25
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:24:31
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:24:38
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:24:34
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:24:51
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:24:59
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:25:33
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:29:05
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:29:11
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:29:17
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:29:27
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:29:37
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:31:47
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:32:11
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:33:05
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:33:06
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140421000658brq_invoicenumber=20140421000658brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=134brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=134brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=134brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=48.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140421000658brq_invoicenumber=20140421000658brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=134brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=134brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=134brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: e8c053d05c095f1cb638cdf082fada3a3cb0a388
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:35:18
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:35:44
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 658
+BuckarooV3Response initialized
+2014-04-21 13:35:45
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => JOERG BRAUNER
+	brq_description                => Peduli Anak Foundation Invoice 20140421000658
+	brq_invoicenumber              => 20140421000658
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => 85207fa6c6d46b65172583ab5756e137a03b8020beef96a7589a5ae1ecad3badbd9ff5d05df4edf0d6204a99bd2115f17fed00705ef270695e3e55b9924280eb
+	brq_payment                    => C2F35CE6B33B47109390D960A6585DC4
+	brq_SERVICE_visa_Authentication => Y
+	brq_SERVICE_visa_CardExpirationDate => 2016-07
+	brq_SERVICE_visa_CardNumberEnding => 9016
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-04-21 13:35:44
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => 88DE5CDD2D7840BABCAED6322FD07BDC
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 08ec35ae1c398f8affeb826c9c8eac46be9fdef8
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=JOERG BRAUNER" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140421000658" to signature
+Adding "brq_invoicenumber=20140421000658" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=85207fa6c6d46b65172583ab5756e137a03b8020beef96a7589a5ae1ecad3badbd9ff5d05df4edf0d6204a99bd2115f17fed00705ef270695e3e55b9924280eb" to signature
+Adding "brq_payment=C2F35CE6B33B47109390D960A6585DC4" to signature
+Adding "brq_SERVICE_visa_Authentication=Y" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2016-07" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=9016" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-04-21 13:35:44" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=88DE5CDD2D7840BABCAED6322FD07BDC" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=JOERG BRAUNERbrq_description=Peduli Anak Foundation Invoice 20140421000658brq_invoicenumber=20140421000658brq_mutationtype=Processingbrq_payer_hash=85207fa6c6d46b65172583ab5756e137a03b8020beef96a7589a5ae1ecad3badbd9ff5d05df4edf0d6204a99bd2115f17fed00705ef270695e3e55b9924280ebbrq_payment=C2F35CE6B33B47109390D960A6585DC4brq_SERVICE_visa_Authentication=Ybrq_SERVICE_visa_CardExpirationDate=2016-07brq_SERVICE_visa_CardNumberEnding=9016brq_SERVICE_visa_Enrolled=Ybrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-04-21 13:35:44brq_transaction_method=visabrq_transaction_type=V002brq_transactions=88DE5CDD2D7840BABCAED6322FD07BDCbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 08ec35ae1c398f8affeb826c9c8eac46be9fdef8
+Transaction found via invoice, ID 658
+Signature received  : 08ec35ae1c398f8affeb826c9c8eac46be9fdef8
+Signature calculated: 08ec35ae1c398f8affeb826c9c8eac46be9fdef8
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 702
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:35:45
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:35:46
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:36:02
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:36:17
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:36:26
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:36:29
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:37:00
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:42:47
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:59:45
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:59:48
+------------------------------------------------------------
+
+﻿New entry at 2014-04-21 13:59:49
+------------------------------------------------------------
+

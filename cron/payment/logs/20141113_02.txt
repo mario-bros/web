@@ -1,0 +1,198 @@
+﻿New entry at 2014-11-13 02:00:34
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:05:10
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:06:16
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:08:02
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:08:56
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:10:05
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:10:24
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:10:31
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:10:36
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:10:44
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:11:00
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:11:00
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:15:04
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 773
+BuckarooV3Response initialized
+2014-11-13 02:15:04
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => Bjoerg Janne Holter
+	brq_description                => Peduli Anak recurring donation. Transaction 20141113000773
+	brq_invoicenumber              => 20141113000773
+	brq_issuing_country            => NO
+	brq_mutationtype               => Processing
+	brq_payment                    => 5B25DDB8F33F4769A4FD6E3ED93CE6E0
+	brq_recurring                  => True
+	brq_SERVICE_visa_CardExpirationDate => 2015-09
+	brq_SERVICE_visa_CardNumberEnding => 5887
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-11-13 03:15:04
+	brq_transaction_method         => visa
+	brq_transaction_type           => V032
+	brq_transactions               => DF99861809F9436394057A7888C87F8B
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => c29fd6b01ba9e720d24cac45fff87da98d6b1371
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Bjoerg Janne Holter" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20141113000773" to signature
+Adding "brq_invoicenumber=20141113000773" to signature
+Adding "brq_issuing_country=NO" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=5B25DDB8F33F4769A4FD6E3ED93CE6E0" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2015-09" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=5887" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-11-13 03:15:04" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V032" to signature
+Adding "brq_transactions=DF99861809F9436394057A7888C87F8B" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=Bjoerg Janne Holterbrq_description=Peduli Anak recurring donation. Transaction 20141113000773brq_invoicenumber=20141113000773brq_issuing_country=NObrq_mutationtype=Processingbrq_payment=5B25DDB8F33F4769A4FD6E3ED93CE6E0brq_recurring=Truebrq_SERVICE_visa_CardExpirationDate=2015-09brq_SERVICE_visa_CardNumberEnding=5887brq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-11-13 03:15:04brq_transaction_method=visabrq_transaction_type=V032brq_transactions=DF99861809F9436394057A7888C87F8Bbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: c29fd6b01ba9e720d24cac45fff87da98d6b1371
+Transaction found via invoice, ID 773
+Signature received  : c29fd6b01ba9e720d24cac45fff87da98d6b1371
+Signature calculated: c29fd6b01ba9e720d24cac45fff87da98d6b1371
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 828
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:21:58
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:23:17
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:25:27
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:27:32
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:32:14
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:32:17
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:34:00
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:35:17
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:35:49
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:38:04
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:38:19
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:38:30
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:38:30
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:40:14
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:42:16
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:42:16
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:44:30
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:44:48
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:44:57
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:45:18
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:48:34
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:49:00
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:49:34
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:49:53
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:50:49
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:50:55
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:51:41
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:52:20
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:52:54
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:53:24
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:53:48
+------------------------------------------------------------
+
+﻿New entry at 2014-11-13 02:58:48
+------------------------------------------------------------
+

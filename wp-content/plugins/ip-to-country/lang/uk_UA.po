@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IP-to-Country v0.03\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-14 18:05+0100\n"
+"PO-Revision-Date: \n"
+"Language-Team: http://getvoip.com/\n"
+"Last-Translator: Michael Yunat <Michael.Yunat@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"Language: uk\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ip-to-country.php:593 ip-to-country.php:605 php-format
+msgid "Successfully updated IPv4 country info from URL <strong> %s</strong>."
+msgstr "Успішно оновлено IPv4 Інформацію про країну з <strong>URL %s.</strong>"
+
+#: ip-to-country.php:595 ip-to-country.php:607 php-format
+msgid "Failed to update IPv4 country info from URL <strong> %s</strong>."
+msgstr ""
+"Не вдалося оновити IPv4 Інформацію про країну від <strong>URL %s.</strong>"
+
+#: ip-to-country.php:599 ip-to-country.php:611 php-format
+msgid "Successfully updated IPV6 country info from URL <strong> %s</strong>."
+msgstr "Успішно оновлено IPV6 Інформацію про країну з <strong>URL %s.</strong>"
+
+#: ip-to-country.php:601 ip-to-country.php:613 php-format
+msgid "Failed to update IPV6 country info from URL <strong> %s</strong>."
+msgstr ""
+"Не вдалося оновити IPV6 Інформацію про країну від <strong>URL %s.</strong>"
+
+#: ip-to-country.php:619 php-format
+msgid "Successfully updated IPv4 country info from file <strong> %s</strong>."
+msgstr ""
+"Успішно оновлено IPv4 Інформацію про країну з <strong>файлу %s.</strong>"
+
+#: ip-to-country.php:621 php-format
+msgid "Failed to update IPv4 country info from file <strong> %s</strong>."
+msgstr ""
+"Не вдалося оновити IPv4 Інформацію про країну з <strong>файлу %s.</strong>"
+
+#: ip-to-country.php:628 php-format
+msgid "Successfully updated IPV6 country info from file <strong> %s</strong>."
+msgstr ""
+"Успішно оновлено IPV6 Інформацію про країну з <strong>файлу %s.</strong>"
+
+#: ip-to-country.php:630 php-format
+msgid "Failed to update IPV6 country info from file <strong> %s</strong>."
+msgstr ""
+"Не вдалося оновити IPV6 Інформацію про країну з <strong>файлу %s.</strong>"
+
+#: ip-to-country.php:644 ip-to-country.php:694
+msgid "IP-to-Country options"
+msgstr "IP до країни Варіанти"
+
+#: ip-to-country.php:646
+msgid "Source of IP-to-Country data"
+msgstr "Джерело даних IP до країни"
+
+#: ip-to-country.php:648
+msgid "Default IPv4 URL:"
+msgstr "За замовчуванням IPv4 URL:"
+
+#: ip-to-country.php:652
+msgid "Default IPv6 URL:"
+msgstr "За замовчуванням URL IPv6:"
+
+#: ip-to-country.php:655 php-format
+msgid ""
+"Note: Make sure you read and follow the service's <a href=\" %s\">license "
+"terms</a>, especially the part about download limits!"
+msgstr ""
+"Примітка: Переконайтеся, що ви читаєте і слідуєте сервісу <a href=\" %s"
+"\">умови ліцензійної угоди</a> , особливо в частині про скачавання обмежень!"
+
+#: ip-to-country.php:656
+msgid ""
+"IPv4 addresses must be loaded first, because the IPv6 database does not "
+"carry a list of countries with it."
+msgstr ""
+"Адреси IPv4 повинен бути завантажений перший, так як база даних IPv6 не несе "
+"список країн з ним."
+
+#: ip-to-country.php:658
+msgid "User IPv4 URL:"
+msgstr "Користувач IPv4 URL:"
+
+#: ip-to-country.php:662
+msgid "User IPv6 URL:"
+msgstr "Користувач IPv6 URL:"
+
+#: ip-to-country.php:666
+msgid "Uploaded file with IPv4:"
+msgstr "Завантажений файл з IPv4:"
+
+#: ip-to-country.php:670
+msgid "Uploaded file with IPv6:"
+msgstr "Завантажений файл з IPv6:"
+
+#: ip-to-country.php:674
+msgid "Save settings"
+msgstr "Зберегти налаштування"
+
+#: ip-to-country.php:675
+msgid "Save settings and update"
+msgstr "Зберегти налаштування та оновлення"
+
+#: ip-to-country.php:694
+msgid "IP-to-Country"
+msgstr "IP до країни"

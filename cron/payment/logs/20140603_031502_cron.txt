@@ -1,0 +1,960 @@
+Recurring payments: 1 users with 1 payments foundRecurringPayment Object
+(
+    [id:private] => 131
+    [DataSet:private] => 
+    [db:private] => MySQLDatabase Object
+        (
+            [handle:private] => Resource id #39
+            [totalQueries:private] => 3
+            [totalQueryTime:private] => 0.286881923676
+        )
+
+    [data] => stdClass Object
+        (
+            [RecurringPaymentId] => 131
+            [UserId] => 136
+            [StartDate] => 2014-05-03 19:35:35
+            [LastTransactionLineId] => 704
+            [LastTransactionDate] => 2014-05-03 19:35:35
+            [NextTransactionDate] => 2014-06-03 00:00:00
+            [Status] => 1
+            [DonationPlanId] => 3
+            [DonationPlanType] => Month
+            [ChildId] => 90
+            [Description] => Child Education Plan (Month)
+            [DonationAmount] => 34.00
+            [OriginalBuckarooId] => F2A1A7C964B946A1A4AE381092F207D7
+            [AmountMonth] => 34.00
+            [AmountYear] => 408.00
+        )
+
+)
+
+***************  ERROR #2048 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 477
+  Message: Creating default object from empty value
+  Context: Array
+(
+    [rPayment] => RecurringPayment Object
+        (
+            [id:private] => 131
+            [DataSet:private] => 
+            [db:private] => MySQLDatabase Object
+                (
+                    [handle:private] => Resource id #39
+                    [totalQueries:private] => 3
+                    [totalQueryTime:private] => 0.286881923676
+                )
+
+            [data] => stdClass Object
+                (
+                    [RecurringPaymentId] => 131
+                    [UserId] => 136
+                    [StartDate] => 2014-05-03 19:35:35
+                    [LastTransactionLineId] => 704
+                    [LastTransactionDate] => 2014-05-03 19:35:35
+                    [NextTransactionDate] => 2014-06-03 00:00:00
+                    [Status] => 1
+                    [DonationPlanId] => 3
+                    [DonationPlanType] => Month
+                    [ChildId] => 90
+                    [Description] => Child Education Plan (Month)
+                    [DonationAmount] => 34.00
+                    [OriginalBuckarooId] => F2A1A7C964B946A1A4AE381092F207D7
+                    [AmountMonth] => 34.00
+                    [AmountYear] => 408.00
+                )
+
+        )
+
+    [updateLineData] => 1
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  ERROR #2048 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 121
+  Message: Creating default object from empty value
+  Context: Array
+(
+    [amount] => 34
+    [line] => TransactionLine Object
+        (
+            [db:private] => MySQLDatabase Object
+                (
+                    [handle:private] => Resource id #39
+                    [totalQueries:private] => 3
+                    [totalQueryTime:private] => 0.286881923676
+                )
+
+            [id:private] => 
+            [data:private] => stdClass Object
+                (
+                    [RecurringPaymentId] => 131
+                    [Amount] => 34.00
+                    [Description] => Child Education Plan (Month)
+                    [DonationPlanId] => 3
+                    [DonationPlanType] => Month
+                    [ChildId] => 90
+                )
+
+            [recurringPayment:private] => RecurringPayment Object
+                (
+                    [id:private] => 131
+                    [DataSet:private] => 
+                    [db:private] => MySQLDatabase Object
+                        (
+                            [handle:private] => Resource id #39
+                            [totalQueries:private] => 3
+                            [totalQueryTime:private] => 0.286881923676
+                        )
+
+                    [data] => stdClass Object
+                        (
+                            [RecurringPaymentId] => 131
+                            [UserId] => 136
+                            [StartDate] => 2014-05-03 19:35:35
+                            [LastTransactionLineId] => 704
+                            [LastTransactionDate] => 2014-05-03 19:35:35
+                            [NextTransactionDate] => 2014-06-03 00:00:00
+                            [Status] => 1
+                            [DonationPlanId] => 3
+                            [DonationPlanType] => Month
+                            [ChildId] => 90
+                            [Description] => Child Education Plan (Month)
+                            [DonationAmount] => 34.00
+                            [OriginalBuckarooId] => F2A1A7C964B946A1A4AE381092F207D7
+                            [AmountMonth] => 34.00
+                            [AmountYear] => 408.00
+                        )
+
+                )
+
+        )
+
+)
+
+
+***************  END ERROR  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 65
+  Message: Undefined property: stdClass::$BPEStatus
+  Context: Array
+(
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 500
+  Message: Undefined property: stdClass::$ProjectId
+  Context: Array
+(
+    [dbArgs] => Array
+        (
+            [Description] => Child Education Plan (Month)
+            [TransactionId] => 674
+            [Amount] => 34.00
+        )
+
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/payment/classes/class-buckaroo.php
+  Line: 78
+  Message: Undefined index:  BPE_Result
+  Context: Array
+(
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/payment/classes/class-buckaroo.php
+  Line: 67
+  Message: Undefined index:  BPE_ResponseSig
+  Context: Array
+(
+    [key] => BPE_ResponseSig
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  WARNING #2 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/classes/class-cache.php
+  Line: 66
+  Message: chmod(): Operation not permitted
+  Context: Array
+(
+    [id] => en
+    [mixed] => Array
+        (
+            [error-homepage-news-none] => <p>We're terribly sorry. There seems to be no news today.</p>
+            [read-more] => read more
+            [siteheader-title] => Peduli Anak
+            [sitemenu-downloads] => Downloads
+            [sitemenu-donate] => Donate
+            [sitemenu-contact] => Contact us
+            [sitemenu-languagepicker-label] => Choose language
+            [sitemenu-socialmedia-label] => Follow us
+            [siteheader-logo-alt] => Peduli Anak
+            [siteheader-motto] => "Our vision is to give every child in the world
+        the opportunity to live a happy and healthy life
+    free of poverty, exploitation and violence."
+            [sponsorlogin-form-legend] => Sponsor login
+            [sponsorlogin-label-username] => Username
+            [sponsorlogin-label-password] => Password
+            [sponsorlogin-label-submit] => Log in
+            [donation-form-legend] => We need your help
+            [donation-amount-label] => Amount
+            [donation-amount-placeholder] => Amount in &euro;
+            [donation-input-submit] => Donate
+            [footer-copyright-text] => <p>Copyright &copy; 2005-2013&nbsp;by the Peduli Anak Foundation. All Rights Reserved.<br /> Photo credits by <a href="http://www.brandoutloud.org" target="_blank">BrandOutLoud</a>, <a href="http://www.masayastudios.com" target="_blank">Masaya Studios</a> and Chaim Fetter.</p>
+            [footer-website-powered-by] => Website development and hosting sponsored by
+            [sponsorlogin-placeholder-username] => Username..
+            [sponsorlogin-placeholder-password] => Password..
+            [donation-project-submit] => Donate to this project
+            [sidebar-motto] => Motto
+            [page-not-found-text] => No text found
+            [search-query-placeholder] => Search...
+            [search-submit] => Search
+            [sidebar-whoarewe-content] => <p>Peduli Anak Foundation is an independent non-governmental organisation founded in 2005 in the Netherlands and expanded to Indonesia in 2006. Our aim is to improve the lives of children and to protect their rights by providing education, accommodation, family care and medical and legal aid.</p>
+            [sidebar-whoarewe-title] => About us
+            [sidebar-newsletter-title] => Newsletter sign-up
+            [sidebar-newsletter-label] => Email address
+            [sidebar-newsletter-placeholder] => Your email address...
+            [sidebar-newsletter-submit] => Sign-up
+            [sidebar-film-title] => Film title
+            [sidebar-film-cooperation] => Incooperation
+            [sidebar-anbi-label] => ANBI Certificate
+            [footer-sponsors-header] => Sponsors and Partners
+            [admin-menu-dashboard] => Dashboard
+            [admin-nopermission] => No Permission
+            [all-rights-reserved] => All rights reserved.
+            [admin-header-text] => Website administration
+            [admin-dashboard] => Dashboard
+            [admin-general] => General
+            [admin-title-dashboard] => Dashboard
+            [admin-latest-sessions] => Latest sessions
+            [admin-rows-available] => rows available
+            [admin-showing] => showing
+            [admin-rows-per-page] => per page
+            [null] => empty
+            [admin-latest-bots] => Latest bots
+            [admin-latest-logs] => Latest log entries
+            [admin-menu-login] => Log in
+            [admin-login-header] => Please log in
+            [admin-login-text] => <p>To continue to the admin, you are required to log in to an account with sufficient priviliges.</p>
+            [admin-login-form-title] => Peduli Anak Login
+            [admin-login-username] => Username
+            [admin-login-password] => Password
+            [admin-login] => Log in
+            [admin-login-success] => <p>You have logged in succesfully.</p>
+            [admin-login-continue] => Continue...
+            [admin-menu-content] => Content
+            [admin-menu-pages] => Pages
+            [admin-menu-news] => News
+            [admin-menu-newscategories] => News categories
+            [admin-menu-logout] => Log out
+            [admin-row-available] => row available
+            [admin-menu-viewsite] => View website
+            [admin-menu-localization] => Localization
+            [admin-menu-countries] => Countries
+            [admin-menu-languages] => Languages 
+            [admin-menu-translations] => Translations
+            [admin-menu-translation-files] => Translation files
+            [admin-menu-administration] => Administration
+            [admin-menu-users] => Users
+            [admin-menu-roles] => Roles
+            [admin-menu-sessions] => Sessions
+            [admin-menu-tracking-bots] => Robots and Spiders
+            [admin-menu-audit-log] => Audit log
+            [admin-menu-maintenance] => Maintenance
+            [admin-form-create-page] => Create new page
+            [page-slug] => Slug
+            [page-name] => Name
+            [page-title] => Title
+            [page-sortorder] => Sort
+            [admin-form-page-sortorder-save] => Save sort order
+            [admin-title-pages] => Manage pages
+            [admin-title-translations] => Translations
+            [default] => default
+            [template-tag] => Template tag
+            [admin-advanced-header] => Search
+            [admin-filter-contains] => contains...
+            [admin-filter-equals] => equals...
+            [admin-filter-begins-with] => begins with...
+            [admin-filter-ends-with] => ends with...
+            [admin-title-translation] => Translation
+            [admin-template-tag] => Template tag
+            [admin-default-text] => Default text
+            [admin-language] => Language
+            [submit] => Submit
+            [admin-filter-not-equals] => does not equal...
+            [admin-form-create-news] => Add a news item
+            [admin-title-news] => News
+            [admin-title-newscategories] => News Categories
+            [admin-form-create-newscategories] => Add news category
+            [admin-formtitle-news] => News
+            [admin-formlabel-news-category] => News Category
+            [admin-title-newsitem] => News Item
+            [admin-formlabel-news-author] => Author
+            [admin-formlabel-news-publishdate] => Publish Date
+            [or] => or
+            [admin-formlabel-news-title] => News Title
+            [admin-formlabel-news-summary] => News Summary
+            [admin-formlabel-news-content] => News Content
+            [admin-button-cancel] => Cancel
+            [admin-placeholder-datetimecontrol-full] => Select date/time ...
+            [admin-placeholder-datetimecontrol-date] => Select date ...
+            [admin-placeholder-datetimecontrol-time] => Select time ...
+            [admin-pagnav-first] => First
+            [admin-no-records-found] => No records were found
+            [admin-pagnav-last] => Last
+            [admin-title-countries] => Countries
+            [admin-title-users] => Users
+            [admin-form-create-frm] => Add record
+            [admin-form-create-user] => Create user account
+            [admin-title-user] => User
+            [admin-formtitle-user] => User
+            [admin-formlabel-user-name] => Name
+            [admin-formlabel-user-email] => E-mail
+            [admin-formlabel-user-password] => Password
+            [admin-formlabel-user-isadmin] => User Admin
+            [boolean-no] => No
+            [admin-formlabel-user-displayname] => User Display
+            [boolean-yes] => Yes
+            [admin-content-language] => Language
+            [menu-aboutus] => About us
+            [menu-streetchildren] => Street children
+            [menu-projects] => Projects
+            [menu-programs] => Programs
+            [menu-photodocumentary] => Photo documentary
+            [menu-getinvolved] => Get involved
+            [menu-donate] => Donate
+            [menu-sponsors] => Sponsors
+            [menu-news] => News
+            [page-not-found-title] => Page not found
+            [donate-name-label] => Your name
+            [donate-name-placeholder] => P. Anak
+            [donate-email-label] => Your email address
+            [donate-email-placeholder] => name@example.org
+            [donate-amount-label] => Donation amount
+            [donate-amount-placeholder] => Amount (&euro;)
+            [donate-submit] => Donate
+            [admin-title-page] => Manage page
+            [admin-formtitle-page] => Page Title
+            [admin-formlabel-page-slug] => Slug
+            [admin-formlabel-page-name] => Page name
+            [admin-formlabel-page-header] => Header
+            [admin-formlabel-page-title] => Page title (title bar)
+            [admin-formlabel-page-content] => Contents
+            [admin-formlabel-page-parentpage] => Subpage of
+            [root-level-element] => Top level page
+            [admin-formlabel-page-keywords] => Meta keywords
+            [admin-formlabel-page-description] => Meta description
+            [disabled-no-recursion] => Disabled to prevent recursion
+            [admin-menu-children] => Children
+            [admin-title-children] => Children
+            [admin-formlabel-child-name] => Name
+            [admin-form-create-child] => Add a child
+            [admin-title-child] => Child
+            [admin-formtitle-child] => Child
+            [admin-formlabel-child-intro] => Child Intro
+            [admin-formlabel-child-photo] => Child Photo
+            [login-error-data-empty] => Error Empty Data
+            [login-error-invalid-credentials] => Invalid creditials
+            [login-success-message] => Success Login
+            [logout] => Log out
+            [logout-message-error] => Error Logout
+            [logout-form-message] => Logout
+            [logout-title-success] => Success
+            [logout-message-success] => You have been successfully logged out.
+            [logout-title-error] => Error Logout
+            [logout-form-legend] => Log out
+            [logout-label-submit] => I want to log out
+            [login-message-success] => Login Success
+            [login-message-error] => Error Login
+            [login-title-success] => Login Success
+            [login-title-error] => Error Login
+            [contact-form-legend] => Contact
+            [contact-form-label-name] => Name
+            [contact-form-label-company] => Company
+            [contact-form-label-email] => E-mail
+            [contact-form-label-phone] => Phone
+            [contact-form-label-message] => Message
+            [contact-form-submit] => Send
+            [admin-title-languages] => Language
+            [admin-title-language] => Language
+            [admin-formtitle-language] => 
+            [admin-formlabel-language-name] => 
+            [admin-formlabel-language-code] => 
+            [admin-formlabel-country-picker] => 
+            [admin-formlabel-language-active] => 
+            [admin-form-create-language] => Add language
+            [admin-formlabel-user-roles] => User Roles
+            [admin-title-newscategory] => 
+            [admin-formtitle-newscategory] => 
+            [admin-formlabel-newscategory-name] => 
+            [admin-formlabel-newscategory-image] => 
+            [admin-formlabel-newscategory-parent] => 
+            [admin-title-session-details] => 
+            [admin-session-established] => 
+            [admin-session-lastactive] => 
+            [admin-session-host] => 
+            [admin-session-referrer] => 
+            [admin-session-pageviews] => 
+            [admin-button-back] => Back
+            [admin-title-auditlog-entry] => 
+            [admin-formtitle-auditlog] => 
+            [admin-formlabel-auditlog-message] => 
+            [admin-formlabel-auditlog-time] => 
+            [admin-formlabel-auditlog-type] => 
+            [admin-formlabel-auditlog-user] => 
+            [admin-formlabel-auditlog-host] => 
+            [admin-formlabel-auditlog-details] => 
+            [news-publishdate] => News Publish Date
+            [news-author] => Author
+            [news-title] => News Title
+            [news-embargo] => Embargo
+            [news-title-html] => 
+            [admin-formlabel-news-embargo] => 
+            [admin-formlabel-news-image] => 
+            [admin-formlabel-child-uid] => UID
+            [admin-formlabel-child-birth-date] => Birth date
+            [admin-formlabel-child-birth-place] => Birth place
+            [admin-formlabel-child-gender] => Gender
+            [admin-formlabel-child-birthdate] => 
+            [admin-formlabel-child-birthplace] => 
+            [admin-formlabel-child-publish] => Publish
+            [admin-menu-sponsors] => Sponsors
+            [admin-title-sponsors] => Manage sponsors
+            [admin-formlabel-sponsor-name] => Name
+            [admin-formlabel-sponsor-website] => Website
+            [admin-formlabel-sponsor-logo] => Logo
+            [admin-form-create-sponsor] => Add sponsor
+            [admin-title-sponsor] => Manage sponsor
+            [admin-formtitle-sponsor] => Sponsor
+            [admin-menu-sidebar-motto] => Sidebar mottos
+            [admin-menu-headers] => Header images
+            [admin-title-sidebarmottos] => Manage mottos
+            [admin-formlabel-sidebarmotto-text] => Text
+            [admin-title-sidebarmotto] => Manage motto
+            [admin-formtitle-sidebarmotto] => Motto
+            [admin-formlabel-header-name] => Internal name
+            [admin-formlabel-header-image] => Image
+            [admin-form-create-header] => Add a header image
+            [admin-title-headers] => Manage header images
+            [admin-title-header] => Manage header
+            [admin-formtitle-header] => Header image
+            [admin-form-create-motto] => Add new motto
+            [membership-legend] => Membership information
+            [membership-label-first-name] => First name
+            [membership-label-family-name] => Family name
+            [membership-label-username] => User name
+            [membership-label-new-username] => New username
+            [membership-label-password] => Password
+            [membership-label-new-password] => New password
+            [membership-label-address] => Address
+            [membership-label-houseno] => House no.
+            [membership-label-zipcode] => ZIP code
+            [membership-label-city] => City
+            [membership-label-country] => Country
+            [membership-label-date-of-birth] => Date of birth
+            [membership-submit] => Contribute
+            [membership-agree-member] => Your Details
+            [membership-user-legend] => User account details
+            [membership-placeholder-username] => Your desired username
+            [membership-placeholder-password] => Confirm your password
+            [membership-label-email] => E-mail
+            [membership-placeholder-email] => Your e-mail address
+            [membership-placeholder-first-name] => Your first name
+            [membership-placeholder-family-name] => Your family name
+            [membership-placeholder-address] => Your address
+            [membership-placeholder-houseno] => Your house number
+            [membership-placeholder-zipcode] => Your ZIP code
+            [membership-placeholder-city] => Your city
+            [membership-placeholder-country] => Your country
+            [membership-placeholder-date-of-birth] => YYYY-MM-DD
+            [membership-label-telephone] => Telephone
+            [membership-placeholder-telephone] => Your telephone number
+            [membership-label-extra-contribution] => Donation
+            [membership-label-extra-contribution-inline] => Extra Contribution Inline
+            [membership-label-extra-contribution-recurring] => Extra Contribution Recurring
+            [membership-placeholder-extra-contribution-recurring] => Extra Contribution Recurring
+            [membership-extra-contribution-recurring-once] => Extra Contribution Recurring Once
+            [membership-extra-contribution-recurring-monthly] => Extra Contribution Recurring Monthly
+            [membership-extra-contribution-recurring-yearly] => Extra Contribution Recurring Yearly
+            [membership-placeholder-extra-contribution-amount] => Extra Contribution Amount
+            [membership-click-to-register] => Click to register a new account
+            [membership-user-login] => Log-in details
+            [membership-user-register] => Personal details
+            [sidebar-sponsor-child-text] => <p>{{CHILD_NAME}} is {{CHILD_AGE}} years old and looking for a sponsor. Change {{CHILD_GENDER_HISHER}} life forever.</p>
+            [donate-amount-plan-label] => Choose type
+            [child-gender-boy] => boy
+            [child-gender-girl] => girl
+            [child-gender-his] => his
+            [child-gender-her] => her
+            [admin-menu-transactions] => Transactions
+            [admin-formlabel-child-ypa-date] => YPA date
+            [admin-formlabel-child-has-sponsor] => Sponsor
+            [admin-formlabel-child-origin] => 
+            [admin-menu-financial] => Financial
+            [admin-title-transactions] => Transactions
+            [admin-transaction-label-invoice] => Invoice
+            [admin-transaction-label-user] => User
+            [admin-transaction-label-date] => Date
+            [admin-transaction-label-amount] => Amount
+            [admin-transaction-label-buckaroo-status] => Buckaroo Status
+            [admin-transaction-label-is-completed] => Completed
+            [admin-transaction-label-completed-date] => Completed date
+            [admin-menu-recurring-payments] => Recurring payments
+            [admin-title-recurring-payments] => Recurring Payments
+            [admin-recurring-payment-label-status] => Status
+            [admin-recurring-payment-label-user] => User
+            [admin-recurring-payment-label-start-date] => Start date
+            [admin-recurring-payment-label-amount] => Amount
+            [admin-recurring-payment-label-description] => Description
+            [admin-recurring-payment-label-last-transaction-date] => Last transaction date
+            [admin-recurring-payment-label-next-transaction-date] => Next payment due
+            [admin-recurring-payment-label-invoice] => 
+            [admin-menu-donation-projects] => Donation projects
+            [admin-title-projects] => Projects
+            [admin-formlabel-project-name] => Project name
+            [admin-formlabel-project-show-barometer] => Barometer
+            [admin-formlabel-project-donation-required] => Required
+            [admin-formlabel-project-donation-current] => Received
+            [admin-formlabel-project-donation-step] => Step
+            [admin-form-create-project] => Create new donation project
+            [admin-formlabel-project-publish] => Published
+            [admin-title-project] => 
+            [admin-formtitle-donationproject] => Project Donation
+            [admin-formlabel-project-summary] => Project Summary
+            [admin-formlabel-project-details] => Project Details
+            [admin-translations-export-header] => Export Language File
+            [admin-translations-export-text] => Export Language File
+            [admin-translations-export-options] => Export File
+            [admin-export] => Export
+            [admin-translations-import-header] => Import Language File
+            [admin-translations-import-text] => Import Language File
+            [admin-translations-import-options] => Import File
+            [admin-translations-import-file] => Import
+            [admin-import] => 
+            [omines-link-title] => Webdesign en Webdevelopment. Your full service internetbureau from Eindhoven.
+            [footer-website-hosted-by] => Hosted by
+            [footerinfo-contact] => <h4>Peduli Anak</h4><p>Postbus 1392<br/>
+2130 EL Hoofddorp<br/>The Netherlands</p>
+<h4>E-mail</h4><p>contact@pedulianak.com</p><h4>Phone</h4><p>+ 31 (0) 20 8512645</p><h4>Fax</h4><p>+ 31 (0) 84 7414458</p>
+            [footerinfo-company] => <h4>ING Bank</h4><p>The Netherlands<br/> Account no.: 1816</p><h4>  IBAN No </h4><p>NL 08 INGB 0000 0018 16</p><h4>  SWIFT Code</h4><p>INGBNL2A</p>
+            [admin-formlabel-page-inmenu] => Add to menu
+            [admin-formlabel-news-header-image] => Header image
+            [admin-title-auditlog] => 
+            [admin-translation-import-complete] => 
+            [admin-formlabel-user-firstname] => First Name
+            [admin-formlabel-user-lastname] => Last Name
+            [admin-formlabel-user-streetname] => Address
+            [admin-formlabel-user-housenumber] => House Number
+            [admin-formlabel-user-postalcode] => Zipcode
+            [admin-formlabel-user-city] => City
+            [admin-formlabel-user-country] => Country
+            [admin-title-session-bots] => 
+            [admin-title-roles] => Roles
+            [admin-title-child-pages] => Child pages
+            [admin-formlabel-file-name] => Name
+            [admin-formlabel-file-type] => Type
+            [admin-title-child-files] => Child-related files
+            [admin-formtitle-childfile] => Child-related files
+            [admin-formlabel-type] => Type
+            [admin-formlabel-name] => Name
+            [admin-formlabel-file-path] => File path
+            [admin-form-create-file] => Add file
+            [admin-formlabel-child-content] => Page content
+            [child-files-edu-sponsor-required] => Only sponsors and administrators can view these files.
+            [child-files-life-sponsor-required] => Only sponsors and administrators can view these files.
+            [list-no-files] => No files available.
+            [admin-menu-children-files] => Children Files
+            [error-email] => 
+            [email-newsletter-signup-subject] => Newsletter subscription confirmation
+            [email-newsletter-signup-html] => <p>We have received a request to create a Peduli Anak newsletter subscription for this address.<br />If you wish to receive our newsletter, please follow the link below.<br /><a href="http://{{ACTIVATION_URL}}">{{ACTIVATION_URL}}</a></p>
+<p>If you do not wish to receive our newsletter, simply ignore this message.</p>
+<p>Best regards,<br />Peduli Anak Team</p>
+            [email-newsletter-signup-text] => We have received a request to create a Peduli Anak newsletter subscription for this address.
+If you wish to receive our newsletter, please follow the link below.
+http://{{ACTIVATION_URL}}
+
+If you do not wish to receive our newsletter, simply ignore this message.
+
+Best regards,
+Peduli Anak Team
+            [sidebar-newsletter-sent-msg] => Thank you for Signing Up for our Newsletter
+            [newsletter-activate-header] => Header
+            [newsletter-activate-not-found] => Not found
+            [newsletter-activate-content] => Content
+            [admin-menu-newsletter] => Newsletter
+            [admin-menu-newsletter-export] => Export subscribers
+            [admin-newsletter-export-header] => Export
+            [admin-newsletter-export-text] => Text
+            [admin-newsletter-nr-subscribtions] => Amount subscriptions
+            [admin-title-newsletter-signups] => Newsletter Signups
+            [admin-formlabel-newsletter-email] => Email
+            [admin-formlabel-newsletter-activated] => Activated
+            [admin-formlabel-newsletter-activation-date] => Activated Date
+            [admin-title-newsletter-signup] => Newsletter Signup
+            [admin-formtitle-newslettersignup] => 
+            [admin-formlabel-newsletter-activation-hash] => 
+            [admin-formlabel-title] => Tile Newsletter
+            [admin-formlabel-content] => Content Newsletter
+            [admin-formlabel-publish-date] => Publish Date
+            [admin-formlabel-newsletter-ready] => Ready to send
+            [admin-formlabel-newsletter-send-complete] => Sent to all subscribers
+            [admin-formtitle-newsletter] => Newsletter
+            [sidebar-newsletter-out-sent-msg] => Sent
+            [sidebar-newsletter-out-title] => Unsubscribe
+            [sidebar-newsletter-out-label] => Email address to unsubscribe
+            [sidebar-newsletter-out-submit] => Submit
+            [email-newsletter-signout-subject] => Newsletter subscription cancelation
+            [email-newsletter-signout-html] => <p>We have received a request to cancel your Peduli Anak newsletter subscription for this address.<br />If you do not wish to receive our newsletter anymore, please follow the link below.<br /><a href="http://{{ACTIVATION_URL}}">{{ACTIVATION_URL}}</a><br /><br />If you wish to receive our newsletter, simply ignore this message. <br /><br />Best regards,<br />Peduli Anak Team</p>
+            [email-newsletter-signout-text] => We have received a request to cancel your Peduli Anak newsletter subscription for this address.
+If you do not wish to receive our newsletter anymore, please follow the link below.
+http://{{ACTIVATION_URL}}
+
+If you wish to receive our newsletter, simply ignore this message.
+
+Best regards,
+Peduli Anak Foundation
+            [newsletter-deactivate-content-already-done] => 
+            [newsletter-deactivate-content] => 
+            [title-child-sponsor-education] => Education sponsorship
+            [title-child-sponsor-support] => Livelihood sponsorship
+            [title-child-files-education] => Education files
+            [title-child-files-support] => Livelihood files
+            [child-view-gender] => Gender
+            [child-view-gender-male] => male
+            [child-view-gender-female] => female
+            [child-view-gender-unknown] => n/a
+            [child-view-uid] => ID
+            [child-view-name] => Name
+            [child-view-birth] => Born
+            [admin-formlabel-child-sponsor-edu] => Select the Sponsor for Education
+            [admin-formlabel-child-sponsor-life] => Select the Sponsor for Livelihood
+            [error-registration-loggedin] => 
+            [admin-menu-donation-plans] => Support Plans
+            [admin-formlabel-donationplan-amount-month] => 
+            [admin-formlabel-donationplan-amount-year] => 
+            [admin-formtitle-donationplan] => Support Plan
+            [error-field-empty] => Required field is empty
+            [error-field-invalid] => Invalid Request
+            [access-denied-text] => Access Denied
+            [access-denied-title] => Access Denied
+            [membership-contribution-legend] => Membership contribution
+            [membership-contribution-option] => Membership
+            [membership-contribution-placefolder] => Select the payment period
+            [membership-contribution-monthly] => Monthly membership
+            [membership-contribution-yearly] => Yearly membership
+            [support-contribution-education] => Sponsor a child scholarship
+            [support-contribution-education-option] => Child Education Plan
+            [support-contribution-education-placefolder] => Select the payment period
+            [support-contribution-education-monthly] => Monthly
+            [support-contribution-education-yearly] => Yearly
+            [support-contribution-life] => Sponsor a child livelihood
+            [support-contribution-life-option] => Child Support Plan
+            [support-contribution-life-placefolder] => Select the payment period
+            [support-contribution-life-monthly] => Monthly
+            [support-contribution-life-yearly] => Yearly
+            [sponsor-child-learn-more] => Learn more about this child
+            [child-sponsor-education-needed] => Sponsor Needed
+            [link-sponsor-now] => Sponsor Now
+            [child-sponsor-support-needed] => Sponsor Needed
+            [donation-form-sent-success] => Thank you for your donation
+            [admin-title-transaction] => Transaction
+            [admin-formtitle-transaction] => Transaction Details
+            [admin-formlabel-transaction-date] => Transaction Date
+            [admin-formlabel-transaction-invoice-number] => Invoice Number
+            [admin-formlabel-transaction-user] => User
+            [admin-formlabel-transaction-amount] => Amount
+            [admin-formlabel-transaction-completed] => Completed
+            [admin-formlabel-transaction-date-completed] => Date Completed
+            [admin-formlabel-transaction-label-invoice] => Invoice Label
+            [admin-title-transaction-lines] => Transaction Lines
+            [admin-title-transaction-line] => Transaction Line
+            [admin-formlabel-tr-line-description] => Description
+            [admin-formlabel-tr-line-amount] => Amount
+            [admin-formlabel-transaction-project] => Transaction Project
+            [admin-formlabel-transaction-child] => Transaction Child
+            [admin-formlabel-transaction-donation-plan] => Donation Plan
+            [admin-formlabel-transaction-donation-period] => Donation Period
+            [admin-formtitle-transactionline] => Transaction
+            [contact-error-form-invalid] => Error Form Invalid
+            [contact-error-form-expired] => Error Form Expired
+            [contact-error-emptyfield-name] => Empty Field Name
+            [contact-error-emptyfield-email] => Empty Field Email
+            [contact-error-emptyfield-message] => Empty Field Message
+            [contact-error-send-technical] => Error Send Technical
+            [contact-mail-subject] => Peduli Anak Foundation Contact form
+            [contact-mail-body-plain] => Hello,
+
+%%NAME%% just filled in the contact form on the Peduli Anak website.
+
+Name         : %%NAME%%
+Company      : %%COMPANY%%
+Email address: %%EMAIL%%
+Phone number : %%PHONE%%
+Message
+-----------------------------------------------------------------------
+%%MESSAGE%%
+-----------------------------------------------------------------------
+
+IP address: %%REMADDR%% (%%REMHOST%%)
+Date/time : %%DATETIME%%
+
+
+Kind regards,
+Peduli Anak website
+            [contact-mail-body-html] => <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<body>
+<p>Hello,</p>
+<p>%%NAME%% just filled in the contact form on the Peduli Anak website.</p>
+<p>&nbsp;</p>
+<table>
+<tr><td>Name:</td><td>%%NAME%%</td></tr>
+<tr><td>Company:</td><td>%%COMPANY%%</td></tr>
+<tr><td>Email address:</td><td>%%EMAIL%%</td></tr>
+<tr><td>Phone number:</td><td>%%PHONE%%</td></tr>
+<tr><td colspan="2">Message</td></tr>
+<tr><td colspan="2">
+%%MESSAGE%%</td></tr></table>
+
+<p>IP address: %%REMADDR%% (%%REMHOST%%)<br />
+Date/time: %%DATETIME%%</p>
+
+<p>Kind regards,<br />
+Peduli Anak website</p>
+</body>
+</html>
+            [page-title-projects] => Title Projects
+            [page-title-project-donate] => Project
+            [project-donate-learn-more] => Read more about this project
+            [project-contribution-legend] => Contribution Legend
+            [project-amount-label] => Amount you wish to donate to this project
+            [donation-form-info-errors] => The following errors were encountered:
+            [donation-form-errors] => Error
+            [project-donation-amount-not-step] => 
+            [admin-formlabel-project-photo] => 
+            [link-more-projects] => More Projects
+            [page-title-child-sponsor] => 
+            [title-user-transaction-history] => Transaction history
+            [user-transaction-history-empty] => Your transaction history is empty
+            [view-transaction-date] => Transaction date
+            [view-transaction-id] => Transaction number
+            [view-transaction-status] => Status
+            [view-transaction-status-completed] => COMPLETED
+            [view-transaction-status-not-completed] => UNPAID
+            [view-transaction-item] => Donation
+            [view-transaction-amount] => Amount
+            [view-transaction-total] => Total
+            [button-buckaroo-pay] => Submit
+            [payment-return-success-title] => Payment Success
+            [payment-return-success-content] => Thank you for your contribution
+            [payment-return-reject-title] => Rejected
+            [payment-return-reject-content] => Payment rejected
+            [payment-return-error-title] => Error donation
+            [payment-return-error-content] => Donation failed
+            [payment-return-default-title] => Donation
+            [payment-return-default-content] => Content
+            [support-terms-education] => Terms and Conditions
+            [support-terms-life] => Terms and Conditions
+            [pager-first] => First Page
+            [pager-last] => Last Page
+            [pager-back] => Page Back
+            [pager-next] => Page Next
+            [user-form-info] => Sponsor Profile
+            [userform-legend] => User Form Legend
+            [userform-submit] => Submit
+            [member-form-success] => Form Succes
+            [member-form-errors] => Form Errors
+            [member-form-title] => Sponsor Area
+            [member-form-password-title] => Change Password
+            [member-form-sponsor-title] => My Sponsoring
+            [member-sponsor-no-children] => No Children Sponsored
+            [member-sponsor-edu] => Education Support
+            [member-sponsor-life] => Livelihood Support
+            [user-form-password] => Change Password
+            [userform-password-legend] => Password legend
+            [member-label-password-old] => Old Password
+            [placeholder-password-old] => Old Password
+            [member-label-password-new] => New Password
+            [placeholder-password-new] => New Password
+            [member-label-password-re] => Re-enter New Password
+            [placeholder-password-re] => Re-enter New Password
+            [member-form-password-success] => Success
+            [error-password-empty-too-short] => The password you chose is too short, it needs to be at least %len% characters long.
+            [userform-legend-newsletter] => Legend Newsletter
+            [user-form-newsletter-info] => Peduli Anak Newsletter
+            [user-form-newsletter-dd] => Subscrible
+            [error-password-incorrect] => Incorrect Password
+            [error-password-retype] => Re-type Password
+            [buckaroo-pay-title] => Payment
+            [page-requires-login] => Requires Login
+            [membership-contribution-placeholder] => No, thank you
+            [member-form-transactions-title] => Transactions
+            [transaction-list-id] => Invoice
+            [transaction-list-date] => Date
+            [transaction-list-amount] => Amount
+            [transaction-list-status] => Status
+            [my-sponsor-page] => MY SPONSOR PAGE
+            [admin-formlabel-user-phonenumber] => Phone Number
+            [admin-formlabel-user-birthdate] => Date of Birth
+            [admin-title-sessions] => 
+            [admin-login-alreadyloggedin] => 
+            [support-amount-plan-placefolder] => Choose type
+            [donate-amount-once] => One-time donation
+            [donate-amount-monthly] => Monthly
+            [donate-amount-yearly] => Yearly
+            [contact-email-sent] => Thank you! Your e-mail has been sent, we will contact you shortly
+            [admin-formlabel-user-membership-exp] => 
+            [admin-error-minimum-length] => 
+            [admin-formlabel-child-sponsor-edu-exp] => Sponsorship expires on
+            [admin-formlabel-child-sponsor-life-exp] => Sponsorship expires on
+            [admin-password-hidden] => 
+            [newsletter-out-link-description] => 
+            [email-lostpass-subject] => Peduli Anak: Password reset request
+            [email-lostpass-text] => Dear %display%,
+
+A request was filled to reset your Peduli Anak member account password. If you would like to reset your password, please follow the link below:
+
+%url%
+
+Your username is %user%
+
+If you do not wish to continue, simply ignore this e-mail.
+
+Best regards,
+
+Peduli Anak team
+            [success-reset-account] => <p>Dear %user%, you have succesfully reset your password.</p> <p>Your new password is:<br/> <strong>%newpass%</strong></p> <p>Please copy it and/or write it down as this page will not be accesible without going through the whole process of password reset again.</p> <p>For your own safety we would recommend that you change this password as soon as you log in to your Peduli Anak account.</p>
+            [link-password-restore] => Forgot password?
+            [password-restore-email-sent] => <p>We have sent you an email containing the information you need to recover your account.</p>
+            [title-password-restore] => Recover your password
+            [title-form-password-restore] => Recover your password
+            [restore-placeholder-username] => Your username
+            [restore-placeholder-email] => Your email address
+            [submit-password-restore] => Recover my password
+            [title-search-results] => Search Results
+            [email-newsiterestore-subject] => Peduli Anak: New site requires you reset your password
+            [email-newsiterestore-text] => Dear %user%, 
+
+Peduli Anak foundation has built a new, better site. For security reasons you will need to reset your membership account password. When you click on the link below, you will be directed to our new site where a new temporary password will be generated for you.
+
+Please copy it and/or write it down and use it to log in to your membership account. For your safety, we would highly recommend that you also change the password to one of your choosing once you have logged in for the first time.
+
+Your user name is: %username%
+Please follow the link below to receive your new password:
+%url%
+
+Best regards,
+Peduli Anak team
+            [title-password-restore-confirm] => New Password Confirmation
+            [error-reset-account-not-found] => 
+            [password-restore-combination-invalid] => 
+            [pass-restore-already-logged-in] => You are already logged in and therefore cannot use this functionality.
+            [newsletter-signup-already-activated] => 
+            [admin-recurring-payment-child-name] => Child name
+            [admin-formtitle-recurringpayment] => 
+            [admin-formlabel-recurring-active] => 
+            [admin-formlabel-recurring-user-name] => 
+            [admin-formlabel-recurring-start-date] => 
+            [admin-formlabel-recurring-last-date] => 
+            [admin-formlabel-recurring-next-date] => 
+            [admin-formlabel-recurring-description] => 
+            [admin-formlabel-recurring-child-name] => 
+            [admin-title-recurring-lines] => 
+            [admin-filter-any] => true or false
+            [admin-filter-false] => false
+            [admin-filter-true] => true
+            [admin-formlabel-user-vieweducation] => Access education files
+            [admin-formlabel-user-viewlivelihood] => Access livelihood files
+            [email-subject-transaction-update] => Peduli Anak: We have updated your transaction information
+            [email-message-transaction-update] => Dear %cname%, we have updated your transaction information. Review the details given below, or follow up using this url: %url% Best regards, Peduli Anak Team %trplain%
+            [email-message-html-transaction-update] => <p>Dear %cname%,<br/> we have updated your transaction information.</p> <p>Review the details given below, or follow up using this url:<br/> <a href="%url%">%url%</a> </p> <p>Best regards,<br/> Peduli Anak Team</p> %trhtml%
+            [email-subject-transaction-create] => Peduli Anak: New transaction notification
+            [email-message-transaction-create] => Dear %cname%,
+this is a notification about the new transaction made on Peduli Anak.
+
+Review the details given below, or follow up using this url:
+%url%
+
+Best regards,
+Peduli Anak Team
+
+%trplain%
+            [email-message-html-transaction-create] => <p>Dear %cname%,<br/>
+this is a notification about the new transaction made on Peduli Anak.</p>
+
+<p>Review the details given below, or follow up using this url:<br/>
+<a href="%url%">%url%</a>
+</p>
+
+<p>Best regards,<br/>
+Peduli Anak Team</p>
+
+%trhtml%
+            [admin-formlabel-user-active] => Active
+            [admin-formlabel-sponsor-fixed] => Fixed
+            [error-field-email] => 
+            [user-already-exists] => 
+            [membership-click-to-login] => Already a member? Click here to log in.
+            [membership-placeholder-password-confirm] => Confirm password
+            [membership-label-password-confirmation] => Repeat password
+            [membership-registration-password-mismatch-error] => The passwords you entered do not match.
+        )
+
+    [filepath] => /home/peduli/domains/pedulianak.org/public_html/cache/locales/9cfefed8fb9497baa5cd519d7d2bb5d7
+)
+
+
+***************  END WARNING  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 75
+  Message: Undefined property: stdClass::$IsCompleted
+  Context: Array
+(
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 66
+  Message: Undefined property: stdClass::$TransactionDate
+  Context: Array
+(
+    [column] => TransactionDate
+)
+
+
+***************  END NOTICE  ***************
+

@@ -1,0 +1,21 @@
+2015-07-24 10:20:51|||/var/www/vhosts/peduli.laucaconsultancy.nl/httpdocs/wp-content/plugins/woocommerce-buckaroo-gateway/library/certificate/BuckarooPrivateKey.pem do not exists
+2015-07-24 10:20:51|||Unable to read certificate.
+2015-07-24 10:20:51|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-07-24 11:11:43|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-07-24 11:12:04|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-07-24 11:14:50|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-09-15 10:54:42|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-09-15 10:59:20|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-09-15 11:01:37|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-09-15 12:05:08|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-09-15 12:15:31|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-11-02 01:51:00|||Could not connect to host
+2015-11-02 01:51:00|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-11-02 01:51:04|||Could not connect to host
+2015-11-02 01:51:04|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-11-02 01:51:15|||Could not connect to host
+2015-11-02 01:51:15|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-11-02 01:51:26|||Could not connect to host
+2015-11-02 01:51:26|||Response not valid for order. Signature calculation failed. Order id: order not created
+2015-11-02 01:51:40|||Could not connect to host
+2015-11-02 01:51:40|||Response not valid for order. Signature calculation failed. Order id: order not created

@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IP-to-Country v0.03\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-14 18:05+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pepak <pepak@pepak.net>\n"
+"Language-Team: Pepak <pepak@pepak.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ip-to-country.php:593
+#: ip-to-country.php:605
+#, php-format
+msgid "Successfully updated IPv4 country info from URL <strong>%s</strong>."
+msgstr "Úspěšně nahrána informace o státech pro IPv4 z URL <strong>%s</strong>."
+
+#: ip-to-country.php:595
+#: ip-to-country.php:607
+#, php-format
+msgid "Failed to update IPv4 country info from URL <strong>%s</strong>."
+msgstr "Z URL <strong>%s</strong> se nepodařilo naimportovat informaci o státech pro IPv4."
+
+#: ip-to-country.php:599
+#: ip-to-country.php:611
+#, php-format
+msgid "Successfully updated IPV6 country info from URL <strong>%s</strong>."
+msgstr "Úspěšně nahrána informace o státech pro IPv6 z URL <strong>%s</strong>."
+
+#: ip-to-country.php:601
+#: ip-to-country.php:613
+#, php-format
+msgid "Failed to update IPV6 country info from URL <strong>%s</strong>."
+msgstr "Z URL <strong>%s</strong> se nepodařilo naimportovat informaci o státech pro IPv6."
+
+#: ip-to-country.php:619
+#, php-format
+msgid "Successfully updated IPv4 country info from file <strong>%s</strong>."
+msgstr "Úspěšně nahrána informace o státech pro IPv4 ze souboru <strong>%s</strong>."
+
+#: ip-to-country.php:621
+#, php-format
+msgid "Failed to update IPv4 country info from file <strong>%s</strong>."
+msgstr "Ze souboru <strong>%s</strong> se nepodařilo naimportovat informaci o státech pro IPv4."
+
+#: ip-to-country.php:628
+#, php-format
+msgid "Successfully updated IPV6 country info from file <strong>%s</strong>."
+msgstr "Úspěšně nahrána informace o státech pro IPv6 ze souboru <strong>%s</strong>."
+
+#: ip-to-country.php:630
+#, php-format
+msgid "Failed to update IPV6 country info from file <strong>%s</strong>."
+msgstr "Ze souboru <strong>%s</strong> se nepodařilo naimportovat informaci o státech pro IPv6."
+
+#: ip-to-country.php:644
+#: ip-to-country.php:694
+msgid "IP-to-Country options"
+msgstr "IP-to-Country - nastavení"
+
+#: ip-to-country.php:646
+msgid "Source of IP-to-Country data"
+msgstr "Zdroj dat pro převod IP na stát"
+
+#: ip-to-country.php:648
+msgid "Default IPv4 URL:"
+msgstr "Standardní URL pro IPv4:"
+
+#: ip-to-country.php:652
+msgid "Default IPv6 URL:"
+msgstr "Standardní URL pro IPv6:"
+
+#: ip-to-country.php:655
+#, php-format
+msgid "Note: Make sure you read and follow the service's <a href=\"%s\">license terms</a>, especially the part about download limits!"
+msgstr "Poznámka: Přečtěte si a dodržujte <a href=\"%s>licenční podmínky</a> používané služby, zejména tu část o časových limitech!"
+
+#: ip-to-country.php:656
+msgid "IPv4 addresses must be loaded first, because the IPv6 database does not carry a list of countries with it."
+msgstr "IPv4 adresy musí být nahrány jako první. Je to proto, že IPv6 databáze neobsahuje detailní seznam zemí, zatímco IPv4 databáze ano."
+
+#: ip-to-country.php:658
+msgid "User IPv4 URL:"
+msgstr "Uživatelské URL pro IPv4:"
+
+#: ip-to-country.php:662
+msgid "User IPv6 URL:"
+msgstr "Uživatelské URL pro IPv6:"
+
+#: ip-to-country.php:666
+msgid "Uploaded file with IPv4:"
+msgstr "Uploadovaný soubor pro IPv4:"
+
+#: ip-to-country.php:670
+msgid "Uploaded file with IPv6:"
+msgstr "Uploadovaný soubor pro IPv6:"
+
+#: ip-to-country.php:674
+msgid "Save settings"
+msgstr "Uložit nastavení"
+
+#: ip-to-country.php:675
+msgid "Save settings and update"
+msgstr "Uložit nastavení a aktualizovat databázi"
+
+#: ip-to-country.php:694
+msgid "IP-to-Country"
+msgstr "IP-to-Country"
+

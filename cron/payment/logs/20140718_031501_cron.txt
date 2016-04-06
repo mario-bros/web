@@ -1,0 +1,364 @@
+Recurring payments: 0 users with 0 payments foundRecurring payments complete
+***************  WARNING #2 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+  Line: 251
+  Message: file_get_contents(/home/peduli/domains/pedulianak.org/public_html/system/payment/logs/20140718_031501_buckaroo-request.txt): failed to open stream: No such file or directory
+  Context: Array
+(
+    [GLOBALS] => Array
+ *RECURSION*
+    [_ENV] => Array
+        (
+            [SHELL] => /bin/sh
+            [PATH] => /usr/bin:/bin
+            [PWD] => /home/peduli
+            [LANG] => en_US.UTF-8
+            [SHLVL] => 1
+            [HOME] => /home/peduli
+            [LANGUAGE] => en_US:en
+            [LOGNAME] => peduli
+            [_] => /usr/local/bin/php
+        )
+
+    [HTTP_ENV_VARS] => Array
+        (
+            [SHELL] => /bin/sh
+            [PATH] => /usr/bin:/bin
+            [PWD] => /home/peduli
+            [LANG] => en_US.UTF-8
+            [SHLVL] => 1
+            [HOME] => /home/peduli
+            [LANGUAGE] => en_US:en
+            [LOGNAME] => peduli
+            [_] => /usr/local/bin/php
+        )
+
+    [argv] => Array
+        (
+            [0] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+        )
+
+    [argc] => 1
+    [_POST] => Array
+        (
+        )
+
+    [HTTP_POST_VARS] => Array
+        (
+        )
+
+    [_GET] => Array
+        (
+        )
+
+    [HTTP_GET_VARS] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+        )
+
+    [HTTP_COOKIE_VARS] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [SHELL] => /bin/sh
+            [PATH] => /usr/bin:/bin
+            [PWD] => /home/peduli
+            [LANG] => en_US.UTF-8
+            [SHLVL] => 1
+            [HOME] => /home/peduli
+            [LANGUAGE] => en_US:en
+            [LOGNAME] => peduli
+            [_] => /usr/local/bin/php
+            [PHP_SELF] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [SCRIPT_NAME] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [SCRIPT_FILENAME] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [PATH_TRANSLATED] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [DOCUMENT_ROOT] => 
+            [REQUEST_TIME] => 1405646101
+            [argv] => Array
+                (
+                    [0] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+                )
+
+            [argc] => 1
+        )
+
+    [HTTP_SERVER_VARS] => Array
+        (
+            [SHELL] => /bin/sh
+            [PATH] => /usr/bin:/bin
+            [PWD] => /home/peduli
+            [LANG] => en_US.UTF-8
+            [SHLVL] => 1
+            [HOME] => /home/peduli
+            [LANGUAGE] => en_US:en
+            [LOGNAME] => peduli
+            [_] => /usr/local/bin/php
+            [PHP_SELF] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [SCRIPT_NAME] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [SCRIPT_FILENAME] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [PATH_TRANSLATED] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [DOCUMENT_ROOT] => 
+            [REQUEST_TIME] => 1405646101
+            [argv] => Array
+                (
+                    [0] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+                )
+
+            [argc] => 1
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [HTTP_POST_FILES] => Array
+        (
+        )
+
+    [_REQUEST] => Array
+        (
+        )
+
+    [baseDomain] => Array
+        (
+            [0] => 
+        )
+
+    [_timezoneoffset] => 0
+    [db] => MySQLDatabase Object
+        (
+            [handle:private] => Resource id #39
+            [totalQueries:private] => 1
+            [totalQueryTime:private] => 0.0737919807434
+        )
+
+    [locale] => Locale Object
+        (
+            [localeString:private] => en
+            [locale:private] => stdClass Object
+                (
+                    [LanguageId] => 4
+                    [LanguageCode] => en
+                    [LanguageNameId] => 207
+                    [DateFormatFull] => %x
+                    [DateFormatShort] => %d %b %Y
+                    [IsActive] => 1
+                    [SphiderCategoryId] => 
+                    [LanguageName] => English
+                )
+
+            [translations:private] => 
+        )
+
+    [payLogPath] => /home/peduli/domains/pedulianak.org/public_html/system/payment/logs/
+    [sql] => SELECT	rp.UserId, rp.RecurringPaymentId
+		FROM	`RecurringPayment` rp
+		LEFT	JOIN User u ON rp.UserId = u.UserId
+			AND	u.Active = 1
+		WHERE	rp.Status = 1
+			AND	rp.NextTransactionDate < NOW()
+    [result] => MySQLReader Object
+        (
+            [handle:private] => Resource id #43
+        )
+
+    [nrPayments] => 0
+    [userLines] => Array
+        (
+        )
+
+    [row] => 
+    [nrUsers] => 0
+)
+
+
+***************  END WARNING  ***************
+
+
+***************  WARNING #2 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+  Line: 253
+  Message: file_get_contents(/home/peduli/domains/pedulianak.org/public_html/system/payment/logs/20140718_031501_buckaroo-response.txt): failed to open stream: No such file or directory
+  Context: Array
+(
+    [GLOBALS] => Array
+ *RECURSION*
+    [_ENV] => Array
+        (
+            [SHELL] => /bin/sh
+            [PATH] => /usr/bin:/bin
+            [PWD] => /home/peduli
+            [LANG] => en_US.UTF-8
+            [SHLVL] => 1
+            [HOME] => /home/peduli
+            [LANGUAGE] => en_US:en
+            [LOGNAME] => peduli
+            [_] => /usr/local/bin/php
+        )
+
+    [HTTP_ENV_VARS] => Array
+        (
+            [SHELL] => /bin/sh
+            [PATH] => /usr/bin:/bin
+            [PWD] => /home/peduli
+            [LANG] => en_US.UTF-8
+            [SHLVL] => 1
+            [HOME] => /home/peduli
+            [LANGUAGE] => en_US:en
+            [LOGNAME] => peduli
+            [_] => /usr/local/bin/php
+        )
+
+    [argv] => Array
+        (
+            [0] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+        )
+
+    [argc] => 1
+    [_POST] => Array
+        (
+        )
+
+    [HTTP_POST_VARS] => Array
+        (
+        )
+
+    [_GET] => Array
+        (
+        )
+
+    [HTTP_GET_VARS] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+        )
+
+    [HTTP_COOKIE_VARS] => Array
+        (
+        )
+
+    [_SERVER] => Array
+        (
+            [SHELL] => /bin/sh
+            [PATH] => /usr/bin:/bin
+            [PWD] => /home/peduli
+            [LANG] => en_US.UTF-8
+            [SHLVL] => 1
+            [HOME] => /home/peduli
+            [LANGUAGE] => en_US:en
+            [LOGNAME] => peduli
+            [_] => /usr/local/bin/php
+            [PHP_SELF] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [SCRIPT_NAME] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [SCRIPT_FILENAME] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [PATH_TRANSLATED] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [DOCUMENT_ROOT] => 
+            [REQUEST_TIME] => 1405646101
+            [argv] => Array
+                (
+                    [0] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+                )
+
+            [argc] => 1
+        )
+
+    [HTTP_SERVER_VARS] => Array
+        (
+            [SHELL] => /bin/sh
+            [PATH] => /usr/bin:/bin
+            [PWD] => /home/peduli
+            [LANG] => en_US.UTF-8
+            [SHLVL] => 1
+            [HOME] => /home/peduli
+            [LANGUAGE] => en_US:en
+            [LOGNAME] => peduli
+            [_] => /usr/local/bin/php
+            [PHP_SELF] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [SCRIPT_NAME] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [SCRIPT_FILENAME] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [PATH_TRANSLATED] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+            [DOCUMENT_ROOT] => 
+            [REQUEST_TIME] => 1405646101
+            [argv] => Array
+                (
+                    [0] => /home/peduli/domains/pedulianak.org/public_html/system/cron/recurring-payments.php
+                )
+
+            [argc] => 1
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [HTTP_POST_FILES] => Array
+        (
+        )
+
+    [_REQUEST] => Array
+        (
+        )
+
+    [baseDomain] => Array
+        (
+            [0] => 
+        )
+
+    [_timezoneoffset] => 0
+    [db] => MySQLDatabase Object
+        (
+            [handle:private] => Resource id #39
+            [totalQueries:private] => 1
+            [totalQueryTime:private] => 0.0737919807434
+        )
+
+    [locale] => Locale Object
+        (
+            [localeString:private] => en
+            [locale:private] => stdClass Object
+                (
+                    [LanguageId] => 4
+                    [LanguageCode] => en
+                    [LanguageNameId] => 207
+                    [DateFormatFull] => %x
+                    [DateFormatShort] => %d %b %Y
+                    [IsActive] => 1
+                    [SphiderCategoryId] => 
+                    [LanguageName] => English
+                )
+
+            [translations:private] => 
+        )
+
+    [payLogPath] => /home/peduli/domains/pedulianak.org/public_html/system/payment/logs/
+    [sql] => SELECT	rp.UserId, rp.RecurringPaymentId
+		FROM	`RecurringPayment` rp
+		LEFT	JOIN User u ON rp.UserId = u.UserId
+			AND	u.Active = 1
+		WHERE	rp.Status = 1
+			AND	rp.NextTransactionDate < NOW()
+    [result] => MySQLReader Object
+        (
+            [handle:private] => Resource id #43
+        )
+
+    [nrPayments] => 0
+    [userLines] => Array
+        (
+        )
+
+    [row] => 
+    [nrUsers] => 0
+)
+
+
+***************  END WARNING  ***************
+

@@ -1,0 +1,183 @@
+﻿New entry at 2014-07-25 09:04:34
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:04:49
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:09:36
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:13:28
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:15:04
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 716
+BuckarooV3Response initialized
+2014-07-25 09:15:05
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak recurring donation. Transaction 20140712000716
+	brq_invoicenumber              => 20140712000716
+	brq_issuing_country            => NL
+	brq_mutationtype               => Processing
+	brq_payment                    => C043F712A94E466F8D2F82772E858474
+	brq_recurring                  => True
+	brq_statuscode                 => 490
+	brq_statusmessage              => Failed
+	brq_test                       => false
+	brq_timestamp                  => 2014-07-25 08:51:57
+	brq_transaction_method         => mastercard
+	brq_transaction_type           => V031
+	brq_transactions               => C2FD6FBA817A4CD2BBEE2ED883B72A11
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => fb92c585119d1a33ed925209d56f272db40462ee
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140712000716" to signature
+Adding "brq_invoicenumber=20140712000716" to signature
+Adding "brq_issuing_country=NL" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=C043F712A94E466F8D2F82772E858474" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statusmessage=Failed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-07-25 08:51:57" to signature
+Adding "brq_transaction_method=mastercard" to signature
+Adding "brq_transaction_type=V031" to signature
+Adding "brq_transactions=C2FD6FBA817A4CD2BBEE2ED883B72A11" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_description=Peduli Anak recurring donation. Transaction 20140712000716brq_invoicenumber=20140712000716brq_issuing_country=NLbrq_mutationtype=Processingbrq_payment=C043F712A94E466F8D2F82772E858474brq_recurring=Truebrq_statuscode=490brq_statusmessage=Failedbrq_test=falsebrq_timestamp=2014-07-25 08:51:57brq_transaction_method=mastercardbrq_transaction_type=V031brq_transactions=C2FD6FBA817A4CD2BBEE2ED883B72A11brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: fb92c585119d1a33ed925209d56f272db40462ee
+Transaction found via invoice, ID 716
+Signature received  : fb92c585119d1a33ed925209d56f272db40462ee
+Signature calculated: fb92c585119d1a33ed925209d56f272db40462ee
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:17:45
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:17:55
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:17:58
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:18:02
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:18:28
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:18:42
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:19:27
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:23:27
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:23:28
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:23:42
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:23:43
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:26:13
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:27:42
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:32:01
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:32:23
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:35:12
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:36:21
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:36:17
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:36:25
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:36:25
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:36:31
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:36:36
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:36:35
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:36:55
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:37:05
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:37:22
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:37:17
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:37:54
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:39:52
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:40:01
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:40:06
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:43:45
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:44:09
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:46:53
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:46:59
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:47:44
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:49:15
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:51:53
+------------------------------------------------------------
+
+﻿New entry at 2014-07-25 09:51:57
+------------------------------------------------------------
+

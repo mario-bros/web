@@ -1,0 +1,224 @@
+﻿New entry at 2014-10-13 01:02:55
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:03:06
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:04:49
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:12:16
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:13:37
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:15:02
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 759
+BuckarooV3Response initialized
+2014-10-13 01:15:02
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak recurring donation. Transaction 20141013000759
+	brq_invoicenumber              => 20141013000759
+	brq_mutationtype               => NotSet
+	brq_payment                    => 36D3C822C3DC4D719DF70C425342F4FF
+	brq_recurring                  => True
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => S106
+	brq_statusmessage              => Invalid parameter: originaltransaction
+	brq_test                       => false
+	brq_timestamp                  => 2014-10-13 03:15:02
+	brq_transaction_method         => mastercard
+	brq_transactions               => 5D1AA63A5D784F8385DBF873259DB9EE
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 0a2d7b24762309c747e57753ba08b278b3dda4bf
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20141013000759" to signature
+Adding "brq_invoicenumber=20141013000759" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_payment=36D3C822C3DC4D719DF70C425342F4FF" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=S106" to signature
+Adding "brq_statusmessage=Invalid parameter: originaltransaction" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-10-13 03:15:02" to signature
+Adding "brq_transaction_method=mastercard" to signature
+Adding "brq_transactions=5D1AA63A5D784F8385DBF873259DB9EE" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_description=Peduli Anak recurring donation. Transaction 20141013000759brq_invoicenumber=20141013000759brq_mutationtype=NotSetbrq_payment=36D3C822C3DC4D719DF70C425342F4FFbrq_recurring=Truebrq_statuscode=490brq_statuscode_detail=S106brq_statusmessage=Invalid parameter: originaltransactionbrq_test=falsebrq_timestamp=2014-10-13 03:15:02brq_transaction_method=mastercardbrq_transactions=5D1AA63A5D784F8385DBF873259DB9EEbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 0a2d7b24762309c747e57753ba08b278b3dda4bf
+Transaction found via invoice, ID 759
+Signature received  : 0a2d7b24762309c747e57753ba08b278b3dda4bf
+Signature calculated: 0a2d7b24762309c747e57753ba08b278b3dda4bf
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:15:02
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 760
+BuckarooV3Response initialized
+2014-10-13 01:15:02
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_description                => Peduli Anak recurring donation. Transaction 20141013000760
+	brq_invoicenumber              => 20141013000760
+	brq_mutationtype               => NotSet
+	brq_payment                    => A3D794C34C5B4144BDACF90F80EA185E
+	brq_recurring                  => True
+	brq_statuscode                 => 490
+	brq_statuscode_detail          => S106
+	brq_statusmessage              => Invalid parameter: originaltransaction
+	brq_test                       => false
+	brq_timestamp                  => 2014-10-13 03:15:02
+	brq_transaction_method         => visa
+	brq_transactions               => E847BBAA1BFA4363B5BFFFBA50097978
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => ad78864174edace2b139558e0037fb9a42673c8f
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20141013000760" to signature
+Adding "brq_invoicenumber=20141013000760" to signature
+Adding "brq_mutationtype=NotSet" to signature
+Adding "brq_payment=A3D794C34C5B4144BDACF90F80EA185E" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_statuscode=490" to signature
+Adding "brq_statuscode_detail=S106" to signature
+Adding "brq_statusmessage=Invalid parameter: originaltransaction" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-10-13 03:15:02" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transactions=E847BBAA1BFA4363B5BFFFBA50097978" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_description=Peduli Anak recurring donation. Transaction 20141013000760brq_invoicenumber=20141013000760brq_mutationtype=NotSetbrq_payment=A3D794C34C5B4144BDACF90F80EA185Ebrq_recurring=Truebrq_statuscode=490brq_statuscode_detail=S106brq_statusmessage=Invalid parameter: originaltransactionbrq_test=falsebrq_timestamp=2014-10-13 03:15:02brq_transaction_method=visabrq_transactions=E847BBAA1BFA4363B5BFFFBA50097978brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: ad78864174edace2b139558e0037fb9a42673c8f
+Transaction found via invoice, ID 760
+Signature received  : ad78864174edace2b139558e0037fb9a42673c8f
+Signature calculated: ad78864174edace2b139558e0037fb9a42673c8f
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:19:00
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:19:00
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:21:20
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:23:25
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:30:34
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:33:02
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:36:16
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:36:42
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:36:59
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:37:27
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:37:32
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:37:44
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:37:47
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:37:55
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:38:07
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:38:08
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:38:08
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:38:58
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:41:12
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:41:33
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:41:34
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:41:37
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:41:41
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:41:47
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:41:48
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:42:04
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:42:29
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:42:50
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:43:05
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:43:10
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:43:29
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:51:31
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:53:50
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:54:24
+------------------------------------------------------------
+
+﻿New entry at 2014-10-13 01:55:32
+------------------------------------------------------------
+

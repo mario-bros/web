@@ -1,0 +1,141 @@
+﻿New entry at 2014-10-01 01:05:09
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:07:44
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:07:50
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:07:57
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:08:54
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:10:08
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:10:26
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:11:37
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:12:28
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:13:40
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:15:08
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 752
+BuckarooV3Response initialized
+2014-10-01 01:15:08
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => Natalia Tjoe
+	brq_description                => Peduli Anak recurring donation. Transaction 20141001000752
+	brq_invoicenumber              => 20141001000752
+	brq_issuing_country            => SG
+	brq_mutationtype               => Processing
+	brq_payment                    => 6229F43AEB7D4172A66F4007A38BFA0E
+	brq_recurring                  => True
+	brq_SERVICE_visa_CardExpirationDate => 2019-05
+	brq_SERVICE_visa_CardNumberEnding => 2470
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-10-01 03:15:08
+	brq_transaction_method         => visa
+	brq_transaction_type           => V032
+	brq_transactions               => BA77147CAC444E55B461A1C74913BA49
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 653a0666cc7afb94781309b32a720e9aa862adb9
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Natalia Tjoe" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20141001000752" to signature
+Adding "brq_invoicenumber=20141001000752" to signature
+Adding "brq_issuing_country=SG" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=6229F43AEB7D4172A66F4007A38BFA0E" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2019-05" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=2470" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-10-01 03:15:08" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V032" to signature
+Adding "brq_transactions=BA77147CAC444E55B461A1C74913BA49" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=Natalia Tjoebrq_description=Peduli Anak recurring donation. Transaction 20141001000752brq_invoicenumber=20141001000752brq_issuing_country=SGbrq_mutationtype=Processingbrq_payment=6229F43AEB7D4172A66F4007A38BFA0Ebrq_recurring=Truebrq_SERVICE_visa_CardExpirationDate=2019-05brq_SERVICE_visa_CardNumberEnding=2470brq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-10-01 03:15:08brq_transaction_method=visabrq_transaction_type=V032brq_transactions=BA77147CAC444E55B461A1C74913BA49brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 653a0666cc7afb94781309b32a720e9aa862adb9
+Transaction found via invoice, ID 752
+Signature received  : 653a0666cc7afb94781309b32a720e9aa862adb9
+Signature calculated: 653a0666cc7afb94781309b32a720e9aa862adb9
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 806
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:16:51
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:21:55
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:27:11
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:28:45
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:31:18
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:31:51
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:32:04
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:32:06
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:32:40
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:36:31
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:41:37
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:50:19
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:54:38
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:54:57
+------------------------------------------------------------
+
+﻿New entry at 2014-10-01 01:57:56
+------------------------------------------------------------
+

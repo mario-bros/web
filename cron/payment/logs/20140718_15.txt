@@ -1,0 +1,214 @@
+﻿New entry at 2014-07-18 15:01:27
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:02:41
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:02:42
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:02:42
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:05:34
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:05:35
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:07:14
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:07:31
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:08:40
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:08:58
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:08:59
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140718000723brq_invoicenumber=20140718000723brq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=34.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140718000723brq_invoicenumber=20140718000723brq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 63f0d16aa19b7d29cf3aee06f5bfef556cdbaf55
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:10:25
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 723
+BuckarooV3Response initialized
+2014-07-18 15:10:25
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => L.M. van Oosten
+	brq_description                => Peduli Anak Foundation Invoice 20140718000723
+	brq_invoicenumber              => 20140718000723
+	brq_issuing_country            => NL
+	brq_mutationtype               => Processing
+	brq_payer_hash                 => 4a2715e2fed5d8c673af131d58ca5d9cea212115df0f9865ec57916ee6c77104fb0ec35a66b029383dfd15e0d1a70b685ec1db76b13c3af0f6c16d76879441ad
+	brq_payment                    => B557C9F612DE49EB96CA17F7B7B00B9B
+	brq_SERVICE_visa_Authentication => Y
+	brq_SERVICE_visa_CardExpirationDate => 2014-11
+	brq_SERVICE_visa_CardNumberEnding => 5614
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-07-18 15:10:24
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => A9CAE18084494F969A3A4C7D22CC1562
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 1c9451deb4613d53a239f8863e6beb38df6dd9c4
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=L.M. van Oosten" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140718000723" to signature
+Adding "brq_invoicenumber=20140718000723" to signature
+Adding "brq_issuing_country=NL" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payer_hash=4a2715e2fed5d8c673af131d58ca5d9cea212115df0f9865ec57916ee6c77104fb0ec35a66b029383dfd15e0d1a70b685ec1db76b13c3af0f6c16d76879441ad" to signature
+Adding "brq_payment=B557C9F612DE49EB96CA17F7B7B00B9B" to signature
+Adding "brq_SERVICE_visa_Authentication=Y" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2014-11" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=5614" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-07-18 15:10:24" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=A9CAE18084494F969A3A4C7D22CC1562" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=L.M. van Oostenbrq_description=Peduli Anak Foundation Invoice 20140718000723brq_invoicenumber=20140718000723brq_issuing_country=NLbrq_mutationtype=Processingbrq_payer_hash=4a2715e2fed5d8c673af131d58ca5d9cea212115df0f9865ec57916ee6c77104fb0ec35a66b029383dfd15e0d1a70b685ec1db76b13c3af0f6c16d76879441adbrq_payment=B557C9F612DE49EB96CA17F7B7B00B9Bbrq_SERVICE_visa_Authentication=Ybrq_SERVICE_visa_CardExpirationDate=2014-11brq_SERVICE_visa_CardNumberEnding=5614brq_SERVICE_visa_Enrolled=Ybrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-07-18 15:10:24brq_transaction_method=visabrq_transaction_type=V002brq_transactions=A9CAE18084494F969A3A4C7D22CC1562brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 1c9451deb4613d53a239f8863e6beb38df6dd9c4
+Transaction found via invoice, ID 723
+Signature received  : 1c9451deb4613d53a239f8863e6beb38df6dd9c4
+Signature calculated: 1c9451deb4613d53a239f8863e6beb38df6dd9c4
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 776
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:13:03
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:13:13
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:13:40
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:13:52
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:14:57
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:15:08
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:15:35
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:15:51
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:17:13
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:18:36
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:22:38
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:24:17
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:30:41
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:36:27
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:36:29
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:38:20
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:40:02
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:42:47
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:42:44
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+﻿﻿New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+﻿﻿New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:43:05
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:45:18
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:46:16
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:46:22
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:52:27
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:52:29
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:53:11
+------------------------------------------------------------
+
+﻿New entry at 2014-07-18 15:57:51
+------------------------------------------------------------
+

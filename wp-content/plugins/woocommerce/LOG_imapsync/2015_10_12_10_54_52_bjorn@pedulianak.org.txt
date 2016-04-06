@@ -1,0 +1,702 @@
+Transfer started at Mon Oct 12 10:54:52 2015
+PID is 7308
+Log file is LOG_imapsync/2015_10_12_10_54_52_bjorn@pedulianak.org.txt  ( to change it, use --logfile filepath ; or use --nolog to turn off logging )
+$RCSfile: imapsync,v $ $Revision: 1.637 $ $Date: 2015/04/01 01:36:37 $ 
+Here is a [linux] system (Linux li853-243.members.linode.com 4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015 x86_64)
+With perl 5.16.3 Mail::IMAPClient  3.34
+Command line used:
+/usr/bin/imapsync --host1 31.171.202.6 --user1 bjorn@pedulianak.org --password1 MASKED --host2 139.162.11.243 --user2 bjorn@pedulianak.org --password2 MASKED
+Temp directory is /tmp  ( to change it use --tmpdir dirpath )
+PID file is /tmp/imapsync.pid ( to change it use --pidfile filepath ; to avoid it use --pidfile "" )
+Modules version list:
+Mail::IMAPClient     3.34
+IO::Socket           1.34
+IO::Socket::IP       0.21
+IO::Socket::INET     1.33
+IO::Socket::SSL      1.94
+Net::SSLeay          1.55
+Compress::Zlib       2.061
+Digest::MD5          2.52
+Digest::HMAC_MD5     1.01
+Digest::HMAC_SHA1    1.03
+Term::ReadKey        2.30
+File::Spec           3.40
+Time::HiRes          1.9725
+Unicode::String      2.09
+IO::Tee              0.64
+File::Copy::Recursive 0.38
+Authen::NTLM         1.09
+URI::Escape          3.31
+Data::Uniqid         0.12
+( use --no-modules_version to turn off printing this Perl modules list )
+Info: turned ON syncinternaldates, will set the internal dates (arrival dates) on host2 same as host1.
+Info: will try to use LOGIN authentication on host1
+Info: will try to use LOGIN authentication on host2
+Info: imap connexions timeout is 120 seconds
+Host1: IMAP server [31.171.202.6] port [143] user [bjorn@pedulianak.org]
+Host2: IMAP server [139.162.11.243] port [143] user [bjorn@pedulianak.org]
+Host1: * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] Dovecot DA ready.
+Host1: 31.171.202.6 says it has NO CAPABILITY for AUTHENTICATE LOGIN
+Host1: success login on [31.171.202.6] with user [bjorn@pedulianak.org] auth [LOGIN]
+Host2: * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+Host2: 139.162.11.243 says it has CAPABILITY for AUTHENTICATE LOGIN
+Host2: success login on [139.162.11.243] with user [bjorn@pedulianak.org] auth [LOGIN]
+Host1: state Authenticated
+Host2: state Authenticated
+Host1 capability: IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS THREAD=ORDEREDSUBJECT MULTIAPPEND URL-PARTIAL CATENATE UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS BINARY MOVE QUOTA
+Host2 capability: IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS THREAD=ORDEREDSUBJECT MULTIAPPEND URL-PARTIAL CATENATE UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS SPECIAL-USE BINARY MOVE QUOTA
+Host1: separator given by NAMESPACE: [.]
+Host2: separator given by NAMESPACE: [.]
+Host1: prefix given by NAMESPACE: []
+Host2: prefix given by NAMESPACE: []
+Host1 separator and prefix: [.][]
+Host2 separator and prefix: [.][]
+
+++++ Listing folders
+All foldernames are presented between brackets like [X] where X is the foldername.
+When a foldername contains non-ASCII characters it is presented in the form
+[X] = [Y] where
+X is the imap foldername you have to use in command line options and
+Y is the uft8 output just printed for convenience, to recognize it.
+
+Host1 folders list:
+[INBOX]
+[INBOX.Trash]
+[INBOX.spam]
+
+Host2 folders list:
+[Drafts]
+[INBOX]
+[Junk]
+[Sent]
+[Trash]
+[oldmail]
+[oldmail.Trash]
+[oldmail.spam]
+
+Folders in host2 not in host1:
+[oldmail.spam]
+[oldmail.Trash]
+[oldmail]
+[Trash]
+[Sent]
+[Junk]
+[Drafts]
+
+
+Folders sizes before the synchronization.
+You can remove foldersizes listings by using "--nofoldersizes" and  "--nofoldersizesatend"
+but then you will also loose the ETA (Estimation Time of Arrival) given after each message copy.
+++++ Calculating sizes on Host1
+Host1 folder [INBOX]                             Size: 103122594 Messages:   463 Biggest:  13753927
+Host1 folder [INBOX.Trash]                       Size:    343210 Messages:    74 Biggest:     81432
+Host1 folder [INBOX.spam]                        Size:         0 Messages:     0 Biggest:         0
+Host1 Nb messages:             537 messages
+Host1 Total size:        103465804 bytes (98.673 MiB)
+Host1 Biggest message:    13753927 bytes (13.117 MiB)
+Host1 Time spent:             11.4 seconds
+++++ Calculating sizes on Host2
+Host2 folder [INBOX]                             Size:      1251 Messages:     1 Biggest:      1251
+Host2 folder [INBOX.Trash]                       does not exist yet
+Host2 folder [INBOX.spam]                        does not exist yet
+Host2 Nb messages:               1 messages
+Host2 Total size:             1251 bytes (1.222 KiB)
+Host2 Biggest message:        1251 bytes (1.222 KiB)
+Host2 Time spent:              0.0 seconds
+++++ Looping on each folder
+[INBOX]                             -> [INBOX]                            
+msg INBOX/75 {27429}          copied to INBOX/2          0.22 msgs/s  5.987 KiB/s 26.786 KiB copied  ETA: Mon Oct 12 11:35:07 2015  2398 s  536/537 msgs left
+msg INBOX/76 {40822}          copied to INBOX/3          0.42 msgs/s  13.869 KiB/s 66.651 KiB copied  ETA: Mon Oct 12 11:16:35 2015  1286 s  535/537 msgs left
+msg INBOX/77 {2176}           copied to INBOX/4          0.59 msgs/s  13.424 KiB/s 68.776 KiB copied  ETA: Mon Oct 12 11:10:22 2015  912 s  534/537 msgs left
+msg INBOX/78 {45044}          copied to INBOX/5          0.73 msgs/s  20.546 KiB/s 112.765 KiB copied  ETA: Mon Oct 12 11:07:22 2015  731 s  533/537 msgs left
+msg INBOX/79 {513630}         copied to INBOX/6          0.70 msgs/s  86.579 KiB/s 614.356 KiB copied  ETA: Mon Oct 12 11:07:47 2015  755 s  532/537 msgs left
+msg INBOX/80 {61970}          copied to INBOX/7          0.80 msgs/s  90.398 KiB/s 674.874 KiB copied  ETA: Mon Oct 12 11:06:13 2015  661 s  531/537 msgs left
+msg INBOX/81 {46177}          copied to INBOX/8          0.90 msgs/s  92.136 KiB/s 719.969 KiB copied  ETA: Mon Oct 12 11:05:04 2015  592 s  530/537 msgs left
+msg INBOX/82 {47792}          copied to INBOX/9          0.98 msgs/s  94.183 KiB/s 766.641 KiB copied  ETA: Mon Oct 12 11:04:11 2015  538 s  529/537 msgs left
+msg INBOX/83 {47877}          copied to INBOX/10         1.06 msgs/s  96.184 KiB/s 813.396 KiB copied  ETA: Mon Oct 12 11:03:29 2015  496 s  528/537 msgs left
+msg INBOX/84 {3283}           copied to INBOX/11         1.14 msgs/s  93.045 KiB/s 816.602 KiB copied  ETA: Mon Oct 12 11:02:56 2015  463 s  527/537 msgs left
+msg INBOX/85 {5820}           copied to INBOX/12         1.21 msgs/s  90.392 KiB/s 822.285 KiB copied  ETA: Mon Oct 12 11:02:29 2015  435 s  526/537 msgs left
+msg INBOX/86 {4174}           copied to INBOX/13         1.27 msgs/s  87.495 KiB/s 826.361 KiB copied  ETA: Mon Oct 12 11:02:08 2015  413 s  525/537 msgs left
+msg INBOX/87 {525706}         copied to INBOX/14         1.25 msgs/s  128.313 KiB/s 1.308 MiB copied  ETA: Mon Oct 12 11:02:16 2015  421 s  524/537 msgs left
+msg INBOX/88 {102968}         copied to INBOX/15         1.29 msgs/s  133.176 KiB/s 1.407 MiB copied  ETA: Mon Oct 12 11:02:00 2015  404 s  523/537 msgs left
+msg INBOX/89 {2398}           copied to INBOX/16         1.35 msgs/s  129.508 KiB/s 1.409 MiB copied  ETA: Mon Oct 12 11:01:44 2015  388 s  522/537 msgs left
+msg INBOX/90 {2363}           copied to INBOX/17         1.40 msgs/s  126.019 KiB/s 1.411 MiB copied  ETA: Mon Oct 12 11:01:30 2015  373 s  521/537 msgs left
+msg INBOX/91 {2973}           copied to INBOX/18         1.44 msgs/s  122.786 KiB/s 1.414 MiB copied  ETA: Mon Oct 12 11:01:17 2015  361 s  520/537 msgs left
+msg INBOX/92 {139025}         copied to INBOX/19         1.48 msgs/s  129.944 KiB/s 1.547 MiB copied  ETA: Mon Oct 12 11:01:08 2015  351 s  519/537 msgs left
+msg INBOX/93 {4790}           copied to INBOX/20         1.52 msgs/s  127.046 KiB/s 1.551 MiB copied  ETA: Mon Oct 12 11:00:58 2015  341 s  518/537 msgs left
+msg INBOX/94 {141078}         copied to INBOX/21         1.55 msgs/s  134.067 KiB/s 1.686 MiB copied  ETA: Mon Oct 12 11:00:51 2015  333 s  517/537 msgs left
+msg INBOX/95 {818945}         copied to INBOX/22         1.49 msgs/s  178.703 KiB/s 2.467 MiB copied  ETA: Mon Oct 12 11:01:06 2015  347 s  516/537 msgs left
+msg INBOX/96 {9797}           copied to INBOX/23         1.52 msgs/s  175.361 KiB/s 2.476 MiB copied  ETA: Mon Oct 12 11:00:58 2015  338 s  515/537 msgs left
+msg INBOX/97 {18189}          copied to INBOX/24         1.55 msgs/s  172.258 KiB/s 2.493 MiB copied  ETA: Mon Oct 12 11:00:51 2015  331 s  514/537 msgs left
+msg INBOX/98 {48114}          copied to INBOX/25         1.58 msgs/s  171.344 KiB/s 2.539 MiB copied  ETA: Mon Oct 12 11:00:44 2015  324 s  513/537 msgs left
+msg INBOX/99 {47976}          copied to INBOX/26         1.61 msgs/s  170.422 KiB/s 2.585 MiB copied  ETA: Mon Oct 12 11:00:39 2015  318 s  512/537 msgs left
+msg INBOX/100 {21523}         copied to INBOX/27         1.63 msgs/s  167.678 KiB/s 2.605 MiB copied  ETA: Mon Oct 12 11:00:34 2015  313 s  511/537 msgs left
+msg INBOX/101 {27550}         copied to INBOX/28         1.66 msgs/s  165.991 KiB/s 2.632 MiB copied  ETA: Mon Oct 12 11:00:28 2015  307 s  510/537 msgs left
+msg INBOX/102 {9406}          copied to INBOX/29         1.69 msgs/s  163.226 KiB/s 2.641 MiB copied  ETA: Mon Oct 12 11:00:23 2015  301 s  509/537 msgs left
+msg INBOX/103 {42804}         copied to INBOX/30         1.72 msgs/s  162.654 KiB/s 2.682 MiB copied  ETA: Mon Oct 12 11:00:17 2015  296 s  508/537 msgs left
+msg INBOX/104 {563009}        copied to INBOX/31         1.62 msgs/s  177.924 KiB/s 3.218 MiB copied  ETA: Mon Oct 12 11:00:36 2015  313 s  507/537 msgs left
+msg INBOX/105 {75586}         copied to INBOX/32         1.64 msgs/s  178.499 KiB/s 3.291 MiB copied  ETA: Mon Oct 12 11:00:32 2015  308 s  506/537 msgs left
+msg INBOX/106 {75697}         copied to INBOX/33         1.66 msgs/s  179.009 KiB/s 3.363 MiB copied  ETA: Mon Oct 12 11:00:28 2015  304 s  505/537 msgs left
+msg INBOX/107 {2606}          copied to INBOX/34         1.69 msgs/s  176.268 KiB/s 3.365 MiB copied  ETA: Mon Oct 12 11:00:23 2015  299 s  504/537 msgs left
+msg INBOX/108 {561763}        copied to INBOX/35         1.66 msgs/s  194.591 KiB/s 3.901 MiB copied  ETA: Mon Oct 12 11:00:29 2015  304 s  503/537 msgs left
+msg INBOX/109 {10066}         copied to INBOX/36         1.68 msgs/s  191.846 KiB/s 3.911 MiB copied  ETA: Mon Oct 12 11:00:25 2015  299 s  502/537 msgs left
+msg INBOX/110 {388528}        copied to INBOX/37         1.67 msgs/s  203.858 KiB/s 4.281 MiB copied  ETA: Mon Oct 12 11:00:26 2015  299 s  501/537 msgs left
+msg INBOX/111 {24296}         copied to INBOX/38         1.69 msgs/s  201.651 KiB/s 4.304 MiB copied  ETA: Mon Oct 12 11:00:22 2015  295 s  500/537 msgs left
+msg INBOX/112 {13517}         copied to INBOX/39         1.71 msgs/s  199.252 KiB/s 4.317 MiB copied  ETA: Mon Oct 12 11:00:18 2015  291 s  499/537 msgs left
+msg INBOX/113 {15309}         copied to INBOX/40         1.73 msgs/s  197.072 KiB/s 4.332 MiB copied  ETA: Mon Oct 12 11:00:15 2015  287 s  498/537 msgs left
+msg INBOX/114 {55774}         copied to INBOX/41         1.75 msgs/s  196.266 KiB/s 4.385 MiB copied  ETA: Mon Oct 12 11:00:12 2015  284 s  497/537 msgs left
+msg INBOX/115 {46915}         copied to INBOX/42         1.76 msgs/s  195.252 KiB/s 4.430 MiB copied  ETA: Mon Oct 12 11:00:09 2015  281 s  496/537 msgs left
+msg INBOX/116 {51103}         copied to INBOX/43         1.78 msgs/s  194.517 KiB/s 4.478 MiB copied  ETA: Mon Oct 12 11:00:06 2015  278 s  495/537 msgs left
+msg INBOX/117 {10028}         copied to INBOX/44         1.80 msgs/s  192.336 KiB/s 4.488 MiB copied  ETA: Mon Oct 12 11:00:03 2015  275 s  494/537 msgs left
+msg INBOX/118 {55275}         copied to INBOX/45         1.82 msgs/s  191.981 KiB/s 4.541 MiB copied  ETA: Mon Oct 12 11:00:00 2015  271 s  493/537 msgs left
+msg INBOX/119 {2380}          copied to INBOX/46         1.83 msgs/s  189.611 KiB/s 4.543 MiB copied  ETA: Mon Oct 12 10:59:58 2015  268 s  492/537 msgs left
+msg INBOX/120 {2654915}       copied to INBOX/47         1.66 msgs/s  261.143 KiB/s 7.075 MiB copied  ETA: Mon Oct 12 11:00:29 2015  296 s  491/537 msgs left
+msg INBOX/121 {85137}         copied to INBOX/48         1.67 msgs/s  260.701 KiB/s 7.156 MiB copied  ETA: Mon Oct 12 11:00:26 2015  293 s  490/537 msgs left
+msg INBOX/122 {55232}         copied to INBOX/49         1.69 msgs/s  259.508 KiB/s 7.209 MiB copied  ETA: Mon Oct 12 11:00:23 2015  290 s  489/537 msgs left
+msg INBOX/123 {3986}          copied to INBOX/50         1.70 msgs/s  256.751 KiB/s 7.213 MiB copied  ETA: Mon Oct 12 11:00:20 2015  286 s  488/537 msgs left
+msg INBOX/124 {8840}          copied to INBOX/51         1.72 msgs/s  254.077 KiB/s 7.221 MiB copied  ETA: Mon Oct 12 11:00:17 2015  283 s  487/537 msgs left
+msg INBOX/125 {11576}         copied to INBOX/52         1.73 msgs/s  251.508 KiB/s 7.232 MiB copied  ETA: Mon Oct 12 11:00:15 2015  281 s  486/537 msgs left
+msg INBOX/126 {11617}         copied to INBOX/53         1.75 msgs/s  249.178 KiB/s 7.243 MiB copied  ETA: Mon Oct 12 11:00:12 2015  278 s  485/537 msgs left
+msg INBOX/127 {18772}         copied to INBOX/54         1.76 msgs/s  247.091 KiB/s 7.261 MiB copied  ETA: Mon Oct 12 11:00:10 2015  275 s  484/537 msgs left
+msg INBOX/128 {31864}         copied to INBOX/55         1.77 msgs/s  245.342 KiB/s 7.291 MiB copied  ETA: Mon Oct 12 11:00:08 2015  272 s  483/537 msgs left
+msg INBOX/129 {2588}          copied to INBOX/56         1.79 msgs/s  242.836 KiB/s 7.294 MiB copied  ETA: Mon Oct 12 11:00:05 2015  270 s  482/537 msgs left
+msg INBOX/130 {18520}         copied to INBOX/57         1.80 msgs/s  240.952 KiB/s 7.312 MiB copied  ETA: Mon Oct 12 11:00:03 2015  267 s  481/537 msgs left
+msg INBOX/131 {31180}         copied to INBOX/58         1.81 msgs/s  239.193 KiB/s 7.341 MiB copied  ETA: Mon Oct 12 11:00:01 2015  265 s  480/537 msgs left
+msg INBOX/132 {3092}          copied to INBOX/59         1.83 msgs/s  236.900 KiB/s 7.344 MiB copied  ETA: Mon Oct 12 10:59:59 2015  262 s  479/537 msgs left
+msg INBOX/133 {25530}         copied to INBOX/60         1.84 msgs/s  235.281 KiB/s 7.369 MiB copied  ETA: Mon Oct 12 10:59:57 2015  260 s  478/537 msgs left
+msg INBOX/134 {29323}         copied to INBOX/61         1.85 msgs/s  233.787 KiB/s 7.397 MiB copied  ETA: Mon Oct 12 10:59:55 2015  258 s  477/537 msgs left
+msg INBOX/135 {35461}         copied to INBOX/62         1.86 msgs/s  232.458 KiB/s 7.430 MiB copied  ETA: Mon Oct 12 10:59:53 2015  255 s  476/537 msgs left
+msg INBOX/136 {1129170}       copied to INBOX/63         1.83 msgs/s  257.029 KiB/s 8.507 MiB copied  ETA: Mon Oct 12 10:59:58 2015  260 s  475/537 msgs left
+msg INBOX/137 {2658}          copied to INBOX/64         1.84 msgs/s  254.362 KiB/s 8.510 MiB copied  ETA: Mon Oct 12 10:59:57 2015  258 s  474/537 msgs left
+msg INBOX/138 {95821}         copied to INBOX/65         1.85 msgs/s  254.728 KiB/s 8.601 MiB copied  ETA: Mon Oct 12 10:59:55 2015  256 s  473/537 msgs left
+msg INBOX/139 {188458}        copied to INBOX/66         1.86 msgs/s  257.606 KiB/s 8.781 MiB copied  ETA: Mon Oct 12 10:59:53 2015  253 s  472/537 msgs left
+msg INBOX/140 {2566}          copied to INBOX/67         1.87 msgs/s  255.315 KiB/s 8.783 MiB copied  ETA: Mon Oct 12 10:59:52 2015  251 s  471/537 msgs left
+msg INBOX/141 {16206}         copied to INBOX/68         1.88 msgs/s  253.410 KiB/s 8.799 MiB copied  ETA: Mon Oct 12 10:59:50 2015  249 s  470/537 msgs left
+msg INBOX/142 {87993}         copied to INBOX/69         1.89 msgs/s  253.247 KiB/s 8.883 MiB copied  ETA: Mon Oct 12 10:59:49 2015  248 s  469/537 msgs left
+msg INBOX/143 {47322}         copied to INBOX/70         1.90 msgs/s  252.316 KiB/s 8.928 MiB copied  ETA: Mon Oct 12 10:59:47 2015  246 s  468/537 msgs left
+msg INBOX/144 {2602}          copied to INBOX/71         1.91 msgs/s  250.040 KiB/s 8.930 MiB copied  ETA: Mon Oct 12 10:59:45 2015  244 s  467/537 msgs left
+msg INBOX/145 {65918}         copied to INBOX/72         1.92 msgs/s  249.524 KiB/s 8.993 MiB copied  ETA: Mon Oct 12 10:59:44 2015  242 s  466/537 msgs left
+msg INBOX/146 {4163}          copied to INBOX/73         1.93 msgs/s  247.428 KiB/s 8.997 MiB copied  ETA: Mon Oct 12 10:59:43 2015  240 s  465/537 msgs left
+msg INBOX/147 {6177}          copied to INBOX/74         1.94 msgs/s  245.364 KiB/s 9.003 MiB copied  ETA: Mon Oct 12 10:59:41 2015  239 s  464/537 msgs left
+msg INBOX/148 {21910}         copied to INBOX/75         1.95 msgs/s  243.726 KiB/s 9.024 MiB copied  ETA: Mon Oct 12 10:59:40 2015  237 s  463/537 msgs left
+msg INBOX/149 {76378}         copied to INBOX/76         1.91 msgs/s  236.698 KiB/s 9.097 MiB copied  ETA: Mon Oct 12 10:59:47 2015  242 s  462/537 msgs left
+msg INBOX/150 {2594}          copied to INBOX/77         1.92 msgs/s  234.891 KiB/s 9.099 MiB copied  ETA: Mon Oct 12 10:59:45 2015  241 s  461/537 msgs left
+msg INBOX/151 {75183}         copied to INBOX/78         1.92 msgs/s  234.634 KiB/s 9.171 MiB copied  ETA: Mon Oct 12 10:59:44 2015  239 s  460/537 msgs left
+msg INBOX/152 {23145}         copied to INBOX/79         1.93 msgs/s  233.323 KiB/s 9.193 MiB copied  ETA: Mon Oct 12 10:59:43 2015  237 s  459/537 msgs left
+msg INBOX/153 {16548}         copied to INBOX/80         1.94 msgs/s  231.730 KiB/s 9.209 MiB copied  ETA: Mon Oct 12 10:59:42 2015  236 s  458/537 msgs left
+msg INBOX/154 {5527}          copied to INBOX/81         1.95 msgs/s  230.084 KiB/s 9.214 MiB copied  ETA: Mon Oct 12 10:59:40 2015  234 s  457/537 msgs left
+msg INBOX/155 {16350}         copied to INBOX/82         1.96 msgs/s  228.610 KiB/s 9.230 MiB copied  ETA: Mon Oct 12 10:59:39 2015  233 s  456/537 msgs left
+msg INBOX/156 {369268}        copied to INBOX/83         1.94 msgs/s  231.723 KiB/s 9.582 MiB copied  ETA: Mon Oct 12 10:59:42 2015  235 s  455/537 msgs left
+msg INBOX/157 {15396}         copied to INBOX/84         1.95 msgs/s  230.347 KiB/s 9.596 MiB copied  ETA: Mon Oct 12 10:59:41 2015  233 s  454/537 msgs left
+msg INBOX/158 {2630}          copied to INBOX/85         1.95 msgs/s  228.731 KiB/s 9.599 MiB copied  ETA: Mon Oct 12 10:59:40 2015  232 s  453/537 msgs left
+msg INBOX/159 {15220}         copied to INBOX/86         1.96 msgs/s  227.326 KiB/s 9.614 MiB copied  ETA: Mon Oct 12 10:59:38 2015  230 s  452/537 msgs left
+msg INBOX/160 {3920}          copied to INBOX/87         1.97 msgs/s  225.683 KiB/s 9.617 MiB copied  ETA: Mon Oct 12 10:59:37 2015  229 s  451/537 msgs left
+msg INBOX/161 {20284}         copied to INBOX/88         1.98 msgs/s  224.515 KiB/s 9.637 MiB copied  ETA: Mon Oct 12 10:59:36 2015  227 s  450/537 msgs left
+msg INBOX/162 {5452}          copied to INBOX/89         1.99 msgs/s  223.038 KiB/s 9.642 MiB copied  ETA: Mon Oct 12 10:59:35 2015  226 s  449/537 msgs left
+msg INBOX/163 {2616}          copied to INBOX/90         2.00 msgs/s  221.476 KiB/s 9.644 MiB copied  ETA: Mon Oct 12 10:59:34 2015  224 s  448/537 msgs left
+msg INBOX/164 {380792}        copied to INBOX/91         1.98 msgs/s  224.984 KiB/s 10.007 MiB copied  ETA: Mon Oct 12 10:59:37 2015  226 s  447/537 msgs left
+msg INBOX/165 {2691}          copied to INBOX/92         1.98 msgs/s  223.495 KiB/s 10.010 MiB copied  ETA: Mon Oct 12 10:59:36 2015  225 s  446/537 msgs left
+msg INBOX/166 {2923}          copied to INBOX/93         1.99 msgs/s  222.037 KiB/s 10.013 MiB copied  ETA: Mon Oct 12 10:59:34 2015  223 s  445/537 msgs left
+msg INBOX/167 {5182}          copied to INBOX/94         2.00 msgs/s  220.586 KiB/s 10.018 MiB copied  ETA: Mon Oct 12 10:59:33 2015  222 s  444/537 msgs left
+msg INBOX/168 {63553}         copied to INBOX/95         2.01 msgs/s  220.289 KiB/s 10.078 MiB copied  ETA: Mon Oct 12 10:59:33 2015  221 s  443/537 msgs left
+msg INBOX/169 {271816}        copied to INBOX/96         2.00 msgs/s  222.793 KiB/s 10.338 MiB copied  ETA: Mon Oct 12 10:59:33 2015  221 s  442/537 msgs left
+msg INBOX/170 {383033}        copied to INBOX/97         1.96 msgs/s  224.302 KiB/s 10.703 MiB copied  ETA: Mon Oct 12 10:59:38 2015  224 s  441/537 msgs left
+msg INBOX/171 {15289}         copied to INBOX/98         1.97 msgs/s  223.171 KiB/s 10.717 MiB copied  ETA: Mon Oct 12 10:59:37 2015  223 s  440/537 msgs left
+msg INBOX/172 {5579615}       copied to INBOX/99         1.51 msgs/s  253.768 KiB/s 16.039 MiB copied  ETA: Mon Oct 12 11:01:00 2015  290 s  439/537 msgs left
+msg INBOX/173 {7128}          copied to INBOX/100        1.52 msgs/s  252.638 KiB/s 16.045 MiB copied  ETA: Mon Oct 12 11:00:58 2015  288 s  438/537 msgs left
+msg INBOX/174 {3156}          copied to INBOX/101        1.53 msgs/s  251.466 KiB/s 16.048 MiB copied  ETA: Mon Oct 12 11:00:56 2015  286 s  437/537 msgs left
+msg INBOX/175 {123122}        copied to INBOX/102        1.53 msgs/s  250.708 KiB/s 16.166 MiB copied  ETA: Mon Oct 12 11:00:56 2015  285 s  436/537 msgs left
+msg INBOX/176 {5174743}       copied to INBOX/103        1.38 msgs/s  291.837 KiB/s 21.101 MiB copied  ETA: Mon Oct 12 11:01:35 2015  316 s  435/537 msgs left
+msg INBOX/177 {10865}         copied to INBOX/104        1.38 msgs/s  290.613 KiB/s 21.111 MiB copied  ETA: Mon Oct 12 11:01:33 2015  313 s  434/537 msgs left
+msg INBOX/178 {49577}         copied to INBOX/105        1.39 msgs/s  289.715 KiB/s 21.158 MiB copied  ETA: Mon Oct 12 11:01:31 2015  311 s  433/537 msgs left
+msg INBOX/179 {7209979}       copied to INBOX/106        1.31 msgs/s  358.038 KiB/s 28.034 MiB copied  ETA: Mon Oct 12 11:01:55 2015  330 s  432/537 msgs left
+msg INBOX/180 {5851}          copied to INBOX/107        1.32 msgs/s  356.597 KiB/s 28.040 MiB copied  ETA: Mon Oct 12 11:01:53 2015  327 s  431/537 msgs left
+msg INBOX/181 {15538}         copied to INBOX/108        1.32 msgs/s  355.308 KiB/s 28.055 MiB copied  ETA: Mon Oct 12 11:01:51 2015  325 s  430/537 msgs left
+msg INBOX/182 {16146}         copied to INBOX/109        1.33 msgs/s  354.001 KiB/s 28.070 MiB copied  ETA: Mon Oct 12 11:01:49 2015  323 s  429/537 msgs left
+msg INBOX/183 {120154}        copied to INBOX/110        1.33 msgs/s  352.672 KiB/s 28.185 MiB copied  ETA: Mon Oct 12 11:01:48 2015  321 s  428/537 msgs left
+msg INBOX/184 {38368}         copied to INBOX/111        1.34 msgs/s  351.539 KiB/s 28.221 MiB copied  ETA: Mon Oct 12 11:01:46 2015  319 s  427/537 msgs left
+msg INBOX/185 {2635}          copied to INBOX/112        1.35 msgs/s  350.215 KiB/s 28.224 MiB copied  ETA: Mon Oct 12 11:01:44 2015  317 s  426/537 msgs left
+msg INBOX/186 {2630}          copied to INBOX/113        1.35 msgs/s  348.898 KiB/s 28.226 MiB copied  ETA: Mon Oct 12 11:01:42 2015  314 s  425/537 msgs left
+msg INBOX/187 {6716}          copied to INBOX/114        1.36 msgs/s  347.513 KiB/s 28.233 MiB copied  ETA: Mon Oct 12 11:01:40 2015  312 s  424/537 msgs left
+msg INBOX/188 {16557}         copied to INBOX/115        1.36 msgs/s  346.319 KiB/s 28.249 MiB copied  ETA: Mon Oct 12 11:01:38 2015  310 s  423/537 msgs left
+msg INBOX/189 {2530}          copied to INBOX/116        1.37 msgs/s  345.054 KiB/s 28.251 MiB copied  ETA: Mon Oct 12 11:01:36 2015  308 s  422/537 msgs left
+msg INBOX/190 {3300}          copied to INBOX/117        1.38 msgs/s  343.686 KiB/s 28.254 MiB copied  ETA: Mon Oct 12 11:01:35 2015  306 s  421/537 msgs left
+msg INBOX/191 {2610}          copied to INBOX/118        1.38 msgs/s  342.373 KiB/s 28.257 MiB copied  ETA: Mon Oct 12 11:01:33 2015  303 s  420/537 msgs left
+msg INBOX/192 {267517}        copied to INBOX/119        1.38 msgs/s  341.522 KiB/s 28.512 MiB copied  ETA: Mon Oct 12 11:01:34 2015  304 s  419/537 msgs left
+msg INBOX/193 {267523}        copied to INBOX/120        1.38 msgs/s  341.825 KiB/s 28.767 MiB copied  ETA: Mon Oct 12 11:01:34 2015  303 s  418/537 msgs left
+msg INBOX/194 {11773}         copied to INBOX/121        1.39 msgs/s  340.654 KiB/s 28.778 MiB copied  ETA: Mon Oct 12 11:01:32 2015  301 s  417/537 msgs left
+msg INBOX/195 {13235}         copied to INBOX/122        1.39 msgs/s  339.375 KiB/s 28.791 MiB copied  ETA: Mon Oct 12 11:01:30 2015  299 s  416/537 msgs left
+msg INBOX/196 {2597}          copied to INBOX/123        1.40 msgs/s  338.162 KiB/s 28.793 MiB copied  ETA: Mon Oct 12 11:01:29 2015  297 s  415/537 msgs left
+msg INBOX/197 {5189}          copied to INBOX/124        1.41 msgs/s  336.932 KiB/s 28.798 MiB copied  ETA: Mon Oct 12 11:01:27 2015  295 s  414/537 msgs left
+msg INBOX/198 {65099}         copied to INBOX/125        1.41 msgs/s  336.347 KiB/s 28.860 MiB copied  ETA: Mon Oct 12 11:01:25 2015  293 s  413/537 msgs left
+msg INBOX/199 {266863}        copied to INBOX/126        1.41 msgs/s  336.790 KiB/s 29.115 MiB copied  ETA: Mon Oct 12 11:01:25 2015  292 s  412/537 msgs left
+msg INBOX/200 {5396}          copied to INBOX/127        1.42 msgs/s  335.591 KiB/s 29.120 MiB copied  ETA: Mon Oct 12 11:01:24 2015  290 s  411/537 msgs left
+msg INBOX/201 {4466}          copied to INBOX/128        1.42 msgs/s  334.372 KiB/s 29.124 MiB copied  ETA: Mon Oct 12 11:01:22 2015  288 s  410/537 msgs left
+msg INBOX/202 {66626}         copied to INBOX/129        1.43 msgs/s  333.696 KiB/s 29.188 MiB copied  ETA: Mon Oct 12 11:01:21 2015  286 s  409/537 msgs left
+msg INBOX/203 {71930}         copied to INBOX/130        1.43 msgs/s  333.101 KiB/s 29.256 MiB copied  ETA: Mon Oct 12 11:01:19 2015  284 s  408/537 msgs left
+msg INBOX/204 {6425}          copied to INBOX/131        1.44 msgs/s  331.870 KiB/s 29.262 MiB copied  ETA: Mon Oct 12 11:01:18 2015  283 s  407/537 msgs left
+msg INBOX/205 {16264}         copied to INBOX/132        1.45 msgs/s  330.823 KiB/s 29.278 MiB copied  ETA: Mon Oct 12 11:01:16 2015  281 s  406/537 msgs left
+msg INBOX/206 {2537}          copied to INBOX/133        1.45 msgs/s  329.615 KiB/s 29.280 MiB copied  ETA: Mon Oct 12 11:01:15 2015  279 s  405/537 msgs left
+msg INBOX/207 {2326}          copied to INBOX/134        1.46 msgs/s  328.504 KiB/s 29.283 MiB copied  ETA: Mon Oct 12 11:01:13 2015  277 s  404/537 msgs left
+msg INBOX/208 {436271}        copied to INBOX/135        1.45 msgs/s  329.473 KiB/s 29.699 MiB copied  ETA: Mon Oct 12 11:01:15 2015  278 s  403/537 msgs left
+msg INBOX/209 {173430}        copied to INBOX/136        1.46 msgs/s  330.058 KiB/s 29.864 MiB copied  ETA: Mon Oct 12 11:01:13 2015  276 s  402/537 msgs left
+msg INBOX/210 {2582}          copied to INBOX/137        1.46 msgs/s  328.965 KiB/s 29.867 MiB copied  ETA: Mon Oct 12 11:01:12 2015  274 s  401/537 msgs left
+msg INBOX/211 {4141}          copied to INBOX/138        1.47 msgs/s  327.899 KiB/s 29.870 MiB copied  ETA: Mon Oct 12 11:01:11 2015  272 s  400/537 msgs left
+msg INBOX/212 {2621}          copied to INBOX/139        1.47 msgs/s  326.720 KiB/s 29.873 MiB copied  ETA: Mon Oct 12 11:01:09 2015  271 s  399/537 msgs left
+msg INBOX/213 {2327}          copied to INBOX/140        1.48 msgs/s  325.622 KiB/s 29.875 MiB copied  ETA: Mon Oct 12 11:01:08 2015  269 s  398/537 msgs left
+msg INBOX/214 {235783}        copied to INBOX/141        1.48 msgs/s  325.777 KiB/s 30.100 MiB copied  ETA: Mon Oct 12 11:01:08 2015  268 s  397/537 msgs left
+msg INBOX/215 {7540}          copied to INBOX/142        1.49 msgs/s  324.774 KiB/s 30.107 MiB copied  ETA: Mon Oct 12 11:01:06 2015  267 s  396/537 msgs left
+msg INBOX/216 {18718}         copied to INBOX/143        1.49 msgs/s  323.876 KiB/s 30.125 MiB copied  ETA: Mon Oct 12 11:01:05 2015  265 s  395/537 msgs left
+msg INBOX/217 {522773}        copied to INBOX/144        1.49 msgs/s  326.958 KiB/s 30.624 MiB copied  ETA: Mon Oct 12 11:01:05 2015  264 s  394/537 msgs left
+msg INBOX/218 {26942}         copied to INBOX/145        1.50 msgs/s  326.116 KiB/s 30.649 MiB copied  ETA: Mon Oct 12 11:01:04 2015  263 s  393/537 msgs left
+msg INBOX/219 {18452}         copied to INBOX/146        1.50 msgs/s  325.120 KiB/s 30.667 MiB copied  ETA: Mon Oct 12 11:01:03 2015  261 s  392/537 msgs left
+msg INBOX/220 {4358}          copied to INBOX/147        1.51 msgs/s  324.091 KiB/s 30.671 MiB copied  ETA: Mon Oct 12 11:01:01 2015  260 s  391/537 msgs left
+msg INBOX/221 {4306}          copied to INBOX/148        1.51 msgs/s  323.081 KiB/s 30.675 MiB copied  ETA: Mon Oct 12 11:01:00 2015  258 s  390/537 msgs left
+msg INBOX/222 {2625}          copied to INBOX/149        1.52 msgs/s  322.066 KiB/s 30.678 MiB copied  ETA: Mon Oct 12 11:00:59 2015  256 s  389/537 msgs left
+msg INBOX/223 {9559}          copied to INBOX/150        1.52 msgs/s  321.038 KiB/s 30.687 MiB copied  ETA: Mon Oct 12 11:00:58 2015  255 s  388/537 msgs left
+msg INBOX/224 {3951}          copied to INBOX/151        1.53 msgs/s  320.045 KiB/s 30.691 MiB copied  ETA: Mon Oct 12 11:00:56 2015  253 s  387/537 msgs left
+msg INBOX/225 {9428}          copied to INBOX/152        1.53 msgs/s  319.079 KiB/s 30.700 MiB copied  ETA: Mon Oct 12 11:00:55 2015  252 s  386/537 msgs left
+msg INBOX/226 {63278}         copied to INBOX/153        1.54 msgs/s  318.480 KiB/s 30.760 MiB copied  ETA: Mon Oct 12 11:00:54 2015  251 s  385/537 msgs left
+msg INBOX/227 {510638}        copied to INBOX/154        1.54 msgs/s  321.313 KiB/s 31.247 MiB copied  ETA: Mon Oct 12 11:00:54 2015  250 s  384/537 msgs left
+msg INBOX/228 {9630}          copied to INBOX/155        1.54 msgs/s  320.339 KiB/s 31.256 MiB copied  ETA: Mon Oct 12 11:00:53 2015  248 s  383/537 msgs left
+msg INBOX/229 {9397}          copied to INBOX/156        1.55 msgs/s  319.393 KiB/s 31.265 MiB copied  ETA: Mon Oct 12 11:00:52 2015  247 s  382/537 msgs left
+msg INBOX/230 {225087}        copied to INBOX/157        1.55 msgs/s  320.161 KiB/s 31.480 MiB copied  ETA: Mon Oct 12 11:00:51 2015  246 s  381/537 msgs left
+msg INBOX/231 {42408}         copied to INBOX/158        1.55 msgs/s  319.197 KiB/s 31.520 MiB copied  ETA: Mon Oct 12 11:00:51 2015  245 s  380/537 msgs left
+msg INBOX/232 {243441}        copied to INBOX/159        1.55 msgs/s  319.971 KiB/s 31.752 MiB copied  ETA: Mon Oct 12 11:00:50 2015  244 s  379/537 msgs left
+msg INBOX/233 {32404}         copied to INBOX/160        1.56 msgs/s  319.182 KiB/s 31.783 MiB copied  ETA: Mon Oct 12 11:00:49 2015  242 s  378/537 msgs left
+msg INBOX/234 {36270}         copied to INBOX/161        1.56 msgs/s  318.283 KiB/s 31.818 MiB copied  ETA: Mon Oct 12 11:00:48 2015  241 s  377/537 msgs left
+msg INBOX/235 {118385}        copied to INBOX/162        1.57 msgs/s  318.285 KiB/s 31.931 MiB copied  ETA: Mon Oct 12 11:00:48 2015  240 s  376/537 msgs left
+msg INBOX/236 {40146}         copied to INBOX/163        1.57 msgs/s  317.354 KiB/s 31.969 MiB copied  ETA: Mon Oct 12 11:00:47 2015  239 s  375/537 msgs left
+msg INBOX/237 {4813}          copied to INBOX/164        1.57 msgs/s  316.262 KiB/s 31.974 MiB copied  ETA: Mon Oct 12 11:00:46 2015  238 s  374/537 msgs left
+msg INBOX/238 {5423}          copied to INBOX/165        1.58 msgs/s  315.273 KiB/s 31.979 MiB copied  ETA: Mon Oct 12 11:00:45 2015  236 s  373/537 msgs left
+msg INBOX/239 {39463}         copied to INBOX/166        1.58 msgs/s  314.491 KiB/s 32.016 MiB copied  ETA: Mon Oct 12 11:00:44 2015  235 s  372/537 msgs left
+msg INBOX/240 {155601}        copied to INBOX/167        1.59 msgs/s  314.614 KiB/s 32.165 MiB copied  ETA: Mon Oct 12 11:00:44 2015  234 s  371/537 msgs left
+msg INBOX/241 {1931}          copied to INBOX/168        1.59 msgs/s  313.691 KiB/s 32.167 MiB copied  ETA: Mon Oct 12 11:00:43 2015  233 s  370/537 msgs left
+msg INBOX/242 {67694}         copied to INBOX/169        1.57 msgs/s  309.175 KiB/s 32.231 MiB copied  ETA: Mon Oct 12 11:00:46 2015  234 s  369/537 msgs left
+msg INBOX/243 {289965}        copied to INBOX/170        1.56 msgs/s  306.319 KiB/s 32.508 MiB copied  ETA: Mon Oct 12 11:00:50 2015  237 s  368/537 msgs left
+msg INBOX/244 {4276}          copied to INBOX/171        1.55 msgs/s  304.144 KiB/s 32.512 MiB copied  ETA: Mon Oct 12 11:00:51 2015  236 s  367/537 msgs left
+msg INBOX/245 {41988}         copied to INBOX/172        1.55 msgs/s  302.382 KiB/s 32.552 MiB copied  ETA: Mon Oct 12 11:00:51 2015  236 s  366/537 msgs left
+msg INBOX/246 {65827}         copied to INBOX/173        1.55 msgs/s  301.173 KiB/s 32.615 MiB copied  ETA: Mon Oct 12 11:00:51 2015  235 s  365/537 msgs left
+msg INBOX/247 {22579}         copied to INBOX/174        1.56 msgs/s  300.458 KiB/s 32.636 MiB copied  ETA: Mon Oct 12 11:00:50 2015  234 s  364/537 msgs left
+msg INBOX/248 {788222}        copied to INBOX/175        1.53 msgs/s  301.084 KiB/s 33.388 MiB copied  ETA: Mon Oct 12 11:00:55 2015  237 s  363/537 msgs left
+msg INBOX/249 {4132}          copied to INBOX/176        1.54 msgs/s  300.265 KiB/s 33.392 MiB copied  ETA: Mon Oct 12 11:00:54 2015  236 s  362/537 msgs left
+msg INBOX/250 {3913}          copied to INBOX/177        1.54 msgs/s  299.445 KiB/s 33.396 MiB copied  ETA: Mon Oct 12 11:00:53 2015  234 s  361/537 msgs left
+msg INBOX/251 {38690}         copied to INBOX/178        1.55 msgs/s  298.896 KiB/s 33.432 MiB copied  ETA: Mon Oct 12 11:00:52 2015  233 s  360/537 msgs left
+msg INBOX/252 {611113}        copied to INBOX/179        1.54 msgs/s  301.350 KiB/s 34.015 MiB copied  ETA: Mon Oct 12 11:00:54 2015  233 s  359/537 msgs left
+msg INBOX/253 {13225}         copied to INBOX/180        1.54 msgs/s  300.620 KiB/s 34.028 MiB copied  ETA: Mon Oct 12 11:00:53 2015  232 s  358/537 msgs left
+msg INBOX/254 {13663}         copied to INBOX/181        1.55 msgs/s  299.835 KiB/s 34.041 MiB copied  ETA: Mon Oct 12 11:00:52 2015  231 s  357/537 msgs left
+msg INBOX/255 {16011}         copied to INBOX/182        1.55 msgs/s  299.065 KiB/s 34.056 MiB copied  ETA: Mon Oct 12 11:00:51 2015  229 s  356/537 msgs left
+msg INBOX/256 {16468}         copied to INBOX/183        1.56 msgs/s  298.297 KiB/s 34.072 MiB copied  ETA: Mon Oct 12 11:00:50 2015  228 s  355/537 msgs left
+msg INBOX/257 {22064}         copied to INBOX/184        1.56 msgs/s  297.668 KiB/s 34.093 MiB copied  ETA: Mon Oct 12 11:00:49 2015  227 s  354/537 msgs left
+msg INBOX/258 {42368}         copied to INBOX/185        1.56 msgs/s  297.135 KiB/s 34.133 MiB copied  ETA: Mon Oct 12 11:00:48 2015  226 s  353/537 msgs left
+msg INBOX/259 {2246}          copied to INBOX/186        1.57 msgs/s  296.302 KiB/s 34.135 MiB copied  ETA: Mon Oct 12 11:00:47 2015  224 s  352/537 msgs left
+msg INBOX/260 {2498}          copied to INBOX/187        1.57 msgs/s  295.502 KiB/s 34.138 MiB copied  ETA: Mon Oct 12 11:00:46 2015  223 s  351/537 msgs left
+msg INBOX/261 {2311}          copied to INBOX/188        1.58 msgs/s  294.641 KiB/s 34.140 MiB copied  ETA: Mon Oct 12 11:00:46 2015  222 s  350/537 msgs left
+msg INBOX/262 {6234}          copied to INBOX/189        1.58 msgs/s  293.901 KiB/s 34.146 MiB copied  ETA: Mon Oct 12 11:00:45 2015  221 s  349/537 msgs left
+msg INBOX/263 {399146}        copied to INBOX/190        1.58 msgs/s  295.528 KiB/s 34.527 MiB copied  ETA: Mon Oct 12 11:00:45 2015  220 s  348/537 msgs left
+msg INBOX/264 {52754}         copied to INBOX/191        1.58 msgs/s  294.797 KiB/s 34.577 MiB copied  ETA: Mon Oct 12 11:00:44 2015  219 s  347/537 msgs left
+msg INBOX/265 {6898749}       copied to INBOX/192        1.49 msgs/s  327.815 KiB/s 41.156 MiB copied  ETA: Mon Oct 12 11:01:06 2015  233 s  346/537 msgs left
+msg INBOX/266 {688984}        copied to INBOX/193        1.45 msgs/s  324.078 KiB/s 41.813 MiB copied  ETA: Mon Oct 12 11:01:14 2015  237 s  345/537 msgs left
+msg INBOX/267 {517691}        copied to INBOX/194        1.44 msgs/s  323.184 KiB/s 42.307 MiB copied  ETA: Mon Oct 12 11:01:18 2015  239 s  344/537 msgs left
+msg INBOX/268 {20202}         copied to INBOX/195        1.44 msgs/s  322.410 KiB/s 42.326 MiB copied  ETA: Mon Oct 12 11:01:17 2015  238 s  343/537 msgs left
+msg INBOX/269 {7386}          copied to INBOX/196        1.45 msgs/s  321.451 KiB/s 42.333 MiB copied  ETA: Mon Oct 12 11:01:16 2015  237 s  342/537 msgs left
+msg INBOX/270 {9131}          copied to INBOX/197        1.45 msgs/s  320.684 KiB/s 42.342 MiB copied  ETA: Mon Oct 12 11:01:15 2015  235 s  341/537 msgs left
+msg INBOX/271 {3766}          copied to INBOX/198        1.45 msgs/s  319.955 KiB/s 42.345 MiB copied  ETA: Mon Oct 12 11:01:14 2015  234 s  340/537 msgs left
+msg INBOX/272 {3941}          copied to INBOX/199        1.46 msgs/s  319.200 KiB/s 42.349 MiB copied  ETA: Mon Oct 12 11:01:13 2015  233 s  339/537 msgs left
+msg INBOX/273 {4080}          copied to INBOX/200        1.46 msgs/s  318.414 KiB/s 42.353 MiB copied  ETA: Mon Oct 12 11:01:12 2015  231 s  338/537 msgs left
+msg INBOX/274 {4111}          copied to INBOX/201        1.46 msgs/s  317.679 KiB/s 42.357 MiB copied  ETA: Mon Oct 12 11:01:11 2015  230 s  337/537 msgs left
+msg INBOX/275 {5159}          copied to INBOX/202        1.47 msgs/s  316.962 KiB/s 42.362 MiB copied  ETA: Mon Oct 12 11:01:11 2015  229 s  336/537 msgs left
+msg INBOX/276 {5402}          copied to INBOX/203        1.47 msgs/s  316.236 KiB/s 42.367 MiB copied  ETA: Mon Oct 12 11:01:10 2015  228 s  335/537 msgs left
+msg INBOX/277 {45251}         copied to INBOX/204        1.48 msgs/s  315.812 KiB/s 42.410 MiB copied  ETA: Mon Oct 12 11:01:09 2015  226 s  334/537 msgs left
+msg INBOX/278 {21086}         copied to INBOX/205        1.48 msgs/s  315.208 KiB/s 42.430 MiB copied  ETA: Mon Oct 12 11:01:08 2015  225 s  333/537 msgs left
+msg INBOX/279 {10828}         copied to INBOX/206        1.48 msgs/s  314.491 KiB/s 42.441 MiB copied  ETA: Mon Oct 12 11:01:07 2015  224 s  332/537 msgs left
+msg INBOX/280 {8454}          copied to INBOX/207        1.49 msgs/s  313.821 KiB/s 42.449 MiB copied  ETA: Mon Oct 12 11:01:06 2015  223 s  331/537 msgs left
+msg INBOX/281 {8982}          copied to INBOX/208        1.49 msgs/s  313.164 KiB/s 42.457 MiB copied  ETA: Mon Oct 12 11:01:05 2015  221 s  330/537 msgs left
+msg INBOX/282 {4104}          copied to INBOX/209        1.49 msgs/s  312.470 KiB/s 42.461 MiB copied  ETA: Mon Oct 12 11:01:04 2015  220 s  329/537 msgs left
+msg INBOX/283 {5599}          copied to INBOX/210        1.50 msgs/s  311.744 KiB/s 42.467 MiB copied  ETA: Mon Oct 12 11:01:03 2015  219 s  328/537 msgs left
+msg INBOX/284 {215362}        copied to INBOX/211        1.50 msgs/s  311.649 KiB/s 42.672 MiB copied  ETA: Mon Oct 12 11:01:03 2015  218 s  327/537 msgs left
+msg INBOX/285 {22466}         copied to INBOX/212        1.50 msgs/s  311.055 KiB/s 42.693 MiB copied  ETA: Mon Oct 12 11:01:03 2015  217 s  326/537 msgs left
+msg INBOX/286 {7657}          copied to INBOX/213        1.51 msgs/s  310.414 KiB/s 42.701 MiB copied  ETA: Mon Oct 12 11:01:02 2015  216 s  325/537 msgs left
+msg INBOX/287 {18852}         copied to INBOX/214        1.51 msgs/s  309.392 KiB/s 42.719 MiB copied  ETA: Mon Oct 12 11:01:01 2015  215 s  324/537 msgs left
+msg INBOX/288 {6793}          copied to INBOX/215        1.51 msgs/s  308.746 KiB/s 42.725 MiB copied  ETA: Mon Oct 12 11:01:00 2015  214 s  323/537 msgs left
+msg INBOX/289 {10657}         copied to INBOX/216        1.51 msgs/s  308.116 KiB/s 42.735 MiB copied  ETA: Mon Oct 12 11:01:00 2015  213 s  322/537 msgs left
+msg INBOX/290 {18441}         copied to INBOX/217        1.52 msgs/s  307.553 KiB/s 42.753 MiB copied  ETA: Mon Oct 12 11:00:59 2015  212 s  321/537 msgs left
+msg INBOX/291 {4993}          copied to INBOX/218        1.52 msgs/s  306.770 KiB/s 42.758 MiB copied  ETA: Mon Oct 12 11:00:58 2015  210 s  320/537 msgs left
+msg INBOX/292 {46481}         copied to INBOX/219        1.52 msgs/s  306.332 KiB/s 42.802 MiB copied  ETA: Mon Oct 12 11:00:57 2015  209 s  319/537 msgs left
+msg INBOX/293 {5808}          copied to INBOX/220        1.53 msgs/s  305.619 KiB/s 42.808 MiB copied  ETA: Mon Oct 12 11:00:57 2015  208 s  318/537 msgs left
+msg INBOX/294 {37958}         copied to INBOX/221        1.53 msgs/s  305.124 KiB/s 42.844 MiB copied  ETA: Mon Oct 12 11:00:56 2015  207 s  317/537 msgs left
+msg INBOX/295 {37767}         copied to INBOX/222        1.53 msgs/s  304.682 KiB/s 42.880 MiB copied  ETA: Mon Oct 12 11:00:55 2015  206 s  316/537 msgs left
+msg INBOX/296 {10256}         copied to INBOX/223        1.54 msgs/s  304.070 KiB/s 42.890 MiB copied  ETA: Mon Oct 12 11:00:54 2015  205 s  315/537 msgs left
+msg INBOX/297 {45463}         copied to INBOX/224        1.54 msgs/s  303.712 KiB/s 42.933 MiB copied  ETA: Mon Oct 12 11:00:53 2015  204 s  314/537 msgs left
+msg INBOX/298 {68951}         copied to INBOX/225        1.54 msgs/s  303.469 KiB/s 42.999 MiB copied  ETA: Mon Oct 12 11:00:53 2015  203 s  313/537 msgs left
+msg INBOX/299 {43964}         copied to INBOX/226        1.55 msgs/s  302.922 KiB/s 43.041 MiB copied  ETA: Mon Oct 12 11:00:52 2015  202 s  312/537 msgs left
+msg INBOX/300 {13517}         copied to INBOX/227        1.55 msgs/s  302.273 KiB/s 43.053 MiB copied  ETA: Mon Oct 12 11:00:51 2015  201 s  311/537 msgs left
+msg INBOX/301 {14300}         copied to INBOX/228        1.55 msgs/s  301.675 KiB/s 43.067 MiB copied  ETA: Mon Oct 12 11:00:51 2015  200 s  310/537 msgs left
+msg INBOX/302 {15010}         copied to INBOX/229        1.56 msgs/s  301.127 KiB/s 43.081 MiB copied  ETA: Mon Oct 12 11:00:50 2015  199 s  309/537 msgs left
+msg INBOX/303 {42434}         copied to INBOX/230        1.56 msgs/s  300.518 KiB/s 43.122 MiB copied  ETA: Mon Oct 12 11:00:49 2015  198 s  308/537 msgs left
+msg INBOX/304 {15866}         copied to INBOX/231        1.56 msgs/s  299.932 KiB/s 43.137 MiB copied  ETA: Mon Oct 12 11:00:49 2015  197 s  307/537 msgs left
+msg INBOX/305 {8187638}       copied to INBOX/232        1.48 msgs/s  334.958 KiB/s 50.945 MiB copied  ETA: Mon Oct 12 11:01:07 2015  206 s  306/537 msgs left
+msg INBOX/306 {7487}          copied to INBOX/233        1.49 msgs/s  334.249 KiB/s 50.952 MiB copied  ETA: Mon Oct 12 11:01:06 2015  205 s  305/537 msgs left
+msg INBOX/307 {8154802}       copied to INBOX/234        1.36 msgs/s  352.265 KiB/s 58.730 MiB copied  ETA: Mon Oct 12 11:01:38 2015  223 s  304/537 msgs left
+msg INBOX/308 {42838}         copied to INBOX/235        1.36 msgs/s  349.277 KiB/s 58.770 MiB copied  ETA: Mon Oct 12 11:01:40 2015  223 s  303/537 msgs left
+msg INBOX/309 {43608}         copied to INBOX/236        1.36 msgs/s  347.592 KiB/s 58.812 MiB copied  ETA: Mon Oct 12 11:01:41 2015  223 s  302/537 msgs left
+msg INBOX/310 {13280}         copied to INBOX/237        1.36 msgs/s  346.954 KiB/s 58.825 MiB copied  ETA: Mon Oct 12 11:01:40 2015  221 s  301/537 msgs left
+msg INBOX/311 {12060}         copied to INBOX/238        1.36 msgs/s  346.364 KiB/s 58.836 MiB copied  ETA: Mon Oct 12 11:01:39 2015  220 s  300/537 msgs left
+msg INBOX/312 {47751}         copied to INBOX/239        1.36 msgs/s  345.373 KiB/s 58.882 MiB copied  ETA: Mon Oct 12 11:01:39 2015  219 s  299/537 msgs left
+msg INBOX/313 {9578}          copied to INBOX/240        1.37 msgs/s  344.788 KiB/s 58.891 MiB copied  ETA: Mon Oct 12 11:01:38 2015  218 s  298/537 msgs left
+msg INBOX/314 {43165}         copied to INBOX/241        1.37 msgs/s  343.791 KiB/s 58.932 MiB copied  ETA: Mon Oct 12 11:01:38 2015  217 s  297/537 msgs left
+msg INBOX/315 {13547}         copied to INBOX/242        1.37 msgs/s  343.210 KiB/s 58.945 MiB copied  ETA: Mon Oct 12 11:01:37 2015  216 s  296/537 msgs left
+msg INBOX/316 {7108856}       copied to INBOX/243        1.32 msgs/s  368.147 KiB/s 65.724 MiB copied  ETA: Mon Oct 12 11:01:51 2015  223 s  295/537 msgs left
+msg INBOX/317 {44360}         copied to INBOX/244        1.33 msgs/s  367.706 KiB/s 65.767 MiB copied  ETA: Mon Oct 12 11:01:50 2015  222 s  294/537 msgs left
+msg INBOX/318 {31942}         copied to INBOX/245        1.33 msgs/s  367.146 KiB/s 65.797 MiB copied  ETA: Mon Oct 12 11:01:49 2015  220 s  293/537 msgs left
+msg INBOX/319 {94008}         copied to INBOX/246        1.33 msgs/s  366.954 KiB/s 65.887 MiB copied  ETA: Mon Oct 12 11:01:48 2015  219 s  292/537 msgs left
+msg INBOX/320 {43340}         copied to INBOX/247        1.34 msgs/s  366.514 KiB/s 65.928 MiB copied  ETA: Mon Oct 12 11:01:47 2015  218 s  291/537 msgs left
+msg INBOX/321 {620762}        copied to INBOX/248        1.33 msgs/s  367.627 KiB/s 66.520 MiB copied  ETA: Mon Oct 12 11:01:48 2015  218 s  290/537 msgs left
+msg INBOX/322 {27669}         copied to INBOX/249        1.34 msgs/s  367.097 KiB/s 66.547 MiB copied  ETA: Mon Oct 12 11:01:47 2015  216 s  289/537 msgs left
+msg INBOX/323 {2579}          copied to INBOX/250        1.34 msgs/s  366.388 KiB/s 66.549 MiB copied  ETA: Mon Oct 12 11:01:46 2015  215 s  288/537 msgs left
+msg INBOX/324 {531188}        copied to INBOX/251        1.34 msgs/s  367.182 KiB/s 67.056 MiB copied  ETA: Mon Oct 12 11:01:47 2015  215 s  287/537 msgs left
+msg INBOX/325 {11899}         copied to INBOX/252        1.33 msgs/s  365.259 KiB/s 67.067 MiB copied  ETA: Mon Oct 12 11:01:47 2015  214 s  286/537 msgs left
+msg INBOX/326 {532774}        copied to INBOX/253        1.32 msgs/s  361.304 KiB/s 67.575 MiB copied  ETA: Mon Oct 12 11:01:53 2015  217 s  285/537 msgs left
+msg INBOX/327 {10144}         copied to INBOX/254        1.32 msgs/s  360.735 KiB/s 67.585 MiB copied  ETA: Mon Oct 12 11:01:52 2015  215 s  284/537 msgs left
+msg INBOX/328 {38873}         copied to INBOX/255        1.32 msgs/s  360.271 KiB/s 67.622 MiB copied  ETA: Mon Oct 12 11:01:51 2015  214 s  283/537 msgs left
+msg INBOX/329 {11714}         copied to INBOX/256        1.32 msgs/s  359.741 KiB/s 67.633 MiB copied  ETA: Mon Oct 12 11:01:50 2015  213 s  282/537 msgs left
+msg INBOX/330 {481243}        copied to INBOX/257        1.32 msgs/s  360.051 KiB/s 68.092 MiB copied  ETA: Mon Oct 12 11:01:51 2015  213 s  281/537 msgs left
+msg INBOX/331 {47316}         copied to INBOX/258        1.32 msgs/s  359.687 KiB/s 68.137 MiB copied  ETA: Mon Oct 12 11:01:50 2015  211 s  280/537 msgs left
+msg INBOX/332 {38935}         copied to INBOX/259        1.33 msgs/s  359.166 KiB/s 68.174 MiB copied  ETA: Mon Oct 12 11:01:49 2015  210 s  279/537 msgs left
+msg INBOX/333 {31975}         copied to INBOX/260        1.33 msgs/s  358.735 KiB/s 68.205 MiB copied  ETA: Mon Oct 12 11:01:49 2015  209 s  278/537 msgs left
+msg INBOX/334 {23754}         copied to INBOX/261        1.33 msgs/s  358.241 KiB/s 68.227 MiB copied  ETA: Mon Oct 12 11:01:48 2015  208 s  277/537 msgs left
+msg INBOX/335 {284540}        copied to INBOX/262        1.33 msgs/s  358.425 KiB/s 68.499 MiB copied  ETA: Mon Oct 12 11:01:48 2015  207 s  276/537 msgs left
+msg INBOX/336 {6167}          copied to INBOX/263        1.34 msgs/s  357.862 KiB/s 68.505 MiB copied  ETA: Mon Oct 12 11:01:47 2015  206 s  275/537 msgs left
+msg INBOX/337 {30886}         copied to INBOX/264        1.34 msgs/s  357.266 KiB/s 68.534 MiB copied  ETA: Mon Oct 12 11:01:46 2015  205 s  274/537 msgs left
+msg INBOX/338 {3376}          copied to INBOX/265        1.34 msgs/s  356.636 KiB/s 68.537 MiB copied  ETA: Mon Oct 12 11:01:45 2015  203 s  273/537 msgs left
+msg INBOX/339 {51150}         copied to INBOX/266        1.34 msgs/s  356.186 KiB/s 68.586 MiB copied  ETA: Mon Oct 12 11:01:44 2015  202 s  272/537 msgs left
+msg INBOX/340 {216377}        copied to INBOX/267        1.34 msgs/s  356.098 KiB/s 68.792 MiB copied  ETA: Mon Oct 12 11:01:44 2015  202 s  271/537 msgs left
+msg INBOX/341 {15322}         copied to INBOX/268        1.35 msgs/s  355.606 KiB/s 68.807 MiB copied  ETA: Mon Oct 12 11:01:43 2015  200 s  270/537 msgs left
+msg INBOX/342 {9862}          copied to INBOX/269        1.35 msgs/s  355.056 KiB/s 68.816 MiB copied  ETA: Mon Oct 12 11:01:43 2015  199 s  269/537 msgs left
+msg INBOX/343 {44587}         copied to INBOX/270        1.35 msgs/s  354.595 KiB/s 68.859 MiB copied  ETA: Mon Oct 12 11:01:42 2015  198 s  268/537 msgs left
+msg INBOX/344 {35403}         copied to INBOX/271        1.36 msgs/s  354.195 KiB/s 68.893 MiB copied  ETA: Mon Oct 12 11:01:41 2015  197 s  267/537 msgs left
+msg INBOX/345 {2274}          copied to INBOX/272        1.36 msgs/s  353.641 KiB/s 68.895 MiB copied  ETA: Mon Oct 12 11:01:40 2015  196 s  266/537 msgs left
+msg INBOX/346 {11536}         copied to INBOX/273        1.36 msgs/s  353.138 KiB/s 68.906 MiB copied  ETA: Mon Oct 12 11:01:39 2015  195 s  265/537 msgs left
+msg INBOX/347 {23425}         copied to INBOX/274        1.36 msgs/s  352.675 KiB/s 68.928 MiB copied  ETA: Mon Oct 12 11:01:39 2015  194 s  264/537 msgs left
+msg INBOX/348 {258680}        copied to INBOX/275        1.36 msgs/s  352.745 KiB/s 69.175 MiB copied  ETA: Mon Oct 12 11:01:38 2015  193 s  263/537 msgs left
+msg INBOX/349 {35507}         copied to INBOX/276        1.37 msgs/s  352.344 KiB/s 69.209 MiB copied  ETA: Mon Oct 12 11:01:38 2015  192 s  262/537 msgs left
+msg INBOX/350 {35479}         copied to INBOX/277        1.37 msgs/s  351.836 KiB/s 69.243 MiB copied  ETA: Mon Oct 12 11:01:37 2015  191 s  261/537 msgs left
+msg INBOX/351 {5765}          copied to INBOX/278        1.37 msgs/s  351.292 KiB/s 69.248 MiB copied  ETA: Mon Oct 12 11:01:36 2015  189 s  260/537 msgs left
+msg INBOX/352 {248856}        copied to INBOX/279        1.37 msgs/s  351.394 KiB/s 69.485 MiB copied  ETA: Mon Oct 12 11:01:36 2015  189 s  259/537 msgs left
+msg INBOX/353 {8665}          copied to INBOX/280        1.38 msgs/s  350.851 KiB/s 69.494 MiB copied  ETA: Mon Oct 12 11:01:35 2015  188 s  258/537 msgs left
+msg INBOX/354 {11580}         copied to INBOX/281        1.38 msgs/s  350.350 KiB/s 69.505 MiB copied  ETA: Mon Oct 12 11:01:35 2015  186 s  257/537 msgs left
+msg INBOX/355 {31025}         copied to INBOX/282        1.38 msgs/s  349.780 KiB/s 69.534 MiB copied  ETA: Mon Oct 12 11:01:34 2015  185 s  256/537 msgs left
+msg INBOX/356 {40316}         copied to INBOX/283        1.38 msgs/s  349.363 KiB/s 69.573 MiB copied  ETA: Mon Oct 12 11:01:33 2015  184 s  255/537 msgs left
+msg INBOX/357 {42993}         copied to INBOX/284        1.39 msgs/s  349.010 KiB/s 69.614 MiB copied  ETA: Mon Oct 12 11:01:32 2015  183 s  254/537 msgs left
+msg INBOX/358 {24064}         copied to INBOX/285        1.39 msgs/s  348.586 KiB/s 69.637 MiB copied  ETA: Mon Oct 12 11:01:32 2015  182 s  253/537 msgs left
+msg INBOX/359 {9927}          copied to INBOX/286        1.39 msgs/s  348.087 KiB/s 69.646 MiB copied  ETA: Mon Oct 12 11:01:31 2015  181 s  252/537 msgs left
+msg INBOX/360 {18682}         copied to INBOX/287        1.39 msgs/s  347.588 KiB/s 69.664 MiB copied  ETA: Mon Oct 12 11:01:30 2015  180 s  251/537 msgs left
+msg INBOX/361 {45617}         copied to INBOX/288        1.40 msgs/s  347.258 KiB/s 69.707 MiB copied  ETA: Mon Oct 12 11:01:30 2015  179 s  250/537 msgs left
+msg INBOX/362 {2353}          copied to INBOX/289        1.40 msgs/s  346.724 KiB/s 69.710 MiB copied  ETA: Mon Oct 12 11:01:29 2015  178 s  249/537 msgs left
+msg INBOX/363 {35809}         copied to INBOX/290        1.40 msgs/s  346.349 KiB/s 69.744 MiB copied  ETA: Mon Oct 12 11:01:28 2015  177 s  248/537 msgs left
+msg INBOX/364 {3560}          copied to INBOX/291        1.40 msgs/s  345.836 KiB/s 69.747 MiB copied  ETA: Mon Oct 12 11:01:27 2015  176 s  247/537 msgs left
+msg INBOX/365 {1468}          copied to INBOX/292        1.41 msgs/s  345.303 KiB/s 69.749 MiB copied  ETA: Mon Oct 12 11:01:27 2015  175 s  246/537 msgs left
+msg INBOX/366 {3481}          copied to INBOX/293        1.41 msgs/s  343.927 KiB/s 69.752 MiB copied  ETA: Mon Oct 12 11:01:27 2015  174 s  245/537 msgs left
+msg INBOX/367 {1540388}       copied to INBOX/294        1.35 msgs/s  335.159 KiB/s 71.221 MiB copied  ETA: Mon Oct 12 11:01:44 2015  181 s  244/537 msgs left
+msg INBOX/368 {1237}          copied to INBOX/295        1.35 msgs/s  334.655 KiB/s 71.222 MiB copied  ETA: Mon Oct 12 11:01:43 2015  180 s  243/537 msgs left
+msg INBOX/369 {1402464}       copied to INBOX/296        1.34 msgs/s  337.406 KiB/s 72.560 MiB copied  ETA: Mon Oct 12 11:01:46 2015  181 s  242/537 msgs left
+msg INBOX/370 {53193}         copied to INBOX/297        1.34 msgs/s  337.144 KiB/s 72.610 MiB copied  ETA: Mon Oct 12 11:01:45 2015  180 s  241/537 msgs left
+msg INBOX/371 {176815}        copied to INBOX/298        1.34 msgs/s  336.816 KiB/s 72.779 MiB copied  ETA: Mon Oct 12 11:01:45 2015  179 s  240/537 msgs left
+msg INBOX/372 {2284}          copied to INBOX/299        1.34 msgs/s  336.338 KiB/s 72.781 MiB copied  ETA: Mon Oct 12 11:01:44 2015  178 s  239/537 msgs left
+msg INBOX/373 {2201}          copied to INBOX/300        1.35 msgs/s  335.871 KiB/s 72.783 MiB copied  ETA: Mon Oct 12 11:01:43 2015  177 s  238/537 msgs left
+msg INBOX/374 {1826}          copied to INBOX/301        1.35 msgs/s  335.390 KiB/s 72.785 MiB copied  ETA: Mon Oct 12 11:01:43 2015  176 s  237/537 msgs left
+msg INBOX/375 {3169}          copied to INBOX/302        1.35 msgs/s  334.931 KiB/s 72.788 MiB copied  ETA: Mon Oct 12 11:01:42 2015  174 s  236/537 msgs left
+msg INBOX/376 {5582}          copied to INBOX/303        1.36 msgs/s  334.465 KiB/s 72.793 MiB copied  ETA: Mon Oct 12 11:01:41 2015  173 s  235/537 msgs left
+msg INBOX/377 {13753927}      copied to INBOX/304        1.23 msgs/s  356.072 KiB/s 85.910 MiB copied  ETA: Mon Oct 12 11:02:23 2015  191 s  234/537 msgs left
+msg INBOX/378 {3882315}       copied to INBOX/305        1.21 msgs/s  365.615 KiB/s 89.613 MiB copied  ETA: Mon Oct 12 11:02:28 2015  192 s  233/537 msgs left
+msg INBOX/379 {2256}          copied to INBOX/306        1.21 msgs/s  365.144 KiB/s 89.615 MiB copied  ETA: Mon Oct 12 11:02:27 2015  191 s  232/537 msgs left
+msg INBOX/380 {3002}          copied to INBOX/307        1.22 msgs/s  364.644 KiB/s 89.618 MiB copied  ETA: Mon Oct 12 11:02:27 2015  190 s  231/537 msgs left
+msg INBOX/381 {3951}          copied to INBOX/308        1.22 msgs/s  364.198 KiB/s 89.621 MiB copied  ETA: Mon Oct 12 11:02:26 2015  189 s  230/537 msgs left
+msg INBOX/382 {3880}          copied to INBOX/309        1.22 msgs/s  363.726 KiB/s 89.625 MiB copied  ETA: Mon Oct 12 11:02:25 2015  188 s  229/537 msgs left
+msg INBOX/383 {6463}          copied to INBOX/310        1.22 msgs/s  363.283 KiB/s 89.631 MiB copied  ETA: Mon Oct 12 11:02:24 2015  186 s  228/537 msgs left
+msg INBOX/384 {50383}         copied to INBOX/311        1.23 msgs/s  362.913 KiB/s 89.679 MiB copied  ETA: Mon Oct 12 11:02:23 2015  185 s  227/537 msgs left
+msg INBOX/385 {2288}          copied to INBOX/312        1.23 msgs/s  362.463 KiB/s 89.682 MiB copied  ETA: Mon Oct 12 11:02:22 2015  184 s  226/537 msgs left
+msg INBOX/386 {13216}         copied to INBOX/313        1.23 msgs/s  362.057 KiB/s 89.694 MiB copied  ETA: Mon Oct 12 11:02:22 2015  183 s  225/537 msgs left
+msg INBOX/387 {50713}         copied to INBOX/314        1.23 msgs/s  361.803 KiB/s 89.742 MiB copied  ETA: Mon Oct 12 11:02:21 2015  182 s  224/537 msgs left
+msg INBOX/388 {2084}          copied to INBOX/315        1.23 msgs/s  361.336 KiB/s 89.744 MiB copied  ETA: Mon Oct 12 11:02:20 2015  181 s  223/537 msgs left
+msg INBOX/389 {1988}          copied to INBOX/316        1.24 msgs/s  360.893 KiB/s 89.746 MiB copied  ETA: Mon Oct 12 11:02:19 2015  179 s  222/537 msgs left
+msg INBOX/390 {3846}          copied to INBOX/317        1.24 msgs/s  360.322 KiB/s 89.750 MiB copied  ETA: Mon Oct 12 11:02:18 2015  178 s  221/537 msgs left
+msg INBOX/391 {4034}          copied to INBOX/318        1.24 msgs/s  359.895 KiB/s 89.754 MiB copied  ETA: Mon Oct 12 11:02:17 2015  177 s  220/537 msgs left
+msg INBOX/392 {4413}          copied to INBOX/319        1.24 msgs/s  359.468 KiB/s 89.758 MiB copied  ETA: Mon Oct 12 11:02:17 2015  176 s  219/537 msgs left
+msg INBOX/393 {4090}          copied to INBOX/320        1.25 msgs/s  359.042 KiB/s 89.762 MiB copied  ETA: Mon Oct 12 11:02:16 2015  175 s  218/537 msgs left
+msg INBOX/394 {4588}          copied to INBOX/321        1.25 msgs/s  358.620 KiB/s 89.766 MiB copied  ETA: Mon Oct 12 11:02:15 2015  174 s  217/537 msgs left
+msg INBOX/395 {4621}          copied to INBOX/322        1.25 msgs/s  358.159 KiB/s 89.771 MiB copied  ETA: Mon Oct 12 11:02:14 2015  173 s  216/537 msgs left
+msg INBOX/396 {4205}          copied to INBOX/323        1.25 msgs/s  357.665 KiB/s 89.775 MiB copied  ETA: Mon Oct 12 11:02:14 2015  172 s  215/537 msgs left
+msg INBOX/397 {4178}          copied to INBOX/324        1.26 msgs/s  357.229 KiB/s 89.779 MiB copied  ETA: Mon Oct 12 11:02:13 2015  171 s  214/537 msgs left
+msg INBOX/398 {4377}          copied to INBOX/325        1.26 msgs/s  356.800 KiB/s 89.783 MiB copied  ETA: Mon Oct 12 11:02:12 2015  169 s  213/537 msgs left
+msg INBOX/399 {4878}          copied to INBOX/326        1.26 msgs/s  356.369 KiB/s 89.788 MiB copied  ETA: Mon Oct 12 11:02:11 2015  168 s  212/537 msgs left
+msg INBOX/400 {4405}          copied to INBOX/327        1.26 msgs/s  355.952 KiB/s 89.792 MiB copied  ETA: Mon Oct 12 11:02:10 2015  167 s  211/537 msgs left
+msg INBOX/401 {4680}          copied to INBOX/328        1.26 msgs/s  355.477 KiB/s 89.796 MiB copied  ETA: Mon Oct 12 11:02:10 2015  166 s  210/537 msgs left
+msg INBOX/402 {3958}          copied to INBOX/329        1.27 msgs/s  355.060 KiB/s 89.800 MiB copied  ETA: Mon Oct 12 11:02:09 2015  165 s  209/537 msgs left
+msg INBOX/403 {4355}          copied to INBOX/330        1.27 msgs/s  354.625 KiB/s 89.804 MiB copied  ETA: Mon Oct 12 11:02:08 2015  164 s  208/537 msgs left
+msg INBOX/404 {4995}          copied to INBOX/331        1.27 msgs/s  354.214 KiB/s 89.809 MiB copied  ETA: Mon Oct 12 11:02:07 2015  163 s  207/537 msgs left
+msg INBOX/405 {4906}          copied to INBOX/332        1.27 msgs/s  353.797 KiB/s 89.814 MiB copied  ETA: Mon Oct 12 11:02:07 2015  162 s  206/537 msgs left
+msg INBOX/406 {4515}          copied to INBOX/333        1.28 msgs/s  353.380 KiB/s 89.818 MiB copied  ETA: Mon Oct 12 11:02:06 2015  161 s  205/537 msgs left
+msg INBOX/407 {4822}          copied to INBOX/334        1.28 msgs/s  352.954 KiB/s 89.823 MiB copied  ETA: Mon Oct 12 11:02:05 2015  160 s  204/537 msgs left
+msg INBOX/408 {4996}          copied to INBOX/335        1.28 msgs/s  352.514 KiB/s 89.827 MiB copied  ETA: Mon Oct 12 11:02:04 2015  159 s  203/537 msgs left
+msg INBOX/409 {4481}          copied to INBOX/336        1.28 msgs/s  352.059 KiB/s 89.832 MiB copied  ETA: Mon Oct 12 11:02:04 2015  158 s  202/537 msgs left
+msg INBOX/410 {4483}          copied to INBOX/337        1.28 msgs/s  351.640 KiB/s 89.836 MiB copied  ETA: Mon Oct 12 11:02:03 2015  156 s  201/537 msgs left
+msg INBOX/411 {3910}          copied to INBOX/338        1.29 msgs/s  351.233 KiB/s 89.840 MiB copied  ETA: Mon Oct 12 11:02:02 2015  155 s  200/537 msgs left
+msg INBOX/412 {4177}          copied to INBOX/339        1.29 msgs/s  350.827 KiB/s 89.844 MiB copied  ETA: Mon Oct 12 11:02:02 2015  154 s  199/537 msgs left
+msg INBOX/413 {4722}          copied to INBOX/340        1.29 msgs/s  350.421 KiB/s 89.848 MiB copied  ETA: Mon Oct 12 11:02:01 2015  153 s  198/537 msgs left
+msg INBOX/414 {4585}          copied to INBOX/341        1.29 msgs/s  350.018 KiB/s 89.852 MiB copied  ETA: Mon Oct 12 11:02:00 2015  152 s  197/537 msgs left
+msg INBOX/415 {3787}          copied to INBOX/342        1.30 msgs/s  349.577 KiB/s 89.856 MiB copied  ETA: Mon Oct 12 11:01:59 2015  151 s  196/537 msgs left
+msg INBOX/416 {4310}          copied to INBOX/343        1.30 msgs/s  349.176 KiB/s 89.860 MiB copied  ETA: Mon Oct 12 11:01:59 2015  150 s  195/537 msgs left
+msg INBOX/417 {5154}          copied to INBOX/344        1.30 msgs/s  348.777 KiB/s 89.865 MiB copied  ETA: Mon Oct 12 11:01:58 2015  149 s  194/537 msgs left
+msg INBOX/418 {5314}          copied to INBOX/345        1.30 msgs/s  348.380 KiB/s 89.870 MiB copied  ETA: Mon Oct 12 11:01:57 2015  148 s  193/537 msgs left
+msg INBOX/419 {4960}          copied to INBOX/346        1.30 msgs/s  347.971 KiB/s 89.875 MiB copied  ETA: Mon Oct 12 11:01:57 2015  147 s  192/537 msgs left
+msg INBOX/420 {5058}          copied to INBOX/347        1.31 msgs/s  347.559 KiB/s 89.880 MiB copied  ETA: Mon Oct 12 11:01:56 2015  146 s  191/537 msgs left
+msg INBOX/421 {4798}          copied to INBOX/348        1.31 msgs/s  347.148 KiB/s 89.884 MiB copied  ETA: Mon Oct 12 11:01:55 2015  145 s  190/537 msgs left
+msg INBOX/422 {5233}          copied to INBOX/349        1.31 msgs/s  346.725 KiB/s 89.889 MiB copied  ETA: Mon Oct 12 11:01:55 2015  144 s  189/537 msgs left
+msg INBOX/423 {4180}          copied to INBOX/350        1.31 msgs/s  346.325 KiB/s 89.893 MiB copied  ETA: Mon Oct 12 11:01:54 2015  143 s  188/537 msgs left
+msg INBOX/424 {5119}          copied to INBOX/351        1.32 msgs/s  345.931 KiB/s 89.898 MiB copied  ETA: Mon Oct 12 11:01:53 2015  142 s  187/537 msgs left
+msg INBOX/425 {4289}          copied to INBOX/352        1.32 msgs/s  345.531 KiB/s 89.902 MiB copied  ETA: Mon Oct 12 11:01:53 2015  141 s  186/537 msgs left
+msg INBOX/426 {4271}          copied to INBOX/353        1.32 msgs/s  345.129 KiB/s 89.906 MiB copied  ETA: Mon Oct 12 11:01:52 2015  140 s  185/537 msgs left
+msg INBOX/427 {5201}          copied to INBOX/354        1.32 msgs/s  344.743 KiB/s 89.911 MiB copied  ETA: Mon Oct 12 11:01:51 2015  139 s  184/537 msgs left
+msg INBOX/428 {4541}          copied to INBOX/355        1.32 msgs/s  344.354 KiB/s 89.916 MiB copied  ETA: Mon Oct 12 11:01:50 2015  138 s  183/537 msgs left
+msg INBOX/429 {13076}         copied to INBOX/356        1.33 msgs/s  343.977 KiB/s 89.928 MiB copied  ETA: Mon Oct 12 11:01:50 2015  137 s  182/537 msgs left
+msg INBOX/430 {11508}         copied to INBOX/357        1.33 msgs/s  343.597 KiB/s 89.939 MiB copied  ETA: Mon Oct 12 11:01:49 2015  136 s  181/537 msgs left
+msg INBOX/431 {46681}         copied to INBOX/358        1.33 msgs/s  343.340 KiB/s 89.984 MiB copied  ETA: Mon Oct 12 11:01:49 2015  135 s  180/537 msgs left
+msg INBOX/432 {57819}         copied to INBOX/359        1.33 msgs/s  343.146 KiB/s 90.039 MiB copied  ETA: Mon Oct 12 11:01:48 2015  134 s  179/537 msgs left
+msg INBOX/433 {13549}         copied to INBOX/360        1.33 msgs/s  342.786 KiB/s 90.052 MiB copied  ETA: Mon Oct 12 11:01:47 2015  133 s  178/537 msgs left
+msg INBOX/434 {47455}         copied to INBOX/361        1.34 msgs/s  342.504 KiB/s 90.097 MiB copied  ETA: Mon Oct 12 11:01:47 2015  132 s  177/537 msgs left
+msg INBOX/435 {24076}         copied to INBOX/362        1.34 msgs/s  342.165 KiB/s 90.120 MiB copied  ETA: Mon Oct 12 11:01:46 2015  131 s  176/537 msgs left
+msg INBOX/436 {4302}          copied to INBOX/363        1.34 msgs/s  341.670 KiB/s 90.124 MiB copied  ETA: Mon Oct 12 11:01:46 2015  131 s  175/537 msgs left
+msg INBOX/437 {6842}          copied to INBOX/364        1.34 msgs/s  341.266 KiB/s 90.130 MiB copied  ETA: Mon Oct 12 11:01:45 2015  130 s  174/537 msgs left
+msg INBOX/438 {59270}         copied to INBOX/365        1.34 msgs/s  341.034 KiB/s 90.187 MiB copied  ETA: Mon Oct 12 11:01:44 2015  129 s  173/537 msgs left
+msg INBOX/439 {130008}        copied to INBOX/366        1.35 msgs/s  341.056 KiB/s 90.311 MiB copied  ETA: Mon Oct 12 11:01:44 2015  128 s  172/537 msgs left
+msg INBOX/440 {6100}          copied to INBOX/367        1.35 msgs/s  340.656 KiB/s 90.317 MiB copied  ETA: Mon Oct 12 11:01:43 2015  127 s  171/537 msgs left
+msg INBOX/441 {11913}         copied to INBOX/368        1.35 msgs/s  340.268 KiB/s 90.328 MiB copied  ETA: Mon Oct 12 11:01:43 2015  126 s  170/537 msgs left
+msg INBOX/442 {17380}         copied to INBOX/369        1.35 msgs/s  339.877 KiB/s 90.345 MiB copied  ETA: Mon Oct 12 11:01:42 2015  125 s  169/537 msgs left
+msg INBOX/443 {12527}         copied to INBOX/370        1.35 msgs/s  339.510 KiB/s 90.357 MiB copied  ETA: Mon Oct 12 11:01:41 2015  124 s  168/537 msgs left
+msg INBOX/444 {6891}          copied to INBOX/371        1.36 msgs/s  339.112 KiB/s 90.363 MiB copied  ETA: Mon Oct 12 11:01:41 2015  123 s  167/537 msgs left
+msg INBOX/445 {11010}         copied to INBOX/372        1.36 msgs/s  338.635 KiB/s 90.374 MiB copied  ETA: Mon Oct 12 11:01:40 2015  122 s  166/537 msgs left
+msg INBOX/446 {6244}          copied to INBOX/373        1.36 msgs/s  338.249 KiB/s 90.380 MiB copied  ETA: Mon Oct 12 11:01:40 2015  121 s  165/537 msgs left
+msg INBOX/447 {1652}          copied to INBOX/374        1.36 msgs/s  337.850 KiB/s 90.381 MiB copied  ETA: Mon Oct 12 11:01:39 2015  120 s  164/537 msgs left
+msg INBOX/448 {43751}         copied to INBOX/375        1.36 msgs/s  337.472 KiB/s 90.423 MiB copied  ETA: Mon Oct 12 11:01:39 2015  120 s  163/537 msgs left
+msg INBOX/449 {15692}         copied to INBOX/376        1.36 msgs/s  337.085 KiB/s 90.438 MiB copied  ETA: Mon Oct 12 11:01:38 2015  119 s  162/537 msgs left
+msg INBOX/450 {6796}          copied to INBOX/377        1.37 msgs/s  336.714 KiB/s 90.444 MiB copied  ETA: Mon Oct 12 11:01:38 2015  118 s  161/537 msgs left
+msg INBOX/451 {14593}         copied to INBOX/378        1.37 msgs/s  336.359 KiB/s 90.458 MiB copied  ETA: Mon Oct 12 11:01:37 2015  117 s  160/537 msgs left
+msg INBOX/452 {19391}         copied to INBOX/379        1.37 msgs/s  336.012 KiB/s 90.477 MiB copied  ETA: Mon Oct 12 11:01:37 2015  116 s  159/537 msgs left
+msg INBOX/453 {8154}          copied to INBOX/380        1.37 msgs/s  335.628 KiB/s 90.485 MiB copied  ETA: Mon Oct 12 11:01:36 2015  115 s  158/537 msgs left
+msg INBOX/454 {103559}        copied to INBOX/381        1.37 msgs/s  335.487 KiB/s 90.583 MiB copied  ETA: Mon Oct 12 11:01:36 2015  114 s  157/537 msgs left
+msg INBOX/455 {142833}        copied to INBOX/382        1.38 msgs/s  335.533 KiB/s 90.720 MiB copied  ETA: Mon Oct 12 11:01:35 2015  113 s  156/537 msgs left
+msg INBOX/456 {112126}        copied to INBOX/383        1.38 msgs/s  335.429 KiB/s 90.827 MiB copied  ETA: Mon Oct 12 11:01:35 2015  113 s  155/537 msgs left
+msg INBOX/457 {5759}          copied to INBOX/384        1.38 msgs/s  335.030 KiB/s 90.832 MiB copied  ETA: Mon Oct 12 11:01:34 2015  112 s  154/537 msgs left
+msg INBOX/458 {6066}          copied to INBOX/385        1.38 msgs/s  334.668 KiB/s 90.838 MiB copied  ETA: Mon Oct 12 11:01:34 2015  111 s  153/537 msgs left
+msg INBOX/459 {104641}        copied to INBOX/386        1.38 msgs/s  334.637 KiB/s 90.938 MiB copied  ETA: Mon Oct 12 11:01:33 2015  110 s  152/537 msgs left
+msg INBOX/460 {123396}        copied to INBOX/387        1.38 msgs/s  334.499 KiB/s 91.055 MiB copied  ETA: Mon Oct 12 11:01:33 2015  109 s  151/537 msgs left
+msg INBOX/461 {121302}        copied to INBOX/388        1.39 msgs/s  334.488 KiB/s 91.171 MiB copied  ETA: Mon Oct 12 11:01:32 2015  108 s  150/537 msgs left
+msg INBOX/462 {126119}        copied to INBOX/389        1.39 msgs/s  334.461 KiB/s 91.291 MiB copied  ETA: Mon Oct 12 11:01:32 2015  107 s  149/537 msgs left
+msg INBOX/463 {5183}          copied to INBOX/390        1.39 msgs/s  334.076 KiB/s 91.296 MiB copied  ETA: Mon Oct 12 11:01:31 2015  106 s  148/537 msgs left
+msg INBOX/464 {13128}         copied to INBOX/391        1.39 msgs/s  333.731 KiB/s 91.309 MiB copied  ETA: Mon Oct 12 11:01:31 2015  106 s  147/537 msgs left
+msg INBOX/465 {129924}        copied to INBOX/392        1.39 msgs/s  333.577 KiB/s 91.433 MiB copied  ETA: Mon Oct 12 11:01:30 2015  105 s  146/537 msgs left
+msg INBOX/466 {9089}          copied to INBOX/393        1.40 msgs/s  333.227 KiB/s 91.441 MiB copied  ETA: Mon Oct 12 11:01:30 2015  104 s  145/537 msgs left
+msg INBOX/467 {16477}         copied to INBOX/394        1.40 msgs/s  332.903 KiB/s 91.457 MiB copied  ETA: Mon Oct 12 11:01:29 2015  103 s  144/537 msgs left
+msg INBOX/468 {111931}        copied to INBOX/395        1.40 msgs/s  332.839 KiB/s 91.564 MiB copied  ETA: Mon Oct 12 11:01:29 2015  102 s  143/537 msgs left
+msg INBOX/469 {115475}        copied to INBOX/396        1.40 msgs/s  332.741 KiB/s 91.674 MiB copied  ETA: Mon Oct 12 11:01:28 2015  101 s  142/537 msgs left
+msg INBOX/470 {5031}          copied to INBOX/397        1.40 msgs/s  332.380 KiB/s 91.679 MiB copied  ETA: Mon Oct 12 11:01:28 2015  101 s  141/537 msgs left
+msg INBOX/471 {12730}         copied to INBOX/398        1.40 msgs/s  332.044 KiB/s 91.691 MiB copied  ETA: Mon Oct 12 11:01:27 2015  100 s  140/537 msgs left
+msg INBOX/472 {122003}        copied to INBOX/399        1.41 msgs/s  332.019 KiB/s 91.807 MiB copied  ETA: Mon Oct 12 11:01:27 2015  99 s  139/537 msgs left
+msg INBOX/473 {31434}         copied to INBOX/400        1.41 msgs/s  331.713 KiB/s 91.837 MiB copied  ETA: Mon Oct 12 11:01:26 2015  98 s  138/537 msgs left
+msg INBOX/474 {28500}         copied to INBOX/401        1.41 msgs/s  331.391 KiB/s 91.864 MiB copied  ETA: Mon Oct 12 11:01:26 2015  97 s  137/537 msgs left
+msg INBOX/475 {41160}         copied to INBOX/402        1.41 msgs/s  331.153 KiB/s 91.904 MiB copied  ETA: Mon Oct 12 11:01:25 2015  96 s  136/537 msgs left
+msg INBOX/476 {29639}         copied to INBOX/403        1.41 msgs/s  330.797 KiB/s 91.932 MiB copied  ETA: Mon Oct 12 11:01:25 2015  96 s  135/537 msgs left
+msg INBOX/477 {190040}        copied to INBOX/404        1.41 msgs/s  330.635 KiB/s 92.113 MiB copied  ETA: Mon Oct 12 11:01:25 2015  95 s  134/537 msgs left
+msg INBOX/478 {105381}        copied to INBOX/405        1.40 msgs/s  328.140 KiB/s 92.214 MiB copied  ETA: Mon Oct 12 11:01:27 2015  95 s  133/537 msgs left
+msg INBOX/479 {104734}        copied to INBOX/406        1.40 msgs/s  327.406 KiB/s 92.313 MiB copied  ETA: Mon Oct 12 11:01:28 2015  94 s  132/537 msgs left
+msg INBOX/480 {108276}        copied to INBOX/407        1.40 msgs/s  327.045 KiB/s 92.417 MiB copied  ETA: Mon Oct 12 11:01:28 2015  93 s  131/537 msgs left
+msg INBOX/481 {297757}        copied to INBOX/408        1.40 msgs/s  326.861 KiB/s 92.701 MiB copied  ETA: Mon Oct 12 11:01:28 2015  93 s  130/537 msgs left
+msg INBOX/482 {103932}        copied to INBOX/409        1.40 msgs/s  326.495 KiB/s 92.800 MiB copied  ETA: Mon Oct 12 11:01:28 2015  92 s  129/537 msgs left
+msg INBOX/483 {148274}        copied to INBOX/410        1.40 msgs/s  326.280 KiB/s 92.941 MiB copied  ETA: Mon Oct 12 11:01:28 2015  91 s  128/537 msgs left
+msg INBOX/484 {143302}        copied to INBOX/411        1.40 msgs/s  326.051 KiB/s 93.078 MiB copied  ETA: Mon Oct 12 11:01:28 2015  91 s  127/537 msgs left
+msg INBOX/485 {117499}        copied to INBOX/412        1.40 msgs/s  325.681 KiB/s 93.190 MiB copied  ETA: Mon Oct 12 11:01:28 2015  90 s  126/537 msgs left
+msg INBOX/486 {117552}        copied to INBOX/413        1.40 msgs/s  325.370 KiB/s 93.302 MiB copied  ETA: Mon Oct 12 11:01:28 2015  89 s  125/537 msgs left
+msg INBOX/487 {98126}         copied to INBOX/414        1.40 msgs/s  324.991 KiB/s 93.396 MiB copied  ETA: Mon Oct 12 11:01:28 2015  88 s  124/537 msgs left
+msg INBOX/488 {94620}         copied to INBOX/415        1.40 msgs/s  324.586 KiB/s 93.486 MiB copied  ETA: Mon Oct 12 11:01:27 2015  88 s  123/537 msgs left
+msg INBOX/489 {5725}          copied to INBOX/416        1.41 msgs/s  324.240 KiB/s 93.491 MiB copied  ETA: Mon Oct 12 11:01:27 2015  87 s  122/537 msgs left
+msg INBOX/490 {106906}        copied to INBOX/417        1.41 msgs/s  323.897 KiB/s 93.593 MiB copied  ETA: Mon Oct 12 11:01:27 2015  86 s  121/537 msgs left
+msg INBOX/491 {151097}        copied to INBOX/418        1.41 msgs/s  323.701 KiB/s 93.737 MiB copied  ETA: Mon Oct 12 11:01:27 2015  85 s  120/537 msgs left
+msg INBOX/492 {175013}        copied to INBOX/419        1.41 msgs/s  323.584 KiB/s 93.904 MiB copied  ETA: Mon Oct 12 11:01:27 2015  85 s  119/537 msgs left
+msg INBOX/493 {11466}         copied to INBOX/420        1.41 msgs/s  323.264 KiB/s 93.915 MiB copied  ETA: Mon Oct 12 11:01:26 2015  84 s  118/537 msgs left
+msg INBOX/494 {4326}          copied to INBOX/421        1.41 msgs/s  322.921 KiB/s 93.919 MiB copied  ETA: Mon Oct 12 11:01:26 2015  83 s  117/537 msgs left
+msg INBOX/495 {154054}        copied to INBOX/422        1.41 msgs/s  322.707 KiB/s 94.066 MiB copied  ETA: Mon Oct 12 11:01:26 2015  82 s  116/537 msgs left
+msg INBOX/496 {4213}          copied to INBOX/423        1.41 msgs/s  322.374 KiB/s 94.070 MiB copied  ETA: Mon Oct 12 11:01:25 2015  81 s  115/537 msgs left
+msg INBOX/497 {4601}          copied to INBOX/424        1.41 msgs/s  322.012 KiB/s 94.075 MiB copied  ETA: Mon Oct 12 11:01:25 2015  81 s  114/537 msgs left
+msg INBOX/498 {121683}        copied to INBOX/425        1.42 msgs/s  322.029 KiB/s 94.191 MiB copied  ETA: Mon Oct 12 11:01:24 2015  80 s  113/537 msgs left
+msg INBOX/499 {4069}          copied to INBOX/426        1.42 msgs/s  321.696 KiB/s 94.195 MiB copied  ETA: Mon Oct 12 11:01:24 2015  79 s  112/537 msgs left
+msg INBOX/500 {143020}        copied to INBOX/427        1.42 msgs/s  321.412 KiB/s 94.331 MiB copied  ETA: Mon Oct 12 11:01:24 2015  78 s  111/537 msgs left
+msg INBOX/501 {137226}        copied to INBOX/428        1.42 msgs/s  321.066 KiB/s 94.462 MiB copied  ETA: Mon Oct 12 11:01:24 2015  78 s  110/537 msgs left
+msg INBOX/502 {123579}        copied to INBOX/429        1.41 msgs/s  318.794 KiB/s 94.580 MiB copied  ETA: Mon Oct 12 11:01:26 2015  77 s  109/537 msgs left
+msg INBOX/503 {130115}        copied to INBOX/430        1.41 msgs/s  318.210 KiB/s 94.704 MiB copied  ETA: Mon Oct 12 11:01:26 2015  77 s  108/537 msgs left
+msg INBOX/504 {134786}        copied to INBOX/431        1.41 msgs/s  317.642 KiB/s 94.832 MiB copied  ETA: Mon Oct 12 11:01:27 2015  76 s  107/537 msgs left
+msg INBOX/505 {96831}         copied to INBOX/432        1.41 msgs/s  317.296 KiB/s 94.925 MiB copied  ETA: Mon Oct 12 11:01:27 2015  75 s  106/537 msgs left
+msg INBOX/506 {4032}          copied to INBOX/433        1.41 msgs/s  316.984 KiB/s 94.928 MiB copied  ETA: Mon Oct 12 11:01:26 2015  75 s  105/537 msgs left
+msg INBOX/507 {16127}         copied to INBOX/434        1.41 msgs/s  316.681 KiB/s 94.944 MiB copied  ETA: Mon Oct 12 11:01:26 2015  74 s  104/537 msgs left
+msg INBOX/508 {134311}        copied to INBOX/435        1.41 msgs/s  316.296 KiB/s 95.072 MiB copied  ETA: Mon Oct 12 11:01:26 2015  73 s  103/537 msgs left
+msg INBOX/509 {92504}         copied to INBOX/436        1.41 msgs/s  315.904 KiB/s 95.160 MiB copied  ETA: Mon Oct 12 11:01:26 2015  72 s  102/537 msgs left
+msg INBOX/510 {4941}          copied to INBOX/437        1.41 msgs/s  315.576 KiB/s 95.165 MiB copied  ETA: Mon Oct 12 11:01:25 2015  72 s  101/537 msgs left
+msg INBOX/511 {4620}          copied to INBOX/438        1.41 msgs/s  315.262 KiB/s 95.169 MiB copied  ETA: Mon Oct 12 11:01:25 2015  71 s  100/537 msgs left
+msg INBOX/512 {4256}          copied to INBOX/439        1.42 msgs/s  314.945 KiB/s 95.173 MiB copied  ETA: Mon Oct 12 11:01:24 2015  70 s  99/537 msgs left
+msg INBOX/513 {5232}          copied to INBOX/440        1.42 msgs/s  314.550 KiB/s 95.178 MiB copied  ETA: Mon Oct 12 11:01:24 2015  69 s  98/537 msgs left
+msg INBOX/514 {5052}          copied to INBOX/441        1.42 msgs/s  314.215 KiB/s 95.183 MiB copied  ETA: Mon Oct 12 11:01:23 2015  68 s  97/537 msgs left
+msg INBOX/515 {12228}         copied to INBOX/442        1.42 msgs/s  313.929 KiB/s 95.195 MiB copied  ETA: Mon Oct 12 11:01:23 2015  68 s  96/537 msgs left
+msg INBOX/516 {2253577}       copied to INBOX/443        1.40 msgs/s  315.497 KiB/s 97.344 MiB copied  ETA: Mon Oct 12 11:01:29 2015  68 s  95/537 msgs left
+msg INBOX/517 {11618}         copied to INBOX/444        1.40 msgs/s  315.200 KiB/s 97.355 MiB copied  ETA: Mon Oct 12 11:01:28 2015  67 s  94/537 msgs left
+msg INBOX/518 {11432}         copied to INBOX/445        1.40 msgs/s  314.914 KiB/s 97.366 MiB copied  ETA: Mon Oct 12 11:01:28 2015  66 s  93/537 msgs left
+msg INBOX/519 {427444}        copied to INBOX/446        1.40 msgs/s  314.981 KiB/s 97.774 MiB copied  ETA: Mon Oct 12 11:01:28 2015  66 s  92/537 msgs left
+msg INBOX/520 {146134}        copied to INBOX/447        1.40 msgs/s  314.898 KiB/s 97.913 MiB copied  ETA: Mon Oct 12 11:01:28 2015  65 s  91/537 msgs left
+msg INBOX/521 {22492}         copied to INBOX/448        1.40 msgs/s  314.655 KiB/s 97.934 MiB copied  ETA: Mon Oct 12 11:01:28 2015  64 s  90/537 msgs left
+msg INBOX/522 {3394}          copied to INBOX/449        1.40 msgs/s  314.343 KiB/s 97.938 MiB copied  ETA: Mon Oct 12 11:01:27 2015  63 s  89/537 msgs left
+msg INBOX/523 {8574}          copied to INBOX/450        1.41 msgs/s  314.043 KiB/s 97.946 MiB copied  ETA: Mon Oct 12 11:01:27 2015  63 s  88/537 msgs left
+msg INBOX/524 {30652}         copied to INBOX/451        1.41 msgs/s  313.806 KiB/s 97.975 MiB copied  ETA: Mon Oct 12 11:01:26 2015  62 s  87/537 msgs left
+msg INBOX/525 {30506}         copied to INBOX/452        1.41 msgs/s  313.560 KiB/s 98.004 MiB copied  ETA: Mon Oct 12 11:01:26 2015  61 s  86/537 msgs left
+msg INBOX/526 {30485}         copied to INBOX/453        1.41 msgs/s  313.335 KiB/s 98.033 MiB copied  ETA: Mon Oct 12 11:01:26 2015  60 s  85/537 msgs left
+msg INBOX/527 {21704}         copied to INBOX/454        1.41 msgs/s  313.035 KiB/s 98.054 MiB copied  ETA: Mon Oct 12 11:01:25 2015  59 s  84/537 msgs left
+msg INBOX/528 {11561}         copied to INBOX/455        1.41 msgs/s  312.763 KiB/s 98.065 MiB copied  ETA: Mon Oct 12 11:01:25 2015  59 s  83/537 msgs left
+msg INBOX/529 {12429}         copied to INBOX/456        1.42 msgs/s  312.494 KiB/s 98.077 MiB copied  ETA: Mon Oct 12 11:01:24 2015  58 s  82/537 msgs left
+msg INBOX/530 {126924}        copied to INBOX/457        1.42 msgs/s  312.256 KiB/s 98.198 MiB copied  ETA: Mon Oct 12 11:01:24 2015  57 s  81/537 msgs left
+msg INBOX/531 {77182}         copied to INBOX/458        1.42 msgs/s  312.143 KiB/s 98.271 MiB copied  ETA: Mon Oct 12 11:01:24 2015  56 s  80/537 msgs left
+msg INBOX/532 {10494}         copied to INBOX/459        1.42 msgs/s  311.830 KiB/s 98.281 MiB copied  ETA: Mon Oct 12 11:01:23 2015  56 s  79/537 msgs left
+msg INBOX/533 {6033}          copied to INBOX/460        1.42 msgs/s  311.544 KiB/s 98.287 MiB copied  ETA: Mon Oct 12 11:01:23 2015  55 s  78/537 msgs left
+msg INBOX/534 {11407}         copied to INBOX/461        1.42 msgs/s  311.274 KiB/s 98.298 MiB copied  ETA: Mon Oct 12 11:01:22 2015  54 s  77/537 msgs left
+msg INBOX/535 {3402}          copied to INBOX/462        1.42 msgs/s  310.964 KiB/s 98.301 MiB copied  ETA: Mon Oct 12 11:01:22 2015  53 s  76/537 msgs left
+msg INBOX/536 {14050}         copied to INBOX/463        1.43 msgs/s  310.662 KiB/s 98.315 MiB copied  ETA: Mon Oct 12 11:01:22 2015  53 s  75/537 msgs left
+msg INBOX/537 {32097}         copied to INBOX/464        1.43 msgs/s  310.457 KiB/s 98.345 MiB copied  ETA: Mon Oct 12 11:01:21 2015  52 s  74/537 msgs left
+[INBOX.Trash]                       -> [INBOX.Trash]                      
+Creating folder [INBOX.Trash] on host2
+Created  folder [INBOX.Trash] on host2
+Subscribing to folder INBOX.Trash on destination server
+msg INBOX.Trash/1 {997}             copied to INBOX.Trash/1          1.42 msgs/s  308.905 KiB/s 98.346 MiB copied  ETA: Mon Oct 12 11:01:22 2015  51 s  73/537 msgs left
+msg INBOX.Trash/2 {940}             copied to INBOX.Trash/2          1.42 msgs/s  308.607 KiB/s 98.347 MiB copied  ETA: Mon Oct 12 11:01:22 2015  51 s  72/537 msgs left
+msg INBOX.Trash/3 {1757}            copied to INBOX.Trash/3          1.43 msgs/s  308.304 KiB/s 98.349 MiB copied  ETA: Mon Oct 12 11:01:21 2015  50 s  71/537 msgs left
+msg INBOX.Trash/4 {1720}            copied to INBOX.Trash/4          1.43 msgs/s  308.005 KiB/s 98.351 MiB copied  ETA: Mon Oct 12 11:01:21 2015  49 s  70/537 msgs left
+msg INBOX.Trash/5 {1765}            copied to INBOX.Trash/5          1.43 msgs/s  307.705 KiB/s 98.352 MiB copied  ETA: Mon Oct 12 11:01:20 2015  48 s  69/537 msgs left
+msg INBOX.Trash/6 {4525}            copied to INBOX.Trash/6          1.43 msgs/s  307.396 KiB/s 98.357 MiB copied  ETA: Mon Oct 12 11:01:20 2015  48 s  68/537 msgs left
+msg INBOX.Trash/7 {1679}            copied to INBOX.Trash/7          1.43 msgs/s  307.099 KiB/s 98.358 MiB copied  ETA: Mon Oct 12 11:01:20 2015  47 s  67/537 msgs left
+msg INBOX.Trash/8 {3099}            copied to INBOX.Trash/8          1.43 msgs/s  306.815 KiB/s 98.361 MiB copied  ETA: Mon Oct 12 11:01:19 2015  46 s  66/537 msgs left
+msg INBOX.Trash/9 {1132}            copied to INBOX.Trash/9          1.44 msgs/s  306.525 KiB/s 98.362 MiB copied  ETA: Mon Oct 12 11:01:19 2015  45 s  65/537 msgs left
+msg INBOX.Trash/10 {1748}           copied to INBOX.Trash/10         1.44 msgs/s  306.161 KiB/s 98.364 MiB copied  ETA: Mon Oct 12 11:01:18 2015  45 s  64/537 msgs left
+msg INBOX.Trash/11 {1770}           copied to INBOX.Trash/11         1.44 msgs/s  305.864 KiB/s 98.366 MiB copied  ETA: Mon Oct 12 11:01:18 2015  44 s  63/537 msgs left
+msg INBOX.Trash/12 {1682}           copied to INBOX.Trash/12         1.44 msgs/s  305.577 KiB/s 98.367 MiB copied  ETA: Mon Oct 12 11:01:18 2015  43 s  62/537 msgs left
+msg INBOX.Trash/13 {1734}           copied to INBOX.Trash/13         1.44 msgs/s  305.289 KiB/s 98.369 MiB copied  ETA: Mon Oct 12 11:01:17 2015  42 s  61/537 msgs left
+msg INBOX.Trash/14 {871}            copied to INBOX.Trash/14         1.44 msgs/s  305.001 KiB/s 98.370 MiB copied  ETA: Mon Oct 12 11:01:17 2015  42 s  60/537 msgs left
+msg INBOX.Trash/15 {862}            copied to INBOX.Trash/15         1.45 msgs/s  304.704 KiB/s 98.370 MiB copied  ETA: Mon Oct 12 11:01:16 2015  41 s  59/537 msgs left
+msg INBOX.Trash/16 {1686}           copied to INBOX.Trash/16         1.45 msgs/s  304.420 KiB/s 98.372 MiB copied  ETA: Mon Oct 12 11:01:16 2015  40 s  58/537 msgs left
+msg INBOX.Trash/17 {1681}           copied to INBOX.Trash/17         1.45 msgs/s  304.121 KiB/s 98.374 MiB copied  ETA: Mon Oct 12 11:01:15 2015  39 s  57/537 msgs left
+msg INBOX.Trash/18 {1712}           copied to INBOX.Trash/18         1.45 msgs/s  303.835 KiB/s 98.375 MiB copied  ETA: Mon Oct 12 11:01:15 2015  39 s  56/537 msgs left
+msg INBOX.Trash/19 {1756}           copied to INBOX.Trash/19         1.45 msgs/s  303.540 KiB/s 98.377 MiB copied  ETA: Mon Oct 12 11:01:15 2015  38 s  55/537 msgs left
+msg INBOX.Trash/20 {18504}          copied to INBOX.Trash/20         1.45 msgs/s  303.291 KiB/s 98.395 MiB copied  ETA: Mon Oct 12 11:01:14 2015  37 s  54/537 msgs left
+msg INBOX.Trash/21 {2193}           copied to INBOX.Trash/21         1.46 msgs/s  303.010 KiB/s 98.397 MiB copied  ETA: Mon Oct 12 11:01:14 2015  36 s  53/537 msgs left
+msg INBOX.Trash/22 {839}            copied to INBOX.Trash/22         1.46 msgs/s  302.718 KiB/s 98.397 MiB copied  ETA: Mon Oct 12 11:01:13 2015  36 s  52/537 msgs left
+msg INBOX.Trash/23 {916}            copied to INBOX.Trash/23         1.46 msgs/s  302.434 KiB/s 98.398 MiB copied  ETA: Mon Oct 12 11:01:13 2015  35 s  51/537 msgs left
+msg INBOX.Trash/24 {2023}           copied to INBOX.Trash/24         1.46 msgs/s  302.131 KiB/s 98.400 MiB copied  ETA: Mon Oct 12 11:01:13 2015  34 s  50/537 msgs left
+msg INBOX.Trash/25 {16355}          copied to INBOX.Trash/25         1.46 msgs/s  301.886 KiB/s 98.416 MiB copied  ETA: Mon Oct 12 11:01:12 2015  34 s  49/537 msgs left
+msg INBOX.Trash/26 {16266}          copied to INBOX.Trash/26         1.46 msgs/s  301.649 KiB/s 98.431 MiB copied  ETA: Mon Oct 12 11:01:12 2015  33 s  48/537 msgs left
+msg INBOX.Trash/27 {2025}           copied to INBOX.Trash/27         1.47 msgs/s  301.361 KiB/s 98.433 MiB copied  ETA: Mon Oct 12 11:01:11 2015  32 s  47/537 msgs left
+msg INBOX.Trash/28 {908}            copied to INBOX.Trash/28         1.47 msgs/s  301.073 KiB/s 98.434 MiB copied  ETA: Mon Oct 12 11:01:11 2015  31 s  46/537 msgs left
+msg INBOX.Trash/29 {865}            copied to INBOX.Trash/29         1.47 msgs/s  300.794 KiB/s 98.435 MiB copied  ETA: Mon Oct 12 11:01:11 2015  31 s  45/537 msgs left
+msg INBOX.Trash/30 {910}            copied to INBOX.Trash/30         1.47 msgs/s  300.488 KiB/s 98.436 MiB copied  ETA: Mon Oct 12 11:01:10 2015  30 s  44/537 msgs left
+msg INBOX.Trash/31 {857}            copied to INBOX.Trash/31         1.47 msgs/s  300.130 KiB/s 98.437 MiB copied  ETA: Mon Oct 12 11:01:10 2015  29 s  43/537 msgs left
+msg INBOX.Trash/32 {3111}           copied to INBOX.Trash/32         1.47 msgs/s  299.853 KiB/s 98.440 MiB copied  ETA: Mon Oct 12 11:01:10 2015  29 s  42/537 msgs left
+msg INBOX.Trash/33 {71089}          copied to INBOX.Trash/33         1.47 msgs/s  299.768 KiB/s 98.507 MiB copied  ETA: Mon Oct 12 11:01:09 2015  28 s  41/537 msgs left
+msg INBOX.Trash/34 {941}            copied to INBOX.Trash/34         1.48 msgs/s  299.483 KiB/s 98.508 MiB copied  ETA: Mon Oct 12 11:01:09 2015  27 s  40/537 msgs left
+msg INBOX.Trash/35 {862}            copied to INBOX.Trash/35         1.48 msgs/s  299.199 KiB/s 98.509 MiB copied  ETA: Mon Oct 12 11:01:08 2015  26 s  39/537 msgs left
+msg INBOX.Trash/36 {807}            copied to INBOX.Trash/36         1.48 msgs/s  298.922 KiB/s 98.510 MiB copied  ETA: Mon Oct 12 11:01:08 2015  26 s  38/537 msgs left
+msg INBOX.Trash/37 {899}            copied to INBOX.Trash/37         1.48 msgs/s  298.633 KiB/s 98.511 MiB copied  ETA: Mon Oct 12 11:01:08 2015  25 s  37/537 msgs left
+msg INBOX.Trash/38 {2061}           copied to INBOX.Trash/38         1.48 msgs/s  298.359 KiB/s 98.513 MiB copied  ETA: Mon Oct 12 11:01:07 2015  24 s  36/537 msgs left
+msg INBOX.Trash/39 {16255}          copied to INBOX.Trash/39         1.48 msgs/s  298.093 KiB/s 98.528 MiB copied  ETA: Mon Oct 12 11:01:07 2015  24 s  35/537 msgs left
+msg INBOX.Trash/40 {1198}           copied to INBOX.Trash/40         1.48 msgs/s  297.749 KiB/s 98.529 MiB copied  ETA: Mon Oct 12 11:01:07 2015  23 s  34/537 msgs left
+msg INBOX.Trash/41 {81432}          copied to INBOX.Trash/41         1.49 msgs/s  297.659 KiB/s 98.607 MiB copied  ETA: Mon Oct 12 11:01:06 2015  22 s  33/537 msgs left
+msg INBOX.Trash/42 {19668}          copied to INBOX.Trash/42         1.49 msgs/s  297.424 KiB/s 98.626 MiB copied  ETA: Mon Oct 12 11:01:06 2015  22 s  32/537 msgs left
+msg INBOX.Trash/43 {1747}           copied to INBOX.Trash/43         1.49 msgs/s  297.146 KiB/s 98.628 MiB copied  ETA: Mon Oct 12 11:01:06 2015  21 s  31/537 msgs left
+msg INBOX.Trash/44 {1729}           copied to INBOX.Trash/44         1.49 msgs/s  296.869 KiB/s 98.629 MiB copied  ETA: Mon Oct 12 11:01:05 2015  20 s  30/537 msgs left
+msg INBOX.Trash/45 {1736}           copied to INBOX.Trash/45         1.49 msgs/s  296.564 KiB/s 98.631 MiB copied  ETA: Mon Oct 12 11:01:05 2015  19 s  29/537 msgs left
+msg INBOX.Trash/46 {1747}           copied to INBOX.Trash/46         1.49 msgs/s  296.252 KiB/s 98.632 MiB copied  ETA: Mon Oct 12 11:01:05 2015  19 s  28/537 msgs left
+msg INBOX.Trash/47 {1770}           copied to INBOX.Trash/47         1.49 msgs/s  295.939 KiB/s 98.634 MiB copied  ETA: Mon Oct 12 11:01:04 2015  18 s  27/537 msgs left
+msg INBOX.Trash/48 {1768}           copied to INBOX.Trash/48         1.50 msgs/s  295.670 KiB/s 98.636 MiB copied  ETA: Mon Oct 12 11:01:04 2015  17 s  26/537 msgs left
+msg INBOX.Trash/49 {1677}           copied to INBOX.Trash/49         1.50 msgs/s  295.395 KiB/s 98.637 MiB copied  ETA: Mon Oct 12 11:01:04 2015  17 s  25/537 msgs left
+msg INBOX.Trash/50 {1768}           copied to INBOX.Trash/50         1.50 msgs/s  295.125 KiB/s 98.639 MiB copied  ETA: Mon Oct 12 11:01:03 2015  16 s  24/537 msgs left
+msg INBOX.Trash/51 {950}            copied to INBOX.Trash/51         1.50 msgs/s  294.857 KiB/s 98.640 MiB copied  ETA: Mon Oct 12 11:01:03 2015  15 s  23/537 msgs left
+msg INBOX.Trash/52 {902}            copied to INBOX.Trash/52         1.50 msgs/s  294.580 KiB/s 98.641 MiB copied  ETA: Mon Oct 12 11:01:02 2015  15 s  22/537 msgs left
+msg INBOX.Trash/53 {933}            copied to INBOX.Trash/53         1.50 msgs/s  294.309 KiB/s 98.642 MiB copied  ETA: Mon Oct 12 11:01:02 2015  14 s  21/537 msgs left
+msg INBOX.Trash/54 {1722}           copied to INBOX.Trash/54         1.50 msgs/s  294.021 KiB/s 98.643 MiB copied  ETA: Mon Oct 12 11:01:02 2015  13 s  20/537 msgs left
+msg INBOX.Trash/55 {1749}           copied to INBOX.Trash/55         1.51 msgs/s  293.689 KiB/s 98.645 MiB copied  ETA: Mon Oct 12 11:01:01 2015  13 s  19/537 msgs left
+msg INBOX.Trash/56 {1134}           copied to INBOX.Trash/56         1.51 msgs/s  293.413 KiB/s 98.646 MiB copied  ETA: Mon Oct 12 11:01:01 2015  12 s  18/537 msgs left
+msg INBOX.Trash/57 {1702}           copied to INBOX.Trash/57         1.51 msgs/s  293.143 KiB/s 98.648 MiB copied  ETA: Mon Oct 12 11:01:01 2015  11 s  17/537 msgs left
+msg INBOX.Trash/58 {1691}           copied to INBOX.Trash/58         1.51 msgs/s  292.879 KiB/s 98.649 MiB copied  ETA: Mon Oct 12 11:01:00 2015  11 s  16/537 msgs left
+msg INBOX.Trash/59 {1706}           copied to INBOX.Trash/59         1.51 msgs/s  292.612 KiB/s 98.651 MiB copied  ETA: Mon Oct 12 11:01:00 2015  10 s  15/537 msgs left
+msg INBOX.Trash/60 {2608}           copied to INBOX.Trash/60         1.51 msgs/s  292.320 KiB/s 98.654 MiB copied  ETA: Mon Oct 12 11:01:00 2015  9 s  14/537 msgs left
+msg INBOX.Trash/61 {1787}           copied to INBOX.Trash/61         1.51 msgs/s  292.058 KiB/s 98.655 MiB copied  ETA: Mon Oct 12 11:00:59 2015  9 s  13/537 msgs left
+msg INBOX.Trash/62 {1744}           copied to INBOX.Trash/62         1.52 msgs/s  291.796 KiB/s 98.657 MiB copied  ETA: Mon Oct 12 11:00:59 2015  8 s  12/537 msgs left
+msg INBOX.Trash/63 {887}            copied to INBOX.Trash/63         1.52 msgs/s  291.523 KiB/s 98.658 MiB copied  ETA: Mon Oct 12 11:00:59 2015  7 s  11/537 msgs left
+msg INBOX.Trash/64 {914}            copied to INBOX.Trash/64         1.52 msgs/s  291.262 KiB/s 98.659 MiB copied  ETA: Mon Oct 12 11:00:58 2015  7 s  10/537 msgs left
+msg INBOX.Trash/65 {859}            copied to INBOX.Trash/65         1.52 msgs/s  290.976 KiB/s 98.659 MiB copied  ETA: Mon Oct 12 11:00:58 2015  6 s  9/537 msgs left
+msg INBOX.Trash/66 {861}            copied to INBOX.Trash/66         1.52 msgs/s  290.704 KiB/s 98.660 MiB copied  ETA: Mon Oct 12 11:00:58 2015  5 s  8/537 msgs left
+msg INBOX.Trash/67 {1766}           copied to INBOX.Trash/67         1.52 msgs/s  290.446 KiB/s 98.662 MiB copied  ETA: Mon Oct 12 11:00:57 2015  5 s  7/537 msgs left
+msg INBOX.Trash/68 {1723}           copied to INBOX.Trash/68         1.53 msgs/s  290.189 KiB/s 98.664 MiB copied  ETA: Mon Oct 12 11:00:57 2015  4 s  6/537 msgs left
+msg INBOX.Trash/69 {1708}           copied to INBOX.Trash/69         1.53 msgs/s  289.926 KiB/s 98.665 MiB copied  ETA: Mon Oct 12 11:00:57 2015  3 s  5/537 msgs left
+msg INBOX.Trash/70 {1720}           copied to INBOX.Trash/70         1.53 msgs/s  289.667 KiB/s 98.667 MiB copied  ETA: Mon Oct 12 11:00:56 2015  3 s  4/537 msgs left
+msg INBOX.Trash/71 {1714}           copied to INBOX.Trash/71         1.53 msgs/s  289.324 KiB/s 98.668 MiB copied  ETA: Mon Oct 12 11:00:56 2015  2 s  3/537 msgs left
+msg INBOX.Trash/72 {1778}           copied to INBOX.Trash/72         1.53 msgs/s  289.069 KiB/s 98.670 MiB copied  ETA: Mon Oct 12 11:00:56 2015  1 s  2/537 msgs left
+msg INBOX.Trash/73 {1720}           copied to INBOX.Trash/73         1.53 msgs/s  288.809 KiB/s 98.672 MiB copied  ETA: Mon Oct 12 11:00:55 2015  1 s  1/537 msgs left
+msg INBOX.Trash/74 {890}            copied to INBOX.Trash/74         1.53 msgs/s  288.553 KiB/s 98.673 MiB copied  ETA: Mon Oct 12 11:00:55 2015  0 s  0/537 msgs left
+[INBOX.spam]                        -> [INBOX.spam]                       
+Creating folder [INBOX.spam] on host2
+Created  folder [INBOX.spam] on host2
+Subscribing to folder INBOX.spam on destination server
+++++ End looping on each folder
+
+Folders sizes after the synchronization.
+You can remove this foldersizes listing by using  "--nofoldersizesatend"
+++++ Calculating sizes on Host1
+Host1 folder [INBOX]                             Size: 103122594 Messages:   463 Biggest:  13753927
+Host1 folder [INBOX.Trash]                       Size:    343210 Messages:    74 Biggest:     81432
+Host1 folder [INBOX.spam]                        Size:         0 Messages:     0 Biggest:         0
+Host1 Nb messages:             537 messages
+Host1 Total size:        103465804 bytes (98.673 MiB)
+Host1 Biggest message:    13753927 bytes (13.117 MiB)
+Host1 Time spent:              2.5 seconds
+++++ Calculating sizes on Host2
+Host2 folder [INBOX]                             Size: 103123845 Messages:   464 Biggest:  13753927
+Host2 folder [INBOX.Trash]                       Size:    343210 Messages:    74 Biggest:     81432
+Host2 folder [INBOX.spam]                        Size:         0 Messages:     0 Biggest:         0
+Host2 Nb messages:             538 messages
+Host2 Total size:        103467055 bytes (98.674 MiB)
+Host2 Biggest message:    13753927 bytes (13.117 MiB)
+Host2 Time spent:              0.0 seconds
+++++ Statistics
+Transfer started on               : Mon Oct 12 10:54:52 2015
+Transfer ended on                 : Mon Oct 12 11:00:59 2015
+Transfer time                     : 367.0 sec
+Messages transferred              : 537 
+Messages skipped                  : 0
+Messages found duplicate on host1 : 0
+Messages found duplicate on host2 : 0
+Messages void (noheader) on host1 : 0
+Messages void (noheader) on host2 : 0
+Messages deleted on host1         : 0
+Messages deleted on host2         : 0
+Total bytes transferred           : 103465804 (98.673 MiB)
+Total bytes duplicate host1       : 0 (0.000 KiB)
+Total bytes duplicate host2       : 0 (0.000 KiB)
+Total bytes skipped               : 0 (0.000 KiB)
+Total bytes error                 : 0 (0.000 KiB)
+Message rate                      : 1.5 messages/s
+Average bandwidth rate            : 275.3 KiB/s
+Reconnections to host1            : 0
+Reconnections to host2            : 0
+Memory consumption                : 296.3 MiB
+Biggest message                   : 13753927 bytes
+Initial difference host2 - host1  : -536 messages, -103464553 bytes (-98.671 MiB)
+Final   difference host2 - host1  : 1 messages, 1251 bytes (1.222 KiB)
+Detected 0 errors
+
+timeout
+Homepage: http://imapsync.lamiral.info/
+Log file is LOG_imapsync/2015_10_12_10_54_52_bjorn@pedulianak.org.txt  ( to change it, use --logfile filepath ; or use --nolog to turn off logging )

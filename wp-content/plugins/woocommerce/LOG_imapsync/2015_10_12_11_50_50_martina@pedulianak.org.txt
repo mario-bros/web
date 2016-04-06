@@ -1,0 +1,301 @@
+Transfer started at Mon Oct 12 11:50:50 2015
+PID is 9713
+Log file is LOG_imapsync/2015_10_12_11_50_50_martina@pedulianak.org.txt  ( to change it, use --logfile filepath ; or use --nolog to turn off logging )
+$RCSfile: imapsync,v $ $Revision: 1.637 $ $Date: 2015/04/01 01:36:37 $ 
+Here is a [linux] system (Linux li853-243.members.linode.com 4.1.5-x86_64-linode61 #7 SMP Mon Aug 24 13:46:31 EDT 2015 x86_64)
+With perl 5.16.3 Mail::IMAPClient  3.34
+Command line used:
+/usr/bin/imapsync --host1 31.171.202.6 --user1 martina@pedulianak.org --password1 MASKED --host2 139.162.11.243 --user2 martina@pedulianak.org --password2 MASKED
+Temp directory is /tmp  ( to change it use --tmpdir dirpath )
+PID file is /tmp/imapsync.pid ( to change it use --pidfile filepath ; to avoid it use --pidfile "" )
+Modules version list:
+Mail::IMAPClient     3.34
+IO::Socket           1.34
+IO::Socket::IP       0.21
+IO::Socket::INET     1.33
+IO::Socket::SSL      1.94
+Net::SSLeay          1.55
+Compress::Zlib       2.061
+Digest::MD5          2.52
+Digest::HMAC_MD5     1.01
+Digest::HMAC_SHA1    1.03
+Term::ReadKey        2.30
+File::Spec           3.40
+Time::HiRes          1.9725
+Unicode::String      2.09
+IO::Tee              0.64
+File::Copy::Recursive 0.38
+Authen::NTLM         1.09
+URI::Escape          3.31
+Data::Uniqid         0.12
+( use --no-modules_version to turn off printing this Perl modules list )
+Info: turned ON syncinternaldates, will set the internal dates (arrival dates) on host2 same as host1.
+Info: will try to use LOGIN authentication on host1
+Info: will try to use LOGIN authentication on host2
+Info: imap connexions timeout is 120 seconds
+Host1: IMAP server [31.171.202.6] port [143] user [martina@pedulianak.org]
+Host2: IMAP server [139.162.11.243] port [143] user [martina@pedulianak.org]
+Host1: * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN] Dovecot DA ready.
+Host1: 31.171.202.6 says it has NO CAPABILITY for AUTHENTICATE LOGIN
+Host1: success login on [31.171.202.6] with user [martina@pedulianak.org] auth [LOGIN]
+Host2: * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+Host2: 139.162.11.243 says it has CAPABILITY for AUTHENTICATE LOGIN
+Host2: success login on [139.162.11.243] with user [martina@pedulianak.org] auth [LOGIN]
+Host1: state Authenticated
+Host2: state Authenticated
+Host1 capability: IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS THREAD=ORDEREDSUBJECT MULTIAPPEND URL-PARTIAL CATENATE UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS BINARY MOVE QUOTA
+Host2 capability: IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE SORT SORT=DISPLAY THREAD=REFERENCES THREAD=REFS THREAD=ORDEREDSUBJECT MULTIAPPEND URL-PARTIAL CATENATE UNSELECT CHILDREN NAMESPACE UIDPLUS LIST-EXTENDED I18NLEVEL=1 CONDSTORE QRESYNC ESEARCH ESORT SEARCHRES WITHIN CONTEXT=SEARCH LIST-STATUS SPECIAL-USE BINARY MOVE QUOTA
+Host1: separator given by NAMESPACE: [.]
+Host2: separator given by NAMESPACE: [.]
+Host1: prefix given by NAMESPACE: []
+Host2: prefix given by NAMESPACE: []
+Host1 separator and prefix: [.][]
+Host2 separator and prefix: [.][]
+
+++++ Listing folders
+All foldernames are presented between brackets like [X] where X is the foldername.
+When a foldername contains non-ASCII characters it is presented in the form
+[X] = [Y] where
+X is the imap foldername you have to use in command line options and
+Y is the uft8 output just printed for convenience, to recognize it.
+
+Host1 folders list:
+[Deleted Messages]
+[Drafts]
+[INBOX]
+[INBOX.Drafts]
+[INBOX.Sent]
+[INBOX.Trash]
+[INBOX.spam]
+[Junk]
+[Notes]
+[Sent Messages]
+
+Host2 folders list:
+[Deleted Messages]
+[Drafts]
+[INBOX]
+[Junk]
+[Notes]
+[Sent]
+[Sent Messages]
+[Trash]
+[oldmail]
+[oldmail.Drafts]
+[oldmail.Sent]
+[oldmail.Trash]
+[oldmail.spam]
+
+Folders in host2 not in host1:
+[oldmail.spam]
+[oldmail.Trash]
+[oldmail.Sent]
+[oldmail.Drafts]
+[oldmail]
+[Trash]
+[Sent]
+
+
+Folders sizes before the synchronization.
+You can remove foldersizes listings by using "--nofoldersizes" and  "--nofoldersizesatend"
+but then you will also loose the ETA (Estimation Time of Arrival) given after each message copy.
+++++ Calculating sizes on Host1
+Host1 folder [Deleted Messages]                  Size:         0 Messages:     0 Biggest:         0
+Host1 folder [Drafts]                            Size:     28770 Messages:     1 Biggest:     28770
+Host1 folder [INBOX]                             Size:   8282601 Messages:    78 Biggest:   2258516
+Host1 folder [INBOX.Drafts]                      Size:         0 Messages:     0 Biggest:         0
+Host1 folder [INBOX.Sent]                        Size:     56031 Messages:     3 Biggest:     46384
+Host1 folder [INBOX.Trash]                       Size:         0 Messages:     0 Biggest:         0
+Host1 folder [INBOX.spam]                        Size:     78313 Messages:     2 Biggest:     54729
+Host1 folder [Junk]                              Size:      7143 Messages:     1 Biggest:      7143
+Host1 folder [Notes]                             Size:     18291 Messages:    20 Biggest:      2199
+Host1 folder [Sent Messages]                     Size:   8269515 Messages:   168 Biggest:   3782665
+Host1 Nb messages:             273 messages
+Host1 Total size:         16740664 bytes (15.965 MiB)
+Host1 Biggest message:     3782665 bytes (3.607 MiB)
+Host1 Time spent:             18.0 seconds
+++++ Calculating sizes on Host2
+Host2 folder [Deleted Messages]                  Size:   1094720 Messages:    14 Biggest:    184897
+Host2 folder [Drafts]                            Size:   2100664 Messages:     7 Biggest:   2026972
+Host2 folder [INBOX]                             Size:   8321660 Messages:    85 Biggest:   2881701
+Host2 folder [INBOX.Drafts]                      does not exist yet
+Host2 folder [INBOX.Sent]                        does not exist yet
+Host2 folder [INBOX.Trash]                       does not exist yet
+Host2 folder [INBOX.spam]                        does not exist yet
+Host2 folder [Junk]                              Size:    200644 Messages:     5 Biggest:    142205
+Host2 folder [Notes]                             Size:     18291 Messages:    20 Biggest:      2199
+Host2 folder [Sent Messages]                     Size:   9390393 Messages:   179 Biggest:   3782665
+Host2 Nb messages:             310 messages
+Host2 Total size:         21126372 bytes (20.148 MiB)
+Host2 Biggest message:     3782665 bytes (3.607 MiB)
+Host2 Time spent:              0.0 seconds
+++++ Looping on each folder
+[Deleted Messages]                  -> [Deleted Messages]                 
+[Drafts]                            -> [Drafts]                           
+[INBOX]                             -> [INBOX]                            
+msg INBOX/10918 {31007}       copied to INBOX/176        0.20 msgs/s  5.923 KiB/s 30.280 KiB copied  ETA: Mon Oct 12 12:14:20 2015  1386 s  271/273 msgs left
+msg INBOX/10919 {31178}       copied to INBOX/177        0.35 msgs/s  10.539 KiB/s 60.728 KiB copied  ETA: Mon Oct 12 12:04:13 2015  778 s  270/273 msgs left
+msg INBOX/10920 {6416}        copied to INBOX/178        0.49 msgs/s  10.960 KiB/s 66.993 KiB copied  ETA: Mon Oct 12 12:00:24 2015  548 s  269/273 msgs left
+msg INBOX/10921 {2258516}     copied to INBOX/179        0.34 msgs/s  190.803 KiB/s 2.219 MiB copied  ETA: Mon Oct 12 12:04:39 2015  798 s  268/273 msgs left
+msg INBOX/10922 {12533}       copied to INBOX/180        0.41 msgs/s  186.394 KiB/s 2.231 MiB copied  ETA: Mon Oct 12 12:02:16 2015  655 s  267/273 msgs left
+msg INBOX/10923 {128680}      copied to INBOX/181        0.47 msgs/s  189.053 KiB/s 2.354 MiB copied  ETA: Mon Oct 12 12:00:47 2015  565 s  266/273 msgs left
+msg INBOX/10924 {94900}       copied to INBOX/182        0.53 msgs/s  188.882 KiB/s 2.444 MiB copied  ETA: Mon Oct 12 11:59:44 2015  502 s  265/273 msgs left
+msg INBOX/10925 {147016}      copied to INBOX/183        0.58 msgs/s  190.806 KiB/s 2.585 MiB copied  ETA: Mon Oct 12 11:59:01 2015  458 s  264/273 msgs left
+msg INBOX/10926 {91834}       copied to INBOX/184        0.63 msgs/s  192.560 KiB/s 2.672 MiB copied  ETA: Mon Oct 12 11:58:19 2015  415 s  263/273 msgs left
+msg INBOX/10927 {3332}        copied to INBOX/185        0.69 msgs/s  188.606 KiB/s 2.675 MiB copied  ETA: Mon Oct 12 11:57:45 2015  381 s  262/273 msgs left
+msg INBOX/10928 {118253}      copied to INBOX/186        0.74 msgs/s  192.096 KiB/s 2.788 MiB copied  ETA: Mon Oct 12 11:57:17 2015  353 s  261/273 msgs left
+msg INBOX/10929 {107059}      copied to INBOX/187        0.78 msgs/s  193.215 KiB/s 2.890 MiB copied  ETA: Mon Oct 12 11:56:57 2015  332 s  260/273 msgs left
+msg INBOX/10930 {47195}       copied to INBOX/188        0.83 msgs/s  192.200 KiB/s 2.935 MiB copied  ETA: Mon Oct 12 11:56:37 2015  312 s  259/273 msgs left
+msg INBOX/10931 {70912}       copied to INBOX/189        0.85 msgs/s  187.301 KiB/s 3.003 MiB copied  ETA: Mon Oct 12 11:56:28 2015  303 s  258/273 msgs left
+msg INBOX/10932 {47529}       copied to INBOX/190        0.80 msgs/s  166.730 KiB/s 3.048 MiB copied  ETA: Mon Oct 12 11:56:49 2015  321 s  257/273 msgs left
+msg INBOX/10933 {97119}       copied to INBOX/191        0.74 msgs/s  148.144 KiB/s 3.141 MiB copied  ETA: Mon Oct 12 11:57:19 2015  347 s  256/273 msgs left
+msg INBOX/10934 {66163}       copied to INBOX/192        0.74 msgs/s  142.610 KiB/s 3.204 MiB copied  ETA: Mon Oct 12 11:57:18 2015  345 s  255/273 msgs left
+msg INBOX/10935 {133030}      copied to INBOX/193        0.74 msgs/s  140.496 KiB/s 3.331 MiB copied  ETA: Mon Oct 12 11:57:16 2015  343 s  254/273 msgs left
+msg INBOX/10936 {27680}       copied to INBOX/194        0.77 msgs/s  139.736 KiB/s 3.357 MiB copied  ETA: Mon Oct 12 11:57:02 2015  328 s  253/273 msgs left
+msg INBOX/10937 {90428}       copied to INBOX/195        0.78 msgs/s  138.018 KiB/s 3.444 MiB copied  ETA: Mon Oct 12 11:56:57 2015  322 s  252/273 msgs left
+msg INBOX/10938 {1226}        copied to INBOX/196        0.81 msgs/s  136.343 KiB/s 3.445 MiB copied  ETA: Mon Oct 12 11:56:45 2015  309 s  251/273 msgs left
+msg INBOX/10939 {114335}      copied to INBOX/197        0.83 msgs/s  136.998 KiB/s 3.554 MiB copied  ETA: Mon Oct 12 11:56:38 2015  302 s  250/273 msgs left
+msg INBOX/10940 {102218}      copied to INBOX/198        0.85 msgs/s  137.376 KiB/s 3.651 MiB copied  ETA: Mon Oct 12 11:56:31 2015  295 s  249/273 msgs left
+msg INBOX/10941 {89194}       copied to INBOX/199        0.82 msgs/s  131.236 KiB/s 3.736 MiB copied  ETA: Mon Oct 12 11:56:40 2015  301 s  248/273 msgs left
+msg INBOX/10942 {110137}      copied to INBOX/200        0.82 msgs/s  129.198 KiB/s 3.841 MiB copied  ETA: Mon Oct 12 11:56:41 2015  301 s  247/273 msgs left
+msg INBOX/10943 {86429}       copied to INBOX/201        0.83 msgs/s  127.994 KiB/s 3.924 MiB copied  ETA: Mon Oct 12 11:56:38 2015  297 s  246/273 msgs left
+msg INBOX/10944 {74715}       copied to INBOX/202        0.84 msgs/s  127.741 KiB/s 3.995 MiB copied  ETA: Mon Oct 12 11:56:32 2015  291 s  245/273 msgs left
+msg INBOX/10945 {9456}        copied to INBOX/203        0.87 msgs/s  126.744 KiB/s 4.004 MiB copied  ETA: Mon Oct 12 11:56:24 2015  282 s  244/273 msgs left
+msg INBOX/10946 {108866}      copied to INBOX/204        0.88 msgs/s  127.305 KiB/s 4.108 MiB copied  ETA: Mon Oct 12 11:56:19 2015  277 s  243/273 msgs left
+msg INBOX/10947 {97582}       copied to INBOX/205        0.89 msgs/s  127.724 KiB/s 4.201 MiB copied  ETA: Mon Oct 12 11:56:15 2015  272 s  242/273 msgs left
+msg INBOX/10948 {69883}       copied to INBOX/206        0.90 msgs/s  127.347 KiB/s 4.268 MiB copied  ETA: Mon Oct 12 11:56:11 2015  267 s  241/273 msgs left
+msg INBOX/10949 {16364}       copied to INBOX/207        0.92 msgs/s  126.544 KiB/s 4.283 MiB copied  ETA: Mon Oct 12 11:56:04 2015  260 s  240/273 msgs left
+msg INBOX/10950 {5694}        copied to INBOX/208        0.94 msgs/s  125.485 KiB/s 4.289 MiB copied  ETA: Mon Oct 12 11:55:58 2015  253 s  239/273 msgs left
+msg INBOX/10951 {33113}       copied to INBOX/209        0.96 msgs/s  125.273 KiB/s 4.320 MiB copied  ETA: Mon Oct 12 11:55:52 2015  247 s  238/273 msgs left
+msg INBOX/10952 {78762}       copied to INBOX/210        0.97 msgs/s  124.949 KiB/s 4.395 MiB copied  ETA: Mon Oct 12 11:55:49 2015  244 s  237/273 msgs left
+msg INBOX/10953 {81439}       copied to INBOX/211        0.98 msgs/s  124.902 KiB/s 4.473 MiB copied  ETA: Mon Oct 12 11:55:47 2015  240 s  236/273 msgs left
+msg INBOX/10954 {25033}       copied to INBOX/212        1.00 msgs/s  124.434 KiB/s 4.497 MiB copied  ETA: Mon Oct 12 11:55:42 2015  235 s  235/273 msgs left
+msg INBOX/10955 {87016}       copied to INBOX/213        1.01 msgs/s  124.606 KiB/s 4.580 MiB copied  ETA: Mon Oct 12 11:55:39 2015  232 s  234/273 msgs left
+msg INBOX/10956 {88827}       copied to INBOX/214        1.02 msgs/s  124.773 KiB/s 4.664 MiB copied  ETA: Mon Oct 12 11:55:36 2015  229 s  233/273 msgs left
+msg INBOX/10957 {134985}      copied to INBOX/215        1.03 msgs/s  126.080 KiB/s 4.793 MiB copied  ETA: Mon Oct 12 11:55:34 2015  226 s  232/273 msgs left
+msg INBOX/10958 {43112}       copied to INBOX/216        1.04 msgs/s  126.101 KiB/s 4.834 MiB copied  ETA: Mon Oct 12 11:55:30 2015  221 s  231/273 msgs left
+msg INBOX/10959 {13776}       copied to INBOX/217        1.06 msgs/s  125.339 KiB/s 4.847 MiB copied  ETA: Mon Oct 12 11:55:26 2015  217 s  230/273 msgs left
+msg INBOX/10960 {108803}      copied to INBOX/218        1.07 msgs/s  125.823 KiB/s 4.951 MiB copied  ETA: Mon Oct 12 11:55:24 2015  215 s  229/273 msgs left
+msg INBOX/10961 {43401}       copied to INBOX/219        1.08 msgs/s  125.661 KiB/s 4.993 MiB copied  ETA: Mon Oct 12 11:55:21 2015  211 s  228/273 msgs left
+msg INBOX/10962 {88795}       copied to INBOX/220        1.09 msgs/s  126.282 KiB/s 5.077 MiB copied  ETA: Mon Oct 12 11:55:18 2015  208 s  227/273 msgs left
+msg INBOX/10963 {4218}        copied to INBOX/221        1.11 msgs/s  125.416 KiB/s 5.081 MiB copied  ETA: Mon Oct 12 11:55:15 2015  204 s  226/273 msgs left
+msg INBOX/10964 {121442}      copied to INBOX/222        1.11 msgs/s  125.345 KiB/s 5.197 MiB copied  ETA: Mon Oct 12 11:55:15 2015  203 s  225/273 msgs left
+msg INBOX/10965 {1180318}     copied to INBOX/223        1.04 msgs/s  140.656 KiB/s 6.323 MiB copied  ETA: Mon Oct 12 11:55:30 2015  215 s  224/273 msgs left
+msg INBOX/10966 {4365}        copied to INBOX/224        1.06 msgs/s  139.681 KiB/s 6.327 MiB copied  ETA: Mon Oct 12 11:55:27 2015  211 s  223/273 msgs left
+msg INBOX/10967 {369013}      copied to INBOX/225        1.06 msgs/s  145.388 KiB/s 6.679 MiB copied  ETA: Mon Oct 12 11:55:25 2015  209 s  222/273 msgs left
+msg INBOX/10968 {89582}       copied to INBOX/226        1.08 msgs/s  146.252 KiB/s 6.764 MiB copied  ETA: Mon Oct 12 11:55:22 2015  205 s  221/273 msgs left
+msg INBOX/10969 {17936}       copied to INBOX/227        1.09 msgs/s  145.639 KiB/s 6.781 MiB copied  ETA: Mon Oct 12 11:55:19 2015  202 s  220/273 msgs left
+msg INBOX/10970 {15729}       copied to INBOX/228        1.10 msgs/s  144.993 KiB/s 6.796 MiB copied  ETA: Mon Oct 12 11:55:16 2015  198 s  219/273 msgs left
+msg INBOX/10971 {19941}       copied to INBOX/229        1.12 msgs/s  144.449 KiB/s 6.815 MiB copied  ETA: Mon Oct 12 11:55:13 2015  195 s  218/273 msgs left
+msg INBOX/10972 {7639}        copied to INBOX/230        1.13 msgs/s  143.557 KiB/s 6.823 MiB copied  ETA: Mon Oct 12 11:55:10 2015  192 s  217/273 msgs left
+msg INBOX/10973 {6292}        copied to INBOX/231        1.14 msgs/s  142.757 KiB/s 6.829 MiB copied  ETA: Mon Oct 12 11:55:07 2015  189 s  216/273 msgs left
+msg INBOX/10974 {32952}       copied to INBOX/232        1.16 msgs/s  142.361 KiB/s 6.860 MiB copied  ETA: Mon Oct 12 11:55:05 2015  186 s  215/273 msgs left
+msg INBOX/10975 {89807}       copied to INBOX/233        1.17 msgs/s  143.155 KiB/s 6.946 MiB copied  ETA: Mon Oct 12 11:55:02 2015  183 s  214/273 msgs left
+msg INBOX/10976 {86775}       copied to INBOX/234        1.17 msgs/s  142.955 KiB/s 7.029 MiB copied  ETA: Mon Oct 12 11:55:02 2015  182 s  213/273 msgs left
+msg INBOX/10977 {151160}      copied to INBOX/235        1.13 msgs/s  138.730 KiB/s 7.173 MiB copied  ETA: Mon Oct 12 11:55:09 2015  187 s  212/273 msgs left
+msg INBOX/10978 {66821}       copied to INBOX/236        1.12 msgs/s  135.931 KiB/s 7.236 MiB copied  ETA: Mon Oct 12 11:55:13 2015  189 s  211/273 msgs left
+msg INBOX/10979 {97498}       copied to INBOX/237        1.12 msgs/s  135.087 KiB/s 7.329 MiB copied  ETA: Mon Oct 12 11:55:13 2015  188 s  210/273 msgs left
+msg INBOX/10980 {15658}       copied to INBOX/238        1.13 msgs/s  134.567 KiB/s 7.344 MiB copied  ETA: Mon Oct 12 11:55:11 2015  185 s  209/273 msgs left
+msg INBOX/10981 {22778}       copied to INBOX/239        1.14 msgs/s  134.192 KiB/s 7.366 MiB copied  ETA: Mon Oct 12 11:55:08 2015  183 s  208/273 msgs left
+msg INBOX/10982 {83921}       copied to INBOX/240        1.14 msgs/s  134.143 KiB/s 7.446 MiB copied  ETA: Mon Oct 12 11:55:07 2015  181 s  207/273 msgs left
+msg INBOX/10983 {2254}        copied to INBOX/241        1.15 msgs/s  133.442 KiB/s 7.448 MiB copied  ETA: Mon Oct 12 11:55:05 2015  178 s  206/273 msgs left
+msg INBOX/10984 {4448}        copied to INBOX/242        1.17 msgs/s  132.774 KiB/s 7.452 MiB copied  ETA: Mon Oct 12 11:55:03 2015  176 s  205/273 msgs left
+msg INBOX/10985 {29242}       copied to INBOX/243        1.18 msgs/s  132.510 KiB/s 7.480 MiB copied  ETA: Mon Oct 12 11:55:01 2015  173 s  204/273 msgs left
+msg INBOX/10986 {84992}       copied to INBOX/244        1.16 msgs/s  130.604 KiB/s 7.561 MiB copied  ETA: Mon Oct 12 11:55:03 2015  174 s  203/273 msgs left
+msg INBOX/10987 {111455}      copied to INBOX/245        1.16 msgs/s  130.349 KiB/s 7.668 MiB copied  ETA: Mon Oct 12 11:55:04 2015  174 s  202/273 msgs left
+msg INBOX/10988 {3689}        copied to INBOX/246        1.17 msgs/s  129.709 KiB/s 7.671 MiB copied  ETA: Mon Oct 12 11:55:01 2015  171 s  201/273 msgs left
+msg INBOX/10989 {5589}        copied to INBOX/247        1.18 msgs/s  129.124 KiB/s 7.677 MiB copied  ETA: Mon Oct 12 11:54:59 2015  169 s  200/273 msgs left
+msg INBOX/10990 {83558}       copied to INBOX/248        1.19 msgs/s  129.080 KiB/s 7.756 MiB copied  ETA: Mon Oct 12 11:54:59 2015  168 s  199/273 msgs left
+msg INBOX/10991 {10941}       copied to INBOX/249        1.20 msgs/s  128.535 KiB/s 7.767 MiB copied  ETA: Mon Oct 12 11:54:57 2015  166 s  198/273 msgs left
+msg INBOX/10992 {15392}       copied to INBOX/250        1.21 msgs/s  128.125 KiB/s 7.781 MiB copied  ETA: Mon Oct 12 11:54:55 2015  163 s  197/273 msgs left
+msg INBOX/10993 {18735}       copied to INBOX/251        1.22 msgs/s  127.771 KiB/s 7.799 MiB copied  ETA: Mon Oct 12 11:54:53 2015  161 s  196/273 msgs left
+msg INBOX/10994 {93867}       copied to INBOX/252        1.22 msgs/s  127.948 KiB/s 7.889 MiB copied  ETA: Mon Oct 12 11:54:53 2015  160 s  195/273 msgs left
+msg INBOX/10995 {10653}       copied to INBOX/253        1.23 msgs/s  127.472 KiB/s 7.899 MiB copied  ETA: Mon Oct 12 11:54:51 2015  158 s  194/273 msgs left
+[INBOX.Drafts]                      -> [INBOX.Drafts]                     
+Creating folder [INBOX.Drafts] on host2
+Created  folder [INBOX.Drafts] on host2
+Subscribing to folder INBOX.Drafts on destination server
+[INBOX.Sent]                        -> [INBOX.Sent]                       
+Creating folder [INBOX.Sent] on host2
+Created  folder [INBOX.Sent] on host2
+Subscribing to folder INBOX.Sent on destination server
+msg INBOX.Sent/1 {4143}            copied to INBOX.Sent/1          1.20 msgs/s  123.052 KiB/s 7.903 MiB copied  ETA: Mon Oct 12 11:54:56 2015  161 s  193/273 msgs left
+msg INBOX.Sent/2 {5504}            copied to INBOX.Sent/2          1.21 msgs/s  122.531 KiB/s 7.908 MiB copied  ETA: Mon Oct 12 11:54:54 2015  159 s  192/273 msgs left
+msg INBOX.Sent/3 {46384}           copied to INBOX.Sent/3          1.22 msgs/s  122.604 KiB/s 7.952 MiB copied  ETA: Mon Oct 12 11:54:53 2015  157 s  191/273 msgs left
+[INBOX.Trash]                       -> [INBOX.Trash]                      
+Creating folder [INBOX.Trash] on host2
+Created  folder [INBOX.Trash] on host2
+Subscribing to folder INBOX.Trash on destination server
+[INBOX.spam]                        -> [INBOX.spam]                       
+Creating folder [INBOX.spam] on host2
+Created  folder [INBOX.spam] on host2
+Subscribing to folder INBOX.spam on destination server
+msg INBOX.spam/1 {54729}           copied to INBOX.spam/1          1.19 msgs/s  119.148 KiB/s 8.005 MiB copied  ETA: Mon Oct 12 11:54:58 2015  159 s  190/273 msgs left
+msg INBOX.spam/2 {23584}           copied to INBOX.spam/2          1.20 msgs/s  118.813 KiB/s 8.027 MiB copied  ETA: Mon Oct 12 11:54:56 2015  158 s  189/273 msgs left
+[Junk]                              -> [Junk]                             
+[Notes]                             -> [Notes]                            
+[Sent Messages]                     -> [Sent Messages]                    
+++++ End looping on each folder
+
+Folders sizes after the synchronization.
+You can remove this foldersizes listing by using  "--nofoldersizesatend"
+++++ Calculating sizes on Host1
+Host1 folder [Deleted Messages]                  Size:         0 Messages:     0 Biggest:         0
+Host1 folder [Drafts]                            Size:     28770 Messages:     1 Biggest:     28770
+Host1 folder [INBOX]                             Size:   8282601 Messages:    78 Biggest:   2258516
+Host1 folder [INBOX.Drafts]                      Size:         0 Messages:     0 Biggest:         0
+Host1 folder [INBOX.Sent]                        Size:     56031 Messages:     3 Biggest:     46384
+Host1 folder [INBOX.Trash]                       Size:         0 Messages:     0 Biggest:         0
+Host1 folder [INBOX.spam]                        Size:     78313 Messages:     2 Biggest:     54729
+Host1 folder [Junk]                              Size:      7143 Messages:     1 Biggest:      7143
+Host1 folder [Notes]                             Size:     18291 Messages:    20 Biggest:      2199
+Host1 folder [Sent Messages]                     Size:   8269515 Messages:   168 Biggest:   3782665
+Host1 Nb messages:             273 messages
+Host1 Total size:         16740664 bytes (15.965 MiB)
+Host1 Biggest message:     3782665 bytes (3.607 MiB)
+Host1 Time spent:              9.3 seconds
+++++ Calculating sizes on Host2
+Host2 folder [Deleted Messages]                  Size:   1094720 Messages:    14 Biggest:    184897
+Host2 folder [Drafts]                            Size:   2100664 Messages:     7 Biggest:   2026972
+Host2 folder [INBOX]                             Size:  16604261 Messages:   163 Biggest:   2881701
+Host2 folder [INBOX.Drafts]                      Size:         0 Messages:     0 Biggest:         0
+Host2 folder [INBOX.Sent]                        Size:     56031 Messages:     3 Biggest:     46384
+Host2 folder [INBOX.Trash]                       Size:         0 Messages:     0 Biggest:         0
+Host2 folder [INBOX.spam]                        Size:     78313 Messages:     2 Biggest:     54729
+Host2 folder [Junk]                              Size:    200644 Messages:     5 Biggest:    142205
+Host2 folder [Notes]                             Size:     18291 Messages:    20 Biggest:      2199
+Host2 folder [Sent Messages]                     Size:   9390393 Messages:   179 Biggest:   3782665
+Host2 Nb messages:             393 messages
+Host2 Total size:         29543317 bytes (28.175 MiB)
+Host2 Biggest message:     3782665 bytes (3.607 MiB)
+Host2 Time spent:              0.0 seconds
+++++ Statistics
+Transfer started on               : Mon Oct 12 11:50:50 2015
+Transfer ended on                 : Mon Oct 12 11:52:33 2015
+Transfer time                     : 103.0 sec
+Messages transferred              : 83 
+Messages skipped                  : 190
+Messages found duplicate on host1 : 0
+Messages found duplicate on host2 : 0
+Messages void (noheader) on host1 : 0
+Messages void (noheader) on host2 : 0
+Messages deleted on host1         : 0
+Messages deleted on host2         : 0
+Total bytes transferred           : 8416945 (8.027 MiB)
+Total bytes duplicate host1       : 0 (0.000 KiB)
+Total bytes duplicate host2       : 0 (0.000 KiB)
+Total bytes skipped               : 8323719 (7.938 MiB)
+Total bytes error                 : 0 (0.000 KiB)
+Message rate                      : 0.8 messages/s
+Average bandwidth rate            : 79.8 KiB/s
+Reconnections to host1            : 0
+Reconnections to host2            : 0
+Memory consumption                : 242.2 MiB
+Biggest message                   : 2258516 bytes
+Initial difference host2 - host1  : 37 messages, 4385708 bytes (4.183 MiB)
+Final   difference host2 - host1  : 120 messages, 12802653 bytes (12.210 MiB)
+Detected 0 errors
+
+New imapsync release 1.644 available
+Homepage: http://imapsync.lamiral.info/
+Log file is LOG_imapsync/2015_10_12_11_50_50_martina@pedulianak.org.txt  ( to change it, use --logfile filepath ; or use --nolog to turn off logging )

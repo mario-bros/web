@@ -1,0 +1,144 @@
+﻿New entry at 2014-11-14 02:00:42
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:01:43
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:01:44
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:02:07
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:03:00
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:07:40
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:12:06
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:13:05
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:15:09
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 774
+BuckarooV3Response initialized
+2014-11-14 02:15:10
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => Margaux Chambon
+	brq_description                => Peduli Anak recurring donation. Transaction 20141114000774
+	brq_invoicenumber              => 20141114000774
+	brq_issuing_country            => FR
+	brq_mutationtype               => Processing
+	brq_payment                    => 1C0D3096435C4B278560D28E7CB874F0
+	brq_recurring                  => True
+	brq_SERVICE_visa_CardExpirationDate => 2016-10
+	brq_SERVICE_visa_CardNumberEnding => 3277
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-11-14 03:15:09
+	brq_transaction_method         => visa
+	brq_transaction_type           => V032
+	brq_transactions               => B0647F532FAC478D9A30138112928FD9
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 67ca4339d670c2347d5effe663efd4b757bf5516
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Margaux Chambon" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20141114000774" to signature
+Adding "brq_invoicenumber=20141114000774" to signature
+Adding "brq_issuing_country=FR" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=1C0D3096435C4B278560D28E7CB874F0" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2016-10" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=3277" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-11-14 03:15:09" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V032" to signature
+Adding "brq_transactions=B0647F532FAC478D9A30138112928FD9" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=Margaux Chambonbrq_description=Peduli Anak recurring donation. Transaction 20141114000774brq_invoicenumber=20141114000774brq_issuing_country=FRbrq_mutationtype=Processingbrq_payment=1C0D3096435C4B278560D28E7CB874F0brq_recurring=Truebrq_SERVICE_visa_CardExpirationDate=2016-10brq_SERVICE_visa_CardNumberEnding=3277brq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-11-14 03:15:09brq_transaction_method=visabrq_transaction_type=V032brq_transactions=B0647F532FAC478D9A30138112928FD9brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 67ca4339d670c2347d5effe663efd4b757bf5516
+Transaction found via invoice, ID 774
+Signature received  : 67ca4339d670c2347d5effe663efd4b757bf5516
+Signature calculated: 67ca4339d670c2347d5effe663efd4b757bf5516
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 829
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:16:37
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:24:39
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:26:24
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:27:44
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:28:07
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:35:36
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:36:41
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:37:05
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:38:03
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:42:01
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:48:50
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:49:58
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:51:29
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:52:47
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:53:49
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:53:53
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:56:46
+------------------------------------------------------------
+
+﻿New entry at 2014-11-14 02:59:56
+------------------------------------------------------------
+

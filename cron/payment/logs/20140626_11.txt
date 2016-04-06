@@ -1,0 +1,153 @@
+﻿New entry at 2014-06-26 11:07:56
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:07:56
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:07:58
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:08:44
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:10:44
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:10:46
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:10:58
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:11:07
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:11:26
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:11:32
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:11:35
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:11:57
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:12:00
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:12:18
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:12:30
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:12:40
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:12:53
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:14:45
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:15:07
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:15:24
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:15:37
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:22:13
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:24:13
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:26:33
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:26:33
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:29:16
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:34:14
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:35:01
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:36:10
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:36:15
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:41:07
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:42:03
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:42:49
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:44:06
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:46:36
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:48:53
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:48:54
+Signature string: brq_amount=816.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140626000706brq_invoicenumber=20140626000706brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=180brq_service_mastercard_action=paybrq_service_mastercard_customercode=180brq_service_visa_action=paybrq_service_visa_customercode=180brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=816.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140626000706brq_invoicenumber=20140626000706brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=180brq_service_mastercard_action=paybrq_service_mastercard_customercode=180brq_service_visa_action=paybrq_service_visa_customercode=180brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 638529b420836997ba6b2a34896796e55c3dc43e
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:49:30
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:49:57
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:50:11
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:50:12
+Signature string: brq_amount=408.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140626000707brq_invoicenumber=20140626000707brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=180brq_service_mastercard_action=paybrq_service_mastercard_customercode=180brq_service_visa_action=paybrq_service_visa_customercode=180brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=408.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140626000707brq_invoicenumber=20140626000707brq_requestedservices=visa,mastercard,amexbrq_return=http://http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=180brq_service_mastercard_action=paybrq_service_mastercard_customercode=180brq_service_visa_action=paybrq_service_visa_customercode=180brq_startrecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 7e5043e248cc1412281379b4bc708bd5748e1185
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:50:45
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:52:41
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:54:43
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:54:45
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:55:10
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:55:45
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:55:59
+------------------------------------------------------------
+
+﻿New entry at 2014-06-26 11:56:06
+------------------------------------------------------------
+

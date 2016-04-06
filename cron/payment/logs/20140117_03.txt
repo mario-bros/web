@@ -1,0 +1,11 @@
+New entry at 2014-01-17 03:19:20
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+Received notification for Buckaroo batch handler, saved in /home/peduli/domains/pedulianak.org/public_html/system/payment/logs/20140117_031920_buckaroo-notify.xml
+BPE Result: 100
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 609
+Finished transaction processing
+------------------------------------------------------------
+

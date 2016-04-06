@@ -1,0 +1,164 @@
+﻿New entry at 2014-10-21 01:15:10
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 765
+BuckarooV3Response initialized
+2014-10-21 01:15:10
+Received new payment response.
+Parameters received:
+	brq_amount                     => 48.00
+	brq_currency                   => EUR
+	brq_customer_name              => JOERG BRAUNER
+	brq_description                => Peduli Anak recurring donation. Transaction 20141021000765
+	brq_invoicenumber              => 20141021000765
+	brq_issuing_country            => DE
+	brq_mutationtype               => Processing
+	brq_payment                    => 224780C993C847B78D04E8A2769B7F91
+	brq_recurring                  => True
+	brq_SERVICE_visa_CardExpirationDate => 2016-07
+	brq_SERVICE_visa_CardNumberEnding => 9016
+	brq_statuscode                 => 690
+	brq_statuscode_detail          => C101
+	brq_statusmessage              => The authorization is denied by the creditcard company.
+	brq_test                       => false
+	brq_timestamp                  => 2014-10-21 03:15:10
+	brq_transaction_method         => visa
+	brq_transaction_type           => V032
+	brq_transactions               => 20BECEAAC7BD4B01A0E978A2C62FBEE0
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 58f7c4cc0351e8f2b96a6f3761b10fd95aafb6ff
+Adding "brq_amount=48.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=JOERG BRAUNER" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20141021000765" to signature
+Adding "brq_invoicenumber=20141021000765" to signature
+Adding "brq_issuing_country=DE" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=224780C993C847B78D04E8A2769B7F91" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2016-07" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=9016" to signature
+Adding "brq_statuscode=690" to signature
+Adding "brq_statuscode_detail=C101" to signature
+Adding "brq_statusmessage=The authorization is denied by the creditcard company." to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-10-21 03:15:10" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V032" to signature
+Adding "brq_transactions=20BECEAAC7BD4B01A0E978A2C62FBEE0" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=48.00brq_currency=EURbrq_customer_name=JOERG BRAUNERbrq_description=Peduli Anak recurring donation. Transaction 20141021000765brq_invoicenumber=20141021000765brq_issuing_country=DEbrq_mutationtype=Processingbrq_payment=224780C993C847B78D04E8A2769B7F91brq_recurring=Truebrq_SERVICE_visa_CardExpirationDate=2016-07brq_SERVICE_visa_CardNumberEnding=9016brq_statuscode=690brq_statuscode_detail=C101brq_statusmessage=The authorization is denied by the creditcard company.brq_test=falsebrq_timestamp=2014-10-21 03:15:10brq_transaction_method=visabrq_transaction_type=V032brq_transactions=20BECEAAC7BD4B01A0E978A2C62FBEE0brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 58f7c4cc0351e8f2b96a6f3761b10fd95aafb6ff
+Transaction found via invoice, ID 765
+Signature received  : 58f7c4cc0351e8f2b96a6f3761b10fd95aafb6ff
+Signature calculated: 58f7c4cc0351e8f2b96a6f3761b10fd95aafb6ff
+Passed validation, proceeding to completion
+Rejected transaction
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:15:13
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 766
+BuckarooV3Response initialized
+2014-10-21 01:15:13
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => Sabrina Schmieder
+	brq_description                => Peduli Anak recurring donation. Transaction 20141021000766
+	brq_invoicenumber              => 20141021000766
+	brq_issuing_country            => DE
+	brq_mutationtype               => Processing
+	brq_payment                    => 457B921B1B9245959D2958FFDD83C092
+	brq_recurring                  => True
+	brq_SERVICE_visa_CardExpirationDate => 2018-04
+	brq_SERVICE_visa_CardNumberEnding => 1689
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-10-21 03:15:13
+	brq_transaction_method         => visa
+	brq_transaction_type           => V032
+	brq_transactions               => 2BCCA6F342894471B8874B014751ABF6
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => 01f747a379da1a7dfc41d1ea78fc89235a896338
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Sabrina Schmieder" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20141021000766" to signature
+Adding "brq_invoicenumber=20141021000766" to signature
+Adding "brq_issuing_country=DE" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=457B921B1B9245959D2958FFDD83C092" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_visa_CardExpirationDate=2018-04" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=1689" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-10-21 03:15:13" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V032" to signature
+Adding "brq_transactions=2BCCA6F342894471B8874B014751ABF6" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=Sabrina Schmiederbrq_description=Peduli Anak recurring donation. Transaction 20141021000766brq_invoicenumber=20141021000766brq_issuing_country=DEbrq_mutationtype=Processingbrq_payment=457B921B1B9245959D2958FFDD83C092brq_recurring=Truebrq_SERVICE_visa_CardExpirationDate=2018-04brq_SERVICE_visa_CardNumberEnding=1689brq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-10-21 03:15:13brq_transaction_method=visabrq_transaction_type=V032brq_transactions=2BCCA6F342894471B8874B014751ABF6brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 01f747a379da1a7dfc41d1ea78fc89235a896338
+Transaction found via invoice, ID 766
+Signature received  : 01f747a379da1a7dfc41d1ea78fc89235a896338
+Signature calculated: 01f747a379da1a7dfc41d1ea78fc89235a896338
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 821
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:15:36
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:34:04
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:41:29
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:47:16
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:48:07
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:52:49
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:53:13
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:56:41
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:56:32
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:57:06
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:57:06
+------------------------------------------------------------
+
+﻿New entry at 2014-10-21 01:57:08
+------------------------------------------------------------
+

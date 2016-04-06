@@ -1,0 +1,123 @@
+﻿New entry at 2014-08-22 03:02:02
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:04:19
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:07:51
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:15:08
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 737
+BuckarooV3Response initialized
+2014-08-22 03:15:08
+Received new payment response.
+Parameters received:
+	brq_amount                     => 34.00
+	brq_currency                   => EUR
+	brq_customer_name              => N. van de Hoef
+	brq_description                => Peduli Anak recurring donation. Transaction 20140822000737
+	brq_invoicenumber              => 20140822000737
+	brq_issuing_country            => NL
+	brq_mutationtype               => Processing
+	brq_payment                    => 2681189AE8AD450CAEFB42EBA75AC497
+	brq_recurring                  => True
+	brq_SERVICE_mastercard_CardExpirationDate => 2015-05
+	brq_SERVICE_mastercard_CardNumberEnding => 2204
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Transaction successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-08-22 03:14:51
+	brq_transaction_method         => mastercard
+	brq_transaction_type           => V031
+	brq_transactions               => 94579FD6FE234F9E95C57926D7C8CEE9
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => a77cf5c7a481a25d1cb47ac0ffed149ac74c8f8e
+Adding "brq_amount=34.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=N. van de Hoef" to signature
+Adding "brq_description=Peduli Anak recurring donation. Transaction 20140822000737" to signature
+Adding "brq_invoicenumber=20140822000737" to signature
+Adding "brq_issuing_country=NL" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=2681189AE8AD450CAEFB42EBA75AC497" to signature
+Adding "brq_recurring=True" to signature
+Adding "brq_SERVICE_mastercard_CardExpirationDate=2015-05" to signature
+Adding "brq_SERVICE_mastercard_CardNumberEnding=2204" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Transaction successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-08-22 03:14:51" to signature
+Adding "brq_transaction_method=mastercard" to signature
+Adding "brq_transaction_type=V031" to signature
+Adding "brq_transactions=94579FD6FE234F9E95C57926D7C8CEE9" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=34.00brq_currency=EURbrq_customer_name=N. van de Hoefbrq_description=Peduli Anak recurring donation. Transaction 20140822000737brq_invoicenumber=20140822000737brq_issuing_country=NLbrq_mutationtype=Processingbrq_payment=2681189AE8AD450CAEFB42EBA75AC497brq_recurring=Truebrq_SERVICE_mastercard_CardExpirationDate=2015-05brq_SERVICE_mastercard_CardNumberEnding=2204brq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Transaction successfully processedbrq_test=falsebrq_timestamp=2014-08-22 03:14:51brq_transaction_method=mastercardbrq_transaction_type=V031brq_transactions=94579FD6FE234F9E95C57926D7C8CEE9brq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: a77cf5c7a481a25d1cb47ac0ffed149ac74c8f8e
+Transaction found via invoice, ID 737
+Signature received  : a77cf5c7a481a25d1cb47ac0ffed149ac74c8f8e
+Signature calculated: a77cf5c7a481a25d1cb47ac0ffed149ac74c8f8e
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 790
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:16:44
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:18:30
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:20:51
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:21:35
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:22:37
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:22:57
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:23:29
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:24:41
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:25:44
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:38:05
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:38:13
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:43:42
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:45:54
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:50:57
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:57:27
+------------------------------------------------------------
+
+﻿New entry at 2014-08-22 03:57:35
+------------------------------------------------------------
+

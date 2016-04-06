@@ -1,0 +1,157 @@
+﻿New entry at 2014-03-13 08:02:23
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:02:48
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:09:04
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:10:19
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:10:20
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:10:58
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:13:22
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:14:02
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:20:14
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:21:11
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:21:30
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:21:55
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:23:34
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:31:45
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:34:11
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:35:15
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:36:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:36:35
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:48:14
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:48:40
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:52:20
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:53:22
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:53:27
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:53:49
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:53:49
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:55:15
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:55:16
+Signature string: brq_amount=82.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140313000614brq_invoicenumber=20140313000614brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=72brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=72brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=72brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature string: brq_amount=82.00brq_culture=en-USbrq_currency=EURbrq_description=Peduli Anak Foundation Invoice 20140313000614brq_invoicenumber=20140313000614brq_requestedservices=visa,mastercard,amexbrq_return=http://www.pedulianak.org/en/payment/success/popupbrq_returncancel=http://www.pedulianak.org/en/payment/error/popupbrq_returnerror=http://www.pedulianak.org/en/payment/error/popupbrq_returnreject=http://www.pedulianak.org/en/payment/reject/popupbrq_service_amex_action=paybrq_service_amex_customercode=72brq_service_amex_StartRecurrent=truebrq_service_mastercard_action=paybrq_service_mastercard_customercode=72brq_service_mastercard_StartRecurrent=truebrq_service_visa_action=paybrq_service_visa_customercode=72brq_service_visa_StartRecurrent=truebrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: 3208415dae493cc1d9a542690e14b332a319fc56
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:59:37
+Initializing Payment API
+System called from payment.buckaroo.nl [62.129.133.226]
+URL: http://paymentapi.pedulianak.org/buckaroo/push/
+Method: POST
+Received postback for Buckaroo PUSH handler
+Transaction found via invoice, ID 614
+BuckarooV3Response initialized
+2014-03-13 08:59:37
+Received new payment response.
+Parameters received:
+	brq_amount                     => 82.00
+	brq_currency                   => EUR
+	brq_customer_name              => Espen Sandberg
+	brq_description                => Peduli Anak Foundation Invoice 20140313000614
+	brq_invoicenumber              => 20140313000614
+	brq_issuing_country            => NO
+	brq_mutationtype               => Processing
+	brq_payment                    => 1E1DA788813D4520980B4F9E1B9C01D0
+	brq_SERVICE_visa_Authentication => Y
+	brq_SERVICE_visa_CardNumberEnding => 8207
+	brq_SERVICE_visa_Enrolled      => Y
+	brq_statuscode                 => 190
+	brq_statuscode_detail          => S001
+	brq_statusmessage              => Payment successfully processed
+	brq_test                       => false
+	brq_timestamp                  => 2014-03-13 08:59:36
+	brq_transaction_method         => visa
+	brq_transaction_type           => V002
+	brq_transactions               => 9EAA8BB60B1F4369AC579C89CE41E33C
+	brq_websitekey                 => JhNRiAjYJe
+	brq_signature                  => dab3a8155e7709649b5f160d619ecc4b59591ae3
+Adding "brq_amount=82.00" to signature
+Adding "brq_currency=EUR" to signature
+Adding "brq_customer_name=Espen Sandberg" to signature
+Adding "brq_description=Peduli Anak Foundation Invoice 20140313000614" to signature
+Adding "brq_invoicenumber=20140313000614" to signature
+Adding "brq_issuing_country=NO" to signature
+Adding "brq_mutationtype=Processing" to signature
+Adding "brq_payment=1E1DA788813D4520980B4F9E1B9C01D0" to signature
+Adding "brq_SERVICE_visa_Authentication=Y" to signature
+Adding "brq_SERVICE_visa_CardNumberEnding=8207" to signature
+Adding "brq_SERVICE_visa_Enrolled=Y" to signature
+Adding "brq_statuscode=190" to signature
+Adding "brq_statuscode_detail=S001" to signature
+Adding "brq_statusmessage=Payment successfully processed" to signature
+Adding "brq_test=false" to signature
+Adding "brq_timestamp=2014-03-13 08:59:36" to signature
+Adding "brq_transaction_method=visa" to signature
+Adding "brq_transaction_type=V002" to signature
+Adding "brq_transactions=9EAA8BB60B1F4369AC579C89CE41E33C" to signature
+Adding "brq_websitekey=JhNRiAjYJe" to signature
+Signature string: brq_amount=82.00brq_currency=EURbrq_customer_name=Espen Sandbergbrq_description=Peduli Anak Foundation Invoice 20140313000614brq_invoicenumber=20140313000614brq_issuing_country=NObrq_mutationtype=Processingbrq_payment=1E1DA788813D4520980B4F9E1B9C01D0brq_SERVICE_visa_Authentication=Ybrq_SERVICE_visa_CardNumberEnding=8207brq_SERVICE_visa_Enrolled=Ybrq_statuscode=190brq_statuscode_detail=S001brq_statusmessage=Payment successfully processedbrq_test=falsebrq_timestamp=2014-03-13 08:59:36brq_transaction_method=visabrq_transaction_type=V002brq_transactions=9EAA8BB60B1F4369AC579C89CE41E33Cbrq_websitekey=JhNRiAjYJe5cef3e5cac74f355a9581b659b2a7d91
+Signature: dab3a8155e7709649b5f160d619ecc4b59591ae3
+Transaction found via invoice, ID 614
+Signature received  : dab3a8155e7709649b5f160d619ecc4b59591ae3
+Signature calculated: dab3a8155e7709649b5f160d619ecc4b59591ae3
+Passed validation, proceeding to completion
+BPE Result: 190
+BPE Type: 1
+Transaction has a success status
+Processing TransactionLine ID 654
+Processing TransactionLine ID 655
+Finished transaction processing
+All done :)
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:59:37
+------------------------------------------------------------
+
+﻿New entry at 2014-03-13 08:59:38
+------------------------------------------------------------
+

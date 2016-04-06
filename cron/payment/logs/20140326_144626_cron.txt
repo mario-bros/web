@@ -1,0 +1,39 @@
+
+***************  WARNING #2 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/classes/class-cache.php
+  Line: 38
+  Message: chmod() [<a href='function.chmod'>function.chmod</a>]: Operation not permitted
+  Context: Array
+(
+    [base] => /home/peduli/domains/pedulianak.org/public_html/cache/locales/
+    [ttl] => 60
+)
+
+
+***************  END WARNING  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 75
+  Message: Undefined property: stdClass::$IsCompleted
+  Context: Array
+(
+)
+
+
+***************  END NOTICE  ***************
+
+
+***************  NOTICE #8 ***************
+  File: /home/peduli/domains/pedulianak.org/public_html/system/site/classes/class-transaction.php
+  Line: 66
+  Message: Undefined property: stdClass::$TransactionDate
+  Context: Array
+(
+    [column] => TransactionDate
+)
+
+
+***************  END NOTICE  ***************
+
